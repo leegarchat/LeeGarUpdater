@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="verification_failed_notification">Verifieringen misslyckades</string>
+    <string name="verifying_download_notification">Verifierar uppdateringen</string>
+    <string name="downloading_notification">Laddar ner</string>
+    <string name="download_paused_notification">Nedladdning pausad</string>
+    <string name="download_paused_error_notification">Nedladdningsfel</string>
+    <string name="download_completed_notification">Nedladdning slutförd</string>
+    <string name="download_starting_notification">Påbörjar nedladdning</string>
+    <string name="update_failed_notification">Uppdateringen misslyckades</string>
+    <string name="new_updates_found_title">Nya uppdateringar</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="installing_update_error">Installationsfel</string>
+    <string name="reboot">Starta om</string>
+    <string name="menu_metered_network_warning">Mobildatavarning</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> – <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">Ladda ner</string>
+    <string name="action_pause">Pausa</string>
+    <string name="action_resume">Återuppta</string>
+    <string name="action_install">Installera</string>
+    <string name="action_info">Info</string>
+    <string name="action_delete">Radera</string>
+    <string name="notification_export_success">Uppdatering exporterad</string>
+    <string name="notification_export_fail">Exporteringsfel</string>
+    <string name="toast_export_started">Exportering startad</string>
+    <string name="blocked_update_dialog_title">Uppdateringen blockerades</string>
+    <string name="export_channel_title">Export slutförd</string>
+    <string name="new_updates_channel_title">Nya uppdateringar</string>
+    <string name="ongoing_channel_title">Pågående nedladdningar</string>
+    <string name="display_name">LeeGar Updater</string>
+    <string name="installation_suspended_notification">Installation pausad</string>
+    <string name="new_updates_found_summary">Tryck för att visa tillgängliga uppdateringar</string>
+    <string name="installing_update">Installerar systemuppdatering</string>
+    <string name="installing_update_finished">Uppdateringen väntar på omstart</string>
+    <string name="finalizing_package">Slutför paketinstallationen</string>
+    <string name="preparing_ota_first_boot">Förbereder första uppstarten</string>
+    <string name="dialog_prepare_zip_message">Preliminär uppdateringsförberedelse</string>
+    <string name="action_download_install">Ladda ner och installera</string>
+    <string name="check_for_update">Sök efter uppdatering</string>
+    <string name="action_back">Tillbaka</string>
+    <string name="checking_for_updates">Söker efter uppdateringar</string>
+    <string name="pref_category_background_sync">Bakgrundssynkronisering</string>
+    <string name="menu_auto_updates_check">Sök efter uppdateringar regelbundet</string>
+    <string name="menu_auto_updates_check_summary">Sök efter uppdateringar i bakgrunden</string>
+    <string name="menu_auto_delete_updates">Radera uppdateringar automatiskt</string>
+    <string name="menu_stream_updates">Strömma onlineuppdateringar</string>
+    <string name="menu_stream_updates_summary">Installera uppdateringar medan de laddas ner. Inaktivera för att spara uppdateringspaket för export.</string>
+    <string name="menu_export_update">Exportera uppdatering</string>
+    <string name="menu_metered_network_warning_summary">Varna före nedladdning över mobildata</string>
+    <string name="menu_ab_perf_mode">Prioritera uppdateringsprocessen</string>
+    <string name="menu_update_recovery">Uppdatera recovery</string>
+    <string name="menu_update_recovery_summary">Uppdatera recovery-partitionen tillsammans med operativsystemet</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">Byggdatum</string>
+    <string name="security_update">Säkerhetsuppdatering</string>
+    <string name="dialog_export_title">Exporterar uppdatering</string>
+    <string name="toast_already_exporting">Exporterar redan en uppdatering</string>
+    <string name="blocked_update_dialog_title_downgrade">Nedgradering blockerad</string>
+    <string name="update_failed_channel_title">Uppdateringen misslyckades</string>
+    <string name="tab_updates">Uppdateringar</string>
+    <string name="tab_saved">Sparade</string>
+    <string name="tab_saved_count">Sparade (%1$d)</string>
+    <string name="tab_settings">Inställningar</string>
+    <string name="toast_download_failed">Nedladdningen misslyckades</string>
+    <string name="toast_download_verified">Nedladdning verifierad &amp; klar</string>
+    <string name="toast_import_failed">Kunde inte importera ZIP (ogiltigt paket eller signatur). Prova osäkert läge för anpassade ZIP-filer.</string>
+    <string name="toast_imported_format">Importerade <xliff:g id="name">%1$s</xliff:g> till fliken Nedladdat</string>
+    <string name="banner_no_internet">Ingen internetanslutning</string>
+    <string name="banner_check_failed">Kunde inte söka efter uppdateringar</string>
+    <string name="section_releases">Tillgängliga versioner</string>
+    <string name="section_releases_count">Tillgängliga versioner • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">Osäkert läge</string>
+    <string name="empty_releases_title">Inga versioner inlästa</string>
+    <string name="empty_releases_desc">Tryck på uppdatera för att hämta versioner från det konfigurerade OTA JSON-flödet.</string>
+    <string name="device_fallback_name">Enhet</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> nyare version tillgänglig</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> nyare versioner tillgängliga</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="one">Systemet är uppdaterat • <xliff:g id="count">%1$d</xliff:g> version i flödet</item>
+        <item quantity="other">Systemet är uppdaterat • <xliff:g id="count">%1$d</xliff:g> versioner i flödet</item>
+    </plurals>
+    <string name="installed_label_format">Installerad: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • Patch: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">Kontrollerad: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">Okänt datum</string>
+    <string name="status_starting">Startar</string>
+    <string name="status_verifying">Verifierar</string>
+    <string name="status_merging">Sammanfogar <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">Pausad <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">Fel</string>
+    <string name="status_installing">Installerar <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">Suspenderad <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <plurals name="badge_split_parts">
+        <item quantity="one">Delad • <xliff:g id="count">%1$d</xliff:g> del</item>
+        <item quantity="other">Delad • <xliff:g id="count">%1$d</xliff:g> delar</item>
+    </plurals>
+    <string name="badge_downloaded">Nedladdad</string>
+    <string name="badge_reboot_required">Omstart krävs</string>
+    <string name="badge_local">Lokal</string>
+    <string name="badge_major_upgrade">Större uppgradering</string>
+    <string name="relation_newer">Nyare</string>
+    <string name="relation_installed">Installerad</string>
+    <string name="relation_downgrade">Nedgradering</string>
+    <string name="relation_build">Bygge</string>
+    <plurals name="downloaded_title">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> paket sparat</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> paket sparade</item>
+    </plurals>
+    <string name="downloaded_subtitle_used">Använt utrymme: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">Importera en lokal ZIP eller ladda ner versioner från Uppdateringar</string>
+    <string name="action_import_zip">Importera ZIP</string>
+    <string name="empty_downloaded_title">Inga nedladdade uppdateringar</string>
+    <string name="empty_downloaded_desc">Nedladdade ROM-paket och importerade lokala ZIP-filer visas här för installation, export eller borttagning.</string>
+    <string name="section_downloaded">Nedladdade &amp; lokala ZIP-filer</string>
+    <string name="install_confirm_recovery">Flasha via Recovery (osäkert läge)? Enheten startar om till Recovery.</string>
+    <string name="install_confirm_force">Tvinga installation utan verifiering? Kontrollera att denna ZIP matchar din enhet.</string>
+    <string name="install_confirm_now">Installera <xliff:g id="name">%1$s</xliff:g> nu?</string>
+    <string name="action_cancel">Avbryt</string>
+    <string name="action_confirm">Bekräfta</string>
+    <string name="action_proceed">Fortsätt</string>
+    <string name="action_reboot_now">Starta om nu</string>
+    <string name="action_export">Exportera</string>
+    <string name="action_reset">Återställ</string>
+    <string name="install_label_recovery">Installera (Recovery)</string>
+    <string name="install_label_force">Tvinga installation</string>
+    <string name="action_stream_install">Strömma &amp; installera</string>
+    <string name="action_download_install_new">Ladda ner &amp; installera</string>
+    <string name="desc_close">Stäng</string>
+    <string name="desc_retry">Försök igen</string>
+    <string name="settings_check_interval">Kontrollintervall</string>
+    <string name="interval_daily">Dagligen</string>
+    <string name="interval_weekly">Varje vecka</string>
+    <string name="interval_monthly">Varje månad</string>
+    <string name="settings_group_downloads">Nedladdningar &amp; verifiering</string>
+    <string name="settings_parallel_title">Parallell nedladdning av delar</string>
+    <string name="settings_parallel_summary">Ladda ner upp till 3 delar av delade arkiv samtidigt för högre hastigheter</string>
+    <string name="settings_verify_title">Verifiera SHA-256-kontrollsummor</string>
+    <string name="settings_verify_summary">Validera varje del och det slutliga sammansatta arkivet mot JSON-hashar</string>
+    <string name="settings_autodelete_summary">Ta bort det nedladdade paketet automatiskt när uppdateringen lyckas</string>
+    <string name="settings_group_installation">Installation</string>
+    <string name="settings_ab_perf_summary">Tilldela mer CPU &amp; I/O till update_engine för snabbare installationer</string>
+    <string name="settings_ab_perf_charging">Automatiskt aktivt vid anslutning till nätström</string>
+    <string name="settings_group_ota">OTA-källa</string>
+    <string name="settings_ota_url_title">Anpassad OTA JSON-URL</string>
+    <string name="settings_ota_url_hint">Lämna tomt för att använda ROM:ens/DeviceTree-overlayens standard-URL.</string>
+    <string name="settings_ota_apply">Tillämpa URL</string>
+    <string name="toast_ota_reset">OTA-URL återställd till standard</string>
+    <string name="toast_ota_updated">OTA-URL uppdaterad</string>
+    <string name="settings_group_appearance">Utseende &amp; lagring</string>
+    <string name="settings_theme_title">Apptema</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Ljust</string>
+    <string name="theme_dark">Mörkt</string>
+    <string name="settings_wavy_title">Vågig förloppsindikator</string>
+    <string name="settings_wavy_summary">Animera vågen vid nedladdning eller installation; planar ut mjukt vid paus</string>
+    <string name="settings_amplitude_title">Vågamplitud</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">Av</string>
+    <string name="settings_blur_title">Oskärperadie för glas</string>
+    <string name="settings_tint_title">Toningsopacitet för glas</string>
+    <string name="settings_logo_title">Visa projektlogotyp</string>
+    <string name="settings_logo_summary">Visa projektbanner (GIF, bild, video eller animerad ordmärke)</string>
+    <string name="settings_banner_title">Visa versionsbanner</string>
+    <string name="settings_banner_summary">Visa versionsbannerns bild eller video i korthuvudet</string>
+    <string name="settings_clear_cache">Rensa media- &amp; ändringsloggscache</string>
+    <string name="toast_cache_cleared">Cachen rensad</string>
+    <string name="settings_danger_title">Kritisk / osäker installation</string>
+    <string name="settings_danger_warning">Använd strikt på egen risk. Kan bricka enheten vid flashning av fel ROM.</string>
+    <string name="settings_unsafe_title">Förbigå säkerhets- &amp; verifieringskontroller</string>
+    <string name="settings_unsafe_summary">Inaktiverar OTA-signaturverifiering, nedgraderingsblockering och Android SDK-skydd. Tillåter flashning av nedgraderingar eller ZIP-filer från andra ROM:ar.</string>
+    <string name="settings_unsafe_confirm">Bekräfta: du tar fullt ansvar för nedgraderingar, osignerade ZIP-filer eller dataförlust.</string>
+    <string name="danger_accept">Jag accepterar risken</string>
+    <string name="settings_recovery_title">Tvinga installation via Recovery</string>
+    <string name="settings_recovery_summary">Förbigå update_engine och starta om till Recovery (OrangeFox / TWRP) för att flasha ZIP direkt. Användbart om update_engine avvisar nedgraderingstidsstämpel eller signatur.</string>
+    <string name="overlay_battery_low">Batterinivån är för låg för att installera</string>
+    <string name="overlay_blocked_format">Blockerad (<xliff:g id="reason">%1$s</xliff:g>). Aktivera osäkert läge i Inställningar för att tvinga installation.</string>
+    <string name="overlay_downgrade_blocked">Nedgradering blockeras av säkerhetsregler. Aktivera osäkert läge i Inställningar för att åsidosätta.</string>
+    <string name="overlay_major_blocked">Större Android-uppgradering blockeras av säkerhetsregler. Aktivera osäkert läge i Inställningar för att åsidosätta.</string>
+    <string name="overlay_metered_format">Du använder en datatakserad anslutning. Ladda ner <xliff:g id="size">%1$s</xliff:g> nu?</string>
+    <string name="overlay_unsafe_recovery">Ladda ner och flasha via Recovery (osäkert läge)?</string>
+    <string name="overlay_unsafe_force">Ladda ner och tvinga installation utan verifiering?</string>
+    <string name="overlay_scratch_mounted">Scratch-partitionen är monterad; kan inte installera</string>
+    <string name="toast_sha_copied">SHA-256 kopierad</string>
+    <string name="overlay_install_recovery">Flasha via Recovery (osäkert läge)? Enheten startar om till Recovery.</string>
+    <string name="overlay_install_force">Tvinga installation utan signatur-/nedgraderingskontroller? Fortsätt på egen risk.</string>
+    <string name="overlay_changelog_title">Ändringslogg</string>
+    <string name="desc_reload_changelog">Läs in ändringsloggen igen</string>
+    <string name="overlay_changelog_loading">Läser in ändringslogg…</string>
+    <string name="overlay_changelog_error">Kunde inte läsa in ändringsloggen för denna version.</string>
+    <string name="overlay_changelog_empty">Ingen ändringslogg angiven för denna version.</string>
+    <string name="overlay_archive_sha">Arkivets SHA-256</string>
+    <string name="desc_copy_sha">Kopiera SHA-256</string>
+    <string name="overlay_reboot_to_apply">Starta om för att tillämpa uppdateringen</string>
+    <string name="overlay_pause_format">Pausa (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">Återuppta (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">Paketfil</string>
+    <string name="overlay_parts_title">Delade arkivdelar (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">Bekräfta borttagning</string>
+    <string name="info_package_size">Paketstorlek</string>
+    <string name="info_android_api">Android API</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">Versionstyp</string>
+    <string name="info_delivery">Leverans</string>
+    <string name="info_delivery_split">Delad (<xliff:g id="count">%1$d</xliff:g> delar)</string>
+    <string name="float_importing">Importerar lokal ZIP…</string>
+    <string name="float_copying">Kopierar paket &amp; kontrollerar metadata</string>
+    <string name="float_calculating">Beräknar…</string>
+    <plurals name="float_parts">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> del</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> delar</item>
+    </plurals>
+    <string name="float_parallel">Parallell</string>
+    <string name="float_sequential">Sekventiell</string>
+    <string name="float_single">Enskilt arkiv</string>
+    <string name="float_autoinstall">Autoinstallation</string>
+    <string name="float_parts_header">Arkivdelar (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> klara)</string>
+    <string name="float_suspend">Suspendera</string>
+    <string name="float_abort">Avbryt</string>
+    <string name="desc_toggle_details">Växla detaljer</string>
+    <string name="part_queued">Köad</string>
+    <string name="part_verifying">Verifierar SHA-256</string>
+    <string name="part_verified">Verifierad</string>
+    <string name="part_done">Klar</string>
+    <string name="part_paused_format">Pausad • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">Försök igen / Fel</string>
+    <string name="part_waiting">Väntar…</string>
+    <string name="stage_connecting">Ansluter till servern…</string>
+    <string name="stage_verify_part">Verifierar del <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> SHA-256…</string>
+    <string name="stage_assemble">Sammanfogar delar (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">Verifierar det slutliga arkivets SHA-256…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> delar aktiva • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">Del <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">Laddar ner • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• Autoinstallation</string>
+    <string name="stage_paused">Nedladdning pausad • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">Nedladdning misslyckades • Tryck på Återuppta</string>
+    <string name="stage_verifying_sig">Verifierar arkiv &amp; signatur…</string>
+    <string name="stage_finalizing">Slutför A/B-plats • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">Installerar uppdatering • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">Installation suspenderad • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">Installerad — omstart krävs</string>
+    <string name="md_image_alt">Bild</string>
+    <string name="md_image_failed">Kunde inte läsa in bilden</string>
+    <string name="importer_tag_local">Lokal ZIP</string>
+    <string name="err_no_url">Ingen nedladdnings-URL eller delar angivna</string>
+    <string name="err_no_dest">Inget nedladdningsmål angivet</string>
+    <string name="err_no_callback">Ingen nedladdningsåteruppringning angiven</string>
+    <string name="err_no_parts">Inga nedladdningsdelar angivna</string>
+    <string name="err_no_tempdir">Kan inte skapa temporär delkatalog: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">Kontrollsumman för del <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> stämmer inte</string>
+    <string name="err_part_failed">Kunde inte ladda ner del <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_final_sha">Slutarkivets SHA-256-verifiering misslyckades</string>
+    <string name="err_empty_body">Tom svarskropp för del <xliff:g id="index">%1$d</xliff:g></string>
+    <string name="err_unknown_size">Kan inte fastställa storlek för <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_no_range">Servern stöder inte intervallförfrågningar: förväntade HTTP 206, fick <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_content_range">Content-Range-huvud saknas för <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_bad_content_range">Oväntat Content-Range för <xliff:g id="url">%1$s</xliff:g>: förväntade <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">Protokollbyten är inte tillåtna</string>
+    <string name="err_server_reply">Servern svarade med <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_no_fd">Kunde inte erhålla fileDescriptor</string>
+    <string name="err_import_cancelled">Import avbruten</string>
+    <string name="err_verify_deleted">Verifieringen misslyckades, filen har raderats</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">Tillämpa</string>
+    <string name="dialog_value_title">Värde</string>
+    <string name="unknown_size">Okänd</string>
+    <string name="slider_default">Standard</string>
+    <string name="slider_default_value">Standard (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">Nätverksfel</string>
+    <string name="action_paused_state">Pausad</string>
+    <string name="part_fallback_name">del_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">Server</string>
+    <string name="err_response_empty">Tom svarskropp</string>
+    <string name="err_changelog_body_empty">Tom ändringsloggskropp</string>
+    <string name="err_changelog_too_large">Ändringsloggen överstiger <xliff:g id="bytes" example="524288">%1$d</xliff:g> byte</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: hastighetsgränsen överskreds (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Försök igen om <xliff:g id="wait" example="~2 min">%3$s</xliff:g>.</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: hastighetsgränsen överskreds (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Försök igen senare.</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: filen eller flödet hittades inte (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: åtkomst nekad (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: resursen borttagen (HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: servern otillgänglig (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> min</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g>s</string>
+    <string name="err_download_file_missing">Nedladdad fil saknas</string>
+    <string name="err_sha_mismatch">SHA-256-kontrollsummorna stämmer inte</string>
+    <string name="err_sha_calc_failed">Kunde inte beräkna SHA-256</string>
+    <string name="err_ota_signature_failed">OTA-signaturverifieringen misslyckades</string>
+    <string name="err_engine_signature">update_engine avvisade payload-signaturen (kod <xliff:g id="code" example="20">%1$d</xliff:g>). Prova tvingad Recovery-installation.</string>
+    <string name="err_engine_downgrade">update_engine blockerade nedgraderingstidsstämpeln (kod <xliff:g id="code" example="51">%1$d</xliff:g>). Prova tvingad Recovery-installation.</string>
+    <string name="err_engine_storage">Inte tillräckligt med lagringsutrymme för A/B-platsuppdatering (kod <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_engine_partition">Partitionsverifieringen misslyckades (kod <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_cancelled">Installationen avbröts av användaren.</string>
+    <string name="err_engine_generic">update_engine-felkod <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">OTA-typen stöds inte: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found">Kunde inte hitta <xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> i <xliff:g id="file" example="update.zip">%2$s</xliff:g></string>
+
+</resources>

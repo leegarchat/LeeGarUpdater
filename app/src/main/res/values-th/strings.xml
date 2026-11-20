@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="verification_failed_notification">การยืนยันล้มเหลว</string>
+    <string name="verifying_download_notification">กำลังตรวจสอบการอัปเดต</string>
+    <string name="downloading_notification">กำลังดาวน์โหลด</string>
+    <string name="download_paused_notification">ดาวน์โหลดหยุดชั่วคราว</string>
+    <string name="download_paused_error_notification">ดาวน์โหลดผิดพลาด</string>
+    <string name="download_completed_notification">ดาวน์โหลดเสร็จสมบูรณ์</string>
+    <string name="download_starting_notification">กำลัง​เริ่ม​ดาวน์​โหลด</string>
+    <string name="update_failed_notification">การอัปเดตล้มเหลว</string>
+    <string name="installation_suspended_notification">การติดตั้งถูกระงับ</string>
+    <string name="new_updates_found_title">การอัปเดตใหม่</string>
+    <string name="text_download_speed">%1$s, %2$s/วินาที</string>
+    <string name="installing_update_error">มีข้อผิดพลาดในการติดตั้ง</string>
+    <string name="finalizing_package">สิ้นสุดการติดตั้งแพ็กเกจ</string>
+    <string name="preparing_ota_first_boot">กำลังเตรียมการสำหรับการบูตครั้งแรก</string>
+    <string name="dialog_prepare_zip_message">เตรียมการอัปเดตเบื้องต้น</string>
+    <string name="reboot">เริ่มระบบใหม่</string>
+    <string name="menu_export_update">ส่งออกการอัปเดต</string>
+    <string name="menu_ab_perf_mode">จัดลำดับความสำคัญของกระบวนการอัพเดต</string>
+    <string name="action_download">ดาวน์โหลด</string>
+    <string name="action_pause">หยุดชั่วคราว</string>
+    <string name="action_resume">ดำเนินการต่อ</string>
+    <string name="action_install">ติดตั้ง</string>
+    <string name="action_info">ข้อมูล</string>
+    <string name="action_delete">ลบ</string>
+    <string name="dialog_export_title">กำลังส่งออกการอัปเดต</string>
+    <string name="notification_export_success">การอัปเดตถูกส่งออกแล้ว</string>
+    <string name="notification_export_fail">การส่งออกเกิดข้อผิดพลาด</string>
+    <string name="toast_already_exporting">ดำเนินการส่งออกอัปเดตเรียบร้อยแล้ว</string>
+    <string name="blocked_update_dialog_title">การอัปเดตถูกปิดกั้น</string>
+    <string name="export_channel_title">ส่งออกเสร็จสมบูรณ์</string>
+    <string name="new_updates_channel_title">การอัปเดตใหม่</string>
+    <string name="ongoing_channel_title">การดาวน์โหลดที่กำลังดำเนินอยู่</string>
+    <string name="update_failed_channel_title">การอัปเดตล้มเหลว</string>
+    <string name="display_name">LeeGar Updater</string>
+    <string name="new_updates_found_summary">แตะเพื่อดูการอัปเดตที่ใช้ได้</string>
+    <string name="installing_update">กำลังติดตั้งการอัปเดตระบบ</string>
+    <string name="installing_update_finished">การอัปเดตรอการรีบูต</string>
+    <string name="action_download_install">ดาวน์โหลดและติดตั้ง</string>
+    <string name="check_for_update">ตรวจหาการอัปเดต</string>
+    <string name="action_back">กลับ</string>
+    <string name="checking_for_updates">กำลังตรวจหาการอัปเดต</string>
+    <string name="pref_category_background_sync">การซิงก์พื้นหลัง</string>
+    <string name="menu_auto_updates_check">ตรวจหาการอัปเดตเป็นระยะ</string>
+    <string name="menu_auto_updates_check_summary">ตรวจหาการอัปเดตในพื้นหลัง</string>
+    <string name="menu_auto_delete_updates">ลบการอัปเดตอัตโนมัติ</string>
+    <string name="menu_stream_updates">สตรีมการอัปเดตออนไลน์</string>
+    <string name="menu_stream_updates_summary">ติดตั้งการอัปเดตขณะดาวน์โหลด ปิดใช้งานเพื่อบันทึกแพ็กเกจการอัปเดตสำหรับการส่งออก</string>
+    <string name="menu_metered_network_warning">คำเตือนเครือข่ายแบบคิดค่าบริการ</string>
+    <string name="menu_metered_network_warning_summary">เตือนก่อนดาวน์โหลดผ่านข้อมูลมือถือ</string>
+    <string name="menu_update_recovery">อัปเดต Recovery</string>
+    <string name="menu_update_recovery_summary">อัปเดตพาร์ติชัน Recovery พร้อมกับระบบปฏิบัติการ</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">วันที่สร้าง</string>
+    <string name="security_update">การอัปเดตความปลอดภัย</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="toast_export_started">เริ่มการส่งออกแล้ว</string>
+    <string name="blocked_update_dialog_title_downgrade">การดาวน์เกรดถูกบล็อก</string>
+    <string name="tab_updates">การอัปเดต</string>
+    <string name="tab_saved">ที่บันทึกไว้</string>
+    <string name="tab_saved_count">ที่บันทึกไว้ (%1$d)</string>
+    <string name="tab_settings">การตั้งค่า</string>
+    <string name="toast_download_failed">ดาวน์โหลดล้มเหลว</string>
+    <string name="toast_download_verified">ดาวน์โหลดได้รับการยืนยันแล้ว &amp; พร้อม</string>
+    <string name="toast_import_failed">นำเข้า ZIP ไม่สำเร็จ (แพ็กเกจหรือลายเซ็นไม่ถูกต้อง) ลองใช้โหมดไม่ปลอดภัยสำหรับ ZIP แบบกำหนดเอง</string>
+    <string name="toast_imported_format">นำเข้า <xliff:g id="name">%1$s</xliff:g> ไปยังแท็บที่ดาวน์โหลดแล้ว</string>
+    <string name="banner_no_internet">ไม่มีการเชื่อมต่ออินเทอร์เน็ต</string>
+    <string name="banner_check_failed">ตรวจหาการอัปเดตไม่สำเร็จ</string>
+    <string name="section_releases">รุ่นที่ใช้ได้</string>
+    <string name="section_releases_count">รุ่นที่ใช้ได้ • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">โหมดไม่ปลอดภัย</string>
+    <string name="empty_releases_title">ไม่ได้โหลดรุ่นใด ๆ</string>
+    <string name="empty_releases_desc">แตะรีเฟรชเพื่อดึงบิลด์จากฟีด OTA JSON ที่กำหนดค่าไว้</string>
+    <string name="device_fallback_name">อุปกรณ์</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="other">มีบิลด์ใหม่กว่า <xliff:g id="count">%1$d</xliff:g> รายการ</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="other">ระบบเป็นปัจจุบัน • มี <xliff:g id="count">%1$d</xliff:g> บิลด์ในฟีด</item>
+    </plurals>
+    <string name="installed_label_format">ติดตั้งแล้ว: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • แพตช์: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">ตรวจสอบเมื่อ: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">วันที่ไม่ทราบ</string>
+    <string name="status_starting">กำลังเริ่ม</string>
+    <string name="status_verifying">กำลังตรวจสอบ</string>
+    <string name="status_merging">กำลังรวม <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">หยุดชั่วคราว <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">ข้อผิดพลาด</string>
+    <string name="status_installing">กำลังติดตั้ง <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">ระงับ <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <plurals name="badge_split_parts">
+        <item quantity="other">แบบแยก • <xliff:g id="count">%1$d</xliff:g> ส่วน</item>
+    </plurals>
+    <string name="badge_downloaded">ดาวน์โหลดแล้ว</string>
+    <string name="badge_reboot_required">จำเป็นต้องรีบูต</string>
+    <string name="badge_local">ภายในเครื่อง</string>
+    <string name="badge_major_upgrade">การอัปเกรดครั้งใหญ่</string>
+    <string name="relation_newer">ใหม่กว่า</string>
+    <string name="relation_installed">ติดตั้งแล้ว</string>
+    <string name="relation_downgrade">ดาวน์เกรด</string>
+    <string name="relation_build">บิลด์</string>
+    <plurals name="downloaded_title">
+        <item quantity="other">แพ็กเกจที่เก็บไว้ <xliff:g id="count">%1$d</xliff:g> รายการ</item>
+    </plurals>
+    <string name="downloaded_subtitle_used">พื้นที่ใช้: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">นำเข้า ZIP ภายในเครื่องหรือดาวน์โหลดบิลด์จากแท็บการอัปเดต</string>
+    <string name="action_import_zip">นำเข้า ZIP</string>
+    <string name="empty_downloaded_title">ไม่มีการอัปเดตที่ดาวน์โหลดไว้</string>
+    <string name="empty_downloaded_desc">แพ็กเกจ ROM ที่ดาวน์โหลดและไฟล์ ZIP ภายในเครื่องที่นำเข้าจะปรากฏที่นี่สำหรับการติดตั้ง ส่งออก หรือลบ</string>
+    <string name="section_downloaded">ที่ดาวน์โหลดแล้ว &amp; ZIP ภายในเครื่อง</string>
+    <string name="install_confirm_recovery">แฟลชผ่าน Recovery (โหมดไม่ปลอดภัย)? อุปกรณ์จะรีบูตเข้าสู่ Recovery</string>
+    <string name="install_confirm_force">บังคับติดตั้งโดยไม่ตรวจสอบ? ตรวจสอบให้แน่ใจว่า ZIP นี้ตรงกับอุปกรณ์ของคุณ</string>
+    <string name="install_confirm_now">ติดตั้ง <xliff:g id="name">%1$s</xliff:g> ตอนนี้?</string>
+    <string name="action_cancel">ยกเลิก</string>
+    <string name="action_confirm">ยืนยัน</string>
+    <string name="action_proceed">ดำเนินการต่อ</string>
+    <string name="action_reboot_now">รีบูตตอนนี้</string>
+    <string name="action_export">ส่งออก</string>
+    <string name="action_reset">รีเซ็ต</string>
+    <string name="install_label_recovery">ติดตั้ง (Recovery)</string>
+    <string name="install_label_force">บังคับติดตั้ง</string>
+    <string name="action_stream_install">สตรีม &amp; ติดตั้ง</string>
+    <string name="action_download_install_new">ดาวน์โหลด &amp; ติดตั้ง</string>
+    <string name="desc_close">ปิด</string>
+    <string name="desc_retry">ลองใหม่</string>
+    <string name="settings_check_interval">ช่วงเวลาการตรวจสอบ</string>
+    <string name="interval_daily">ทุกวัน</string>
+    <string name="interval_weekly">ทุกสัปดาห์</string>
+    <string name="interval_monthly">ทุกเดือน</string>
+    <string name="settings_group_downloads">การดาวน์โหลด &amp; การยืนยัน</string>
+    <string name="settings_parallel_title">ดาวน์โหลดส่วนแบบขนาน</string>
+    <string name="settings_parallel_summary">ดาวน์โหลดส่วนของไฟล์แบบแยกสูงสุด 3 ส่วนพร้อมกันเพื่อความเร็วที่สูงขึ้น</string>
+    <string name="settings_verify_title">ตรวจสอบเช็กซัม SHA-256</string>
+    <string name="settings_verify_summary">ตรวจสอบทุกส่วนและไฟล์สุดท้ายที่ประกอบแล้วกับแฮช JSON</string>
+    <string name="settings_autodelete_summary">ลบแพ็กเกจที่ดาวน์โหลดโดยอัตโนมัติเมื่ออัปเดตสำเร็จ</string>
+    <string name="settings_group_installation">การติดตั้ง</string>
+    <string name="settings_ab_perf_summary">จัดสรร CPU &amp; I/O เพิ่มให้ update_engine เพื่อการติดตั้งที่เร็วขึ้น</string>
+    <string name="settings_ab_perf_charging">ทำงานอัตโนมัติขณะเชื่อมต่อไฟ AC</string>
+    <string name="settings_group_ota">แหล่ง OTA</string>
+    <string name="settings_ota_url_title">URL OTA JSON แบบกำหนดเอง</string>
+    <string name="settings_ota_url_hint">เว้นว่างไว้เพื่อใช้ URL เริ่มต้นจาก ROM / DeviceTree overlay</string>
+    <string name="settings_ota_apply">ใช้ URL</string>
+    <string name="toast_ota_reset">รีเซ็ต URL OTA เป็นค่าเริ่มต้นแล้ว</string>
+    <string name="toast_ota_updated">อัปเดต URL OTA แล้ว</string>
+    <string name="settings_group_appearance">ลักษณะ &amp; ที่เก็บข้อมูล</string>
+    <string name="settings_theme_title">ธีมแอป</string>
+    <string name="theme_system">ระบบ</string>
+    <string name="theme_light">สว่าง</string>
+    <string name="theme_dark">มืด</string>
+    <string name="settings_wavy_title">แถบความคืบหน้าแบบคลื่น</string>
+    <string name="settings_wavy_summary">ทำให้คลื่นเคลื่อนไหวขณะดาวน์โหลดหรือติดตั้ง จะค่อย ๆ เรียบเมื่อหยุดชั่วคราว</string>
+    <string name="settings_amplitude_title">ความสูงของคลื่น</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">ปิด</string>
+    <string name="settings_blur_title">รัศมีเบลอของกระจก</string>
+    <string name="settings_tint_title">ความทึบของสีกระจก</string>
+    <string name="settings_logo_title">แสดงโลโก้โครงการ</string>
+    <string name="settings_logo_summary">แสดงแบนเนอร์โครงการ (GIF รูปภาพ วิดีโอ หรือชื่อแบบเคลื่อนไหว)</string>
+    <string name="settings_banner_title">แสดงแบนเนอร์รุ่น</string>
+    <string name="settings_banner_summary">แสดงรูปภาพหรือวิดีโอแบนเนอร์รุ่นในส่วนหัวของการ์ด</string>
+    <string name="settings_clear_cache">ล้างแคชสื่อ &amp; บันทึกการเปลี่ยนแปลง</string>
+    <string name="toast_cache_cleared">ล้างแคชแล้ว</string>
+    <string name="settings_danger_title">การติดตั้งแบบวิกฤต / ไม่ปลอดภัย</string>
+    <string name="settings_danger_warning">ใช้โดยรับความเสี่ยงเองเท่านั้น อาจทำให้อุปกรณ์ใช้การไม่ได้หากแฟลช ROM ผิด</string>
+    <string name="settings_unsafe_title">ข้ามการตรวจสอบความปลอดภัย &amp; การยืนยัน</string>
+    <string name="settings_unsafe_summary">ปิดการตรวจสอบลายเซ็น OTA การบล็อกดาวน์เกรด และการป้องกัน Android SDK อนุญาตให้แฟลชดาวน์เกรดหรือ ZIP ข้าม ROM ได้</string>
+    <string name="settings_unsafe_confirm">ยืนยัน: คุณยอมรับความรับผิดชอบทั้งหมดสำหรับการดาวน์เกรด ZIP ที่ไม่มีลายเซ็น หรือการสูญหายของข้อมูล</string>
+    <string name="danger_accept">ฉันยอมรับความเสี่ยง</string>
+    <string name="settings_recovery_title">บังคับติดตั้งผ่าน Recovery</string>
+    <string name="settings_recovery_summary">ข้าม update_engine แล้วรีบูตเข้า Recovery (OrangeFox / TWRP) เพื่อแฟลช ZIP โดยตรง มีประโยชน์หาก update_engine ปฏิเสธเวลาดาวน์เกรดหรือลายเซ็น</string>
+    <string name="overlay_battery_low">ระดับแบตเตอรี่ต่ำเกินไปที่จะติดตั้ง</string>
+    <string name="overlay_blocked_format">ถูกบล็อก (<xliff:g id="reason">%1$s</xliff:g>) เปิดใช้โหมดไม่ปลอดภัยในการตั้งค่าเพื่อบังคับติดตั้ง</string>
+    <string name="overlay_downgrade_blocked">การดาวน์เกรดถูกบล็อกโดยกฎความปลอดภัย เปิดใช้โหมดไม่ปลอดภัยในการตั้งค่าเพื่อข้าม</string>
+    <string name="overlay_major_blocked">การอัปเกรด Android ครั้งใหญ่ถูกบล็อกโดยกฎความปลอดภัย เปิดใช้โหมดไม่ปลอดภัยในการตั้งค่าเพื่อข้าม</string>
+    <string name="overlay_metered_format">คุณกำลังใช้การเชื่อมต่อแบบคิดค่าบริการ ดาวน์โหลด <xliff:g id="size">%1$s</xliff:g> ตอนนี้?</string>
+    <string name="overlay_unsafe_recovery">ดาวน์โหลดและแฟลชผ่าน Recovery (โหมดไม่ปลอดภัย)?</string>
+    <string name="overlay_unsafe_force">ดาวน์โหลดและบังคับติดตั้งโดยไม่ตรวจสอบ?</string>
+    <string name="overlay_scratch_mounted">พาร์ติชัน scratch ถูกเมานต์อยู่ ไม่สามารถติดตั้งได้</string>
+    <string name="toast_sha_copied">คัดลอก SHA-256 แล้ว</string>
+    <string name="overlay_install_recovery">แฟลชผ่าน Recovery (โหมดไม่ปลอดภัย)? อุปกรณ์จะรีบูตเข้าสู่ Recovery</string>
+    <string name="overlay_install_force">บังคับติดตั้งโดยไม่ตรวจสอบลายเซ็น/ดาวน์เกรด? ดำเนินการโดยรับความเสี่ยงเอง</string>
+    <string name="overlay_changelog_title">บันทึกการเปลี่ยนแปลง</string>
+    <string name="desc_reload_changelog">โหลดบันทึกการเปลี่ยนแปลงใหม่</string>
+    <string name="overlay_changelog_loading">กำลังโหลดบันทึกการเปลี่ยนแปลง…</string>
+    <string name="overlay_changelog_error">ไม่สามารถโหลดบันทึกการเปลี่ยนแปลงสำหรับบิลด์นี้ได้</string>
+    <string name="overlay_changelog_empty">ไม่มีบันทึกการเปลี่ยนแปลงสำหรับรุ่นนี้</string>
+    <string name="overlay_archive_sha">SHA-256 ของไฟล์</string>
+    <string name="desc_copy_sha">คัดลอก SHA-256</string>
+    <string name="overlay_reboot_to_apply">รีบูตเพื่อใช้การอัปเดต</string>
+    <string name="overlay_pause_format">หยุดชั่วคราว (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">ดำเนินการต่อ (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">ไฟล์แพ็กเกจ</string>
+    <string name="overlay_parts_title">ส่วนของไฟล์แบบแยก (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">ยืนยันการลบ</string>
+    <string name="info_package_size">ขนาดแพ็กเกจ</string>
+    <string name="info_android_api">Android API</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">ประเภทบิลด์</string>
+    <string name="info_delivery">การส่งมอบ</string>
+    <string name="info_delivery_split">แบบแยก (<xliff:g id="count">%1$d</xliff:g> ส่วน)</string>
+    <string name="float_importing">กำลังนำเข้า ZIP ภายในเครื่อง…</string>
+    <string name="float_copying">กำลังคัดลอกแพ็กเกจ &amp; ตรวจสอบข้อมูลเมตา</string>
+    <string name="float_calculating">กำลังคำนวณ…</string>
+    <plurals name="float_parts">
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> ส่วน</item>
+    </plurals>
+    <string name="float_parallel">ขนาน</string>
+    <string name="float_sequential">ตามลำดับ</string>
+    <string name="float_single">ไฟล์เดียว</string>
+    <string name="float_autoinstall">ติดตั้งอัตโนมัติ</string>
+    <string name="float_parts_header">ส่วนของไฟล์ (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> เสร็จแล้ว)</string>
+    <string name="float_suspend">ระงับ</string>
+    <string name="float_abort">ยกเลิก</string>
+    <string name="desc_toggle_details">สลับรายละเอียด</string>
+    <string name="part_queued">เข้าคิวแล้ว</string>
+    <string name="part_verifying">กำลังตรวจสอบ SHA-256</string>
+    <string name="part_verified">ตรวจสอบแล้ว</string>
+    <string name="part_done">เสร็จแล้ว</string>
+    <string name="part_paused_format">หยุดชั่วคราว • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">ลองใหม่ / ข้อผิดพลาด</string>
+    <string name="part_waiting">กำลังรอ…</string>
+    <string name="stage_connecting">กำลังเชื่อมต่อกับเซิร์ฟเวอร์…</string>
+    <string name="stage_verify_part">กำลังตรวจสอบส่วน <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> SHA-256…</string>
+    <string name="stage_assemble">กำลังประกอบส่วน (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">กำลังตรวจสอบ SHA-256 ของไฟล์สุดท้าย…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> ส่วนที่ทำงาน • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">ส่วน <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">กำลังดาวน์โหลด • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• ติดตั้งอัตโนมัติ</string>
+    <string name="stage_paused">ดาวน์โหลดหยุดชั่วคราว • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">ดาวน์โหลดล้มเหลว • แตะดำเนินการต่อ</string>
+    <string name="stage_verifying_sig">กำลังตรวจสอบไฟล์ &amp; ลายเซ็น…</string>
+    <string name="stage_finalizing">กำลังสรุปสล็อต A/B • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">กำลังติดตั้งการอัปเดต • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">การติดตั้งถูกระงับ • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">ติดตั้งแล้ว — จำเป็นต้องรีบูต</string>
+    <string name="md_image_alt">รูปภาพ</string>
+    <string name="md_image_failed">โหลดรูปภาพไม่สำเร็จ</string>
+    <string name="importer_tag_local">ZIP ภายในเครื่อง</string>
+    <string name="err_no_url">ไม่ได้กำหนด URL ดาวน์โหลดหรือส่วนต่าง ๆ</string>
+    <string name="err_no_dest">ไม่ได้กำหนดปลายทางการดาวน์โหลด</string>
+    <string name="err_no_callback">ไม่ได้กำหนดการเรียกกลับการดาวน์โหลด</string>
+    <string name="err_no_parts">ไม่ได้ระบุส่วนการดาวน์โหลด</string>
+    <string name="err_no_tempdir">ไม่สามารถสร้างไดเรกทอรีชั่วคราวสำหรับส่วนต่าง ๆ: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">เช็กซัมของส่วน <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> ไม่ตรงกัน</string>
+    <string name="err_part_failed">ดาวน์โหลดส่วน <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> ไม่สำเร็จ</string>
+    <string name="err_final_sha">การตรวจสอบ SHA-256 ของไฟล์สุดท้ายล้มเหลว</string>
+    <string name="err_empty_body">เนื้อหาตอบกลับว่างเปล่าสำหรับส่วน <xliff:g id="index">%1$d</xliff:g></string>
+    <string name="err_unknown_size">ไม่สามารถระบุขนาดสำหรับ <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_no_range">เซิร์ฟเวอร์ไม่รองรับคำขอแบบช่วง: คาดหวัง HTTP 206 ได้รับ <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_content_range">ไม่มีส่วนหัว Content-Range สำหรับ <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_bad_content_range">Content-Range ที่ไม่คาดคิดสำหรับ <xliff:g id="url">%1$s</xliff:g>: คาดหวัง <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">ไม่อนุญาตให้เปลี่ยนโปรโตคอล</string>
+    <string name="err_server_reply">เซิร์ฟเวอร์ตอบกลับด้วย <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_no_fd">ไม่สามารถรับ fileDescriptor ได้</string>
+    <string name="err_import_cancelled">ยกเลิกการนำเข้าแล้ว</string>
+    <string name="err_verify_deleted">การตรวจสอบล้มเหลว ไฟล์ถูกลบแล้ว</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">ใช้</string>
+    <string name="dialog_value_title">ค่า</string>
+    <string name="unknown_size">ไม่ทราบ</string>
+    <string name="slider_default">ค่าเริ่มต้น</string>
+    <string name="slider_default_value">ค่าเริ่มต้น (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">ข้อผิดพลาดเครือข่าย</string>
+    <string name="action_paused_state">หยุดชั่วคราว</string>
+    <string name="part_fallback_name">ส่วน_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">เซิร์ฟเวอร์</string>
+    <string name="err_response_empty">เนื้อหาตอบกลับว่างเปล่า</string>
+    <string name="err_changelog_body_empty">เนื้อหาบันทึกการเปลี่ยนแปลงว่างเปล่า</string>
+    <string name="err_changelog_too_large">บันทึกการเปลี่ยนแปลงเกิน <xliff:g id="bytes" example="524288">%1$d</xliff:g> ไบต์</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: เกินขีดจำกัดอัตรา (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>) ลองใหม่ใน <xliff:g id="wait" example="~2 min">%3$s</xliff:g></string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: เกินขีดจำกัดอัตรา (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>) โปรดลองอีกครั้งในภายหลัง</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: ไม่พบไฟล์หรือฟีด (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: การเข้าถึงถูกปฏิเสธ (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: ทรัพยากรถูกลบออก (HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: เซิร์ฟเวอร์ไม่พร้อมใช้งาน (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> นาที</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g>วิ</string>
+    <string name="err_download_file_missing">ไฟล์ที่ดาวน์โหลดหายไป</string>
+    <string name="err_sha_mismatch">เช็กซัม SHA-256 ไม่ตรงกัน</string>
+    <string name="err_sha_calc_failed">คำนวณ SHA-256 ไม่สำเร็จ</string>
+    <string name="err_ota_signature_failed">การตรวจสอบลายเซ็น OTA ล้มเหลว</string>
+    <string name="err_engine_signature">update_engine ปฏิเสธลายเซ็นเพย์โหลด (รหัส <xliff:g id="code" example="20">%1$d</xliff:g>) ลองบังคับติดตั้งผ่าน Recovery</string>
+    <string name="err_engine_downgrade">update_engine บล็อกเวลาดาวน์เกรด (รหัส <xliff:g id="code" example="51">%1$d</xliff:g>) ลองบังคับติดตั้งผ่าน Recovery</string>
+    <string name="err_engine_storage">พื้นที่ไม่เพียงพอสำหรับการอัปเดตสล็อต A/B (รหัส <xliff:g id="code" example="7">%1$d</xliff:g>)</string>
+    <string name="err_engine_partition">การตรวจสอบพาร์ติชันล้มเหลว (รหัส <xliff:g id="code" example="15">%1$d</xliff:g>)</string>
+    <string name="err_engine_cancelled">ผู้ใช้ยกเลิกการติดตั้ง</string>
+    <string name="err_engine_generic">รหัสข้อผิดพลาด update_engine <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">ประเภท OTA ที่ไม่รองรับ: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found">ไม่พบ <xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> ใน <xliff:g id="file" example="update.zip">%2$s</xliff:g></string>
+
+</resources>

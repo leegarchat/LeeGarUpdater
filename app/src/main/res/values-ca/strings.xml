@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="display_name">Actualitzacions del sistema</string>
+    <string name="verification_failed_notification">Ha fallat la verificació</string>
+    <string name="verifying_download_notification">S\'està verificant l\'actualització</string>
+    <string name="downloading_notification">S\'està baixant</string>
+    <string name="download_paused_notification">Baixada en pausa</string>
+    <string name="download_paused_error_notification">Baixada fallida</string>
+    <string name="download_completed_notification">Baixada completada</string>
+    <string name="download_starting_notification">S\'està iniciant la baixada</string>
+    <string name="update_failed_notification">Actualització fallida</string>
+    <string name="installation_suspended_notification">Instal·lació suspesa</string>
+    <string name="new_updates_found_title">Noves actualitzacions</string>
+    <string name="new_updates_found_summary">Toqueu per veure les actualitzacions disponibles</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="installing_update">S\'està instal·lant l\'actualització del sistema</string>
+    <string name="installing_update_error">Instal·lació fallida</string>
+    <string name="installing_update_finished">Actualització pendent de reinici</string>
+    <string name="finalizing_package">S\'està finalitzant la instal·lació del paquet</string>
+    <string name="preparing_ota_first_boot">S\'està preparant el primer inici</string>
+    <string name="dialog_prepare_zip_message">Preparació preliminar de l\'actualització</string>
+    <string name="reboot">Reinicia</string>
+    <string name="checking_for_updates">S\'estan cercant actualitzacions</string>
+    <string name="pref_category_background_sync">Sincronització en segon pla</string>
+    <string name="menu_auto_updates_check">Comprova periòdicament si hi ha actualitzacions</string>
+    <string name="menu_auto_updates_check_summary">Comprova si hi ha actualitzacions en segon pla</string>
+    <string name="menu_auto_delete_updates">Elimina automàticament les actualitzacions
+</string>
+    <string name="menu_stream_updates">Actualitzacions en línia</string>
+    <string name="menu_stream_updates_summary">Instal·la les actualitzacions durant la baixada. Desactiveu aquesta opció per desar els paquets d\'actualització per a la seva exportació.</string>
+    <string name="menu_export_update">Exporta l\'actualització</string>
+    <string name="menu_metered_network_warning">Avís de xarxa mesurada</string>
+    <string name="menu_metered_network_warning_summary">Avisa abans de baixar fent servir dades mòbils</string>
+    <string name="menu_ab_perf_mode">Prioritza el procés d\'actualització</string>
+    <string name="menu_update_recovery">Actualitza el recuperador</string>
+    <string name="menu_update_recovery_summary">Actualitza la partició de recuperació juntament amb el sistema operatiu</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">Data de compilació</string>
+    <string name="security_update">Actualització de seguretat</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">Baixa</string>
+    <string name="action_pause">Pausa</string>
+    <string name="action_resume">Reprèn</string>
+    <string name="action_install">Instal·la</string>
+    <string name="action_info">Informació</string>
+    <string name="action_delete">Suprimeix</string>
+    <string name="dialog_export_title">S\'està exportant l\'actualització</string>
+    <string name="notification_export_success">Actualització exportada</string>
+    <string name="notification_export_fail">Ha fallat l\'exportació</string>
+    <string name="toast_already_exporting">Ja s\'està exportant una actualització</string>
+    <string name="toast_export_started">S\'ha iniciat l\'exportació</string>
+    <string name="blocked_update_dialog_title">Actualització bloquejada</string>
+    <string name="blocked_update_dialog_title_downgrade">Baixada de versió bloquejada</string>
+    <string name="export_channel_title">Exportació completada</string>
+    <string name="new_updates_channel_title">Noves actualitzacions</string>
+    <string name="ongoing_channel_title">Baixades en curs</string>
+    <string name="update_failed_channel_title">Actualització fallida</string>
+    <string name="action_download_install">Baixa i instal·la</string>
+    <string name="check_for_update">Comprova si hi ha actualitzacions</string>
+    <string name="action_back">Enrere</string>
+    <string name="tab_updates">Actualitzacions</string>
+    <string name="tab_saved">Desades</string>
+    <string name="tab_saved_count">Desades (%1$d)</string>
+    <string name="tab_settings">Paràmetres</string>
+    <string name="toast_download_failed">Ha fallat la baixada</string>
+    <string name="toast_download_verified">Baixada verificada i a punt</string>
+    <string name="toast_import_failed">No s\'ha pogut importar el ZIP (paquet o signatura no vàlids). Prova el mode no segur per a ZIP personalitzats.</string>
+    <string name="toast_imported_format">S\'ha importat <xliff:g id="name">%1$s</xliff:g> a la pestanya Baixades</string>
+    <string name="banner_no_internet">Sense connexió a internet</string>
+    <string name="banner_check_failed">No s\'ha pogut comprovar si hi ha actualitzacions</string>
+    <string name="section_releases">Versions disponibles</string>
+    <string name="section_releases_count">Versions disponibles • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">Mode no segur</string>
+    <string name="empty_releases_title">No s\'ha carregat cap versió</string>
+    <string name="empty_releases_desc">Toqueu actualitzar per obtenir les compilacions del canal OTA JSON configurat.</string>
+    <string name="device_fallback_name">Dispositiu</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> compilació més recent disponible</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> compilacions més recents disponibles</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="one">El sistema està actualitzat • <xliff:g id="count">%1$d</xliff:g> compilació al canal</item>
+        <item quantity="other">El sistema està actualitzat • <xliff:g id="count">%1$d</xliff:g> compilacions al canal</item>
+    </plurals>
+    <string name="installed_label_format">Instal·lada: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • Pegat: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">Comprovat: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">Data desconeguda</string>
+    <string name="status_starting">S\'està iniciant</string>
+    <string name="status_verifying">S\'està verificant</string>
+    <string name="status_merging">S\'està fusionant <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">En pausa <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">Error</string>
+    <string name="status_installing">S\'està instal·lant <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">Suspès <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <plurals name="badge_split_parts">
+        <item quantity="one">Dividit • <xliff:g id="count">%1$d</xliff:g> part</item>
+        <item quantity="other">Dividit • <xliff:g id="count">%1$d</xliff:g> parts</item>
+    </plurals>
+    <string name="badge_downloaded">Baixat</string>
+    <string name="badge_reboot_required">Cal reiniciar</string>
+    <string name="badge_local">Local</string>
+    <string name="badge_major_upgrade">Actualització important</string>
+    <string name="relation_newer">Més recent</string>
+    <string name="relation_installed">Instal·lada</string>
+    <string name="relation_downgrade">Baixada de versió</string>
+    <string name="relation_build">Compilació</string>
+    <plurals name="downloaded_title">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> paquet desat</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> paquets desats</item>
+    </plurals>
+    <string name="downloaded_subtitle_used">Espai utilitzat: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">Importeu un ZIP local o baixeu compilacions des d\'Actualitzacions</string>
+    <string name="action_import_zip">Importa ZIP</string>
+    <string name="empty_downloaded_title">No hi ha actualitzacions baixades</string>
+    <string name="empty_downloaded_desc">Els paquets ROM baixats i els fitxers ZIP locals importats apareixeran aquí per instal·lar-los, exportar-los o suprimir-los.</string>
+    <string name="section_downloaded">Baixades i ZIP locals</string>
+    <string name="install_confirm_recovery">Voleu instal·lar via Recovery (mode no segur)? El dispositiu es reiniciarà en Recovery.</string>
+    <string name="install_confirm_force">Voleu forçar la instal·lació sense verificació? Assegureu-vos que aquest ZIP correspongui al vostre dispositiu.</string>
+    <string name="install_confirm_now">Voleu instal·lar <xliff:g id="name">%1$s</xliff:g> ara?</string>
+    <string name="action_cancel">Cancel·la</string>
+    <string name="action_confirm">Confirma</string>
+    <string name="action_proceed">Continua</string>
+    <string name="action_reboot_now">Reinicia ara</string>
+    <string name="action_export">Exporta</string>
+    <string name="action_reset">Restableix</string>
+    <string name="install_label_recovery">Instal·la (Recovery)</string>
+    <string name="install_label_force">Força la instal·lació</string>
+    <string name="action_stream_install">Baixada i instal·lació</string>
+    <string name="action_download_install_new">Baixa i instal·la</string>
+    <string name="desc_close">Tanca</string>
+    <string name="desc_retry">Reintenta</string>
+    <string name="settings_check_interval">Interval de comprovació</string>
+    <string name="interval_daily">Diàriament</string>
+    <string name="interval_weekly">Setmanalment</string>
+    <string name="interval_monthly">Mensualment</string>
+    <string name="settings_group_downloads">Baixades i verificació</string>
+    <string name="settings_parallel_title">Baixada paral·lela per parts</string>
+    <string name="settings_parallel_summary">Baixeu fins a 3 parts de l\'arxiu dividit simultàniament per a més velocitat</string>
+    <string name="settings_verify_title">Verifica les sumes de comprovació SHA-256</string>
+    <string name="settings_verify_summary">Valida cada part i l\'arxiu final acoblat amb els hash JSON</string>
+    <string name="settings_autodelete_summary">Suprimeix automàticament el paquet baixat quan l\'actualització s\'hagi completat</string>
+    <string name="settings_group_installation">Instal·lació</string>
+    <string name="settings_ab_perf_summary">Assigna més CPU i E/S a update_engine per a instal·lacions més ràpides</string>
+    <string name="settings_ab_perf_charging">Actiu automàticament quan es connecta a l\'alimentació de CA</string>
+    <string name="settings_group_ota">Origen OTA</string>
+    <string name="settings_ota_url_title">URL OTA JSON personalitzat</string>
+    <string name="settings_ota_url_hint">Deixeu-ho buit per utilitzar l\'URL per defecte de la superposició ROM / DeviceTree.</string>
+    <string name="settings_ota_apply">Aplica l\'URL</string>
+    <string name="toast_ota_reset">URL OTA restablert per defecte</string>
+    <string name="toast_ota_updated">URL OTA actualitzat</string>
+    <string name="settings_group_appearance">Aparença i emmagatzematge</string>
+    <string name="settings_theme_title">Tema de l\'aplicació</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_light">Clar</string>
+    <string name="theme_dark">Fosc</string>
+    <string name="settings_wavy_title">Barra de progrés ondulada</string>
+    <string name="settings_wavy_summary">Anima l\'ona durant la baixada o instal·lació; s\'aplana suaument en pausa</string>
+    <string name="settings_amplitude_title">Amplitud de l\'ona</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">Desactivat</string>
+    <string name="settings_blur_title">Radi de desenfocament del vidre</string>
+    <string name="settings_tint_title">Opacitat del tint del vidre</string>
+    <string name="settings_logo_title">Mostra el logotip del projecte</string>
+    <string name="settings_logo_summary">Mostra el bàner del projecte (GIF, imatge, vídeo o logotip animat)</string>
+    <string name="settings_banner_title">Mostra el bàner de la versió</string>
+    <string name="settings_banner_summary">Mostra la imatge o el vídeo de la versió a la capçalera de la targeta</string>
+    <string name="settings_clear_cache">Esborra la memòria cau de contingut i registres de canvis</string>
+    <string name="toast_cache_cleared">S\'ha esborrat la memòria cau</string>
+    <string name="settings_danger_title">Instal·lació crítica / no segura</string>
+    <string name="settings_danger_warning">Utilitzeu-ho exclusivament sota la vostra responsabilitat. Pot danyar el dispositiu si instal·leu una ROM incorrecta.</string>
+    <string name="settings_unsafe_title">Omet les comprovacions de seguretat i verificació</string>
+    <string name="settings_unsafe_summary">Desactiva la verificació de signatura OTA, el bloqueig de baixades de versió i les proteccions SDK d\'Android. Permet instal·lar baixades de versió o ZIP d\'altres ROM.</string>
+    <string name="settings_unsafe_confirm">Confirmeu: accepteu tota la responsabilitat per baixades de versió, ZIP sense signar o pèrdua de dades.</string>
+    <string name="danger_accept">Accepto el risc</string>
+    <string name="settings_recovery_title">Força la instal·lació via Recovery</string>
+    <string name="settings_recovery_summary">Omet update_engine i reinicia en Recovery (OrangeFox / TWRP) per instal·lar el ZIP directament. Útil si update_engine rebutja la marca temporal o la signatura de la baixada de versió.</string>
+    <string name="overlay_battery_low">El nivell de bateria és massa baix per instal·lar</string>
+    <string name="overlay_blocked_format">Bloquejat (<xliff:g id="reason">%1$s</xliff:g>). Activeu el mode no segur als Paràmetres per forçar la instal·lació.</string>
+    <string name="overlay_downgrade_blocked">La baixada de versió està bloquejada per les regles de seguretat. Activeu el mode no segur als Paràmetres per ometre-ho.</string>
+    <string name="overlay_major_blocked">L\'actualització important d\'Android està bloquejada per les regles de seguretat. Activeu el mode no segur als Paràmetres per ometre-ho.</string>
+    <string name="overlay_metered_format">Esteu en una connexió mesurada. Voleu baixar <xliff:g id="size">%1$s</xliff:g> ara?</string>
+    <string name="overlay_unsafe_recovery">Voleu baixar i instal·lar via Recovery (mode no segur)?</string>
+    <string name="overlay_unsafe_force">Voleu baixar i forçar la instal·lació sense verificació?</string>
+    <string name="overlay_scratch_mounted">La partició scratch està muntada; no es pot instal·lar</string>
+    <string name="toast_sha_copied">SHA-256 copiat</string>
+    <string name="overlay_install_recovery">Voleu instal·lar via Recovery (mode no segur)? El dispositiu es reiniciarà en Recovery.</string>
+    <string name="overlay_install_force">Voleu forçar la instal·lació sense comprovacions de signatura o baixada de versió? Continueu sota la vostra responsabilitat.</string>
+    <string name="overlay_changelog_title">Registre de canvis</string>
+    <string name="desc_reload_changelog">Recarrega el registre de canvis</string>
+    <string name="overlay_changelog_loading">S\'està carregant el registre de canvis…</string>
+    <string name="overlay_changelog_error">No s\'ha pogut carregar el registre de canvis d\'aquesta compilació.</string>
+    <string name="overlay_changelog_empty">No hi ha registre de canvis per a aquesta versió.</string>
+    <string name="overlay_archive_sha">SHA-256 de l\'arxiu</string>
+    <string name="desc_copy_sha">Copia el SHA-256</string>
+    <string name="overlay_reboot_to_apply">Reinicieu per aplicar l\'actualització</string>
+    <string name="overlay_pause_format">Pausa (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">Reprèn (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">Fitxer del paquet</string>
+    <string name="overlay_parts_title">Parts de l\'arxiu dividit (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">Confirma la supressió</string>
+    <string name="info_package_size">Mida del paquet</string>
+    <string name="info_android_api">API d\'Android</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">Tipus de compilació</string>
+    <string name="info_delivery">Lliurament</string>
+    <string name="info_delivery_split">Dividit (<xliff:g id="count">%1$d</xliff:g> parts)</string>
+    <string name="float_importing">S\'està important el ZIP local…</string>
+    <string name="float_copying">S\'està copiant el paquet i comprovant les metadades</string>
+    <string name="float_calculating">S\'està calculant…</string>
+    <plurals name="float_parts">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> part</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> parts</item>
+    </plurals>
+    <string name="float_parallel">Paral·lel</string>
+    <string name="float_sequential">Seqüencial</string>
+    <string name="float_single">Arxiu únic</string>
+    <string name="float_autoinstall">Instal·lació automàtica</string>
+    <string name="float_parts_header">Parts de l\'arxiu (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> fetes)</string>
+    <string name="float_suspend">Suspèn</string>
+    <string name="float_abort">Interromp</string>
+    <string name="desc_toggle_details">Mostra o amaga els detalls</string>
+    <string name="part_queued">En cua</string>
+    <string name="part_verifying">S\'està verificant el SHA-256</string>
+    <string name="part_verified">Verificat</string>
+    <string name="part_done">Fet</string>
+    <string name="part_paused_format">En pausa • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">Reintenta / Error</string>
+    <string name="part_waiting">S\'està esperant…</string>
+    <string name="stage_connecting">S\'està connectant al servidor…</string>
+    <string name="stage_verify_part">S\'està verificant el SHA-256 de la part <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>…</string>
+    <string name="stage_assemble">S\'estan acoblant les parts (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">S\'està verificant el SHA-256 de l\'arxiu final…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> parts actives • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">Part <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">S\'està baixant • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• Instal·lació automàtica</string>
+    <string name="stage_paused">Baixada en pausa • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">Ha fallat la baixada • Toqueu Reprèn</string>
+    <string name="stage_verifying_sig">S\'està verificant l\'arxiu i la signatura…</string>
+    <string name="stage_finalizing">S\'està finalitzant la ranura A/B • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">S\'està instal·lant l\'actualització • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">Instal·lació suspesa • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">Instal·lat — cal reiniciar</string>
+    <string name="md_image_alt">Imatge</string>
+    <string name="md_image_failed">No s\'ha pogut carregar la imatge</string>
+    <string name="importer_tag_local">ZIP local</string>
+    <string name="err_no_url">No hi ha cap URL de baixada ni parts definits</string>
+    <string name="err_no_dest">No hi ha cap destinació de baixada definida</string>
+    <string name="err_no_callback">No hi ha cap resposta de baixada definida</string>
+    <string name="err_no_parts">No s\'ha especificat cap part de baixada</string>
+    <string name="err_no_tempdir">No es pot crear el directori temporal de parts: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">No coincideix la suma de comprovació de la part <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_part_failed">Ha fallat la baixada de la part <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_final_sha">Ha fallat la verificació SHA-256 de l\'arxiu final</string>
+    <string name="err_empty_body">Cos de resposta buit per a la part <xliff:g id="index">%1$d</xliff:g></string>
+    <string name="err_unknown_size">No es pot determinar la mida de <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_no_range">El servidor no admet sol·licituds de rang: s\'esperava HTTP 206, s\'ha obtingut <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_content_range">Falta la capçalera Content-Range per a <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_bad_content_range">Content-Range inesperat per a <xliff:g id="url">%1$s</xliff:g>: s\'esperava <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">No es permeten canvis de protocol</string>
+    <string name="err_server_reply">El servidor ha respost amb <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_no_fd">No s\'ha pogut obtenir el fileDescriptor</string>
+    <string name="err_import_cancelled">S\'ha cancel·lat la importació.</string>
+    <string name="err_verify_deleted">Ha fallat la verificació, el fitxer s\'ha suprimit.</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">Aplica</string>
+    <string name="dialog_value_title">Valor</string>
+    <string name="unknown_size">Desconegut</string>
+    <string name="slider_default">Per defecte</string>
+    <string name="slider_default_value">Per defecte (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">Error de xarxa</string>
+    <string name="action_paused_state">En pausa</string>
+    <string name="part_fallback_name">part_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">Servidor</string>
+    <string name="err_response_empty">Cos de resposta buit</string>
+    <string name="err_changelog_body_empty">Cos del registre de canvis buit</string>
+    <string name="err_changelog_too_large">El registre de canvis supera <xliff:g id="bytes" example="524288">%1$d</xliff:g> bytes</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: s\'ha superat el límit de peticions (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Reintenteu-ho d\'aquí a <xliff:g id="wait" example="~2 min">%3$s</xliff:g>.</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: s\'ha superat el límit de peticions (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Torneu-ho a provar més tard.</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: no s\'ha trobat el fitxer o el canal (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: accés denegat (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: recurs suprimit (HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: servidor no disponible (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> min</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g>s</string>
+    <string name="err_download_file_missing">Falta el fitxer baixat</string>
+    <string name="err_sha_mismatch">No coincideix la suma de comprovació SHA-256</string>
+    <string name="err_sha_calc_failed">No s\'ha pogut calcular el SHA-256</string>
+    <string name="err_ota_signature_failed">Ha fallat la verificació de la signatura OTA</string>
+    <string name="err_engine_signature">update_engine ha rebutjat la signatura del contingut (codi <xliff:g id="code" example="20">%1$d</xliff:g>). Proveu la instal·lació forçada via Recovery.</string>
+    <string name="err_engine_downgrade">update_engine ha bloquejat la marca temporal de baixada de versió (codi <xliff:g id="code" example="51">%1$d</xliff:g>). Proveu la instal·lació forçada via Recovery.</string>
+    <string name="err_engine_storage">No hi ha prou espai per a l\'actualització de ranura A/B (codi <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_engine_partition">Ha fallat la verificació de la partició (codi <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_cancelled">L\'usuari ha cancel·lat la instal·lació.</string>
+    <string name="err_engine_generic">Error d\'update_engine amb codi <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">Tipus OTA no compatible: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found">No s\'ha trobat <xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> a <xliff:g id="file" example="update.zip">%2$s</xliff:g></string>
+</resources>

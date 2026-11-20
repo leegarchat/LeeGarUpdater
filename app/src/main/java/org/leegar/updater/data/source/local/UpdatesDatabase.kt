@@ -1,0 +1,111 @@
+/*
+ * SPDX-FileCopyrightText: The LineageOS Project
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+package org.leegar.updater.data.source.local
+
+import android.content.Context
+import androidx.room.Database
+import androidx.room.Room
+import androidx.room.RoomDatabase
+import androidx.room.migration.Migration
+import androidx.sqlite.db.SupportSQLiteDatabase
+
+/**
+ * Room database for the Updater application.
+ *
+ * Use [UpdatesLocalDataSource] to interact with data.
+ */
+@Database(entities = [UpdateEntity::class], version = 6, exportSchema = false)
+abstract class UpdatesDatabase : RoomDatabase() {
+    abstract fun updateDao(): UpdateDao
+
+    companion object {
+        @Volatile
+        private var instance: UpdatesDatabase? = null
+
+        private val MIGRATION_1_2 = object : Migration(1, 2) {
+            override fun migrate(db: SupportSQLiteDatabase) {
+                db.execSQL(
+                    """
+                    CREATE TABLE IF NOT EXISTS `updates_new` (
+                        `download_id` TEXT NOT NULL,
+                        `download_url` TEXT,
+                        `name` TEXT NOT NULL,
+                        `path` TEXT,
+                        `size` INTEGER NOT NULL,
+                        `status` INTEGER NOT NULL,
+                        `timestamp` INTEGER NOT NULL,
+                        `type` TEXT,
+                        `version` TEXT NOT NULL,
+                        PRIMARY KEY(`download_id`)
+                    )
+                    """.trimIndent()
+                )
+                db.execSQL(
+                    """
+                    INSERT INTO `updates_new` (`download_id`, `status`, `path`,
+                        `timestamp`, `type`, `version`, `size`, `name`)
+                    SELECT `download_id`, IFNULL(`status`, 0), `path`,
+                        IFNULL(`timestamp`, 0), `type`, IFNULL(`version`, ''), IFNULL(`size`, 0),
+                        COALESCE(REPLACE(`path`, RTRIM(`path`, REPLACE(`path`, '/', '')), ''), '')
+                    FROM `updates`
+                    """.trimIndent()
+                )
+                db.execSQL("DROP TABLE `updates`")
+                db.execSQL("ALTER TABLE `updates_new` RENAME TO `updates`")
+            }
+        }
+
+        private val MIGRATION_2_3 = object : Migration(2, 3) {
+            override fun migrate(db: SupportSQLiteDatabase) {
+                db.execSQL("ALTER TABLE `updates` ADD COLUMN `os_sdk_level` INTEGER")
+                db.execSQL("ALTER TABLE `updates` ADD COLUMN `os_patch_level` TEXT")
+            }
+        }
+
+        private val MIGRATION_3_4 = object : Migration(3, 4) {
+            override fun migrate(db: SupportSQLiteDatabase) {
+                db.execSQL("ALTER TABLE `updates` ADD COLUMN `payload_metadata_offset` INTEGER")
+                db.execSQL("ALTER TABLE `updates` ADD COLUMN `payload_metadata_size` INTEGER")
+                db.execSQL("ALTER TABLE `updates` ADD COLUMN `payload_offset` INTEGER")
+                db.execSQL("ALTER TABLE `updates` ADD COLUMN `payload_size` INTEGER")
+                db.execSQL("ALTER TABLE `updates` ADD COLUMN `payload_properties_offset` INTEGER")
+                db.execSQL("ALTER TABLE `updates` ADD COLUMN `payload_properties_size` INTEGER")
+            }
+        }
+
+        private val MIGRATION_4_5 = object : Migration(4, 5) {
+            override fun migrate(db: SupportSQLiteDatabase) {
+                db.execSQL("ALTER TABLE `updates` ADD COLUMN `sha256` TEXT")
+                db.execSQL("ALTER TABLE `updates` ADD COLUMN `parts_json` TEXT")
+                db.execSQL("ALTER TABLE `updates` ADD COLUMN `changelog_url` TEXT")
+                db.execSQL("ALTER TABLE `updates` ADD COLUMN `changelog_inline` TEXT")
+                db.execSQL("ALTER TABLE `updates` ADD COLUMN `tag` TEXT")
+                db.execSQL("ALTER TABLE `updates` ADD COLUMN `links_json` TEXT")
+                db.execSQL("ALTER TABLE `updates` ADD COLUMN `order_index` INTEGER NOT NULL DEFAULT 0")
+            }
+        }
+
+        private val MIGRATION_5_6 = object : Migration(5, 6) {
+            override fun migrate(db: SupportSQLiteDatabase) {
+                db.execSQL("ALTER TABLE `updates` ADD COLUMN `banner` TEXT")
+                db.execSQL("ALTER TABLE `updates` ADD COLUMN `ico_banner` TEXT")
+            }
+        }
+
+        @JvmStatic
+        fun getInstance(context: Context): UpdatesDatabase = instance ?: synchronized(this) {
+            instance ?: Room.databaseBuilder(
+                context.applicationContext,
+                UpdatesDatabase::class.java,
+                "updates.db"
+            )
+                .addMigrations(MIGRATION_1_2, MIGRATION_2_3, MIGRATION_3_4, MIGRATION_4_5, MIGRATION_5_6)
+                .fallbackToDestructiveMigrationOnDowngrade(true)
+                .build()
+                .also { instance = it }
+        }
+    }
+}

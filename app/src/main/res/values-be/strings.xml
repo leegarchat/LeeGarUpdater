@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="display_name">Абнаўленні сістэмы</string>
+    <string name="download_paused_error_notification">Памылка спампоўвання</string>
+    <string name="installation_suspended_notification">Усталяванне прыпынена</string>
+    <string name="new_updates_found_title">Новыя абнаўленні</string>
+    <string name="text_download_speed">%1$s, %2$s/с</string>
+    <string name="installing_update_error">Памылка ўсталявання</string>
+    <string name="preparing_ota_first_boot">Падрыхтоўка да першага запуску</string>
+    <string name="dialog_prepare_zip_message">Падрыхтоўка абнаўлення</string>
+    <string name="menu_export_update">Экспартаванне абнаўлення</string>
+    <string name="menu_ab_perf_mode">Прыярытэт працэсу абнаўлення</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">Спампаваць</string>
+    <string name="action_install">Усталяваць</string>
+    <string name="action_delete">Выдаліць</string>
+    <string name="dialog_export_title">Экспартаванне абнаўлення</string>
+    <string name="toast_export_started">Пачалося экспартаванне</string>
+    <string name="new_updates_channel_title">Новыя абнаўленні</string>
+    <string name="ongoing_channel_title">Бягучыя спампоўкі</string>
+    <string name="verification_failed_notification">Праверка не ўдалася</string>
+    <string name="verifying_download_notification">Праверка абнаўлення</string>
+    <string name="downloading_notification">Спампоўванне</string>
+    <string name="download_paused_notification">Спампоўванне прыпынена</string>
+    <string name="download_completed_notification">Спампоўванне завершана</string>
+    <string name="download_starting_notification">Пачынаецца спампоўванне</string>
+    <string name="update_failed_notification">Абнаўленне не ўдалося</string>
+    <string name="new_updates_found_summary">Націсніце, каб праглядзець даступныя абнаўленні</string>
+    <string name="installing_update">Усталёўваецца абнаўленне сістэмы</string>
+    <string name="installing_update_finished">Абнаўленне чакае перазагрузкі</string>
+    <string name="finalizing_package">Завяршэнне ўсталёўкі пакета</string>
+    <string name="reboot">Перазагрузіць</string>
+    <string name="action_download_install">Спампаваць і ўсталяваць</string>
+    <string name="check_for_update">Праверыць абнаўленні</string>
+    <string name="action_back">Назад</string>
+    <string name="checking_for_updates">Праверка абнаўленняў</string>
+    <string name="pref_category_background_sync">Фонавая сінхранізацыя</string>
+    <string name="menu_auto_updates_check">Перыядычна правяраць абнаўленні</string>
+    <string name="menu_auto_updates_check_summary">Правяраць абнаўленні ў фонавым рэжыме</string>
+    <string name="menu_auto_delete_updates">Аўтаматычна выдаляць абнаўленні</string>
+    <string name="menu_stream_updates">Перадаваць анлайн-абнаўленні</string>
+    <string name="menu_stream_updates_summary">Усталёўваць абнаўленні падчас спампоўвання. Адключыце, каб захоўваць пакеты для экспарту.</string>
+    <string name="menu_metered_network_warning">Папярэджанне пра лімітаваную сетку</string>
+    <string name="menu_metered_network_warning_summary">Папярэджваць перад спампоўваннем праз мабільныя дадзеныя</string>
+    <string name="menu_update_recovery">Абнавіць recovery</string>
+    <string name="menu_update_recovery_summary">Абнаўляць recovery-раздел разам з АС</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">Дата зборкі</string>
+    <string name="security_update">Абнаўленне бяспекі</string>
+    <string name="action_pause">Паўза</string>
+    <string name="action_resume">Працягнуць</string>
+    <string name="action_info">Звесткі</string>
+    <string name="notification_export_success">Абнаўленне экспартавана</string>
+    <string name="notification_export_fail">Памылка экспарту</string>
+    <string name="toast_already_exporting">Ужо экспартуецца абнаўленне</string>
+    <string name="blocked_update_dialog_title">Абнаўленне заблакавана</string>
+    <string name="blocked_update_dialog_title_downgrade">Даўнгрэйд заблакаваны</string>
+    <string name="export_channel_title">Завяршэнне экспарту</string>
+    <string name="update_failed_channel_title">Абнаўленне не ўдалося</string>
+    <string name="tab_updates">Абнаўленні</string>
+    <string name="tab_saved">Захаваныя</string>
+    <string name="tab_saved_count">Захаваныя (%1$d)</string>
+    <string name="tab_settings">Налады</string>
+    <string name="toast_download_failed">Не ўдалося спампаваць</string>
+    <string name="toast_download_verified">Спампавана, праверана і гатова</string>
+    <string name="toast_import_failed">Не ўдалося імпартаваць ZIP (несапраўдны пакет або подпіс). Паспрабуйце Небяспечны рэжым для карыстальніцкіх ZIP.</string>
+    <string name="toast_imported_format"><xliff:g id="name">%1$s</xliff:g> імпартавана ва ўкладку Спампаваныя</string>
+    <string name="banner_no_internet">Няма злучэння з інтэрнэтам</string>
+    <string name="banner_check_failed">Не ўдалося праверыць абнаўленні</string>
+    <string name="section_releases">Даступныя рэлізы</string>
+    <string name="section_releases_count">Даступныя рэлізы • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">Небяспечны рэжым</string>
+    <string name="empty_releases_title">Рэлізы не загружаны</string>
+    <string name="empty_releases_desc">Націсніце абнавіць, каб атрымаць зборкі з настроенага OTA JSON-канала.</string>
+    <string name="device_fallback_name">Прылада</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> новая зборка даступна</item>
+        <item quantity="few"><xliff:g id="count">%1$d</xliff:g> новыя зборкі даступны</item>
+        <item quantity="many"><xliff:g id="count">%1$d</xliff:g> новых зборак даступна</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> новай зборкі даступна</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="one">Сістэма актуальная • <xliff:g id="count">%1$d</xliff:g> зборка ў канале</item>
+        <item quantity="few">Сістэма актуальная • <xliff:g id="count">%1$d</xliff:g> зборкі ў канале</item>
+        <item quantity="many">Сістэма актуальная • <xliff:g id="count">%1$d</xliff:g> зборак у канале</item>
+        <item quantity="other">Сістэма актуальная • <xliff:g id="count">%1$d</xliff:g> зборкі ў канале</item>
+    </plurals>
+    <string name="installed_label_format">Усталявана: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • Патч: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">Праверана: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">Невядомая дата</string>
+    <string name="status_starting">Запуск</string>
+    <string name="status_verifying">Праверка</string>
+    <string name="status_merging">Аб’яднанне <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">Паўза <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">Памылка</string>
+    <string name="status_installing">Усталёўваецца <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">Прыпынена <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <plurals name="badge_split_parts">
+        <item quantity="one">Падзелены • <xliff:g id="count">%1$d</xliff:g> частка</item>
+        <item quantity="few">Падзелены • <xliff:g id="count">%1$d</xliff:g> часткі</item>
+        <item quantity="many">Падзелены • <xliff:g id="count">%1$d</xliff:g> частак</item>
+        <item quantity="other">Падзелены • <xliff:g id="count">%1$d</xliff:g> часткі</item>
+    </plurals>
+    <string name="badge_downloaded">Спампавана</string>
+    <string name="badge_reboot_required">Патрэбна перазагрузка</string>
+    <string name="badge_local">Лакальны</string>
+    <string name="badge_major_upgrade">Мажорнае абнаўленне</string>
+    <string name="relation_newer">Навейшы</string>
+    <string name="relation_installed">Усталяваны</string>
+    <string name="relation_downgrade">Даўнгрэйд</string>
+    <string name="relation_build">Зборка</string>
+    <plurals name="downloaded_title">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> пакет захаваны</item>
+        <item quantity="few"><xliff:g id="count">%1$d</xliff:g> пакеты захаваны</item>
+        <item quantity="many"><xliff:g id="count">%1$d</xliff:g> пакетаў захавана</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> пакета захавана</item>
+    </plurals>
+    <string name="downloaded_subtitle_used">Выкарыстана месца: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">Імпартуйце лакальны ZIP або спампуйце зборкі з Абнаўленняў</string>
+    <string name="action_import_zip">Імпарт ZIP</string>
+    <string name="empty_downloaded_title">Няма спампаваных абнаўленняў</string>
+    <string name="empty_downloaded_desc">Спампаваныя пакеты ROM і імпартаваныя лакальныя ZIP-файлы з’явяцца тут для ўсталёўкі, экспарту або выдалення.</string>
+    <string name="section_downloaded">Спампаваныя і лакальныя ZIP</string>
+    <string name="install_confirm_recovery">Прашыць праз Recovery (Небяспечны рэжым)? Прылада перазагрузіцца ў Recovery.</string>
+    <string name="install_confirm_force">Прымусова ўсталяваць без праверкі? Пераканайцеся, што гэты ZIP адпавядае вашай прыладзе.</string>
+    <string name="install_confirm_now">Усталяваць <xliff:g id="name">%1$s</xliff:g> зараз?</string>
+    <string name="action_cancel">Скасаваць</string>
+    <string name="action_confirm">Пацвердзіць</string>
+    <string name="action_proceed">Працягнуць</string>
+    <string name="action_reboot_now">Перазагрузіць зараз</string>
+    <string name="action_export">Экспарт</string>
+    <string name="action_reset">Скінуць</string>
+    <string name="install_label_recovery">Усталяваць (Recovery)</string>
+    <string name="install_label_force">Прымусова ўсталяваць</string>
+    <string name="action_stream_install">Перадаць і ўсталяваць</string>
+    <string name="action_download_install_new">Спампаваць і ўсталяваць</string>
+    <string name="desc_close">Закрыць</string>
+    <string name="desc_retry">Паўтарыць</string>
+    <string name="settings_check_interval">Інтэрвал праверкі</string>
+    <string name="interval_daily">Штодня</string>
+    <string name="interval_weekly">Штотыдзень</string>
+    <string name="interval_monthly">Штомесяц</string>
+    <string name="settings_group_downloads">Спампоўкі і праверка</string>
+    <string name="settings_parallel_title">Паралельнае падзеленае спампоўванне</string>
+    <string name="settings_parallel_summary">Спампоўвайце да 3 частак падзеленага архіва адначасова для большай хуткасці</string>
+    <string name="settings_verify_title">Правяраць кантрольныя сумы SHA-256</string>
+    <string name="settings_verify_summary">Правяраць кожную падзеленую частку і выніковы сабраны архіў па хэшах JSON</string>
+    <string name="settings_autodelete_summary">Выдаляць спампаваны пакет аўтаматычна пасля паспяховага абнаўлення</string>
+    <string name="settings_group_installation">Усталёўка</string>
+    <string name="settings_ab_perf_summary">Вылучаць больш CPU і I/O для update_engine для хутчэйшай усталёўкі</string>
+    <string name="settings_ab_perf_charging">Аўтаматычна актыўна пры падключэнні да сеткі</string>
+    <string name="settings_group_ota">Крыніца OTA</string>
+    <string name="settings_ota_url_title">Карыстальніцкі OTA JSON URL</string>
+    <string name="settings_ota_url_hint">Пакіньце пустым, каб выкарыстоўваць URL па змаўчанні з ROM / DeviceTree.</string>
+    <string name="settings_ota_apply">Ужыць URL</string>
+    <string name="toast_ota_reset">OTA URL скінуты да стандартнага</string>
+    <string name="toast_ota_updated">OTA URL абноўлены</string>
+    <string name="settings_group_appearance">Знешні выгляд і сховішча</string>
+    <string name="settings_theme_title">Тэма праграмы</string>
+    <string name="theme_system">Сістэмная</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Цёмная</string>
+    <string name="settings_wavy_title">Хвалісты індыкатар прагрэсу</string>
+    <string name="settings_wavy_summary">Анімаваць хвалю падчас спампоўвання або ўсталёўкі; выраўноўваецца пры паўзе</string>
+    <string name="settings_amplitude_title">Амплітуда хвалі</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">Выкл</string>
+    <string name="settings_blur_title">Радыус шклянога блюру</string>
+    <string name="settings_tint_title">Непразрыстасць шклянога адцення</string>
+    <string name="settings_logo_title">Паказваць лагатып праекта</string>
+    <string name="settings_logo_summary">Паказваць банер праекта (GIF, відарыс, відэа або аніміраваны надпіс)</string>
+    <string name="settings_banner_title">Паказваць банер рэлізу</string>
+    <string name="settings_banner_summary">Паказваць відарыс або відэа рэлізу ў загалоўку карткі</string>
+    <string name="settings_clear_cache">Ачысціць кэш медыя і журнала змяненняў</string>
+    <string name="toast_cache_cleared">Кэш ачышчаны</string>
+    <string name="settings_danger_title">Крытычная / Небяспечная ўсталёўка</string>
+    <string name="settings_danger_warning">Выкарыстоўвайце выключна на свой рызык. Можна пашкодзіць прыладу пры прашыўцы няправільнага ROM.</string>
+    <string name="settings_unsafe_title">Абыход праверак бяспекі і верыфікацыі</string>
+    <string name="settings_unsafe_summary">Адключае праверку подпісу OTA, блакіроўку даўнгрэйда і абмежаванні Android SDK. Дазваляе прашываць даўнгрэйды або ZIP іншых ROM.</string>
+    <string name="settings_unsafe_confirm">Пацвердзіце: вы прымаеце поўную адказнасць за даўнгрэйды, непадпісаныя ZIP або страту дадзеных.</string>
+    <string name="danger_accept">Я прымаю рызыку</string>
+    <string name="settings_recovery_title">Прымусова ўсталяваць праз Recovery</string>
+    <string name="settings_recovery_summary">Абыход update_engine і перазагрузка ў Recovery (OrangeFox / TWRP) для прамой прашыўкі ZIP. Карысна, калі update_engine адхіляе метку часу або подпіс.</string>
+    <string name="overlay_battery_low">Узровень батарэі занадта нізкі для ўсталёўкі</string>
+    <string name="overlay_blocked_format">Заблакавана (<xliff:g id="reason">%1$s</xliff:g>). Уключыце Небяспечны рэжым у Наладах для прымусовай усталёўкі.</string>
+    <string name="overlay_downgrade_blocked">Даўнгрэйд заблакаваны правіламі бяспекі. Уключыце Небяспечны рэжым у Наладах, каб абыйсці.</string>
+    <string name="overlay_major_blocked">Мажорнае абнаўленне Android заблакавана правіламі бяспекі. Уключыце Небяспечны рэжым у Наладах, каб абыйсці.</string>
+    <string name="overlay_metered_format">Вы ў лімітаванай сетцы. Спампаваць <xliff:g id="size">%1$s</xliff:g> зараз?</string>
+    <string name="overlay_unsafe_recovery">Спампаваць і прашыць праз Recovery (Небяспечны рэжым)?</string>
+    <string name="overlay_unsafe_force">Спампаваць і прымусова ўсталяваць без праверкі?</string>
+    <string name="overlay_scratch_mounted">Раздел scratch змантаваны; немагчыма ўсталяваць</string>
+    <string name="toast_sha_copied">SHA-256 скапіяваны</string>
+    <string name="overlay_install_recovery">Прашыць праз Recovery (Небяспечны рэжым)? Прылада перазагрузіцца ў Recovery.</string>
+    <string name="overlay_install_force">Прымусова ўсталяваць без праверак подпісу/даўнгрэйда? Працягвайце на свой рызык.</string>
+    <string name="overlay_changelog_title">Журнал змяненняў</string>
+    <string name="desc_reload_changelog">Перазагрузіць журнал змяненняў</string>
+    <string name="overlay_changelog_loading">Загрузка журнала змяненняў…</string>
+    <string name="overlay_changelog_error">Не ўдалося загрузіць журнал змяненняў для гэтай зборкі.</string>
+    <string name="overlay_changelog_empty">Для гэтага рэлізу журнал змяненняў не прадастаўлены.</string>
+    <string name="overlay_archive_sha">SHA-256 архіва</string>
+    <string name="desc_copy_sha">Скапіяваць SHA-256</string>
+    <string name="overlay_reboot_to_apply">Перазагрузіцеся, каб ужыць абнаўленне</string>
+    <string name="overlay_pause_format">Паўза (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">Працягнуць (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">Файл пакета</string>
+    <string name="overlay_parts_title">Часткі падзеленага архіва (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">Пацвердзіць выдаленне</string>
+    <string name="info_package_size">Памер пакета</string>
+    <string name="info_android_api">Android API</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">Тып зборкі</string>
+    <string name="info_delivery">Дастаўка</string>
+    <string name="info_delivery_split">Падзелены (<xliff:g id="count">%1$d</xliff:g> часткі)</string>
+    <string name="float_importing">Імпарт лакальнага ZIP…</string>
+    <string name="float_copying">Капіяванне пакета і праверка метададзеных</string>
+    <string name="float_calculating">Падлік…</string>
+    <plurals name="float_parts">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> частка</item>
+        <item quantity="few"><xliff:g id="count">%1$d</xliff:g> часткі</item>
+        <item quantity="many"><xliff:g id="count">%1$d</xliff:g> частак</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> часткі</item>
+    </plurals>
+    <string name="float_parallel">Паралельна</string>
+    <string name="float_sequential">Паслядоўна</string>
+    <string name="float_single">Адзіны архіў</string>
+    <string name="float_autoinstall">Аўтаўсталёўка</string>
+    <string name="float_parts_header">Часткі архіва (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> гатова)</string>
+    <string name="float_suspend">Прыпыніць</string>
+    <string name="float_abort">Перапыніць</string>
+    <string name="desc_toggle_details">Пераключыць дэталі</string>
+    <string name="part_queued">У чарзе</string>
+    <string name="part_verifying">Праверка SHA-256</string>
+    <string name="part_verified">Праверана</string>
+    <string name="part_done">Гатова</string>
+    <string name="part_paused_format">Паўза • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">Паўтарыць / Памылка</string>
+    <string name="part_waiting">Чаканне…</string>
+    <string name="stage_connecting">Злучэнне з серверам…</string>
+    <string name="stage_verify_part">Праверка часткі <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> SHA-256…</string>
+    <string name="stage_assemble">Зборка частак (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">Праверка SHA-256 выніковага архіва…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> часткі актыўныя • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">Частка <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">Спампоўванне • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• Аўтаўсталёўка</string>
+    <string name="stage_paused">Спампоўванне прыпынена • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">Спампоўванне не ўдалося • Націсніце Працягнуць</string>
+    <string name="stage_verifying_sig">Праверка архіва і подпісу…</string>
+    <string name="stage_finalizing">Завяршэнне A/B слота • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">Усталёўка абнаўлення • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">Усталёўка прыпынена • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">Усталявана — патрэбна перазагрузка</string>
+    <string name="md_image_alt">Відарыс</string>
+    <string name="md_image_failed">Не ўдалося загрузіць відарыс</string>
+    <string name="importer_tag_local">Лакальны ZIP</string>
+    <string name="err_no_url">Няма URL спампоўвання або частак</string>
+    <string name="err_no_dest">Няма прызначэння спампоўвання</string>
+    <string name="err_no_callback">Няма зваротнага выкліку спампоўвання</string>
+    <string name="err_no_parts">Часткі спампоўвання не пазначаны</string>
+    <string name="err_no_tempdir">Немагчыма стварыць часовы каталог частак: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">Нясупадзенне кантрольнай сумы часткі <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_part_failed">Не ўдалося спампаваць частку <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_final_sha">Праверка SHA-256 выніковага архіва не ўдалася</string>
+    <string name="err_empty_body">Пустое цела адказу для часткі <xliff:g id="index">%1$d</xliff:g></string>
+    <string name="err_unknown_size">Немагчыма вызначыць памер для <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_no_range">Сервер не падтрымлівае запыты дыяпазонаў: чакаўся HTTP 206, атрымана <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_content_range">Адсутнічае загаловак Content-Range для <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_bad_content_range">Нечаканы Content-Range для <xliff:g id="url">%1$s</xliff:g>: чакаўся <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">Змены пратакола не дазволены</string>
+    <string name="err_server_reply">Сервер адказаў <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_no_fd">Не ўдалося атрымаць fileDescriptor</string>
+    <string name="err_import_cancelled">Імпарт скасаваны</string>
+    <string name="err_verify_deleted">Праверка не ўдалася, файл выдалены</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">Ужыць</string>
+    <string name="dialog_value_title">Значэнне</string>
+    <string name="unknown_size">Невядома</string>
+    <string name="slider_default">Па змаўчанні</string>
+    <string name="slider_default_value">Па змаўчанні (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">Памылка сеткі</string>
+    <string name="action_paused_state">Прыпынена</string>
+    <string name="part_fallback_name">part_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">Сервер</string>
+    <string name="err_response_empty">Пустое цела адказу</string>
+    <string name="err_changelog_body_empty">Пустое цела журнала змяненняў</string>
+    <string name="err_changelog_too_large">Журнал змяненняў перавышае <xliff:g id="bytes" example="524288">%1$d</xliff:g> байт</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: перавышаны ліміт (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Паўтарыце праз <xliff:g id="wait" example="~2 min">%3$s</xliff:g>.</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: перавышаны ліміт (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Паспрабуйце пазней.</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: файл або канал не знойдзены (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: доступ забаронены (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: рэсурс выдалены (HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: сервер недаступны (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> хв</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g> с</string>
+    <string name="err_download_file_missing">Спампаваны файл адсутнічае</string>
+    <string name="err_sha_mismatch">Нясупадзенне кантрольнай сумы SHA-256</string>
+    <string name="err_sha_calc_failed">Не ўдалося вылічыць SHA-256</string>
+    <string name="err_ota_signature_failed">Праверка подпісу OTA не ўдалася</string>
+    <string name="err_engine_signature">update_engine адхіліў подпіс (код <xliff:g id="code" example="20">%1$d</xliff:g>). Паспрабуйце прымусовую ўсталёўку праз Recovery.</string>
+    <string name="err_engine_downgrade">update_engine заблакаваў метку часу даўнгрэйда (код <xliff:g id="code" example="51">%1$d</xliff:g>). Паспрабуйце прымусовую ўсталёўку праз Recovery.</string>
+    <string name="err_engine_storage">Не хапае месца для абнаўлення A/B слота (код <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_engine_partition">Праверка раздела не ўдалася (код <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_cancelled">Усталёўка скасавана карыстальнікам.</string>
+    <string name="err_engine_generic">Памылка update_engine код <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">Непадтрымоўваны тып OTA: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found">Не знойдзена <xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> у <xliff:g id="file" example="update.zip">%2$s</xliff:g></string>
+</resources>

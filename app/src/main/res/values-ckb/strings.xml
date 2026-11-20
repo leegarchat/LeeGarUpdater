@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="display_name">نوێکردنەوەکانی سیستم</string>
+    <string name="verification_failed_notification">پشکنین سەرکەوتوو نەبوو</string>
+    <string name="verifying_download_notification">پشکنین بۆ نوێکاری دەکرێت</string>
+    <string name="downloading_notification">داگرتن...</string>
+    <string name="download_paused_notification">داگرتن وەستێنراوە</string>
+    <string name="download_paused_error_notification">هەڵە لە داگرتندا</string>
+    <string name="download_completed_notification">داگرتن تەواو بوو</string>
+    <string name="download_starting_notification">دەستپێکردنی داگرتن</string>
+    <string name="update_failed_notification">نوێکردنەوە سەرکەوتوو نەبوو</string>
+    <string name="installation_suspended_notification">دامەزراندن هەڵپەسێردرا</string>
+    <string name="new_updates_found_title">نوێکارییە نوێیەکان</string>
+    <string name="new_updates_found_summary">دەست لێ بدە بۆ بینینی نوێکارییە بەردەستەکان</string>
+    <string name="text_download_speed">%1$s، %2$s/چرکە</string>
+    <string name="installing_update">دامەزراندنی نوێکاریی سیستم</string>
+    <string name="installing_update_error">هەڵە لە دامەزراندندا</string>
+    <string name="installing_update_finished">نوێکاری لە چاوەڕوانیی پێکردنەوەدایە</string>
+    <string name="finalizing_package">کۆتاییهێنان بە دامەزراندنی پاکێج</string>
+    <string name="preparing_ota_first_boot">ئامادەکاری بۆ یەکەم کارپێکردنەوە</string>
+    <string name="dialog_prepare_zip_message">ئامادەکاری سەرەتایی بۆ نوێکردنەوە</string>
+    <string name="reboot">دووبارە کارپێکردنەوە</string>
+    <string name="checking_for_updates">پشکنین بۆ نوێکارییەکان دەکرێت</string>
+    <string name="pref_category_background_sync">هاوکاتکردنی پاشبنەما</string>
+    <string name="menu_auto_updates_check">پشکنینی کاتی بۆ نوێکارییەکان</string>
+    <string name="menu_auto_updates_check_summary">پشکنین بۆ نوێکارییەکان لە پاشبنەمادا</string>
+    <string name="menu_auto_delete_updates">سڕینەوەی خۆکاری نوێکارییەکان</string>
+    <string name="menu_stream_updates">پەخشکردنی ڕاستەوخۆی نوێکارییەکان</string>
+    <string name="menu_stream_updates_summary">دامەزراندنی نوێکارییەکان هاوکات لەگەڵ داگرتندا. ناچالاکی بکە بۆ پاشەکەوتکردنی پەڕگەکانی نوێکاری بە مەبەستی هەناردەکردن.</string>
+    <string name="menu_export_update">هەناردەکردنی نوێکاری</string>
+    <string name="menu_metered_network_warning">ئاگاداری هێڵی سنووردار</string>
+    <string name="menu_metered_network_warning_summary">ئاگادارکردنەوە پێش داگرتن لەسەر هێڵی مۆبایل</string>
+    <string name="menu_ab_perf_mode">پێشینەدان بە پڕۆسەی نوێکردنەوە</string>
+    <string name="menu_update_recovery">نوێکردنەوەی Recovery (Recovery)</string>
+    <string name="menu_update_recovery_summary">نوێکردنەوەی بەشی Recovery هاوکات لەگەڵ سیستمدا</string>
+    <string name="header_android_version">ئەندرۆید <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">بەرواری دروستکردن</string>
+    <string name="security_update">نوێکاریی ئاسایش</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">داگرتن</string>
+    <string name="action_pause">وەستانی کاتی</string>
+    <string name="action_resume">دەستپێکردنەوە</string>
+    <string name="action_install">دامەزراندن</string>
+    <string name="action_info">زانیاری</string>
+    <string name="action_delete">سڕینەوە</string>
+    <string name="dialog_export_title">هەناردەکردنی نوێکاری</string>
+    <string name="notification_export_success">نوێکارییەکە هەناردە کرا</string>
+    <string name="notification_export_fail">هەڵە لە هەناردەکردندا</string>
+    <string name="toast_already_exporting">پڕۆسەی هەناردەکردنی نوێکاری چالاکە</string>
+    <string name="toast_export_started">هەناردەکردن دەستی پێ کرد</string>
+    <string name="blocked_update_dialog_title">نوێکاری بلۆک کرا</string>
+    <string name="blocked_update_dialog_title_downgrade">دابەزاندنی وەشان ڕاگیراوە</string>
+    <string name="export_channel_title">تەواوبوونی هەناردەکردن</string>
+    <string name="new_updates_channel_title">نوێکارییە نوێیەکان</string>
+    <string name="ongoing_channel_title">داگرتنە بەردەوامەکان</string>
+    <string name="update_failed_channel_title">نوێکردنەوە سەرکەوتوو نەبوو</string>
+    <string name="action_download_install">داگرتن و دامەزراندن</string>
+    <string name="check_for_update">پشکنین بۆ نوێکاری</string>
+    <string name="action_back">گەڕانەوە</string>
+    <string name="tab_updates">نوێکارییەکان</string>
+    <string name="tab_saved">پاشەکەوتکراوەکان</string>
+    <string name="tab_saved_count">پاشەکەوتکراوەکان (%1$d)</string>
+    <string name="tab_settings">ڕێکخستنەکان</string>
+    <string name="toast_download_failed">داگرتن سەرکەوتوو نەبوو</string>
+    <string name="toast_download_verified">داگرتن پشتڕاست کرایەوە و ئامادەیە</string>
+    <string name="toast_import_failed">هاوردەکردنی ZIP سەرکەوتوو نەبوو (پاکێج یان واژۆ نادروستە). بۆ ZIPی دەستکرد دۆخی ناپارێز تاقی بکەرەوە.</string>
+    <string name="toast_imported_format"><xliff:g id="name">%1$s</xliff:g> هاوردە کرا بۆ خشتەی داگرتنەکان</string>
+    <string name="banner_no_internet">هێڵی ئینتەرنێت نییە</string>
+    <string name="banner_check_failed">پشکنین بۆ نوێکارییەکان سەرکەوتوو نەبوو</string>
+    <string name="section_releases">وەشانە بەردەستەکان</string>
+    <string name="section_releases_count">وەشانە بەردەستەکان • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">دۆخی ناپارێز</string>
+    <string name="empty_releases_title">هیچ وەشانێک بار نەکراوە</string>
+    <string name="empty_releases_desc">دەست لە نوێکردنەوە بدە بۆ هێنانی بنیادەکان لە فیدی OTA JSONی ڕێکخراو.</string>
+    <string name="device_fallback_name">ئامێر</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> بنیادی نوێتر بەردەستە</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> بنیادی نوێتر بەردەستە</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="one">سیستم نوێیە • <xliff:g id="count">%1$d</xliff:g> بنیاد لە فید</item>
+        <item quantity="other">سیستم نوێیە • <xliff:g id="count">%1$d</xliff:g> بنیاد لە فید</item>
+    </plurals>
+    <string name="installed_label_format">دامەزراوە: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">ئەندرۆید <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • پارچە: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">پشکنین کرا: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">بەرواری نەزانراو</string>
+    <string name="status_starting">دەستپێکردن</string>
+    <string name="status_verifying">پشتڕاستکردنەوە</string>
+    <string name="status_merging">تێکەڵکردن <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">وەستێنراوە <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">هەڵە</string>
+    <string name="status_installing">دامەزراندن <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">هەڵپەسێردراوە <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <plurals name="badge_split_parts">
+        <item quantity="one">دابەشکراو • <xliff:g id="count">%1$d</xliff:g> بەش</item>
+        <item quantity="other">دابەشکراو • <xliff:g id="count">%1$d</xliff:g> بەش</item>
+    </plurals>
+    <string name="badge_downloaded">داگیراوە</string>
+    <string name="badge_reboot_required">پێویستی بە دووبارە کارپێکردنەوە هەیە</string>
+    <string name="badge_local">ناوخۆیی</string>
+    <string name="badge_major_upgrade">بەرزکردنەوەی گەورە</string>
+    <string name="relation_newer">نوێتر</string>
+    <string name="relation_installed">دامەزراوە</string>
+    <string name="relation_downgrade">دابەزاندنی وەشان</string>
+    <string name="relation_build">بنیاد</string>
+    <plurals name="downloaded_title">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> پاکێج پاشەکەوت کراوە</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> پاکێج پاشەکەوت کراوە</item>
+    </plurals>
+    <string name="downloaded_subtitle_used">قەبارەی بەکارهاتوو: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">ZIPێکی ناوخۆیی هاوردە بکە یان بنیادەکان لە نوێکارییەکان دابگرە</string>
+    <string name="action_import_zip">هاوردەکردنی ZIP</string>
+    <string name="empty_downloaded_title">هیچ نوێکارییەکی داگیراو نییە</string>
+    <string name="empty_downloaded_desc">پاکێجە داگیراوەکانی ROM و پەڕگە ZIP ناوخۆییە هاوردەکراوەکان لێرە دەردەکەون بۆ دامەزراندن، هەناردەکردن یان لابردن.</string>
+    <string name="section_downloaded">داگیراوەکان و ZIP ناوخۆییەکان</string>
+    <string name="install_confirm_recovery">لە ڕێگەی Recovery دامەزرێنرێت (دۆخی ناپارێز)؟ ئامێرەکە لە Recovery دووبارە کار دەبێتەوە.</string>
+    <string name="install_confirm_force">بە زۆر دابمەزرێنرێت بەبێ پشتڕاستکردنەوە؟ دڵنیا بە ئەم ZIPە بۆ ئامێرەکەتە.</string>
+    <string name="install_confirm_now"><xliff:g id="name">%1$s</xliff:g> ئێستا دابمەزرێنرێت؟</string>
+    <string name="action_cancel">هەڵپەساردن</string>
+    <string name="action_confirm">پشتڕاستکردنەوە</string>
+    <string name="action_proceed">بەردەوام بوون</string>
+    <string name="action_reboot_now">ئێستا دووبارە کارپێبکەرەوە</string>
+    <string name="action_export">هەناردەکردن</string>
+    <string name="action_reset">ڕێستکردنەوە</string>
+    <string name="install_label_recovery">دامەزراندن (Recovery)</string>
+    <string name="install_label_force">دامەزراندنی زۆرەملێ</string>
+    <string name="action_stream_install">پەخش و دامەزراندن</string>
+    <string name="action_download_install_new">داگرتن و دامەزراندن</string>
+    <string name="desc_close">داخستن</string>
+    <string name="desc_retry">دووبارە هەوڵبدە</string>
+    <string name="settings_check_interval">ماوەی پشکنین</string>
+    <string name="interval_daily">ڕۆژانە</string>
+    <string name="interval_weekly">هەفتانە</string>
+    <string name="interval_monthly">مانگانە</string>
+    <string name="settings_group_downloads">داگرتنەکان و پشتڕاستکردنەوە</string>
+    <string name="settings_parallel_title">داگرتنی هاوتایی بەشەکان</string>
+    <string name="settings_parallel_summary">بۆ خێوایی زیاتر، لە هەمان کاتدا تاوەکو ٣ بەشی ئەرشیفی دابەشکراو دابگرە</string>
+    <string name="settings_verify_title">پشتڕاستکردنەوەی کۆدی SHA-256</string>
+    <string name="settings_verify_summary">هەر بەشێک و کۆتایی ئەرشیفی تێکەڵکراو پشتڕاست بکەرەوە بەرامبەر هاشەکانی JSON</string>
+    <string name="settings_autodelete_summary">دوای سەرکەوتنی نوێکردنەوە، پاکێجی داگیراو خۆکارانە بسڕەوە</string>
+    <string name="settings_group_installation">دامەزراندن</string>
+    <string name="settings_ab_perf_summary">CPU و I/Oی زیاتر ببەخشە بە update_engine بۆ دامەزراندنی خێوتر</string>
+    <string name="settings_ab_perf_charging">کاتێک پەیوەستە بە کارەباوە، خۆکارانە چالاکە</string>
+    <string name="settings_group_ota">سەرچاوەی OTA</string>
+    <string name="settings_ota_url_title">بەستەری OTA JSONی دەستکرد</string>
+    <string name="settings_ota_url_hint">بەتاڵی بهێڵەوە بۆ بەکارهێنانی بەستەری بنەڕەتی ROM / DeviceTree.</string>
+    <string name="settings_ota_apply">جێبەجێکردنی بەستەر</string>
+    <string name="toast_ota_reset">بەستەری OTA گەڕێندرایەوە بۆ بنەڕەت</string>
+    <string name="toast_ota_updated">بەستەری OTA نوێ کرایەوە</string>
+    <string name="settings_group_appearance">ڕووکار و کۆگا</string>
+    <string name="settings_theme_title">ڕووکاری ئەپ</string>
+    <string name="theme_system">سیستم</string>
+    <string name="theme_light">ڕووناک</string>
+    <string name="theme_dark">تاریک</string>
+    <string name="settings_wavy_title">شریتی پێشکەوتنی شەپۆلدار</string>
+    <string name="settings_wavy_summary">لە کاتی داگرتن یان دامەزراندندا شەپۆل بجووڵێنە؛ لە کاتی وەستاندا بە نەرمی تەخت دەبێتەوە</string>
+    <string name="settings_amplitude_title">بەرزی شەپۆل</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">کوژاوە</string>
+    <string name="settings_blur_title">تیربوونی تەڵخی شووشە</string>
+    <string name="settings_tint_title">تاریکی ڕەنگی شووشە</string>
+    <string name="settings_logo_title">پیشاندانی لۆگۆی پڕۆژە</string>
+    <string name="settings_logo_summary">بانەری پڕۆژە پیشان بدە (GIF، وێنە، ڤیدیۆ یان ناونیشانی جووڵاو)</string>
+    <string name="settings_banner_title">پیشاندانی بانەری وەشان</string>
+    <string name="settings_banner_summary">وێنە یان ڤیدیۆی وەشان لە سەرەوەی کارت پیشان بدە</string>
+    <string name="settings_clear_cache">سڕینەوەی کاشی میدیا و گۆڕانکارییەکان</string>
+    <string name="toast_cache_cleared">کاش سڕایەوە</string>
+    <string name="settings_danger_title">دامەزراندنی هەستیار / ناپارێز</string>
+    <string name="settings_danger_warning">تەنها لەسەر بەرپرسیاری خۆت بەکاری بهێنە. ئەگەر ROMی هەڵە دابمەزرێنیت، لەوانەیە ئامێرەکە تێکبچێت.</string>
+    <string name="settings_unsafe_title">پشتگوێخستنی پشکنینەکانی پاراستن و پشتڕاستکردنەوە</string>
+    <string name="settings_unsafe_summary">پشتڕاستکردنەوەی واژۆی OTA، ڕێگری دابەزاندنی وەشان و پارێزەکانی Android SDK ناچالاک دەکات. ڕێگە بە دامەزراندنی وەشانی دابەزیوو یان ZIPی ROMی جیاواز دەدات.</string>
+    <string name="settings_unsafe_confirm">پشتڕاست بکەرەوە: تەواو بەرپرسیاری دابەزاندنی وەشان، ZIPی واژۆنەکراو یان لەدەستدانی داتا لە ئەستۆ دەگریت.</string>
+    <string name="danger_accept">مەترسییەکە قبووڵ دەکەم</string>
+    <string name="settings_recovery_title">دامەزراندنی زۆرەملێ لە ڕێگەی Recovery</string>
+    <string name="settings_recovery_summary">update_engine پشتگوێ بخە و لە Recovery (OrangeFox / TWRP) دووبارە کاربکەرەوە بۆ دامەزراندنی ڕاستەوخۆی ZIP. بەسوودە ئەگەر update_engine کاتی وەشان یان واژۆ ڕەت بکاتەوە.</string>
+    <string name="overlay_battery_low">ئاستی پاتری زۆر نزمە بۆ دامەزراندن</string>
+    <string name="overlay_blocked_format">بلۆک کرا (<xliff:g id="reason">%1$s</xliff:g>). بۆ دامەزراندنی زۆرەملێ دۆخی ناپارێز لە ڕێکخستنەکان چالاک بکە.</string>
+    <string name="overlay_downgrade_blocked">دابەزاندنی وەشان بە یاساکانی پاراستن بلۆک کراوە. بۆ تێپەڕبوون دۆخی ناپارێز لە ڕێکخستنەکان چالاک بکە.</string>
+    <string name="overlay_major_blocked">بەرزکردنەوەی گەورەی ئەندرۆید بە یاساکانی پاراستن بلۆک کراوە. بۆ تێپەڕبوون دۆخی ناپارێز لە ڕێکخستنەکان چالاک بکە.</string>
+    <string name="overlay_metered_format">لەسەر هێڵێکی سنوورداریت. ئێستا <xliff:g id="size">%1$s</xliff:g> دابگریت؟</string>
+    <string name="overlay_unsafe_recovery">دابگیرێت و لە ڕێگەی Recovery دابمەزرێنرێت (دۆخی ناپارێز)؟</string>
+    <string name="overlay_unsafe_force">دابگیرێت و بەبێ پشتڕاستکردنەوە بە زۆر دابمەزرێنرێت؟</string>
+    <string name="overlay_scratch_mounted">بەشی scratch پەیوەستە؛ ناتوانرێت دابمەزرێنرێت</string>
+    <string name="toast_sha_copied">SHA-256 لەبەر گیرایەوە</string>
+    <string name="overlay_install_recovery">لە ڕێگەی Recovery دابمەزرێنرێت (دۆخی ناپارێز)؟ ئامێرەکە لە Recovery دووبارە کار دەبێتەوە.</string>
+    <string name="overlay_install_force">بە زۆر دابمەزرێنرێت بەبێ پشکنینی واژۆ/دابەزاندن؟ لەسەر مەترسی خۆت بەردەوام بە.</string>
+    <string name="overlay_changelog_title">گۆڕانکارییەکان</string>
+    <string name="desc_reload_changelog">دووبارە بارکردنەوەی گۆڕانکارییەکان</string>
+    <string name="overlay_changelog_loading">گۆڕانکارییەکان بار دەکرێن…</string>
+    <string name="overlay_changelog_error">نەتوانرا گۆڕانکارییەکانی ئەم بنیادە بار بکرێت.</string>
+    <string name="overlay_changelog_empty">هیچ گۆڕانکارییەک بۆ ئەم وەشانە دابین نەکراوە.</string>
+    <string name="overlay_archive_sha">ئەرشیف SHA-256</string>
+    <string name="desc_copy_sha">لەبەرگرتنەوەی SHA-256</string>
+    <string name="overlay_reboot_to_apply">بۆ جێبەجێکردنی نوێکاری دووبارە کاری پێ بکەرەوە</string>
+    <string name="overlay_pause_format">وەستان (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">دەستپێکردنەوە (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">پەڕگەی پاکێج</string>
+    <string name="overlay_parts_title">بەشەکانی ئەرشیفی دابەشکراو (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">پشتڕاستکردنەوەی سڕینەوە</string>
+    <string name="info_package_size">قەبارەی پاکێج</string>
+    <string name="info_android_api">APIی ئەندرۆید</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">جۆری بنیاد</string>
+    <string name="info_delivery">گەیاندن</string>
+    <string name="info_delivery_split">دابەشکراو (<xliff:g id="count">%1$d</xliff:g> بەش)</string>
+    <string name="float_importing">هاوردەکردنی ZIPی ناوخۆیی…</string>
+    <string name="float_copying">لەبەرگرتنەوەی پاکێج و پشکنینی مێتاداتا</string>
+    <string name="float_calculating">ژماردن…</string>
+    <plurals name="float_parts">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> بەش</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> بەش</item>
+    </plurals>
+    <string name="float_parallel">هاوتایی</string>
+    <string name="float_sequential">لەسەریەک</string>
+    <string name="float_single">ئەرشیفی تاک</string>
+    <string name="float_autoinstall">دامەزراندنی خۆکار</string>
+    <string name="float_parts_header">بەشەکانی ئەرشیف (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> تەواو)</string>
+    <string name="float_suspend">هەڵپەساردن</string>
+    <string name="float_abort">هەڵوەشاندنەوە</string>
+    <string name="desc_toggle_details">پیشاندان/شاردنەوەی وردەکارییەکان</string>
+    <string name="part_queued">لە ڕێزدا</string>
+    <string name="part_verifying">پشتڕاستکردنەوەی SHA-256</string>
+    <string name="part_verified">پشتڕاست کرایەوە</string>
+    <string name="part_done">تەواو بوو</string>
+    <string name="part_paused_format">وەستێنراوە • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">دووبارە هەوڵبدە / هەڵە</string>
+    <string name="part_waiting">چاوەڕوانی…</string>
+    <string name="stage_connecting">پەیوەستبوون بە سێرڤەر…</string>
+    <string name="stage_verify_part">پشتڕاستکردنەوەی SHA-256ی بەشی <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>…</string>
+    <string name="stage_assemble">کۆکردنەوەی بەشەکان (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">پشتڕاستکردنەوەی SHA-256ی کۆتایی ئەرشیف…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> بەش چالاکە • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">بەشی <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">داگرتن • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• دامەزراندنی خۆکار</string>
+    <string name="stage_paused">داگرتن وەستێنراوە • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">داگرتن سەرکەوتوو نەبوو • دەست لە دەستپێکردنەوە بدە</string>
+    <string name="stage_verifying_sig">پشتڕاستکردنەوەی ئەرشیف و واژۆ…</string>
+    <string name="stage_finalizing">کۆتاییهێنان بە هێڵی A/B • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">دامەزراندنی نوێکاری • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">دامەزراندن هەڵپەسێردرا • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">دامەزرا — پێویستی بە دووبارە کارپێکردنەوە هەیە</string>
+    <string name="md_image_alt">وێنە</string>
+    <string name="md_image_failed">بارکردنی وێنە سەرکەوتوو نەبوو</string>
+    <string name="importer_tag_local">ZIPی ناوخۆیی</string>
+    <string name="err_no_url">هیچ بەستەر یان بەشێکی داگرتن دیاری نەکراوە</string>
+    <string name="err_no_dest">هیچ ئامانجێکی داگرتن دیاری نەکراوە</string>
+    <string name="err_no_callback">هیچ بانگەوازێکی داگرتن دیاری نەکراوە</string>
+    <string name="err_no_parts">هیچ بەشێکی داگرتن دیاری نەکراوە</string>
+    <string name="err_no_tempdir">ناتوانرێت بوخچەی کاتی بەشەکان دروست بکرێت: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">نەگونجانی کۆدی پشکنینی بەشی <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_part_failed">داگرتنی بەشی <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> سەرکەوتوو نەبوو</string>
+    <string name="err_final_sha">پشتڕاستکردنەوەی SHA-256ی کۆتایی ئەرشیف سەرکەوتوو نەبوو</string>
+    <string name="err_empty_body">ناوەڕۆکی وەڵام بەتاڵە بۆ بەشی <xliff:g id="index">%1$d</xliff:g></string>
+    <string name="err_unknown_size">ناتوانرێت قەبارەی <xliff:g id="url">%1$s</xliff:g> دیاری بکرێت</string>
+    <string name="err_no_range">سێرڤەر پشتگیری داواکاری مەودا ناکات: چاوەڕوانی HTTP 206 بوو، <xliff:g id="code">%1$d</xliff:g> وەرگیرا</string>
+    <string name="err_no_content_range">سەردێڕی Content-Range بۆ <xliff:g id="url">%1$s</xliff:g> نییە</string>
+    <string name="err_bad_content_range">Content-Rangeی چاوەڕواننەکراو بۆ <xliff:g id="url">%1$s</xliff:g>: چاوەڕوانی <xliff:g id="expected">%2$s</xliff:g> بوو</string>
+    <string name="err_proto_change">گۆڕینی پرۆتۆکۆڵ ڕێگەپێدراو نییە</string>
+    <string name="err_server_reply">سێرڤەر وەڵامی دایەوە بە <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_no_fd">نەتوانرا fileDescriptor وەربگیرێت</string>
+    <string name="err_import_cancelled">هاوردەکردن هەڵپەسێردرا</string>
+    <string name="err_verify_deleted">پشتڕاستکردنەوە سەرکەوتوو نەبوو، پەڕگەکە سڕایەوە</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">جێبەجێ بکە</string>
+    <string name="dialog_value_title">بەها</string>
+    <string name="unknown_size">نەزانراو</string>
+    <string name="slider_default">بنەڕەت</string>
+    <string name="slider_default_value">بنەڕەت (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">هەڵەی تۆڕ</string>
+    <string name="action_paused_state">وەستێنراوە</string>
+    <string name="part_fallback_name">part_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">ئەندرۆید <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">سێرڤەر</string>
+    <string name="err_response_empty">ناوەڕۆکی وەڵام بەتاڵە</string>
+    <string name="err_changelog_body_empty">ناوەڕۆکی گۆڕانکارییەکان بەتاڵە</string>
+    <string name="err_changelog_too_large">گۆڕانکارییەکان لە <xliff:g id="bytes" example="524288">%1$d</xliff:g> بایت زیاترە</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: سنووری ڕێژە تێپەڕێندرا (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). دوای <xliff:g id="wait" example="~2 min">%3$s</xliff:g> دووبارە هەوڵبدە.</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: سنووری ڕێژە تێپەڕێندرا (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). دواتر دووبارە هەوڵبدە.</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: پەڕگە یان فید نەدۆزرایەوە (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: دەستڕاگەیشتن ڕەتکرایەوە (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: سەرچاوەکە لابرا (HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: سێرڤەر بەردەست نییە (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> خولەک</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g> چرکە</string>
+    <string name="err_download_file_missing">پەڕگە داگیراوەکە ونە</string>
+    <string name="err_sha_mismatch">نەگونجانی کۆدی پشکنینی SHA-256</string>
+    <string name="err_sha_calc_failed">ژماردنی SHA-256 سەرکەوتوو نەبوو</string>
+    <string name="err_ota_signature_failed">پشتڕاستکردنەوەی واژۆی OTA سەرکەوتوو نەبوو</string>
+    <string name="err_engine_signature">update_engine واژۆی پاکێجی ڕەتکردەوە (کۆد <xliff:g id="code" example="20">%1$d</xliff:g>). دامەزراندنی زۆرەملێی Recovery تاقی بکەرەوە.</string>
+    <string name="err_engine_downgrade">update_engine کاتی دابەزاندنی وەشان بلۆک کرد (کۆد <xliff:g id="code" example="51">%1$d</xliff:g>). دامەزراندنی زۆرەملێی Recovery تاقی بکەرەوە.</string>
+    <string name="err_engine_storage">بۆشایی پێویست نییە بۆ نوێکردنەوەی هێڵی A/B (کۆد <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_engine_partition">پشتڕاستکردنەوەی بەش سەرکەوتوو نەبوو (کۆد <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_cancelled">دامەزراندن لەلایەن بەکارهێنەرەوە هەڵپەسێردرا.</string>
+    <string name="err_engine_generic">هەڵەی update_engine کۆد <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">جۆری OTA پشتگیری نەکراوە: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found"><xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> لە <xliff:g id="file" example="update.zip">%2$s</xliff:g> نەدۆزرایەوە</string>
+</resources>

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="display_name">עדכוני מערכת</string>
+    <string name="verification_failed_notification">האימות נכשל</string>
+    <string name="verifying_download_notification">מאמת עדכון</string>
+    <string name="downloading_notification">מוריד</string>
+    <string name="download_paused_notification">ההורדה מושהית</string>
+    <string name="download_paused_error_notification">ההורדה נכשלה</string>
+    <string name="download_completed_notification">ההורדה הושלמה</string>
+    <string name="download_starting_notification">מתחיל להוריד</string>
+    <string name="update_failed_notification">העדכון נכשל</string>
+    <string name="installation_suspended_notification">ההתקנה הושהתה</string>
+    <string name="new_updates_found_title">עדכונים חדשים</string>
+    <string name="new_updates_found_summary">הקשה לצפייה בעדכונים זמינים.</string>
+    <string name="text_download_speed">%1$s, %2$s לשניה</string>
+    <string name="installing_update">מתקין עדכון מערכת</string>
+    <string name="installing_update_error">ההתקנה נכשלה</string>
+    <string name="installing_update_finished">עדכון ממתין לאתחול</string>
+    <string name="finalizing_package">סיום התקנת החבילה</string>
+    <string name="preparing_ota_first_boot">מתכונן להפעלה ראשונה</string>
+    <string name="dialog_prepare_zip_message">מתכונן להתקנת העדכון</string>
+    <string name="reboot">הפעלה מחדש</string>
+    <string name="checking_for_updates">בודק עדכונים</string>
+    <string name="pref_category_background_sync">סנכרון ברקע</string>
+    <string name="menu_auto_updates_check">בדיקת עדכונים תקופתית</string>
+    <string name="menu_auto_updates_check_summary">בדוק עדכונים ברקע</string>
+    <string name="menu_auto_delete_updates">מחיקת עדכונים  אוטומטית</string>
+    <string name="menu_stream_updates">הזרמת עדכונים מקוונת</string>
+    <string name="menu_stream_updates_summary">התקנת עדכונים בזמן ההורדה. יש לבטל כדי לשמור את חבילות העדכון לייצוא.</string>
+    <string name="menu_export_update">יצא עדכון</string>
+    <string name="menu_metered_network_warning">אזהרת רשת מדודה</string>
+    <string name="menu_metered_network_warning_summary"> התרע לפני הורדה באמצעות נתוני סלולר</string>
+    <string name="menu_ab_perf_mode">תיעדוף תהליכי עדכון</string>
+    <string name="menu_update_recovery">עדכון ה-Recovery</string>
+    <string name="menu_update_recovery_summary">עדכון מחיצת השחזור יחד עם מערכת ההפעלה</string>
+    <string name="header_android_version">אנדרואיד <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">תאריך בנייה</string>
+    <string name="security_update">עדכון אבטחה</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">הורדה</string>
+    <string name="action_pause">השהייה</string>
+    <string name="action_resume">המשך</string>
+    <string name="action_install">התקנה</string>
+    <string name="action_info">מידע</string>
+    <string name="action_delete">מחיקה</string>
+    <string name="dialog_export_title">מיצא עדכון</string>
+    <string name="notification_export_success">העדכון ייוצא בהצלחה</string>
+    <string name="notification_export_fail">שגיאה בייצוא</string>
+    <string name="toast_already_exporting">כבר באמצע ייצוא עדכון</string>
+    <string name="toast_export_started">הייצוא החל</string>
+    <string name="blocked_update_dialog_title">העדכון חסום</string>
+    <string name="blocked_update_dialog_title_downgrade">השינמוך נחסם</string>
+    <string name="export_channel_title">השלמת הייצוא</string>
+    <string name="new_updates_channel_title">עדכונים חדשים</string>
+    <string name="ongoing_channel_title">הורדות פעילות</string>
+    <string name="update_failed_channel_title">העדכון נכשל</string>
+    <string name="action_apply">החל</string>
+    <string name="action_back">חזרה</string>
+    <string name="action_cancel">ביטול</string>
+    <string name="action_confirm">אישור</string>
+    <string name="action_download_install">הורדה והתקנה</string>
+    <string name="action_download_install_new">הורדה והתקנה</string>
+    <string name="action_export">ייצוא</string>
+    <string name="action_import_zip">ייבוא ZIP</string>
+    <string name="action_paused_state">מושהה</string>
+    <string name="action_proceed">המשך</string>
+    <string name="action_reboot_now">אתחל עכשיו</string>
+    <string name="action_reset">איפוס</string>
+    <string name="action_stream_install">הזרמה והתקנה</string>
+    <string name="badge_downloaded">הורד</string>
+    <string name="badge_local">מקומי</string>
+    <string name="badge_major_upgrade">שדרוג ראשי</string>
+    <string name="badge_reboot_required">נדרש אתחול</string>
+    <plurals name="badge_split_parts">
+        <item quantity="one">מפוצל • <xliff:g id="count">%1$d</xliff:g> חלק</item>
+        <item quantity="other">מפוצל • <xliff:g id="count">%1$d</xliff:g> חלקים</item>
+    </plurals>
+    <string name="badge_unsafe_mode">מצב לא בטוח</string>
+    <string name="banner_check_failed">בדיקת העדכונים נכשלה</string>
+    <string name="banner_no_internet">אין חיבור לאינטרנט</string>
+    <string name="check_for_update">בדוק עדכון</string>
+    <string name="checked_format">נבדק: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="danger_accept">אני מקבל את הסיכון</string>
+    <string name="desc_close">סגור</string>
+    <string name="desc_copy_sha">העתק SHA-256</string>
+    <string name="desc_reload_changelog">טען מחדש יומן שינויים</string>
+    <string name="desc_retry">נסה שוב</string>
+    <string name="desc_toggle_details">הצג/הסתר פרטים</string>
+    <string name="device_fallback_name">מכשיר</string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • תיקון: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="dialog_value_title">ערך</string>
+    <string name="downloaded_subtitle_hint">ייבא קובץ ZIP מקומי או הורד גרסאות מלשונית עדכונים</string>
+    <string name="downloaded_subtitle_used">שטח בשימוש: <xliff:g id="size">%1$s</xliff:g></string>
+    <plurals name="downloaded_title">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> חבילה מאוחסנת</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> חבילות מאוחסנות</item>
+    </plurals>
+    <string name="empty_downloaded_desc">חבילות ROM שהורדו וקבצי ZIP מקומיים שיובאו יופיעו כאן להתקנה, ייצוא או הסרה.</string>
+    <string name="empty_downloaded_title">אין עדכונים שהורדו</string>
+    <string name="empty_releases_desc">הקש על רענן כדי לאחזר גרסאות ממקור OTA JSON המוגדר.</string>
+    <string name="empty_releases_title">לא נטענו גרסאות</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: הגישה נדחתה (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_bad_content_range">Content-Range לא צפוי עבור <xliff:g id="url">%1$s</xliff:g>: צפוי <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_changelog_body_empty">יומן השינויים ריק</string>
+    <string name="err_changelog_too_large">יומן השינויים חורג מ-<xliff:g id="bytes" example="524288">%1$d</xliff:g> בתים</string>
+    <string name="err_download_file_missing">קובץ ההורדה חסר</string>
+    <string name="err_empty_body">גוף תשובה ריק עבור חלק <xliff:g id="index">%1$d</xliff:g></string>
+    <string name="err_engine_cancelled">ההתקנה בוטלה על ידי המשתמש.</string>
+    <string name="err_engine_downgrade">update_engine חסם חותמת זמן של שינמוך (קוד <xliff:g id="code" example="51">%1$d</xliff:g>). נסה התקנה כפויה דרך Recovery.</string>
+    <string name="err_engine_generic">שגיאת update_engine קוד <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_engine_partition">אימות המחיצה נכשל (קוד <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_signature">update_engine דחה את חתימת החבילה (קוד <xliff:g id="code" example="20">%1$d</xliff:g>). נסה התקנה כפויה דרך Recovery.</string>
+    <string name="err_engine_storage">אין מספיק שטח אחסון לעדכון חריץ A/B (קוד <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: הקובץ או המקור לא נמצא (HTTP 404)</string>
+    <string name="err_final_sha">אימות SHA-256 של הארכיון הסופי נכשל</string>
+    <string name="err_host_server">שרת</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_import_cancelled">הייבוא בוטל</string>
+    <string name="err_metadata_not_found">לא נמצא <xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> בתוך <xliff:g id="file" example="update.zip">%2$s</xliff:g></string>
+    <string name="err_network">שגיאת רשת</string>
+    <string name="err_no_callback">לא הוגדר callback להורדה</string>
+    <string name="err_no_content_range">כותרת Content-Range חסרה עבור <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_no_dest">לא הוגדר יעד להורדה</string>
+    <string name="err_no_fd">נכשל בקבלת fileDescriptor</string>
+    <string name="err_no_parts">לא צוינו חלקי הורדה</string>
+    <string name="err_no_range">השרת אינו תומך בבקשות טווח: צפוי HTTP 206, התקבל <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_tempdir">לא ניתן ליצור ספריית חלקים זמנית: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_no_url">לא הוגדרה כתובת הורדה או חלקים</string>
+    <string name="err_ota_signature_failed">אימות חתימת OTA נכשל</string>
+    <string name="err_part_failed">נכשל בהורדת חלק <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_part_mismatch">אי התאמה בבדיקת חלק <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_proto_change">שינויי פרוטוקול אינם מותרים</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: חריגה ממגבלת הקצב (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). נסה שוב מאוחר יותר.</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: חריגה ממגבלת הקצב (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). נסה שוב בעוד <xliff:g id="wait" example="~2 min">%3$s</xliff:g>.</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: המשאב הוסר (HTTP 410)</string>
+    <string name="err_response_empty">גוף התשובה ריק</string>
+    <string name="err_server_reply">השרת השיב עם <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: השרת אינו זמין (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_sha_calc_failed">חישוב SHA-256 נכשל</string>
+    <string name="err_sha_mismatch">אי התאמה ב-SHA-256</string>
+    <string name="err_unknown_size">לא ניתן לקבוע גודל עבור <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_unsupported_ota_type">סוג OTA לא נתמך: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_verify_deleted">האימות נכשל, הקובץ נמחק</string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> דקות</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g> שניות</string>
+    <string name="float_abort">בטל</string>
+    <string name="float_autoinstall">התקנה אוטומטית</string>
+    <string name="float_calculating">מחשב…</string>
+    <string name="float_copying">מעתיק חבילה ובודק מטא-נתונים</string>
+    <string name="float_importing">מייבא ZIP מקומי…</string>
+    <string name="float_parallel">מקבילי</string>
+    <plurals name="float_parts">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> חלק</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> חלקים</item>
+    </plurals>
+    <string name="float_parts_header">חלקי ארכיון (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> הושלמו)</string>
+    <string name="float_sequential">עוקב</string>
+    <string name="float_single">ארכיון יחיד</string>
+    <string name="float_suspend">השהה</string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <plurals name="hero_newer_builds">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> גרסה חדשה זמינה</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> גרסאות חדשות זמינות</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="one">המערכת מעודכנת • <xliff:g id="count">%1$d</xliff:g> גרסה במקור</item>
+        <item quantity="other">המערכת מעודכנת • <xliff:g id="count">%1$d</xliff:g> גרסאות במקור</item>
+    </plurals>
+    <string name="importer_tag_local">ZIP מקומי</string>
+    <string name="info_android_api">API של Android</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">סוג גרסה</string>
+    <string name="info_delivery">מסירה</string>
+    <string name="info_delivery_split">מפוצל (<xliff:g id="count">%1$d</xliff:g> חלקים)</string>
+    <string name="info_package_size">גודל חבילה</string>
+    <string name="install_confirm_force">לאלץ התקנה ללא אימות? ודא שה-ZIP הזה מתאים למכשיר שלך.</string>
+    <string name="install_confirm_now">להתקין את <xliff:g id="name">%1$s</xliff:g> עכשיו?</string>
+    <string name="install_confirm_recovery">לבצע הבזק דרך Recovery (מצב לא בטוח)? המכשיר יאתחל ל-Recovery.</string>
+    <string name="install_label_force">אילוץ התקנה</string>
+    <string name="install_label_recovery">התקנה (Recovery)</string>
+    <string name="installed_label_format">מותקן: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="interval_daily">יומי</string>
+    <string name="interval_monthly">חודשי</string>
+    <string name="interval_weekly">שבועי</string>
+    <string name="md_image_alt">תמונה</string>
+    <string name="md_image_failed">טעינת התמונה נכשלה</string>
+    <string name="overlay_archive_sha">SHA-256 של הארכיון</string>
+    <string name="overlay_battery_low">רמת הסוללה נמוכה מדי להתקנה</string>
+    <string name="overlay_blocked_format">חסום (<xliff:g id="reason">%1$s</xliff:g>). הפעל מצב לא בטוח בהגדרות כדי לאלץ התקנה.</string>
+    <string name="overlay_changelog_empty">לא סופק יומן שינויים לגרסה זו.</string>
+    <string name="overlay_changelog_error">לא ניתן לטעון את יומן השינויים של גרסה זו.</string>
+    <string name="overlay_changelog_loading">טוען יומן שינויים…</string>
+    <string name="overlay_changelog_title">יומן שינויים</string>
+    <string name="overlay_confirm_delete">אישור מחיקה</string>
+    <string name="overlay_downgrade_blocked">השינמוך חסום על ידי כללי בטיחות. הפעל מצב לא בטוח בהגדרות כדי לעקוף.</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_install_force">לאלץ התקנה ללא בדיקות חתימה/שינמוך? המשך על אחריותך בלבד.</string>
+    <string name="overlay_install_recovery">לבצע הבזק דרך Recovery (מצב לא בטוח)? המכשיר יאתחל ל-Recovery.</string>
+    <string name="overlay_major_blocked">שדרוג Android ראשי חסום על ידי כללי בטיחות. הפעל מצב לא בטוח בהגדרות כדי לעקוף.</string>
+    <string name="overlay_metered_format">אתה בחיבור מדוד. להוריד את <xliff:g id="size">%1$s</xliff:g> עכשיו?</string>
+    <string name="overlay_package_file">קובץ חבילה</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_parts_title">חלקי ארכיון מפוצל (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_pause_format">השהה (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_reboot_to_apply">אתחל כדי להחיל עדכון</string>
+    <string name="overlay_resume_format">המשך (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_scratch_mounted">מחיצת scratch מעוגנת; לא ניתן להתקין</string>
+    <string name="overlay_unsafe_force">להוריד ולאלץ התקנה ללא אימות?</string>
+    <string name="overlay_unsafe_recovery">להוריד ולבצע הבזק דרך Recovery (מצב לא בטוח)?</string>
+    <string name="part_done">הושלם</string>
+    <string name="part_error">נסה שוב / שגיאה</string>
+    <string name="part_fallback_name">part_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="part_paused_format">מושהה • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_queued">בתור</string>
+    <string name="part_verified">אומת</string>
+    <string name="part_verifying">מאמת SHA-256</string>
+    <string name="part_waiting">ממתין…</string>
+    <string name="relation_build">גרסה</string>
+    <string name="relation_downgrade">שינמוך</string>
+    <string name="relation_installed">מותקן</string>
+    <string name="relation_newer">חדש יותר</string>
+    <string name="section_downloaded">הורדו ו-ZIP מקומיים</string>
+    <string name="section_releases">גרסאות זמינות</string>
+    <string name="section_releases_count">גרסאות זמינות • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="settings_ab_perf_charging">פעיל אוטומטית בחיבור לחשמל</string>
+    <string name="settings_ab_perf_summary">הקצה יותר CPU ו-I/O ל-update_engine להתקנות מהירות יותר</string>
+    <string name="settings_amplitude_title">משרעת הגל</string>
+    <string name="settings_autodelete_summary">מחק אוטומטית את החבילה שהורדה לאחר שהעדכון הצליח</string>
+    <string name="settings_banner_summary">הצג תמונת באנר או וידאו של הגרסה בכותרת הכרטיס</string>
+    <string name="settings_banner_title">הצג באנר גרסה</string>
+    <string name="settings_blur_title">רדיוס טשטוש זכוכית</string>
+    <string name="settings_check_interval">מרווח בדיקה</string>
+    <string name="settings_clear_cache">נקה מטמון מדיה ויומן שינויים</string>
+    <string name="settings_danger_title">התקנה קריטית / לא בטוחה</string>
+    <string name="settings_danger_warning">השתמש על אחריותך בלבד. עלול להרוס את המכשיר אם תבזיק ROM שגוי.</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_group_appearance">מראה ואחסון</string>
+    <string name="settings_group_downloads">הורדות ואימות</string>
+    <string name="settings_group_installation">התקנה</string>
+    <string name="settings_group_ota">מקור OTA</string>
+    <string name="settings_logo_summary">הצג באנר פרויקט (GIF, תמונה, וידאו או סמליל מונפש)</string>
+    <string name="settings_logo_title">הצג לוגו פרויקט</string>
+    <string name="settings_ota_apply">החל כתובת</string>
+    <string name="settings_ota_url_hint">השאר ריק כדי להשתמש בכתובת ברירת המחדל של שכבת ROM / DeviceTree.</string>
+    <string name="settings_ota_url_title">כתובת OTA JSON מותאמת אישית</string>
+    <string name="settings_parallel_summary">הורד עד 3 חלקי ארכיון מפוצל בו זמנית למהירות גבוהה יותר</string>
+    <string name="settings_parallel_title">הורדת חלקים מקבילית</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_recovery_summary">עקוף את update_engine ואתחל ל-Recovery (OrangeFox / TWRP) כדי להבזיק ZIP ישירות. שימושי אם update_engine דוחה חותמת זמן של שינמוך או חתימה.</string>
+    <string name="settings_recovery_title">אילוץ התקנה דרך Recovery</string>
+    <string name="settings_theme_title">ערכת נושא של האפליקציה</string>
+    <string name="settings_tint_title">שקיפות גוון זכוכית</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unsafe_confirm">אישור: אני מקבל אחריות מלאה לשינמוכים, ZIP לא חתומים או אובדן נתונים.</string>
+    <string name="settings_unsafe_summary">משבית אימות חתימת OTA, חסימת שינמוך והגנות Android SDK. מאפשר הבזק שינמוכים או ZIP מ-ROM אחר.</string>
+    <string name="settings_unsafe_title">עקיפת בדיקות בטיחות ואימות</string>
+    <string name="settings_value_off">כבוי</string>
+    <string name="settings_verify_summary">אמת כל חלק מפוצל ואת הארכיון הסופי המורכב מול hashes של JSON</string>
+    <string name="settings_verify_title">אימות בדיקות SHA-256</string>
+    <string name="settings_wavy_summary">הנפש גל בזמן הורדה או התקנה; משתטח בהדרגה בהשהיה</string>
+    <string name="settings_wavy_title">פס התקדמות גלי</string>
+    <string name="slider_default">ברירת מחדל</string>
+    <string name="slider_default_value">ברירת מחדל (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="stage_assemble">מרכיב חלקים (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• התקנה אוטומטית</string>
+    <string name="stage_connecting">מתחבר לשרת…</string>
+    <string name="stage_downloading">מוריד • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">ההורדה נכשלה • הקש המשך</string>
+    <string name="stage_finalizing">מסיים חריץ A/B • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">מותקן — נדרש אתחול</string>
+    <string name="stage_installing">מתקין עדכון • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_part_progress">חלק <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> חלקים פעילים • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_paused">ההורדה מושהית • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">ההתקנה הושהתה • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_verify_final">מאמת SHA-256 של הארכיון הסופי…</string>
+    <string name="stage_verify_part">מאמת SHA-256 של חלק <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>…</string>
+    <string name="stage_verifying_sig">מאמת ארכיון וחתימה…</string>
+    <string name="status_error">שגיאה</string>
+    <string name="status_installing">מתקין <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_merging">ממזג <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">מושהה <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_starting">מתחיל</string>
+    <string name="status_suspended">מושהה <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_verifying">מאמת</string>
+    <string name="tab_saved">שמורים</string>
+    <string name="tab_saved_count">שמורים (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="tab_settings">הגדרות</string>
+    <string name="tab_updates">עדכונים</string>
+    <string name="theme_dark">כהה</string>
+    <string name="theme_light">בהיר</string>
+    <string name="theme_system">מערכת</string>
+    <string name="toast_cache_cleared">המטמון נוקה</string>
+    <string name="toast_download_failed">ההורדה נכשלה</string>
+    <string name="toast_download_verified">ההורדה אומתה ומוכנה</string>
+    <string name="toast_import_failed">ייבוא ה-ZIP נכשל (חבילה או חתימה לא תקינים). נסה מצב לא בטוח עבור ZIP מותאמים אישית.</string>
+    <string name="toast_imported_format"><xliff:g id="name">%1$s</xliff:g> יובא ללשונית הורדו</string>
+    <string name="toast_ota_reset">כתובת OTA אופסה לברירת מחדל</string>
+    <string name="toast_ota_updated">כתובת OTA עודכנה</string>
+    <string name="toast_sha_copied">SHA-256 הועתק</string>
+    <string name="unknown_date">תאריך לא ידוע</string>
+    <string name="unknown_size">לא ידוע</string>
+</resources>

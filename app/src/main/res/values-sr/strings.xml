@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="verification_failed_notification">Верификација није успела</string>
+    <string name="verifying_download_notification">Верификација анжурирања</string>
+    <string name="downloading_notification">Преузимање</string>
+    <string name="download_paused_notification">Преузимање је паузирано</string>
+    <string name="download_paused_error_notification">Грешка приликом преузимања</string>
+    <string name="download_completed_notification">Преузимање је завршено</string>
+    <string name="download_starting_notification">Покретање преузимања</string>
+    <string name="update_failed_notification">Неуспешно ажурирање</string>
+    <string name="new_updates_found_title">Нова ажурирања</string>
+    <string name="text_download_speed">%1$s, %2$s/с</string>
+    <string name="installing_update_error">Грешка у инсталацији</string>
+    <string name="finalizing_package">Довршавање инсталације пакета</string>
+    <string name="preparing_ota_first_boot">Припрема за прво покретање</string>
+    <string name="dialog_prepare_zip_message">Припрема прелиминарних ажурирања</string>
+    <string name="reboot">Покрени поново</string>
+    <string name="menu_export_update">Извези ажурирања</string>
+    <string name="menu_ab_perf_mode">Приоритет процеса ажурирања</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s </xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s </xliff:g></string>
+    <string name="action_download">Преузми</string>
+    <string name="action_pause">Паузирај</string>
+    <string name="action_resume">Настави</string>
+    <string name="action_install">Инсталирај</string>
+    <string name="action_info">Информације</string>
+    <string name="action_delete">Избриши</string>
+    <string name="dialog_export_title">Извези ажурирања</string>
+    <string name="notification_export_success">Ажурирање извезено</string>
+    <string name="notification_export_fail">Грешка при извозу</string>
+    <string name="toast_already_exporting">Већ извозим ажурирање</string>
+    <string name="blocked_update_dialog_title">Ажурирање је блокирано</string>
+    <string name="export_channel_title">Извоз завршен</string>
+    <string name="new_updates_channel_title">Нова ажурирања</string>
+    <string name="ongoing_channel_title">Преузимања у току</string>
+    <string name="update_failed_channel_title">Неуспешно ажурирање</string>
+    <string name="display_name">LeeGar Updater</string>
+    <string name="installation_suspended_notification">Инсталација је обустављена</string>
+    <string name="new_updates_found_summary">Додирните да видите доступна ажурирања</string>
+    <string name="installing_update">Инсталирање системског ажурирања</string>
+    <string name="installing_update_finished">Ажурирање чека поновно покретање</string>
+    <string name="action_download_install">Преузми и инсталирај</string>
+    <string name="check_for_update">Провери ажурирања</string>
+    <string name="action_back">Назад</string>
+    <string name="checking_for_updates">Провера ажурирања</string>
+    <string name="pref_category_background_sync">Синхронизација у позадини</string>
+    <string name="menu_auto_updates_check">Периодично проверавај ажурирања</string>
+    <string name="menu_auto_updates_check_summary">Проверавај ажурирања у позадини</string>
+    <string name="menu_auto_delete_updates">Аутоматски бриши ажурирања</string>
+    <string name="menu_stream_updates">Струмуј онлајн ажурирања</string>
+    <string name="menu_stream_updates_summary">Инсталирај ажурирања током преузимања. Онемогући да сачуваш пакете за извоз.</string>
+    <string name="menu_metered_network_warning">Упозорење за ограничену мрежу</string>
+    <string name="menu_metered_network_warning_summary">Упозори пре преузимања преко мобилних података</string>
+    <string name="menu_update_recovery">Ажурирај recovery</string>
+    <string name="menu_update_recovery_summary">Ажурирај recovery партицију заједно са ОС-ом</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">Датум изградње</string>
+    <string name="security_update">Безбедносно ажурирање</string>
+    <string name="toast_export_started">Извоз је покренут</string>
+    <string name="blocked_update_dialog_title_downgrade">Враћање на старију верзију је блокирано</string>
+    <string name="tab_updates">Ажурирања</string>
+    <string name="tab_saved">Сачувано</string>
+    <string name="tab_saved_count">Сачувано (%1$d)</string>
+    <string name="tab_settings">Подешавања</string>
+    <string name="toast_download_failed">Преузимање није успело</string>
+    <string name="toast_download_verified">Преузимање је верификовано &amp; спремно</string>
+    <string name="toast_import_failed">Неуспешан увоз ZIP-а (неисправан пакет или потпис). Пробај небезбедни режим за прилагођене ZIP-ове.</string>
+    <string name="toast_imported_format">Увезено <xliff:g id="name">%1$s</xliff:g> у картицу Преузето</string>
+    <string name="banner_no_internet">Нема интернет везе</string>
+    <string name="banner_check_failed">Провера ажурирања није успела</string>
+    <string name="section_releases">Доступна издања</string>
+    <string name="section_releases_count">Доступна издања • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">Небезбедни режим</string>
+    <string name="empty_releases_title">Нема учитаних издања</string>
+    <string name="empty_releases_desc">Додирни освежи да преузмеш верзије из подешеног OTA JSON фида.</string>
+    <string name="device_fallback_name">Уређај</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> новија верзија је доступна</item>
+        <item quantity="few"><xliff:g id="count">%1$d</xliff:g> новије верзије су доступне</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> новијих верзија је доступно</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="one">Систем је ажуран • <xliff:g id="count">%1$d</xliff:g> верзија у фиду</item>
+        <item quantity="few">Систем је ажуран • <xliff:g id="count">%1$d</xliff:g> верзије у фиду</item>
+        <item quantity="other">Систем је ажуран • <xliff:g id="count">%1$d</xliff:g> верзија у фиду</item>
+    </plurals>
+    <string name="installed_label_format">Инсталирано: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • Закрпа: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">Проверено: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">Непознат датум</string>
+    <string name="status_starting">Покретање</string>
+    <string name="status_verifying">Верификација</string>
+    <string name="status_merging">Спајање <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">Паузирано <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">Грешка</string>
+    <string name="status_installing">Инсталирање <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">Обустављено <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <plurals name="badge_split_parts">
+        <item quantity="one">Подељено • <xliff:g id="count">%1$d</xliff:g> део</item>
+        <item quantity="few">Подељено • <xliff:g id="count">%1$d</xliff:g> дела</item>
+        <item quantity="other">Подељено • <xliff:g id="count">%1$d</xliff:g> делова</item>
+    </plurals>
+    <string name="badge_downloaded">Преузето</string>
+    <string name="badge_reboot_required">Потребно поновно покретање</string>
+    <string name="badge_local">Локално</string>
+    <string name="badge_major_upgrade">Велика надоградња</string>
+    <string name="relation_newer">Новије</string>
+    <string name="relation_installed">Инсталирано</string>
+    <string name="relation_downgrade">Враћање</string>
+    <string name="relation_build">Верзија</string>
+    <plurals name="downloaded_title">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> сачуван пакет</item>
+        <item quantity="few"><xliff:g id="count">%1$d</xliff:g> сачувана пакета</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> сачуваних пакета</item>
+    </plurals>
+    <string name="downloaded_subtitle_used">Искоришћен простор: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">Увези локални ZIP или преузми верзије из Ажурирања</string>
+    <string name="action_import_zip">Увези ZIP</string>
+    <string name="empty_downloaded_title">Нема преузетих ажурирања</string>
+    <string name="empty_downloaded_desc">Преузети ROM пакети и увезене локалне ZIP датотеке ће се појавити овде за инсталацију, извоз или уклањање.</string>
+    <string name="section_downloaded">Преузето &amp; локални ZIP-ови</string>
+    <string name="install_confirm_recovery">Флешуј преко Recovery-ја (небезбедни режим)? Уређај ће се поновно покренути у Recovery.</string>
+    <string name="install_confirm_force">Присилно инсталирај без верификације? Увери се да овај ZIP одговара твом уређају.</string>
+    <string name="install_confirm_now">Инсталирај <xliff:g id="name">%1$s</xliff:g> сада?</string>
+    <string name="action_cancel">Откажи</string>
+    <string name="action_confirm">Потврди</string>
+    <string name="action_proceed">Настави</string>
+    <string name="action_reboot_now">Поновно покрени сада</string>
+    <string name="action_export">Извези</string>
+    <string name="action_reset">Ресетуј</string>
+    <string name="install_label_recovery">Инсталирај (Recovery)</string>
+    <string name="install_label_force">Присилна инсталација</string>
+    <string name="action_stream_install">Струмуј &amp; инсталирај</string>
+    <string name="action_download_install_new">Преузми &amp; инсталирај</string>
+    <string name="desc_close">Затвори</string>
+    <string name="desc_retry">Покушај поново</string>
+    <string name="settings_check_interval">Интервал провере</string>
+    <string name="interval_daily">Дневно</string>
+    <string name="interval_weekly">Недељно</string>
+    <string name="interval_monthly">Месечно</string>
+    <string name="settings_group_downloads">Преузимања &amp; верификација</string>
+    <string name="settings_parallel_title">Паралелно преузимање делова</string>
+    <string name="settings_parallel_summary">Преузимај до 3 дела подељене архиве истовремено за веће брзине</string>
+    <string name="settings_verify_title">Верификуј SHA-256 контролне суме</string>
+    <string name="settings_verify_summary">Потврди сваки део и финалну састављену архиву у односу на JSON хешеве</string>
+    <string name="settings_autodelete_summary">Аутоматски уклони преузети пакет када ажурирање успе</string>
+    <string name="settings_group_installation">Инсталација</string>
+    <string name="settings_ab_perf_summary">Додели више CPU &amp; I/O ресурса update_engine-у за брже инсталације</string>
+    <string name="settings_ab_perf_charging">Аутоматски активно док је повезано на пуњач</string>
+    <string name="settings_group_ota">OTA извор</string>
+    <string name="settings_ota_url_title">Прилагођени OTA JSON URL</string>
+    <string name="settings_ota_url_hint">Остави празно да користиш подразумевани URL из ROM/DeviceTree оверлеја.</string>
+    <string name="settings_ota_apply">Примени URL</string>
+    <string name="toast_ota_reset">OTA URL је враћен на подразумевани</string>
+    <string name="toast_ota_updated">OTA URL је ажуриран</string>
+    <string name="settings_group_appearance">Изглед &amp; складиште</string>
+    <string name="settings_theme_title">Тема апликације</string>
+    <string name="theme_system">Систем</string>
+    <string name="theme_light">Светла</string>
+    <string name="theme_dark">Тамна</string>
+    <string name="settings_wavy_title">Таласаста трака напретка</string>
+    <string name="settings_wavy_summary">Анимирај талас током преузимања или инсталације; глатко се смирује при паузи</string>
+    <string name="settings_amplitude_title">Амплитуда таласа</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">Искључено</string>
+    <string name="settings_blur_title">Радијус замућења стакла</string>
+    <string name="settings_tint_title">Непрозирност нијансе стакла</string>
+    <string name="settings_logo_title">Прикажи лого пројекта</string>
+    <string name="settings_logo_summary">Прикажи банер пројекта (GIF, слику, видео или анимирани натпис)</string>
+    <string name="settings_banner_title">Прикажи банер издања</string>
+    <string name="settings_banner_summary">Прикажи слику или видео банера издања у заглављу картице</string>
+    <string name="settings_clear_cache">Обриши медије &amp; кеш дневника измена</string>
+    <string name="toast_cache_cleared">Кеш је обрисан</string>
+    <string name="settings_danger_title">Критична / небезбедна инсталација</string>
+    <string name="settings_danger_warning">Користи искључиво на сопствени ризик. Може покварити уређај ако флешујеш погрешан ROM.</string>
+    <string name="settings_unsafe_title">Заобиђи безбедносне &amp; верификационе провере</string>
+    <string name="settings_unsafe_summary">Онемогућава OTA верификацију потписа, блокаду враћања и Android SDK заштите. Омогућава флешовање старијих верзија или ZIP-ова других ROM-ова.</string>
+    <string name="settings_unsafe_confirm">Потврди: прихваташ пуну одговорност за враћања, непотписане ZIP-ове или губитак података.</string>
+    <string name="danger_accept">Прихватам ризик</string>
+    <string name="settings_recovery_title">Присилна инсталација преко Recovery-ја</string>
+    <string name="settings_recovery_summary">Заобиђи update_engine и поновно покрени у Recovery (OrangeFox / TWRP) да директно флешујеш ZIP. Корисно ако update_engine одбије временску ознаку враћања или потпис.</string>
+    <string name="overlay_battery_low">Ниво батерије је пренизак за инсталацију</string>
+    <string name="overlay_blocked_format">Блокирано (<xliff:g id="reason">%1$s</xliff:g>). Омогући небезбедни режим у Подешавањима за присилну инсталацију.</string>
+    <string name="overlay_downgrade_blocked">Враћање је блокирано безбедносним правилима. Омогући небезбедни режим у Подешавањима за превазилажење.</string>
+    <string name="overlay_major_blocked">Велика Android надоградња је блокирана безбедносним правилима. Омогући небезбедни режим у Подешавањима за превазилажење.</string>
+    <string name="overlay_metered_format">На ограниченој си вези. Преузми <xliff:g id="size">%1$s</xliff:g> сада?</string>
+    <string name="overlay_unsafe_recovery">Преузми и флешуј преко Recovery-ја (небезбедни режим)?</string>
+    <string name="overlay_unsafe_force">Преузми и присилно инсталирај без верификације?</string>
+    <string name="overlay_scratch_mounted">Scratch партиција је монтирана; није могућа инсталација</string>
+    <string name="toast_sha_copied">SHA-256 је копиран</string>
+    <string name="overlay_install_recovery">Флешуј преко Recovery-ја (небезбедни режим)? Уређај ће се поновно покренути у Recovery.</string>
+    <string name="overlay_install_force">Присилно инсталирај без провере потписа/враћања? Настави на сопствени ризик.</string>
+    <string name="overlay_changelog_title">Дневник измена</string>
+    <string name="desc_reload_changelog">Поновно учитај дневник измена</string>
+    <string name="overlay_changelog_loading">Учитавање дневника измена…</string>
+    <string name="overlay_changelog_error">Није могуће учитати дневник измена за ову верзију.</string>
+    <string name="overlay_changelog_empty">Нема дневника измена за ово издање.</string>
+    <string name="overlay_archive_sha">SHA-256 архиве</string>
+    <string name="desc_copy_sha">Копирај SHA-256</string>
+    <string name="overlay_reboot_to_apply">Поновно покрени да примениш ажурирање</string>
+    <string name="overlay_pause_format">Паузирај (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">Настави (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">Датотека пакета</string>
+    <string name="overlay_parts_title">Делови подељене архиве (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">Потврди брисање</string>
+    <string name="info_package_size">Величина пакета</string>
+    <string name="info_android_api">Android API</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">Тип верзије</string>
+    <string name="info_delivery">Испорука</string>
+    <string name="info_delivery_split">Подељено (<xliff:g id="count">%1$d</xliff:g> дела)</string>
+    <string name="float_importing">Увоз локалног ZIP-а…</string>
+    <string name="float_copying">Копирање пакета и провера метаподатака</string>
+    <string name="float_calculating">Рачунање…</string>
+    <plurals name="float_parts">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> део</item>
+        <item quantity="few"><xliff:g id="count">%1$d</xliff:g> дела</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> делова</item>
+    </plurals>
+    <string name="float_parallel">Паралелно</string>
+    <string name="float_sequential">Секвенцијално</string>
+    <string name="float_single">Појединачна архива</string>
+    <string name="float_autoinstall">Ауто-инсталација</string>
+    <string name="float_parts_header">Делови архиве (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> готово)</string>
+    <string name="float_suspend">Обустави</string>
+    <string name="float_abort">Прекини</string>
+    <string name="desc_toggle_details">Укључи/искључи детаље</string>
+    <string name="part_queued">У реду чекања</string>
+    <string name="part_verifying">Верификација SHA-256</string>
+    <string name="part_verified">Верификовано</string>
+    <string name="part_done">Готово</string>
+    <string name="part_paused_format">Паузирано • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">Покушај поново / Грешка</string>
+    <string name="part_waiting">Чекање…</string>
+    <string name="stage_connecting">Повезивање са сервером…</string>
+    <string name="stage_verify_part">Верификација дела <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> SHA-256…</string>
+    <string name="stage_assemble">Састављање делова (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">Верификација финалне архиве SHA-256…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> активних делова • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">Део <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">Преузимање • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• Ауто-инсталација</string>
+    <string name="stage_paused">Преузимање паузирано • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">Преузимање није успело • Додирни Настави</string>
+    <string name="stage_verifying_sig">Верификација архиве &amp; потписа…</string>
+    <string name="stage_finalizing">Довршавање A/B слота • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">Инсталирање ажурирања • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">Инсталација обустављена • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">Инсталирано — потребно поновно покретање</string>
+    <string name="md_image_alt">Слика</string>
+    <string name="md_image_failed">Није могуће учитати слику</string>
+    <string name="importer_tag_local">Локални ZIP</string>
+    <string name="err_no_url">Нема URL-а за преузимање ни делова</string>
+    <string name="err_no_dest">Нема одредишта преузимања</string>
+    <string name="err_no_callback">Нема повратног позива за преузимање</string>
+    <string name="err_no_parts">Нема делова за преузимање</string>
+    <string name="err_no_tempdir">Није могуће направити привремени директоријум делова: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">Неслагање контролне суме дела <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_part_failed">Није успео преузимање дела <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_final_sha">Верификација SHA-256 финалне архиве није успела</string>
+    <string name="err_empty_body">Празно тело одговора за део <xliff:g id="index">%1$d</xliff:g></string>
+    <string name="err_unknown_size">Није могуће утврдити величину за <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_no_range">Сервер не подржава захтеве опсега: очекиван HTTP 206, добијен <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_content_range">Недостаје Content-Range заглавље за <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_bad_content_range">Неочекивани Content-Range за <xliff:g id="url">%1$s</xliff:g>: очекиван <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">Промене протокола нису дозвољене</string>
+    <string name="err_server_reply">Сервер је одговорио са <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_no_fd">Није могуће добити fileDescriptor</string>
+    <string name="err_import_cancelled">Увоз је отказан</string>
+    <string name="err_verify_deleted">Верификација није успела, датотека је обрисана</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">Примени</string>
+    <string name="dialog_value_title">Вредност</string>
+    <string name="unknown_size">Непознато</string>
+    <string name="slider_default">Подразумевано</string>
+    <string name="slider_default_value">Подразумевано (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">Мрежна грешка</string>
+    <string name="action_paused_state">Паузирано</string>
+    <string name="part_fallback_name">део_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">Сервер</string>
+    <string name="err_response_empty">Празно тело одговора</string>
+    <string name="err_changelog_body_empty">Празно тело дневника измена</string>
+    <string name="err_changelog_too_large">Дневник измена премашује <xliff:g id="bytes" example="524288">%1$d</xliff:g> бајтова</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: прекорачено ограничење брзине (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Покушај поново за <xliff:g id="wait" example="~2 min">%3$s</xliff:g>.</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: прекорачено ограничење брзине (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Покушај касније.</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: датотека или фид није пронађен (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: приступ одбијен (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: ресурс је уклоњен (HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: сервер је недоступан (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> мин</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g>с</string>
+    <string name="err_download_file_missing">Преузета датотека недостаје</string>
+    <string name="err_sha_mismatch">SHA-256 контролна сума се не поклапа</string>
+    <string name="err_sha_calc_failed">Није могуће израчунати SHA-256</string>
+    <string name="err_ota_signature_failed">Верификација OTA потписа није успела</string>
+    <string name="err_engine_signature">update_engine је одбио потпис садржаја (код <xliff:g id="code" example="20">%1$d</xliff:g>). Пробај присилну Recovery инсталацију.</string>
+    <string name="err_engine_downgrade">update_engine је блокирао временску ознаку враћања (код <xliff:g id="code" example="51">%1$d</xliff:g>). Пробај присилну Recovery инсталацију.</string>
+    <string name="err_engine_storage">Нема довољно простора за A/B slot ажурирање (код <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_engine_partition">Верификација партиције није успела (код <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_cancelled">Инсталацију је отказао корисник.</string>
+    <string name="err_engine_generic">update_engine код грешке <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">Неподржан OTA тип: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found">Није могуће пронаћи <xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> у <xliff:g id="file" example="update.zip">%2$s</xliff:g></string>
+
+</resources>

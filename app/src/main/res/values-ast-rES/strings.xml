@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="verification_failed_notification">La verificación falló</string>
+    <string name="verifying_download_notification">Verificando l\'anovamientu</string>
+    <string name="downloading_notification">En descarga</string>
+    <string name="download_paused_notification">La descarga ta en posa</string>
+    <string name="download_paused_error_notification">Error de la descarga</string>
+    <string name="download_completed_notification">Completóse la descarga</string>
+    <string name="download_starting_notification">Aniciando la descarga</string>
+    <string name="update_failed_notification">L\'anovamientu falló</string>
+    <string name="installation_suspended_notification">Suspendióse la instalación</string>
+    <string name="new_updates_found_title">Hai anovamientos</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="installing_update_error">Error de la instalación</string>
+    <string name="finalizing_package">Finando la instalación del paquete</string>
+    <string name="preparing_ota_first_boot">Tresnando\'l primer arrinque</string>
+    <string name="dialog_prepare_zip_message">Tresnáu preliminar del anovamientu</string>
+    <string name="reboot">Reaniciar</string>
+    <string name="menu_export_update">Esportar l\'anovamientu</string>
+    <string name="menu_metered_network_warning">Alvertir al tar nuna rede midida</string>
+    <string name="menu_ab_perf_mode">Priorizar el procesu d\'anovamientu</string>
+    <string name="menu_update_recovery">Anovar el recovery</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">Baxar</string>
+    <string name="action_pause">Posar</string>
+    <string name="action_resume">Siguir</string>
+    <string name="action_install">Instalar</string>
+    <string name="action_info">Información</string>
+    <string name="action_delete">Desaniciar</string>
+    <string name="dialog_export_title">Esportando l\'anovamientu</string>
+    <string name="notification_export_success">Esportóse l\'anovamientu</string>
+    <string name="notification_export_fail">Error de la esportación</string>
+    <string name="toast_already_exporting">Yá ta esportándose un anovamientu</string>
+    <string name="toast_export_started">Anicióse la esportación</string>
+    <string name="blocked_update_dialog_title">Bloquióse l\'anovamientu</string>
+    <string name="export_channel_title">Esportación completada</string>
+    <string name="new_updates_channel_title">Hai anovamientos</string>
+    <string name="ongoing_channel_title">Descargues en cursu</string>
+    <string name="update_failed_channel_title">Anovamientu fallíu</string>
+    <string name="display_name">LeeGar Updater</string>
+    <string name="new_updates_found_summary">Toca pa ver los anovamientos disponibles</string>
+    <string name="installing_update">Instalando l\'anovamientu del sistema</string>
+    <string name="installing_update_finished">Anovamientu pendiente de reaniciar</string>
+    <string name="action_download_install">Baxar ya instalar</string>
+    <string name="check_for_update">Comprobar si hai anovamientos</string>
+    <string name="action_back">Atrás</string>
+    <string name="checking_for_updates">Comprobando si hai anovamientos</string>
+    <string name="pref_category_background_sync">Sincronización en segundu planu</string>
+    <string name="menu_auto_updates_check">Comprobar los anovamientos cada quantu</string>
+    <string name="menu_auto_updates_check_summary">Comprobar los anovamientos en segundu planu</string>
+    <string name="menu_auto_delete_updates">Desaniciar los anovamientos automáticamente</string>
+    <string name="menu_stream_updates">Tresnar los anovamientos en llinia</string>
+    <string name="menu_stream_updates_summary">Instala los anovamientos mientres se baxen. Desactívalu pa guardar los paquetes pa esportar.</string>
+    <string name="menu_metered_network_warning_summary">Alvertir enantes de baxar con datos móviles</string>
+    <string name="menu_update_recovery_summary">Anovar la partición del recovery xunto col SO</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">Data de la compilación</string>
+    <string name="security_update">Anovamientu de seguridá</string>
+    <string name="blocked_update_dialog_title_downgrade">Degradación bloquiada</string>
+    <string name="tab_updates">Anovamientos</string>
+    <string name="tab_saved">Guardaos</string>
+    <string name="tab_saved_count">Guardaos (%1$d)</string>
+    <string name="tab_settings">Axustes</string>
+    <string name="toast_download_failed">La descarga falló</string>
+    <string name="toast_download_verified">Descarga verificada y llista</string>
+    <string name="toast_import_failed">Nun se pudo importar el ZIP (paquete o firma inválidos). Prueba\'l mou inseguru pa ZIPs personalizaos.</string>
+    <string name="toast_imported_format">Importóse <xliff:g id="name">%1$s</xliff:g> a la llingüeta Baxaes</string>
+    <string name="banner_no_internet">Nun hai conexón a internet</string>
+    <string name="banner_check_failed">Nun se pudo comprobar si hai anovamientos</string>
+    <string name="section_releases">Versiones disponibles</string>
+    <string name="section_releases_count">Versiones disponibles • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">Mou inseguru</string>
+    <string name="empty_releases_title">Nun hai versiones cargues</string>
+    <string name="empty_releases_desc">Toca anovar pa traer les compilaciones del feed OTA configuráu.</string>
+    <string name="device_fallback_name">Preséu</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> compilación nueva disponible</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> compilaciones nueves disponibles</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="one">El sistema ta al día • <xliff:g id="count">%1$d</xliff:g> compilación nel feed</item>
+        <item quantity="other">El sistema ta al día • <xliff:g id="count">%1$d</xliff:g> compilaciones nel feed</item>
+    </plurals>
+    <string name="installed_label_format">Instalada: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • Parche: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">Comprobáu: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">Data desconocida</string>
+    <string name="status_starting">Aniciando</string>
+    <string name="status_verifying">Verificando</string>
+    <string name="status_merging">Combinando <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">En posa <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">Error</string>
+    <string name="status_installing">Instalando <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">Suspendíu <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <plurals name="badge_split_parts">
+        <item quantity="one">Dixebráu • <xliff:g id="count">%1$d</xliff:g> parte</item>
+        <item quantity="other">Dixebráu • <xliff:g id="count">%1$d</xliff:g> partes</item>
+    </plurals>
+    <string name="badge_downloaded">Baxáu</string>
+    <string name="badge_reboot_required">Hai que reaniciar</string>
+    <string name="badge_local">Llocal</string>
+    <string name="badge_major_upgrade">Anovamientu mayor</string>
+    <string name="relation_newer">Más nuevu</string>
+    <string name="relation_installed">Instaláu</string>
+    <string name="relation_downgrade">Degradación</string>
+    <string name="relation_build">Compilación</string>
+    <plurals name="downloaded_title">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> paquete guardáu</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> paquetes guardaos</item>
+    </plurals>
+    <string name="downloaded_subtitle_used">Espaciu usáu: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">Importa un ZIP llocal o baxa compilaciones d\'Anovamientos</string>
+    <string name="action_import_zip">Importar ZIP</string>
+    <string name="empty_downloaded_title">Nun hai anovamientos baxos</string>
+    <string name="empty_downloaded_desc">Equí van apaecer los paquetes ROM baxos y los ZIP llocales importaos pa instalar, esportar o desaniciar.</string>
+    <string name="section_downloaded">Baxaes y ZIP llocales</string>
+    <string name="install_confirm_recovery">¿Flashear per Recovery (mou inseguru)? El preséu va reaniciar al Recovery.</string>
+    <string name="install_confirm_force">¿Forzar la instalación ensin verificación? Asegúrate de qu\'esti ZIP ye del to preséu.</string>
+    <string name="install_confirm_now">¿Instalar <xliff:g id="name">%1$s</xliff:g> agora?</string>
+    <string name="action_cancel">Encaboxar</string>
+    <string name="action_confirm">Confirmar</string>
+    <string name="action_proceed">Siguir</string>
+    <string name="action_reboot_now">Reaniciar agora</string>
+    <string name="action_export">Esportar</string>
+    <string name="action_reset">Reafitar</string>
+    <string name="install_label_recovery">Instalar (Recovery)</string>
+    <string name="install_label_force">Forzar la instalación</string>
+    <string name="action_stream_install">Tresnar ya instalar</string>
+    <string name="action_download_install_new">Baxar ya instalar</string>
+    <string name="desc_close">Zarrar</string>
+    <string name="desc_retry">Retentar</string>
+    <string name="settings_check_interval">Intervalu de comprobación</string>
+    <string name="interval_daily">Cada día</string>
+    <string name="interval_weekly">Cada selmana</string>
+    <string name="interval_monthly">Cada mes</string>
+    <string name="settings_group_downloads">Baxaes y verificación</string>
+    <string name="settings_parallel_title">Descarga dixebrada en paralelu</string>
+    <string name="settings_parallel_summary">Baxa hasta 3 partes d\'archivu dixebráu al empar pa más velocidá</string>
+    <string name="settings_verify_title">Verificar les sumes SHA-256</string>
+    <string name="settings_verify_summary">Valida cada parte dixebrada y l\'archivu final combináu escontra los hashes del JSON</string>
+    <string name="settings_autodelete_summary">Desaniciar el paquete baxáu automáticamente cuando l\'anovamientu salga bien</string>
+    <string name="settings_group_installation">Instalación</string>
+    <string name="settings_ab_perf_summary">Dar más CPU y E/S a update_engine pa instalaciones más rápides</string>
+    <string name="settings_ab_perf_charging">Actívase automáticamente al coneutase a la corriente</string>
+    <string name="settings_group_ota">Fonte OTA</string>
+    <string name="settings_ota_url_title">URL OTA JSON personalizada</string>
+    <string name="settings_ota_url_hint">Dexalu vaciu pa usar la URL por defeutu de la ROM / DeviceTree.</string>
+    <string name="settings_ota_apply">Aplicar la URL</string>
+    <string name="toast_ota_reset">URL OTA reafitada a la de por defeutu</string>
+    <string name="toast_ota_updated">URL OTA anovada</string>
+    <string name="settings_group_appearance">Aspeuto y almacenamientu</string>
+    <string name="settings_theme_title">Tema de l\'aplicación</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_light">Claru</string>
+    <string name="theme_dark">Escuru</string>
+    <string name="settings_wavy_title">Barra de progresu ondulada</string>
+    <string name="settings_wavy_summary">Anima la onda al baxar o instalar; aplánase col posar</string>
+    <string name="settings_amplitude_title">Amplitú de la onda</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">Apagáu</string>
+    <string name="settings_blur_title">Radiu de desenfoque del cristal</string>
+    <string name="settings_tint_title">Opacidá del tinte del cristal</string>
+    <string name="settings_logo_title">Amosar el logu del proyeutu</string>
+    <string name="settings_logo_summary">Amosar la pancarta del proyeutu (GIF, imaxe, videu o marca animada)</string>
+    <string name="settings_banner_title">Amosar la pancarta de la versión</string>
+    <string name="settings_banner_summary">Amosar la imaxe o videu de la versión na cabecera de la tarxeta</string>
+    <string name="settings_clear_cache">Llimpiar la caché de medios y rexistru de cambios</string>
+    <string name="toast_cache_cleared">Llimpióse la caché</string>
+    <string name="settings_danger_title">Instalación crítica / insegura</string>
+    <string name="settings_danger_warning">Úsalu puramente baxo\'l to riesgu. Pue estropiar el preséu si flashees una ROM incorreuta.</string>
+    <string name="settings_unsafe_title">Saltar les comprobaciones de seguridá y verificación</string>
+    <string name="settings_unsafe_summary">Desactiva la verificación de firma OTA, el bloquéu de degradación y les guardies del SDK d\'Android. Permite flashear degradaciones o ZIPs d\'otres ROMs.</string>
+    <string name="settings_unsafe_confirm">Confirma: aceutes responsabilidá completa poles degradaciones, ZIPs ensin firmar o perda de datos.</string>
+    <string name="danger_accept">Aceuto\'l riesgu</string>
+    <string name="settings_recovery_title">Forzar la instalación per Recovery</string>
+    <string name="settings_recovery_summary">Salta update_engine y reanicia al Recovery (OrangeFox / TWRP) pa flashear el ZIP direutamente. Útil si update_engine refuga la marca temporal o la firma.</string>
+    <string name="overlay_battery_low">La batería ta mui baxa pa instalar</string>
+    <string name="overlay_blocked_format">Bloquiáu (<xliff:g id="reason">%1$s</xliff:g>). Activa\'l mou inseguru nos Axustes pa forzar la instalación.</string>
+    <string name="overlay_downgrade_blocked">La degradación ta bloquiada poles regles de seguridá. Activa\'l mou inseguru nos Axustes pa saltar.</string>
+    <string name="overlay_major_blocked">L\'anovamientu mayor d\'Android ta bloquiáu poles regles de seguridá. Activa\'l mou inseguru nos Axustes pa saltar.</string>
+    <string name="overlay_metered_format">Tas nuna conexón midida. ¿Baxar <xliff:g id="size">%1$s</xliff:g> agora?</string>
+    <string name="overlay_unsafe_recovery">¿Baxar y flashear per Recovery (mou inseguru)?</string>
+    <string name="overlay_unsafe_force">¿Baxar y forzar la instalación ensin verificación?</string>
+    <string name="overlay_scratch_mounted">La partición scratch ta montada; nun se pue instalar</string>
+    <string name="toast_sha_copied">SHA-256 copiáu</string>
+    <string name="overlay_install_recovery">¿Flashear per Recovery (mou inseguru)? El preséu va reaniciar al Recovery.</string>
+    <string name="overlay_install_force">¿Forzar la instalación ensin comprobaciones de firma/degradación? Sigue baxo\'l to riesgu.</string>
+    <string name="overlay_changelog_title">Rexistru de cambios</string>
+    <string name="desc_reload_changelog">Recargar el rexistru de cambios</string>
+    <string name="overlay_changelog_loading">Cargando\'l rexistru de cambios…</string>
+    <string name="overlay_changelog_error">Nun se pudo cargar el rexistru de cambios d\'esta compilación.</string>
+    <string name="overlay_changelog_empty">Nun hai rexistru de cambios pa esta versión.</string>
+    <string name="overlay_archive_sha">SHA-256 del archivu</string>
+    <string name="desc_copy_sha">Copiar el SHA-256</string>
+    <string name="overlay_reboot_to_apply">Reanicia p\'aplicar l\'anovamientu</string>
+    <string name="overlay_pause_format">Posar (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">Siguir (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">Ficheru del paquete</string>
+    <string name="overlay_parts_title">Partes del archivu dixebráu (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">Confirmar el desaniciu</string>
+    <string name="info_package_size">Tamañu del paquete</string>
+    <string name="info_android_api">API d\'Android</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">Triba de compilación</string>
+    <string name="info_delivery">Entrega</string>
+    <string name="info_delivery_split">Dixebráu (<xliff:g id="count">%1$d</xliff:g> partes)</string>
+    <string name="float_importing">Importando\'l ZIP llocal…</string>
+    <string name="float_copying">Copiando\'l paquete y comprobando los metadatos</string>
+    <string name="float_calculating">Calculando…</string>
+    <plurals name="float_parts">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> parte</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> partes</item>
+    </plurals>
+    <string name="float_parallel">Paralelu</string>
+    <string name="float_sequential">Secuencial</string>
+    <string name="float_single">Archivu únicu</string>
+    <string name="float_autoinstall">Autoinstalación</string>
+    <string name="float_parts_header">Partes del archivu (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> feches)</string>
+    <string name="float_suspend">Suspender</string>
+    <string name="float_abort">Alortar</string>
+    <string name="desc_toggle_details">Amosar o anubrir detalles</string>
+    <string name="part_queued">En cola</string>
+    <string name="part_verifying">Verificando\'l SHA-256</string>
+    <string name="part_verified">Verificáu</string>
+    <string name="part_done">Fechu</string>
+    <string name="part_paused_format">En posa • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">Retentar / Error</string>
+    <string name="part_waiting">Esperando…</string>
+    <string name="stage_connecting">Coneutando col sirvidor…</string>
+    <string name="stage_verify_part">Verificando la parte <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> SHA-256…</string>
+    <string name="stage_assemble">Xuntando les partes (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">Verificando\'l SHA-256 del archivu final…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> partes actives • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">Parte <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">Baxando • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• Autoinstalación</string>
+    <string name="stage_paused">Descarga en posa • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">La descarga falló • Toca Siguir</string>
+    <string name="stage_verifying_sig">Verificando l\'archivu y la firma…</string>
+    <string name="stage_finalizing">Finando\'l slot A/B • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">Instalando l\'anovamientu • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">Instalación suspendida • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">Instaláu — hai que reaniciar</string>
+    <string name="md_image_alt">Imaxe</string>
+    <string name="md_image_failed">Nun se pudo cargar la imaxe</string>
+    <string name="importer_tag_local">ZIP llocal</string>
+    <string name="err_no_url">Nun hai URL de descarga nin partes definíes</string>
+    <string name="err_no_dest">Nun hai destín de descarga definíu</string>
+    <string name="err_no_callback">Nun hai callback de descarga definíu</string>
+    <string name="err_no_parts">Nun hai partes de descarga especificaes</string>
+    <string name="err_no_tempdir">Nun se pue crear el direutoriu temporal de partes: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">La parte <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> nun concasa la suma</string>
+    <string name="err_part_failed">Nun se pudo baxar la parte <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_final_sha">La verificación SHA-256 del archivu final falló</string>
+    <string name="err_empty_body">Cuerpu de rempuesta vaciu pa la parte <xliff:g id="index">%1$d</xliff:g></string>
+    <string name="err_unknown_size">Nun se pue determinar el tamañu de <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_no_range">El sirvidor nun sofita pidimientos de rangu: esperábase HTTP 206, llegó <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_content_range">Falta la cabecera Content-Range pa <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_bad_content_range">Content-Range inesperáu pa <xliff:g id="url">%1$s</xliff:g>: esperábase <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">Nun se permiten cambios de protocolu</string>
+    <string name="err_server_reply">El sirvidor respondió con <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_no_fd">Nun se pudo obtener el fileDescriptor</string>
+    <string name="err_import_cancelled">Encaboxóse la importación</string>
+    <string name="err_verify_deleted">La verificación falló, desanicióse\'l ficheru</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">Aplicar</string>
+    <string name="dialog_value_title">Valor</string>
+    <string name="unknown_size">Desconocíu</string>
+    <string name="slider_default">Por defeutu</string>
+    <string name="slider_default_value">Por defeutu (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">Error de rede</string>
+    <string name="action_paused_state">En posa</string>
+    <string name="part_fallback_name">part_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">Sirvidor</string>
+    <string name="err_response_empty">Cuerpu de rempuesta vaciu</string>
+    <string name="err_changelog_body_empty">Cuerpu del rexistru vaciu</string>
+    <string name="err_changelog_too_large">El rexistru pasa de <xliff:g id="bytes" example="524288">%1$d</xliff:g> bytes</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: pasóse la llende (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Retenta en <xliff:g id="wait" example="~2 min">%3$s</xliff:g>.</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: pasóse la llende (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Retenta más tarde.</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: nun s\'alcontró\'l ficheru o feed (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: accesu denegáu (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: recursu desaniciáu (HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: sirvidor non disponible (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> min</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g> s</string>
+    <string name="err_download_file_missing">Falta\'l ficheru baxáu</string>
+    <string name="err_sha_mismatch">La suma SHA-256 nun concasa</string>
+    <string name="err_sha_calc_failed">Nun se pudo calcular el SHA-256</string>
+    <string name="err_ota_signature_failed">La verificación de firma OTA falló</string>
+    <string name="err_engine_signature">update_engine refugó la firma (códigu <xliff:g id="code" example="20">%1$d</xliff:g>). Prueba forzar per Recovery.</string>
+    <string name="err_engine_downgrade">update_engine bloquió la marca temporal (códigu <xliff:g id="code" example="51">%1$d</xliff:g>). Prueba forzar per Recovery.</string>
+    <string name="err_engine_storage">Nun hai espaciu bastante pa l\'anovamientu del slot A/B (códigu <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_engine_partition">La verificación de la partición falló (códigu <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_cancelled">L\'usuariu encaboxó la instalación.</string>
+    <string name="err_engine_generic">Error de update_engine códigu <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">Triba OTA non sofitada: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found">Nun s\'alcontró <xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> en <xliff:g id="file" example="update.zip">%2$s</xliff:g></string>
+</resources>

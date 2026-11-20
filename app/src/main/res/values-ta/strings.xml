@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="display_name">முறைமையிற்றை</string>
+    <string name="verification_failed_notification">இற்றைத்தேறாமை</string>
+    <string name="verifying_download_notification">இற்றைத்தேர்கிறது</string>
+    <string name="downloading_notification">இறங்குகிறது</string>
+    <string name="download_paused_notification">இறக்கநிறுத்தம்</string>
+    <string name="download_paused_error_notification">இறக்கப்பிழை</string>
+    <string name="download_completed_notification">இறக்கமுற்று</string>
+    <string name="download_starting_notification">இறக்கத்தொடக்கம்</string>
+    <string name="update_failed_notification">இற்றைத்தோல்வி</string>
+    <string name="installation_suspended_notification">நிறுவலொடுக்கம்</string>
+    <string name="new_updates_found_title">புதுஇற்றை</string>
+    <string name="new_updates_found_summary">கிடைக்கும் இற்றை காணத்தட்டுக</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="installing_update">முறைமையிற்றை நிறுவப்படுகிறது</string>
+    <string name="installing_update_error">நிறுவற்பிழை</string>
+    <string name="installing_update_finished">இற்றை மீட்டியக்கநிலுவை</string>
+    <string name="finalizing_package">நிறுவல்முடித்தல்</string>
+    <string name="preparing_ota_first_boot">முதல் இயக்க ஆயத்தம்</string>
+    <string name="dialog_prepare_zip_message">முன்னியக்கஇற்றை</string>
+    <string name="reboot">மறுதொடக்கம்</string>
+    <string name="checking_for_updates">இற்றை சரிபார்த்தல்</string>
+    <string name="pref_category_background_sync">பின்னணி ஒத்திசைவு</string>
+    <string name="menu_auto_updates_check">காலமுறை இற்றை சரிபார்</string>
+    <string name="menu_auto_updates_check_summary">பின்னணியில் இற்றை சரிபார்</string>
+    <string name="menu_auto_delete_updates">தான்நீக்கி இற்றை</string>
+    <string name="menu_stream_updates">நிகழ்நேர இணைய இற்றை</string>
+    <string name="menu_stream_updates_summary">பதிவிறக்குகையில் நிறுவு. ஏற்றுமதிக்குச் சேமிக்க முடக்குக.</string>
+    <string name="menu_export_update">இற்றையேற்று</string>
+    <string name="menu_metered_network_warning">அளவிடப்பட்ட பிணைய எச்சரிக்கை</string>
+    <string name="menu_metered_network_warning_summary">அலைத்தரவுப் பதிவிறக்கும்முன் எச்சரி</string>
+    <string name="menu_ab_perf_mode">இற்றைமுன்னுரிமை</string>
+    <string name="menu_update_recovery">மீட்பு இற்றை</string>
+    <string name="menu_update_recovery_summary">இயக்க முறைமையுடன் மீட்புப் பகுதியையும் இற்றைப்படுத்து</string>
+    <string name="header_android_version">ஆண்ட்ராய்டு <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">கட்டமைப்பு நாள்</string>
+    <string name="security_update">பாதுகாப்பு இற்றை</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">பதிவிறக்கு</string>
+    <string name="action_pause">நிறுத்து</string>
+    <string name="action_resume">தொடர்</string>
+    <string name="action_install">நிறுவு</string>
+    <string name="action_info">தகவல்</string>
+    <string name="action_delete">நீக்கு</string>
+    <string name="dialog_export_title">இற்றை ஏற்றுமதியாகிறது</string>
+    <string name="notification_export_success">இற்றை ஏற்றுமதியானது</string>
+    <string name="notification_export_fail">ஏற்றுமதிப் பிழை</string>
+    <string name="toast_already_exporting">ஏற்கெனவே ஓர் இற்றை ஏற்றுமதியாகிறது</string>
+    <string name="toast_export_started">ஏற்றுமதி தொடங்கியது</string>
+    <string name="blocked_update_dialog_title">இற்றை தடுக்கப்பட்டது</string>
+    <string name="blocked_update_dialog_title_downgrade">பதிப்பிறக்கந் தடுக்கப்பட்டது</string>
+    <string name="export_channel_title">ஏற்றுமதி நிறைவுற்றது</string>
+    <string name="new_updates_channel_title">புதிய இற்றைகள்</string>
+    <string name="ongoing_channel_title">நடைபெறும் பதிவிறக்கங்கள்</string>
+    <string name="update_failed_channel_title">இற்றை தோல்வியுற்றது</string>
+    <string name="action_download_install">பதிவிறக்கி நிறுவுக</string>
+    <string name="check_for_update">இற்றையைச் சரிபார்</string>
+    <string name="action_back">பின்செல்</string>
+    <string name="tab_updates">இற்றைகள்</string>
+    <string name="tab_saved">சேமித்தவை</string>
+    <string name="tab_saved_count">சேமித்தவை (%1$d)</string>
+    <string name="tab_settings">அமைப்புகள்</string>
+    <string name="toast_download_failed">பதிவிறக்கம் தோல்வியுற்றது</string>
+    <string name="toast_download_verified">பதிவிறக்கம் சரிபார்க்கப்பட்டது &amp; தயார்</string>
+    <string name="toast_import_failed">ZIP-ஐ இறக்குமதி செய்ய முடியவில்லை (தவறான தொகுப்பு அல்லது கையொப்பம்). தனிப்பயன் ZIP-களுக்கு பாதுகாப்பற்ற முறையை முயலுக.</string>
+    <string name="toast_imported_format"><xliff:g id="name">%1$s</xliff:g> பதிவிறக்கிய தாவில் இறக்குமதியானது</string>
+    <string name="banner_no_internet">இணைய இணைப்பு இல்லை</string>
+    <string name="banner_check_failed">இற்றைகளைச் சரிபார்க்க முடியவில்லை</string>
+    <string name="section_releases">கிடைக்கும் வெளியீடுகள்</string>
+    <string name="section_releases_count">கிடைக்கும் வெளியீடுகள் • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">பாதுகாப்பற்ற முறை</string>
+    <string name="empty_releases_title">வெளியீடுகள் எதுவும் ஏற்றப்படவில்லை</string>
+    <string name="empty_releases_desc">அமைக்கப்பட்ட OTA JSON ஊட்டிலிருந்து கட்டமைப்புகளைப் பெற புதுப்பிப்பைத் தட்டுக.</string>
+    <string name="device_fallback_name">சாதனம்</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> புதிய கட்டமைப்புகள் உள்ளன</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="other">முறைமை இற்றைநிலையில் உள்ளது • ஊட்டில் <xliff:g id="count">%1$d</xliff:g> கட்டமைப்புகள்</item>
+    </plurals>
+    <string name="installed_label_format">நிறுவப்பட்டது: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">ஆண்ட்ராய்டு <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • இணைப்பு: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">சரிபார்த்தது: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">தேதி தெரியவில்லை</string>
+    <string name="status_starting">தொடங்குகிறது</string>
+    <string name="status_verifying">சரிபார்க்கிறது</string>
+    <string name="status_merging">ஒன்றிணைக்கிறது <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">நிறுத்தப்பட்டது <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">பிழை</string>
+    <string name="status_installing">நிறுவுகிறது <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">இடைநிறுத்தப்பட்டது <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <plurals name="badge_split_parts">
+        <item quantity="other">பிளவு • <xliff:g id="count">%1$d</xliff:g> பகுதிகள்</item>
+    </plurals>
+    <string name="badge_downloaded">பதிவிறக்கியது</string>
+    <string name="badge_reboot_required">மறுதொடக்கம் தேவை</string>
+    <string name="badge_local">உள்ளூர்</string>
+    <string name="badge_major_upgrade">முதன்மை மேம்பாடு</string>
+    <string name="relation_newer">புதியது</string>
+    <string name="relation_installed">நிறுவப்பட்டது</string>
+    <string name="relation_downgrade">பதிப்பிறக்கம்</string>
+    <string name="relation_build">கட்டமைப்பு</string>
+    <plurals name="downloaded_title">
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> தொகுப்புகள் சேமிக்கப்பட்டன</item>
+    </plurals>
+    <string name="downloaded_subtitle_used">பயன்படுத்திய இடம்: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">உள்ளூர் ZIP-ஐ இறக்குமதி செய்க அல்லது இற்றைகளிலிருந்து கட்டமைப்புகளைப் பதிவிறக்குக</string>
+    <string name="action_import_zip">ZIP-ஐ இறக்குமதி செய்</string>
+    <string name="empty_downloaded_title">பதிவிறக்கிய இற்றைகள் இல்லை</string>
+    <string name="empty_downloaded_desc">பதிவிறக்கிய ROM தொகுப்புகளும் இறக்குமதியான உள்ளூர் ZIP கோப்புகளும் நிறுவ, ஏற்றுமதி அல்லது நீக்க இங்கே தோன்றும்.</string>
+    <string name="section_downloaded">பதிவிறக்கியவை &amp; உள்ளூர் ZIP-கள்</string>
+    <string name="install_confirm_recovery">மீட்பு வழி நிறுவவா (பாதுகாப்பற்ற முறை)? சாதனம் மீட்பில் மறுதொடங்கும்.</string>
+    <string name="install_confirm_force">சரிபார்ப்பின்றிக் கட்டாய நிறுவலா? இந்த ZIP உங்கள் சாதனத்திற்குப் பொருந்துவதை உறுதிசெய்க.</string>
+    <string name="install_confirm_now"><xliff:g id="name">%1$s</xliff:g>-ஐ இப்போது நிறுவவா?</string>
+    <string name="action_cancel">ரத்துசெய்</string>
+    <string name="action_confirm">உறுதிசெய்</string>
+    <string name="action_proceed">தொடர்</string>
+    <string name="action_reboot_now">இப்போது மறுதொடங்கு</string>
+    <string name="action_export">ஏற்றுமதி</string>
+    <string name="action_reset">மீட்டமை</string>
+    <string name="install_label_recovery">நிறுவுக (மீட்பு)</string>
+    <string name="install_label_force">கட்டாய நிறுவல்</string>
+    <string name="action_stream_install">பதிவிறக்கும்போதே நிறுவு</string>
+    <string name="action_download_install_new">பதிவிறக்கி &amp; நிறுவுக</string>
+    <string name="desc_close">மூடுக</string>
+    <string name="desc_retry">மீண்டும் முயலுக</string>
+    <string name="settings_check_interval">சரிபார்ப்பு இடைவெளி</string>
+    <string name="interval_daily">நாள்தோறும்</string>
+    <string name="interval_weekly">வாரந்தோறும்</string>
+    <string name="interval_monthly">மாதந்தோறும்</string>
+    <string name="settings_group_downloads">பதிவிறக்கங்கள் &amp; சரிபார்ப்பு</string>
+    <string name="settings_parallel_title">இணை பிளவுப் பதிவிறக்கம்</string>
+    <string name="settings_parallel_summary">வேகத்திற்கு 3 பிளவுக் காப்பகப் பகுதிகள் வரை ஒரே நேரத்தில் பதிவிறக்குக</string>
+    <string name="settings_verify_title">SHA-256 சோதனைத் தொகைகளைச் சரிபார்</string>
+    <string name="settings_verify_summary">ஒவ்வொரு பிளவுப் பகுதியையும் இறுதி ஒன்றிணைந்த காப்பகத்தையும் JSON ஹாஷ்களுடன் சரிபார்</string>
+    <string name="settings_autodelete_summary">இற்றை வெற்றியடைந்ததும் பதிவிறக்கிய தொகுப்பைத் தானாக நீக்குக</string>
+    <string name="settings_group_installation">நிறுவல்</string>
+    <string name="settings_ab_perf_summary">வேக நிறுவல்களுக்கு update_engine-க்கு அதிக CPU &amp; I/O ஒதுக்குக</string>
+    <string name="settings_ab_perf_charging">AC மின்சாரம் இணைந்திருக்கும்போது தானாகச் செயலில்</string>
+    <string name="settings_group_ota">OTA மூலம்</string>
+    <string name="settings_ota_url_title">தனிப்பயன் OTA JSON URL</string>
+    <string name="settings_ota_url_hint">ROM / DeviceTree மேலடுக்கு இயல்புநிலை URL-ஐப் பயன்படுத்தக் காலியாக விடுக.</string>
+    <string name="settings_ota_apply">URL-ஐப் பயன்படுத்துக</string>
+    <string name="toast_ota_reset">OTA URL இயல்புநிலைக்கு மீட்டமைக்கப்பட்டது</string>
+    <string name="toast_ota_updated">OTA URL இற்றைப்படுத்தப்பட்டது</string>
+    <string name="settings_group_appearance">தோற்றம் &amp; சேமிப்பு</string>
+    <string name="settings_theme_title">செயலிக் கருப்பொருள்</string>
+    <string name="theme_system">முறைமை</string>
+    <string name="theme_light">வெளிச்சம்</string>
+    <string name="theme_dark">இருள்</string>
+    <string name="settings_wavy_title">அலை முன்னேற்றப் பட்டை</string>
+    <string name="settings_wavy_summary">பதிவிறக்கும்போதோ நிறுவும்போதோ அலையை அசை; நிறுத்தத்தில் மெதுவாகச் சமனாகும்</string>
+    <string name="settings_amplitude_title">அலை வீச்சு</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">அணை</string>
+    <string name="settings_blur_title">கண்ணாடி மங்கல் ஆரம்</string>
+    <string name="settings_tint_title">கண்ணாடிச் சாயல் ஒளிபுகாமை</string>
+    <string name="settings_logo_title">திட்டச் சின்னத்தைக் காட்டுக</string>
+    <string name="settings_logo_summary">திட்டப் பதாகையைக் காட்டுக (GIF, படம், காணொளி அல்லது அசையும் சொறகுறி)</string>
+    <string name="settings_banner_title">வெளியீட்டுப் பதாகையைக் காட்டுக</string>
+    <string name="settings_banner_summary">அட்டைத் தலைப்பில் வெளியீட்டுப் பதாகைப் படம் அல்லது காணொளியைக் காட்டுக</string>
+    <string name="settings_clear_cache">ஊடக &amp; மாற்றக்குறிப்புத் தேக்ககத்தை அழி</string>
+    <string name="toast_cache_cleared">தேக்ககம் அழிக்கப்பட்டது</string>
+    <string name="settings_danger_title">ஆபத்து / பாதுகாப்பற்ற நிறுவல்</string>
+    <string name="settings_danger_warning">உங்கள் சொந்தப் பொறுப்பில் மட்டுமே பயன்படுத்துக. தவறான ROM-ஐ நிறுவினால் சாதனம் பயனற்றதாகலாம்.</string>
+    <string name="settings_unsafe_title">பாதுகாப்பு &amp; சரிபார்ப்புக் கட்டுப்பாடுகளைத் தவிர்</string>
+    <string name="settings_unsafe_summary">OTA கையொப்பச் சரிபார்ப்பு, பதிப்பிறக்கத் தடை, Android SDK காவல்களை முடக்கும். பதிப்பிறக்கங்கள் அல்லது குறுக்கு-ROM ZIP-களை நிறுவ அனுமதிக்கும்.</string>
+    <string name="settings_unsafe_confirm">உறுதிசெய்க: பதிப்பிறக்கங்கள், கையொப்பமற்ற ZIP-கள் அல்லது தரவிழப்பிற்கு முழுப் பொறுப்பேற்கிறீர்கள்.</string>
+    <string name="danger_accept">ஆபத்தை ஏற்கிறேன்</string>
+    <string name="settings_recovery_title">மீட்பு வழிக் கட்டாய நிறுவல்</string>
+    <string name="settings_recovery_summary">update_engine-ஐத் தவிர்த்து மீட்பிற்கு (OrangeFox / TWRP) மறுதொடங்கி ZIP-ஐ நேரடியாக நிறுவுக. பதிப்பிறக்க நேரமுத்திரை அல்லது கையொப்பத்தை update_engine நிராகரித்தால் பயனுள்ளது.</string>
+    <string name="overlay_battery_low">நிறுவ மின்கல அளவு மிகக் குறைவு</string>
+    <string name="overlay_blocked_format">தடுக்கப்பட்டது (<xliff:g id="reason">%1$s</xliff:g>). கட்டாய நிறுவ அமைப்புகளில் பாதுகாப்பற்ற முறையை இயக்குக.</string>
+    <string name="overlay_downgrade_blocked">பாதுகாப்பு விதிகளால் பதிப்பிறக்கம் தடுக்கப்பட்டுள்ளது. மீற அமைப்புகளில் பாதுகாப்பற்ற முறையை இயக்குக.</string>
+    <string name="overlay_major_blocked">பாதுகாப்பு விதிகளால் முதன்மை Android மேம்பாடு தடுக்கப்பட்டுள்ளது. மீற அமைப்புகளில் பாதுகாப்பற்ற முறையை இயக்குக.</string>
+    <string name="overlay_metered_format">அளவிடப்பட்ட இணைப்பில் உள்ளீர்கள். <xliff:g id="size">%1$s</xliff:g>-ஐ இப்போது பதிவிறக்கவா?</string>
+    <string name="overlay_unsafe_recovery">மீட்பு வழி பதிவிறக்கி நிறுவவா (பாதுகாப்பற்ற முறை)?</string>
+    <string name="overlay_unsafe_force">சரிபார்ப்பின்றிக் கட்டாயமாகப் பதிவிறக்கி நிறுவவா?</string>
+    <string name="overlay_scratch_mounted">Scratch பகிர்வு ஏற்றப்பட்டுள்ளது; நிறுவ முடியாது</string>
+    <string name="toast_sha_copied">SHA-256 நகலெடுக்கப்பட்டது</string>
+    <string name="overlay_install_recovery">மீட்பு வழி நிறுவவா (பாதுகாப்பற்ற முறை)? சாதனம் மீட்பிற்கு மறுதொடங்கும்.</string>
+    <string name="overlay_install_force">கையொப்பம்/பதிப்பிறக்கக் கட்டுப்பாடுகளின்றிக் கட்டாய நிறுவலா? உங்கள் பொறுப்பில் தொடர்க.</string>
+    <string name="overlay_changelog_title">மாற்றக்குறிப்பு</string>
+    <string name="desc_reload_changelog">மாற்றக்குறிப்பை மீளேற்றுக</string>
+    <string name="overlay_changelog_loading">மாற்றக்குறிப்பு ஏற்றப்படுகிறது…</string>
+    <string name="overlay_changelog_error">இக்கட்டமைப்பின் மாற்றக்குறிப்பை ஏற்ற முடியவில்லை.</string>
+    <string name="overlay_changelog_empty">இவ்வெளியீட்டிற்கு மாற்றக்குறிப்பு வழங்கப்படவில்லை.</string>
+    <string name="overlay_archive_sha">காப்பக SHA-256</string>
+    <string name="desc_copy_sha">SHA-256-ஐ நகலெடு</string>
+    <string name="overlay_reboot_to_apply">இற்றையைப் பயன்படுத்த மறுதொடங்குக</string>
+    <string name="overlay_pause_format">நிறுத்துக (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">தொடர்க (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">தொகுப்புக் கோப்பு</string>
+    <string name="overlay_parts_title">பிளவுக் காப்பகப் பகுதிகள் (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">நீக்கலை உறுதிசெய்</string>
+    <string name="info_package_size">தொகுப்பு அளவு</string>
+    <string name="info_android_api">Android API</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">கட்டமைப்பு வகை</string>
+    <string name="info_delivery">வழங்கல்</string>
+    <string name="info_delivery_split">பிளவு (<xliff:g id="count">%1$d</xliff:g> பகுதிகள்)</string>
+    <string name="float_importing">உள்ளூர் ZIP இறக்குமதியாகிறது…</string>
+    <string name="float_copying">தொகுப்பு நகலெடுக்கப்பட்டு மேல்தரவு சரிபார்க்கப்படுகிறது</string>
+    <string name="float_calculating">கணக்கிடுகிறது…</string>
+    <plurals name="float_parts">
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> பகுதிகள்</item>
+    </plurals>
+    <string name="float_parallel">இணை</string>
+    <string name="float_sequential">வரிசை</string>
+    <string name="float_single">ஒற்றைக் காப்பகம்</string>
+    <string name="float_autoinstall">தான்நிறுவல்</string>
+    <string name="float_parts_header">காப்பகப் பகுதிகள் (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> முடிந்தன)</string>
+    <string name="float_suspend">இடைநிறுத்துக</string>
+    <string name="float_abort">கைவிடுக</string>
+    <string name="desc_toggle_details">விவரங்களை மாற்றுக</string>
+    <string name="part_queued">வரிசையில்</string>
+    <string name="part_verifying">SHA-256 சரிபார்க்கிறது</string>
+    <string name="part_verified">சரிபார்க்கப்பட்டது</string>
+    <string name="part_done">முடிந்தது</string>
+    <string name="part_paused_format">நிறுத்தப்பட்டது • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">மீண்டும் முயலுக / பிழை</string>
+    <string name="part_waiting">காத்திருக்கிறது…</string>
+    <string name="stage_connecting">சேவையகத்துடன் இணைக்கிறது…</string>
+    <string name="stage_verify_part">பகுதி <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> SHA-256 சரிபார்க்கிறது…</string>
+    <string name="stage_assemble">பகுதிகள் ஒன்றிணைகின்றன (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">இறுதிக் காப்பக SHA-256 சரிபார்க்கிறது…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> பகுதிகள் செயலில் • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">பகுதி <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">பதிவிறக்குகிறது • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• தான்நிறுவல்</string>
+    <string name="stage_paused">பதிவிறக்கம் நிறுத்தப்பட்டது • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">பதிவிறக்க தோல்வி • மீண்டும் தொடரத் தட்டுக</string>
+    <string name="stage_verifying_sig">காப்பக &amp; கையொப்பம் சரிபார்க்கப்படுகிறது…</string>
+    <string name="stage_finalizing">A/B இடம் இறுதிசெய்யப்படுகிறது • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">இற்றை நிறுவப்படுகிறது • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">நிறுவல் இடைநிறுத்தப்பட்டது • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">நிறுவப்பட்டது — மறுதொடக்கம் தேவை</string>
+    <string name="md_image_alt">படம்</string>
+    <string name="md_image_failed">படத்தை ஏற்ற முடியவில்லை</string>
+    <string name="importer_tag_local">உள்ளூர் ZIP</string>
+    <string name="err_no_url">பதிவிறக்க URL அல்லது பகுதிகள் வரையறுக்கப்படவில்லை</string>
+    <string name="err_no_dest">பதிவிறக்க இலக்கு வரையறுக்கப்படவில்லை</string>
+    <string name="err_no_callback">பதிவிறக்க மீளச்செயல் வரையறுக்கப்படவில்லை</string>
+    <string name="err_no_parts">பதிவிறக்கப் பகுதிகள் குறிப்பிடப்படவில்லை</string>
+    <string name="err_no_tempdir">தற்காலிகப் பகுதி அடைவை உருவாக்க முடியவில்லை: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">பகுதி <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> சோதனைத் தொகை பொருந்தவில்லை</string>
+    <string name="err_part_failed">பகுதி <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> பதிவிறக்க தோல்வி</string>
+    <string name="err_final_sha">இறுதிக் காப்பக SHA-256 சரிபார்ப்பு தோல்வி</string>
+    <string name="err_empty_body">பகுதி <xliff:g id="index">%1$d</xliff:g> காலி மறுமொழி உடல்</string>
+    <string name="err_unknown_size"><xliff:g id="url">%1$s</xliff:g> அளவைக் கணக்கிட முடியவில்லை</string>
+    <string name="err_no_range">சேவையகம் வீச்சு கோரிக்கைகளை ஆதரிக்கவில்லை: எதிர்பார்த்த HTTP 206, கிடைத்த <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_content_range"><xliff:g id="url">%1$s</xliff:g> கு Content-Range தலைப்பு காணவில்லை</string>
+    <string name="err_bad_content_range"><xliff:g id="url">%1$s</xliff:g> கு எதிர்பாராத Content-Range: எதிர்பார்த்த <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">நெறிமுறை மாற்றங்கள் அனுமதிக்கப்படவில்லை</string>
+    <string name="err_server_reply">சேவையகம் <xliff:g id="code">%1$s</xliff:g> என்று மறுமொழியளித்தது</string>
+    <string name="err_no_fd">fileDescriptor-ஐப் பெற முடியவில்லை</string>
+    <string name="err_import_cancelled">இறக்குமதி ரத்துசெய்யப்பட்டது</string>
+    <string name="err_verify_deleted">சரிபார்ப்பு தோல்வி, கோப்பு நீக்கப்பட்டது</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">பயன்படுத்துக</string>
+    <string name="dialog_value_title">மதிப்பு</string>
+    <string name="unknown_size">தெரியவில்லை</string>
+    <string name="slider_default">இயல்பு</string>
+    <string name="slider_default_value">இயல்பு (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">பிணையப் பிழை</string>
+    <string name="action_paused_state">நிறுத்தப்பட்டது</string>
+    <string name="part_fallback_name">பகுதி_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">ஆண்ட்ராய்டு <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">சேவையகம்</string>
+    <string name="err_response_empty">காலி மறுமொழி உடல்</string>
+    <string name="err_changelog_body_empty">காலி மாற்றக்குறிப்பு உடல்</string>
+    <string name="err_changelog_too_large">மாற்றக்குறிப்பு <xliff:g id="bytes" example="524288">%1$d</xliff:g> பைட்டுகளை மீறுகிறது</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: வீத வரம்பு மீறப்பட்டது (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). <xliff:g id="wait" example="~2 min">%3$s</xliff:g>-இல் மீண்டும் முயலுக.</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: வீத வரம்பு மீறப்பட்டது (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). பின்னர் மீண்டும் முயலுக.</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: கோப்பு அல்லது ஊட்டு கிடைக்கவில்லை (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: அணுகல் மறுக்கப்பட்டது (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: வளம் நீக்கப்பட்டது (HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: சேவையகம் கிடைக்கவில்லை (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> நிமி</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g>வி</string>
+    <string name="err_download_file_missing">பதிவிறக்கிய கோப்பு காணவில்லை</string>
+    <string name="err_sha_mismatch">SHA-256 சோதனைத் தொகை பொருந்தவில்லை</string>
+    <string name="err_sha_calc_failed">SHA-256-ஐக் கணக்கிட முடியவில்லை</string>
+    <string name="err_ota_signature_failed">OTA கையொப்பச் சரிபார்ப்பு தோல்வி</string>
+    <string name="err_engine_signature">update_engine தொகுப்புக் கையொப்பத்தை நிராகரித்தது (குறியீடு <xliff:g id="code" example="20">%1$d</xliff:g>). கட்டாய மீட்பு நிறுவலை முயலுக.</string>
+    <string name="err_engine_downgrade">update_engine பதிப்பிறக்க நேரமுத்திரைத் தடுத்தது (குறியீடு <xliff:g id="code" example="51">%1$d</xliff:g>). கட்டாய மீட்பு நிறுவலை முயலுக.</string>
+    <string name="err_engine_storage">A/B இட இற்றைக்குப் போதிய சேமிப்பு இல்லை (குறியீடு <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_engine_partition">பகிர்வுச் சரிபார்ப்பு தோல்வி (குறியீடு <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_cancelled">நிறுவல் பயனரால் ரத்துசெய்யப்பட்டது.</string>
+    <string name="err_engine_generic">update_engine பிழைக் குறியீடு <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">ஆதரவற்ற OTA வகை: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found"><xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g>-ஐக் <xliff:g id="file" example="update.zip">%2$s</xliff:g>-இல் காண முடியவில்லை</string>
+
+</resources>

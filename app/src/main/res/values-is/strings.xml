@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="display_name">Kerfisuppfærslur</string>
+    <string name="verification_failed_notification">Sannvottun mistókst</string>
+    <string name="verifying_download_notification">Yfirfer uppfærslu</string>
+    <string name="downloading_notification">Sæki gögn</string>
+    <string name="download_paused_notification">Niðurhal í bið</string>
+    <string name="download_paused_error_notification">Villa við að sækja gögn</string>
+    <string name="download_completed_notification">Niðurhali  lokið</string>
+    <string name="download_starting_notification">Byrja niðurhal</string>
+    <string name="update_failed_notification">Uppfærsla mistókst</string>
+    <string name="installation_suspended_notification">Uppsetning sett í bið</string>
+    <string name="new_updates_found_title">Nýjar uppfærslur</string>
+    <string name="new_updates_found_summary">Ýttu til að sjá tiltækar uppfærslur</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="installing_update">Set inn kerfisuppfærslu</string>
+    <string name="installing_update_error">Villa í uppsetningu</string>
+    <string name="installing_update_finished">Uppfærsla bíður eftir endurræsingu</string>
+    <string name="finalizing_package">Lýk uppsetningu á pakka</string>
+    <string name="preparing_ota_first_boot">Undirbý fyrstu ræsingu</string>
+    <string name="dialog_prepare_zip_message">Undirbúningur forstillinga uppfærslu</string>
+    <string name="reboot">Endurræsa</string>
+    <string name="menu_auto_updates_check">Leita reglulega að uppfærslum</string>
+    <string name="menu_auto_updates_check_summary">Leita að uppfærslum í bakgrunni</string>
+    <string name="menu_auto_delete_updates">Eyða uppfærslum sjálfkrafa</string>
+    <string name="menu_export_update">Flytja út uppfærslu</string>
+    <string name="menu_metered_network_warning">Aðvörun á gjaldskyldu neti</string>
+    <string name="menu_metered_network_warning_summary">Aðvara áður en gögn eru sótt í gegnum farsímagögn</string>
+    <string name="menu_ab_perf_mode">Setja uppfærsluferli í forgang</string>
+    <string name="menu_update_recovery">Uppfæra endurheimtingu</string>
+    <string name="menu_update_recovery_summary">Uppfæra endurheimtingardisksneið um leið og stýrikerfið</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">Sækja</string>
+    <string name="action_resume">Halda áfram</string>
+    <string name="action_install">Setja upp</string>
+    <string name="action_info">Upplýsingar</string>
+    <string name="action_delete">Eyða</string>
+    <string name="dialog_export_title">Flytja út uppfærslu</string>
+    <string name="notification_export_success">Uppfærsla flutt út</string>
+    <string name="notification_export_fail">Villa við útflutning</string>
+    <string name="toast_already_exporting">Þegar að flytja út uppfærslu</string>
+    <string name="toast_export_started">Útflutningur hafinn</string>
+    <string name="blocked_update_dialog_title">Lokað á uppfærslu</string>
+    <string name="blocked_update_dialog_title_downgrade">Lokað á niðurfærslu</string>
+    <string name="export_channel_title">Klárun útflutnings</string>
+    <string name="new_updates_channel_title">Nýjar uppfærslur</string>
+    <string name="ongoing_channel_title">Niðurhal í gangi</string>
+    <string name="update_failed_channel_title">Uppfærsla mistókst</string>
+    <string name="action_apply">Nota</string>
+    <string name="action_back">Til baka</string>
+    <string name="action_cancel">Hætta við</string>
+    <string name="action_confirm">Staðfesta</string>
+    <string name="action_download_install">Sækja og setja upp</string>
+    <string name="action_download_install_new">Sækja og setja upp</string>
+    <string name="action_export">Flytja út</string>
+    <string name="action_import_zip">Flytja inn ZIP</string>
+    <string name="action_pause">Bið</string>
+    <string name="action_paused_state">Í bið</string>
+    <string name="action_proceed">Halda áfram</string>
+    <string name="action_reboot_now">Endurræsa núna</string>
+    <string name="action_reset">Endurstilla</string>
+    <string name="action_stream_install">Streyma og setja upp</string>
+    <string name="badge_downloaded">Sækt</string>
+    <string name="badge_local">Staðbundið</string>
+    <string name="badge_major_upgrade">Meiriháttar uppfærsla</string>
+    <string name="badge_reboot_required">Þarf endurræsingu</string>
+    <plurals name="badge_split_parts">
+        <item quantity="one">Skipt • <xliff:g id="count">%1$d</xliff:g> hluti</item>
+        <item quantity="other">Skipt • <xliff:g id="count">%1$d</xliff:g> hlutar</item>
+    </plurals>
+    <string name="badge_unsafe_mode">Óöruggur hamur</string>
+    <string name="banner_check_failed">Ekki tókst að leita að uppfærslum</string>
+    <string name="banner_no_internet">Engin nettenging</string>
+    <string name="build_date">Dagsetning byggingar</string>
+    <string name="check_for_update">Leita að uppfærslu</string>
+    <string name="checked_format">Athugað: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="checking_for_updates">Leitar að uppfærslum</string>
+    <string name="danger_accept">Ég tek áhættuna</string>
+    <string name="desc_close">Loka</string>
+    <string name="desc_copy_sha">Afrita SHA-256</string>
+    <string name="desc_reload_changelog">Endurhlaða breytingaskrá</string>
+    <string name="desc_retry">Reyna aftur</string>
+    <string name="desc_toggle_details">Víxla smáatriðum</string>
+    <string name="device_fallback_name">Tæki</string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • Plástur: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="dialog_value_title">Gildi</string>
+    <string name="downloaded_subtitle_hint">Flyttu inn ZIP-skrá eða sæktu byggingar undir Uppfærslur</string>
+    <string name="downloaded_subtitle_used">Notað pláss: <xliff:g id="size">%1$s</xliff:g></string>
+    <plurals name="downloaded_title">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> pakki vistaður</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> pakkar vistaðir</item>
+    </plurals>
+    <string name="empty_downloaded_desc">Sóttir ROM-pakkar og innfluttar ZIP-skrár birtast hér til uppsetningar, útflutnings eða eyðingar.</string>
+    <string name="empty_downloaded_title">Engar sóttar uppfærslur</string>
+    <string name="empty_releases_desc">Ýttu á endurlesa til að sækja byggingar úr stillta OTA JSON-straumnum.</string>
+    <string name="empty_releases_title">Engar útgáfur hlaðnar</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: aðgangi hafnað (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_bad_content_range">Óvænt Content-Range fyrir <xliff:g id="url">%1$s</xliff:g>: bjóst við <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_changelog_body_empty">Tóm breytingaskrá</string>
+    <string name="err_changelog_too_large">Breytingaskrá fer yfir <xliff:g id="bytes" example="524288">%1$d</xliff:g> bæti</string>
+    <string name="err_download_file_missing">Sótta skrá vantar</string>
+    <string name="err_empty_body">Tómt svar fyrir hluta <xliff:g id="index">%1$d</xliff:g></string>
+    <string name="err_engine_cancelled">Notandi hætti við uppsetningu.</string>
+    <string name="err_engine_downgrade">update_engine lokaði á tímastimpil niðurfærslu (kóði <xliff:g id="code" example="51">%1$d</xliff:g>). Prófaðu þvingaða Recovery-uppsetningu.</string>
+    <string name="err_engine_generic">update_engine villa kóði <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_engine_partition">Sannvottun disksneiðar mistókst (kóði <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_signature">update_engine hafnaði undirskrift pakka (kóði <xliff:g id="code" example="20">%1$d</xliff:g>). Prófaðu þvingaða Recovery-uppsetningu.</string>
+    <string name="err_engine_storage">Ekki nægt pláss fyrir A/B uppfærslu (kóði <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: skrá eða straumur fannst ekki (HTTP 404)</string>
+    <string name="err_final_sha">Sannvottun SHA-256 lokaskrár mistókst</string>
+    <string name="err_host_server">Þjónn</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_import_cancelled">Innflutningi hætt</string>
+    <string name="err_metadata_not_found">Fann ekki <xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> í <xliff:g id="file" example="update.zip">%2$s</xliff:g></string>
+    <string name="err_network">Netvilla</string>
+    <string name="err_no_callback">Ekkert niðurhals-tilbakakall skilgreint</string>
+    <string name="err_no_content_range">Content-Range haus vantar fyrir <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_no_dest">Enginn niðurhals-áfangastaður skilgreindur</string>
+    <string name="err_no_fd">Tókst ekki að fá fileDescriptor</string>
+    <string name="err_no_parts">Engir niðurhalshlutar skilgreindir</string>
+    <string name="err_no_range">Þjónn styður ekki sviðsbeiðnir: bjóst við HTTP 206, fékk <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_tempdir">Get ekki búið til bráðabirgðamöppu hluta: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_no_url">Engin niðurhalsslóð eða hlutar skilgreindir</string>
+    <string name="err_ota_signature_failed">Sannvottun OTA-undirskriftar mistókst</string>
+    <string name="err_part_failed">Tókst ekki að sækja hluta <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_part_mismatch">Prófssumma hluta <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> stemmir ekki</string>
+    <string name="err_proto_change">Samskiptabreytingar eru ekki leyfðar</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: hámark beiðna náð (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Reyndu aftur síðar.</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: hámark beiðna náð (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Reyndu aftur eftir <xliff:g id="wait" example="~2 min">%3$s</xliff:g>.</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: auðlind fjarlægð (HTTP 410)</string>
+    <string name="err_response_empty">Tómt svar</string>
+    <string name="err_server_reply">Þjónn svaraði með <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: þjónn ekki tiltækur (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_sha_calc_failed">Tókst ekki að reikna SHA-256</string>
+    <string name="err_sha_mismatch">SHA-256 prófssumma stemmir ekki</string>
+    <string name="err_unknown_size">Get ekki ákvarðað stærð fyrir <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_unsupported_ota_type">Óstuddur OTA-flokkur: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_verify_deleted">Sannvottun mistókst, skrá hefur verið eytt</string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> mín</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g> sek</string>
+    <string name="float_abort">Hætta við</string>
+    <string name="float_autoinstall">Sjálfvirk uppsetning</string>
+    <string name="float_calculating">Reikna…</string>
+    <string name="float_copying">Afrita pakka og athuga lýsigögn</string>
+    <string name="float_importing">Flyt inn ZIP-skrá…</string>
+    <string name="float_parallel">Samhliða</string>
+    <plurals name="float_parts">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> hluti</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> hlutar</item>
+    </plurals>
+    <string name="float_parts_header">Skjalshlutar (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> búnir)</string>
+    <string name="float_sequential">Í röð</string>
+    <string name="float_single">Eitt skjal</string>
+    <string name="float_suspend">Setja í bið</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <plurals name="hero_newer_builds">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> nýrri bygging tiltæk</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> nýrri byggingar tiltækar</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="one">Kerfið er uppfært • <xliff:g id="count">%1$d</xliff:g> bygging í straumi</item>
+        <item quantity="other">Kerfið er uppfært • <xliff:g id="count">%1$d</xliff:g> byggingar í straumi</item>
+    </plurals>
+    <string name="importer_tag_local">Staðbundið ZIP</string>
+    <string name="info_android_api">Android API</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">Tegund byggingar</string>
+    <string name="info_delivery">Afhending</string>
+    <string name="info_delivery_split">Skipt (<xliff:g id="count">%1$d</xliff:g> hlutar)</string>
+    <string name="info_package_size">Stærð pakka</string>
+    <string name="install_confirm_force">Þvinga uppsetningu án sannvottunar? Gakktu úr skugga um að ZIP-skráin sé fyrir tækið þitt.</string>
+    <string name="install_confirm_now">Setja upp <xliff:g id="name">%1$s</xliff:g> núna?</string>
+    <string name="install_confirm_recovery">Flasha í gegnum Recovery (óöruggur hamur)? Tækið endurræsir sig í Recovery.</string>
+    <string name="install_label_force">Þvinguð uppsetning</string>
+    <string name="install_label_recovery">Setja upp (Recovery)</string>
+    <string name="installed_label_format">Uppsett: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="interval_daily">Daglega</string>
+    <string name="interval_monthly">Mánaðarlega</string>
+    <string name="interval_weekly">Vikulega</string>
+    <string name="md_image_alt">Mynd</string>
+    <string name="md_image_failed">Tókst ekki að hlaða mynd</string>
+    <string name="menu_stream_updates">Streyma uppfærslur á netinu</string>
+    <string name="menu_stream_updates_summary">Settu upp uppfærslur á meðan þeim er hlaðið niður. Slökktu á til að vista uppfærslupakka til útflutnings.</string>
+    <string name="overlay_archive_sha">SHA-256 skjalasafns</string>
+    <string name="overlay_battery_low">Rafhlaðan er of lítil til uppsetningar</string>
+    <string name="overlay_blocked_format">Lokað (<xliff:g id="reason">%1$s</xliff:g>). Virkjaðu óöruggan ham í Stillingum til að þvinga uppsetningu.</string>
+    <string name="overlay_changelog_empty">Engin breytingaskrá fylgir þessari útgáfu.</string>
+    <string name="overlay_changelog_error">Tókst ekki að hlaða breytingaskrá þessarar byggingar.</string>
+    <string name="overlay_changelog_loading">Hleð breytingaskrá…</string>
+    <string name="overlay_changelog_title">Breytingaskrá</string>
+    <string name="overlay_confirm_delete">Staðfesta eyðingu</string>
+    <string name="overlay_downgrade_blocked">Lokað er á niðurfærslu af öryggisástæðum. Virkjaðu óöruggan ham í Stillingum til að hnekkja.</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_install_force">Þvinga uppsetningu án undirskriftar-/niðurfærsluathugana? Haltu áfram á eigin ábyrgð.</string>
+    <string name="overlay_install_recovery">Flasha í gegnum Recovery (óöruggur hamur)? Tækið endurræsir sig í Recovery.</string>
+    <string name="overlay_major_blocked">Lokað er á meiriháttar Android-uppfærslu af öryggisástæðum. Virkjaðu óöruggan ham í Stillingum til að hnekkja.</string>
+    <string name="overlay_metered_format">Þú ert á gjaldskyldu neti. Sækja <xliff:g id="size">%1$s</xliff:g> núna?</string>
+    <string name="overlay_package_file">Pakkaskrá</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_parts_title">Hlutar skipts skjalasafns (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_pause_format">Bið (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_reboot_to_apply">Endurræstu til að virkja uppfærslu</string>
+    <string name="overlay_resume_format">Halda áfram (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_scratch_mounted">Scratch-disksneið er tengd; getur ekki sett upp</string>
+    <string name="overlay_unsafe_force">Sækja og þvinga uppsetningu án sannvottunar?</string>
+    <string name="overlay_unsafe_recovery">Sækja og flasha í gegnum Recovery (óöruggur hamur)?</string>
+    <string name="part_done">Búið</string>
+    <string name="part_error">Reyna aftur / Villa</string>
+    <string name="part_fallback_name">hluti_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="part_paused_format">Í bið • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_queued">Í biðröð</string>
+    <string name="part_verified">Staðfest</string>
+    <string name="part_verifying">Sannvotta SHA-256</string>
+    <string name="part_waiting">Bíð…</string>
+    <string name="pref_category_background_sync">Samstilling í bakgrunni</string>
+    <string name="relation_build">Bygging</string>
+    <string name="relation_downgrade">Niðurfærsla</string>
+    <string name="relation_installed">Uppsett</string>
+    <string name="relation_newer">Nýrri</string>
+    <string name="section_downloaded">Sækt og staðbundin ZIP</string>
+    <string name="section_releases">Tiltækar útgáfur</string>
+    <string name="section_releases_count">Tiltækar útgáfur • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="security_update">Öryggisuppfærsla</string>
+    <string name="settings_ab_perf_charging">Virkjast sjálfkrafa þegar tengt er við rafmagn</string>
+    <string name="settings_ab_perf_summary">Úthluta meiri CPU og I/O til update_engine fyrir hraðari uppsetningu</string>
+    <string name="settings_amplitude_title">Sveifla bylgju</string>
+    <string name="settings_autodelete_summary">Eyða sóttum pakka sjálfkrafa þegar uppfærsla hefur tekist</string>
+    <string name="settings_banner_summary">Sýna útgáfuborða eða myndskeið í haus spjalds</string>
+    <string name="settings_banner_title">Sýna útgáfuborða</string>
+    <string name="settings_blur_title">Óskýrleikaradíus glers</string>
+    <string name="settings_check_interval">Tíðni athugana</string>
+    <string name="settings_clear_cache">Hreinsa skyndiminni margmiðlunar og breytingaskráa</string>
+    <string name="settings_danger_title">Gagnrýnin / óörugg uppsetning</string>
+    <string name="settings_danger_warning">Notaðu alfarið á eigin ábyrgð. Getur eyðilagt tækið ef rangt ROM er sett upp.</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_group_appearance">Útlit og geymsla</string>
+    <string name="settings_group_downloads">Niðurhal og sannvottun</string>
+    <string name="settings_group_installation">Uppsetning</string>
+    <string name="settings_group_ota">OTA-uppspretta</string>
+    <string name="settings_logo_summary">Sýna verkefnaborða (GIF, mynd, myndskeið eða hreyfimynd)</string>
+    <string name="settings_logo_title">Sýna merki verkefnis</string>
+    <string name="settings_ota_apply">Nota slóð</string>
+    <string name="settings_ota_url_hint">Skildu eftir autt til að nota sjálfgefna slóð ROM / DeviceTree yfirlags.</string>
+    <string name="settings_ota_url_title">Sérsniðin OTA JSON-slóð</string>
+    <string name="settings_parallel_summary">Sækja allt að 3 hluta skipts skjalasafns samtímis fyrir meiri hraða</string>
+    <string name="settings_parallel_title">Samhliða niðurhal hluta</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_recovery_summary">Sleppa update_engine og endurræsa í Recovery (OrangeFox / TWRP) til að flasha ZIP beint. Gagnlegt ef update_engine hafnar tímastimpli niðurfærslu eða undirskrift.</string>
+    <string name="settings_recovery_title">Þvinga uppsetningu í gegnum Recovery</string>
+    <string name="settings_theme_title">Þema forrits</string>
+    <string name="settings_tint_title">Ógegnsæi glertóns</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unsafe_confirm">Staðfesting: ég ber fulla ábyrgð á niðurfærslum, óundirrituðum ZIP-skrám eða gagnatapi.</string>
+    <string name="settings_unsafe_summary">Slökkvir á sannvottun OTA-undirskriftar, lokun niðurfærslu og Android SDK vörðum. Leyfir niðurfærslur eða ZIP-skrár milli ROMa.</string>
+    <string name="settings_unsafe_title">Sleppa öryggis- og sannvottunaráthugunum</string>
+    <string name="settings_value_off">Slökkt</string>
+    <string name="settings_verify_summary">Staðfesta hvern skiptan hluta og lokasamsett skjalasafn gegn JSON-hashum</string>
+    <string name="settings_verify_title">Sannvotta SHA-256 prófssummur</string>
+    <string name="settings_wavy_summary">Hreyfa bylgju við niðurhal eða uppsetningu; flest mjúklega út á bið</string>
+    <string name="settings_wavy_title">Bylgjuð framvinduslá</string>
+    <string name="slider_default">Sjálfgefið</string>
+    <string name="slider_default_value">Sjálfgefið (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="stage_assemble">Set saman hluta (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• Sjálfvirk uppsetning</string>
+    <string name="stage_connecting">Tengist þjóni…</string>
+    <string name="stage_downloading">Sæki • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">Niðurhal mistókst • Ýttu á Halda áfram</string>
+    <string name="stage_finalizing">Lýk A/B rauf • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">Uppsett — þarf endurræsingu</string>
+    <string name="stage_installing">Set inn uppfærslu • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_part_progress">Hluti <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> hlutar virkir • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_paused">Niðurhal í bið • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">Uppsetning í bið • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_verify_final">Sannvotta SHA-256 lokaskjalasafns…</string>
+    <string name="stage_verify_part">Sannvotta SHA-256 hluta <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>…</string>
+    <string name="stage_verifying_sig">Sannvotta skjalasafn og undirskrift…</string>
+    <string name="status_error">Villa</string>
+    <string name="status_installing">Setur upp <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_merging">Sameina <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">Í bið <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_starting">Byrjar</string>
+    <string name="status_suspended">Í bið <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_verifying">Sannvotta</string>
+    <string name="tab_saved">Vistað</string>
+    <string name="tab_saved_count">Vistað (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="tab_settings">Stillingar</string>
+    <string name="tab_updates">Uppfærslur</string>
+    <string name="theme_dark">Dökkt</string>
+    <string name="theme_light">Ljóst</string>
+    <string name="theme_system">Kerfi</string>
+    <string name="toast_cache_cleared">Skyndiminni hreinsað</string>
+    <string name="toast_download_failed">Niðurhal mistókst</string>
+    <string name="toast_download_verified">Niðurhal staðfest og tilbúið</string>
+    <string name="toast_import_failed">Tókst ekki að flytja inn ZIP (ógiltur pakki eða undirskrift). Prófaðu óöruggan ham fyrir sérsniðin ZIP.</string>
+    <string name="toast_imported_format"><xliff:g id="name">%1$s</xliff:g> flutt inn í Sækt-flipa</string>
+    <string name="toast_ota_reset">OTA-slóð endurstillt á sjálfgefið</string>
+    <string name="toast_ota_updated">OTA-slóð uppfærð</string>
+    <string name="toast_sha_copied">SHA-256 afritað</string>
+    <string name="unknown_date">Óþekkt dagsetning</string>
+    <string name="unknown_size">Óþekkt</string>
+</resources>

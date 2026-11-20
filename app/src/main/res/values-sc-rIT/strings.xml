@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="verification_failed_notification">Verìfica faddida</string>
+    <string name="verifying_download_notification">Verìfica de s\'atualizatzione in cursu</string>
+    <string name="downloading_notification">Iscarrigamentu in cursu</string>
+    <string name="download_paused_notification">Iscarrigamentu in pàusa</string>
+    <string name="download_paused_error_notification">Errore in s\'iscarrigamentu</string>
+    <string name="download_completed_notification">Iscarrigamentu cumpletadu</string>
+    <string name="download_starting_notification">Aviende s\'iscarrigamentu</string>
+    <string name="update_failed_notification">Agiornamentu fallidu</string>
+    <string name="installation_suspended_notification">Installatzione suspèndida</string>
+    <string name="new_updates_found_title">Agiornamentos noos</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="installing_update_error">Errore in s\'installatzione</string>
+    <string name="finalizing_package">Finalizatzione de s\'installatzione de su pachete in cursu</string>
+    <string name="preparing_ota_first_boot">Preparatzione de su primu aviu in cursu</string>
+    <string name="dialog_prepare_zip_message">Preparatzione preliminare de s\'atualizatzione</string>
+    <string name="reboot">Torra a allùghere</string>
+    <string name="menu_export_update">Esporta s\'atualizatzione</string>
+    <string name="menu_metered_network_warning">Avisu de rete de consumu</string>
+    <string name="menu_ab_perf_mode">Prioriza su protzessu de atualizatzione</string>
+    <string name="menu_update_recovery">Atualiza su recuperadore</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">Iscàrriga</string>
+    <string name="action_pause">Pàusa</string>
+    <string name="action_resume">Sighi</string>
+    <string name="action_install">Installa</string>
+    <string name="action_info">Informatziones</string>
+    <string name="action_delete">Iscantzella</string>
+    <string name="dialog_export_title">Esportatzione de s\'atualizatzione in cursu</string>
+    <string name="notification_export_success">Atualizatzione esportada</string>
+    <string name="notification_export_fail">Esportatzione faddida</string>
+    <string name="toast_already_exporting">Esportatzione giai in cursu de un\'àtera atualizatzione</string>
+    <string name="toast_export_started">Esportatzione cumintzada</string>
+    <string name="blocked_update_dialog_title">Atualizatzione blocada</string>
+    <string name="export_channel_title">Esportatzione cumpletada</string>
+    <string name="new_updates_channel_title">Agiornamentos noos</string>
+    <string name="ongoing_channel_title">Iscarrigamentos in cursu</string>
+    <string name="update_failed_channel_title">Agiornamentu fallidu</string>
+    <string name="display_name">LeeGar Updater</string>
+    <string name="new_updates_found_summary">Toca pro bìdere sos agiornamentos disponìbiles</string>
+    <string name="installing_update">Installatzione de s\'agiornamentu de sistema</string>
+    <string name="installing_update_finished">Agiornamentu in isetu de torrare a allùghere</string>
+    <string name="action_download_install">Iscàrriga e installa</string>
+    <string name="check_for_update">Chirca agiornamentos</string>
+    <string name="action_back">A segus</string>
+    <string name="checking_for_updates">Chirca de agiornamentos in cursu</string>
+    <string name="pref_category_background_sync">Sincronizatzione in segundu pianu</string>
+    <string name="menu_auto_updates_check">Controlla agiornamentos periòdicu</string>
+    <string name="menu_auto_updates_check_summary">Chirca agiornamentos in segundu pianu</string>
+    <string name="menu_auto_delete_updates">Ischantzella agiornamentos in automàticu</string>
+    <string name="menu_stream_updates">Trasmite agiornamentos in lìnia</string>
+    <string name="menu_stream_updates_summary">Installa sos agiornamentos mentras sunt iscarrighende. Disativa pro sarvare sos pachetes de agiornamentu pro s\'esportatzione.</string>
+    <string name="menu_metered_network_warning_summary">Avisa in antis de iscarrigare pro mèdiu de datos mòbiles</string>
+    <string name="menu_update_recovery_summary">Atualiza sa partitzione de recuperadore paris cun su SO</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">Data de cumpiladura</string>
+    <string name="security_update">Agiornamentu de seguràntzia</string>
+    <string name="blocked_update_dialog_title_downgrade">Degradamentu blocadu</string>
+    <string name="tab_updates">Agiornamentos</string>
+    <string name="tab_saved">Sarvados</string>
+    <string name="tab_saved_count">Sarvados (%1$d)</string>
+    <string name="tab_settings">Cunfiguratzione</string>
+    <string name="toast_download_failed">Iscarrigamentu faddidu</string>
+    <string name="toast_download_verified">Iscarrigamentu verificadu e prontu</string>
+    <string name="toast_import_failed">Importatzione ZIP faddida (pachete o firma non vàlida). Proa sa modalidade non segura pro ZIP personalizados.</string>
+    <string name="toast_imported_format"><xliff:g id="name">%1$s</xliff:g> importadu in sa scheda Iscarrigados</string>
+    <string name="banner_no_internet">Peruna connessione a Internet</string>
+    <string name="banner_check_failed">Faddina in sa chirca de agiornamentos</string>
+    <string name="section_releases">Versiones disponìbiles</string>
+    <string name="section_releases_count">Versiones disponìbiles • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">Modalidade non segura</string>
+    <string name="empty_releases_title">Peruna versione carrigada</string>
+    <string name="empty_releases_desc">Toca atualiza pro retzire cumpiladuras dae su canale OTA JSON cunfiguradu.</string>
+    <string name="device_fallback_name">Dispositivu</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> cumpiladura prus noa disponìbile</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> cumpiladuras prus noas disponìbiles</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="one">Sistema agiornadu • <xliff:g id="count">%1$d</xliff:g> cumpiladura in su canale</item>
+        <item quantity="other">Sistema agiornadu • <xliff:g id="count">%1$d</xliff:g> cumpiladuras in su canale</item>
+    </plurals>
+    <string name="installed_label_format">Installadu: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • Patch: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">Verificadu: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">Data non nota</string>
+    <string name="status_starting">Cumintzende</string>
+    <string name="status_verifying">Verifichende</string>
+    <string name="status_merging">Fundende <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">In pàusa <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">Errore</string>
+    <string name="status_installing">Installende <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">Suspèndidu <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <plurals name="badge_split_parts">
+        <item quantity="one">Spèrtiu • <xliff:g id="count">%1$d</xliff:g> parte</item>
+        <item quantity="other">Spèrtiu • <xliff:g id="count">%1$d</xliff:g> partes</item>
+    </plurals>
+    <string name="badge_downloaded">Iscarrigadu</string>
+    <string name="badge_reboot_required">Bisòngiat de torrare a allùghere</string>
+    <string name="badge_local">Locale</string>
+    <string name="badge_major_upgrade">Agiornamentu mannu</string>
+    <string name="relation_newer">Prus noa</string>
+    <string name="relation_installed">Installada</string>
+    <string name="relation_downgrade">Degradamentu</string>
+    <string name="relation_build">Cumpiladura</string>
+    <plurals name="downloaded_title">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> pachete sarvadu</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> pachetes sarvados</item>
+    </plurals>
+    <string name="downloaded_subtitle_used">Ispàtziu impreadu: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">Importa unu ZIP locale o iscàrriga cumpiladuras dae Agiornamentos</string>
+    <string name="action_import_zip">Importa ZIP</string>
+    <string name="empty_downloaded_title">Perunu agiornamentu iscarrigadu</string>
+    <string name="empty_downloaded_desc">Sos pachetes ROM iscarrigados e sos archìvios ZIP locales importados ant a èssere ammustrados inoghe pro s\'installatzione, s\'esportatzione o s\'ischantzelladura.</string>
+    <string name="section_downloaded">Iscarrigados e ZIP locales</string>
+    <string name="install_confirm_recovery">Installare pro mèdiu de Recovery (modalidade non segura)? Su dispositivu at a torrare a allùghere in Recovery.</string>
+    <string name="install_confirm_force">Fortzare s\'installatzione chene verìfica? Assegura chi custu ZIP currespondat a su dispositivu tuo.</string>
+    <string name="install_confirm_now">Installare <xliff:g id="name">%1$s</xliff:g> immoe?</string>
+    <string name="action_cancel">Annulla</string>
+    <string name="action_confirm">Cunfirma</string>
+    <string name="action_proceed">Bae a in antis</string>
+    <string name="action_reboot_now">Torra a allùghere immoe</string>
+    <string name="action_export">Esporta</string>
+    <string name="action_reset">Riprìstina</string>
+    <string name="install_label_recovery">Installa (Recovery)</string>
+    <string name="install_label_force">Fortza installatzione</string>
+    <string name="action_stream_install">Trasmite e installa</string>
+    <string name="action_download_install_new">Iscàrriga e installa</string>
+    <string name="desc_close">Serra</string>
+    <string name="desc_retry">Torra a proare</string>
+    <string name="settings_check_interval">Intervallu de controllu</string>
+    <string name="interval_daily">Ònnia die</string>
+    <string name="interval_weekly">Ònnia chida</string>
+    <string name="interval_monthly">Ònnia mese</string>
+    <string name="settings_group_downloads">Iscarrigamentos e verìfica</string>
+    <string name="settings_parallel_title">Iscarrigamentu spèrtiu paralellu</string>
+    <string name="settings_parallel_summary">Iscàrriga finas a 3 partes de s\'archìviu spèrtiu paris pro prus lestresa</string>
+    <string name="settings_verify_title">Verìfica somas SHA-256</string>
+    <string name="settings_verify_summary">Vàlida ònnia parte spèrtia e s\'archìviu finale assembladu contra sos hash JSON</string>
+    <string name="settings_autodelete_summary">Boga in automàticu su pachete iscarrigadu a pustis chi s\'agiornamentu at tentu èsitu</string>
+    <string name="settings_group_installation">Installatzione</string>
+    <string name="settings_ab_perf_summary">Assegna prus CPU e I/O a update_engine pro installatziones prus lestas</string>
+    <string name="settings_ab_perf_charging">Ativu in automàticu cando est collegadu a s\'alimentatzione CA</string>
+    <string name="settings_group_ota">Orìgine OTA</string>
+    <string name="settings_ota_url_title">URL OTA JSON personalizadu</string>
+    <string name="settings_ota_url_hint">Lassa bòidu pro impreare s\'URL predefinidu de sa ROM / DeviceTree.</string>
+    <string name="settings_ota_apply">Àplica URL</string>
+    <string name="toast_ota_reset">URL OTA ripristinadu a predefinidu</string>
+    <string name="toast_ota_updated">URL OTA agiornadu</string>
+    <string name="settings_group_appearance">Aspetu e archiviatzione</string>
+    <string name="settings_theme_title">Tema de s\'aplicatzione</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_light">Craru</string>
+    <string name="theme_dark">Oscuru</string>
+    <string name="settings_wavy_title">Barra de progressu ondulada</string>
+    <string name="settings_wavy_summary">Ànima s\'unda mentras iscàrrigas o installas; si piana in manera lisa in pàusa</string>
+    <string name="settings_amplitude_title">Ampiesa de s\'unda</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">Istudadu</string>
+    <string name="settings_blur_title">Ràdiu de sfocadura de su vitru</string>
+    <string name="settings_tint_title">Opacidade de su vitru</string>
+    <string name="settings_logo_title">Ammustra logo de su progetu</string>
+    <string name="settings_logo_summary">Ammustra banner de su progetu (GIF, immàgine, vìdeu o marchiu animadu)</string>
+    <string name="settings_banner_title">Ammustra banner de sa versione</string>
+    <string name="settings_banner_summary">Ammustra s\'immàgine o vìdeu de sa versione in s\'intestatzione de sa scheda</string>
+    <string name="settings_clear_cache">Boga cachè de multimèdia e notularios de càmbios</string>
+    <string name="toast_cache_cleared">Cachè bogada</string>
+    <string name="settings_danger_title">Installatzione crìtica / non segura</string>
+    <string name="settings_danger_warning">Isera a riscu tuo petzi. Podet danniare su dispositivu si installas sa ROM isballiada.</string>
+    <string name="settings_unsafe_title">Sarta controllos de seguràntzia e verìfica</string>
+    <string name="settings_unsafe_summary">Disativa sa verìfica de firma OTA, su blocu de degradamentu e sas protetziones SDK de Android. Permitet de installare degradamentos o ZIP de ROM cruxadas.</string>
+    <string name="settings_unsafe_confirm">Cunfirma: atzetas responsabilidade totale pro degradamentos, ZIP non firmados o pèrdida de datos.</string>
+    <string name="danger_accept">Atzeto su riscu</string>
+    <string name="settings_recovery_title">Fortza installatzione pro mèdiu de Recovery</string>
+    <string name="settings_recovery_summary">Sarta update_engine e torra a allùghere in Recovery (OrangeFox / TWRP) pro installare su ZIP deretu. Ùtile si update_engine refudat su marcadore o sa firma de degradamentu.</string>
+    <string name="overlay_battery_low">Su livellu de bateria est tropu basciu pro installare</string>
+    <string name="overlay_blocked_format">Blocadu (<xliff:g id="reason">%1$s</xliff:g>). Ativa sa modalidade non segura in Cunfiguratzione pro fortzare s\'installatzione.</string>
+    <string name="overlay_downgrade_blocked">Su degradamentu est blocadu dae sas règulas de seguràntzia. Ativa sa modalidade non segura in Cunfiguratzione pro ddu superare.</string>
+    <string name="overlay_major_blocked">S\'agiornamentu mannu de Android est blocadu dae sas règulas de seguràntzia. Ativa sa modalidade non segura in Cunfiguratzione pro ddu superare.</string>
+    <string name="overlay_metered_format">Ses in una connessione de consumu. Iscarrigare <xliff:g id="size">%1$s</xliff:g> immoe?</string>
+    <string name="overlay_unsafe_recovery">Iscarrigare e installare pro mèdiu de Recovery (modalidade non segura)?</string>
+    <string name="overlay_unsafe_force">Iscarrigare e fortzare s\'installatzione chene verìfica?</string>
+    <string name="overlay_scratch_mounted">Sa partitzione scratch est montada; non si podet installare</string>
+    <string name="toast_sha_copied">SHA-256 copiadu</string>
+    <string name="overlay_install_recovery">Installare pro mèdiu de Recovery (modalidade non segura)? Su dispositivu at a torrare a allùghere in Recovery.</string>
+    <string name="overlay_install_force">Fortzare s\'installatzione chene controllos de firma/degradamentu? Bae a in antis a riscu tuo.</string>
+    <string name="overlay_changelog_title">Notulariu de càmbios</string>
+    <string name="desc_reload_changelog">Torra a carrigare su notulariu de càmbios</string>
+    <string name="overlay_changelog_loading">Carrighende su notulariu de càmbios…</string>
+    <string name="overlay_changelog_error">Non s\'at pòdidu carrigare su notulariu de càmbios de custa cumpiladura.</string>
+    <string name="overlay_changelog_empty">Perunu notulariu de càmbios frunidu pro custa versione.</string>
+    <string name="overlay_archive_sha">SHA-256 de s\'archìviu</string>
+    <string name="desc_copy_sha">Còpia SHA-256</string>
+    <string name="overlay_reboot_to_apply">Torra a allùghere pro aplicare s\'agiornamentu</string>
+    <string name="overlay_pause_format">Pàusa (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">Sighi (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">Archìviu de su pachete</string>
+    <string name="overlay_parts_title">Partes de s\'archìviu spèrtiu (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">Cunfirma ischantzelladura</string>
+    <string name="info_package_size">Mannària de su pachete</string>
+    <string name="info_android_api">API de Android</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">Genia de cumpiladura</string>
+    <string name="info_delivery">Intrega</string>
+    <string name="info_delivery_split">Spèrtia (<xliff:g id="count">%1$d</xliff:g> partes)</string>
+    <string name="float_importing">Importatzione de ZIP locale…</string>
+    <string name="float_copying">Còpia de su pachete e verìfica de metadatos</string>
+    <string name="float_calculating">Calculende…</string>
+    <plurals name="float_parts">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> parte</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> partes</item>
+    </plurals>
+    <string name="float_parallel">Paralellu</string>
+    <string name="float_sequential">Cuente</string>
+    <string name="float_single">Archìviu ùnicu</string>
+    <string name="float_autoinstall">Installatzione automàtica</string>
+    <string name="float_parts_header">Partes de s\'archìviu (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> cumpletadas)</string>
+    <string name="float_suspend">Suspende</string>
+    <string name="float_abort">Interrumpe</string>
+    <string name="desc_toggle_details">Cumuta detàllios</string>
+    <string name="part_queued">In coa</string>
+    <string name="part_verifying">Verìfica SHA-256</string>
+    <string name="part_verified">Verificada</string>
+    <string name="part_done">Cumpletada</string>
+    <string name="part_paused_format">In pàusa • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">Torra a proare / Errore</string>
+    <string name="part_waiting">Isetende…</string>
+    <string name="stage_connecting">Connessione a su serbidore…</string>
+    <string name="stage_verify_part">Verìfica de sa parte <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> SHA-256…</string>
+    <string name="stage_assemble">Assemblende partes (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">Verìfica SHA-256 de s\'archìviu finale…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> partes ativas • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">Parte <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">Iscarrighende • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• Installatzione automàtica</string>
+    <string name="stage_paused">Iscarrigamentu in pàusa • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">Iscarrigamentu faddidu • Toca Sighi</string>
+    <string name="stage_verifying_sig">Verìfica de s\'archìviu e firma…</string>
+    <string name="stage_finalizing">Finalizende istampu A/B • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">Installende agiornamentu • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">Installatzione suspèndida • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">Installadu — bisòngiat de torrare a allùghere</string>
+    <string name="md_image_alt">Immàgine</string>
+    <string name="md_image_failed">Faddina in su carrigamentu de s\'immàgine</string>
+    <string name="importer_tag_local">ZIP locale</string>
+    <string name="err_no_url">Perunu URL de iscarrigamentu o partes definidas</string>
+    <string name="err_no_dest">Peruna destinatzione de iscarrigamentu definida</string>
+    <string name="err_no_callback">Peruna richiamada de iscarrigamentu definida</string>
+    <string name="err_no_parts">Peruna parte de iscarrigamentu ispetzificada</string>
+    <string name="err_no_tempdir">Non si podet creare sa cartella temporànea de partes: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">Soma de controllu de sa parte <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> non currespondet</string>
+    <string name="err_part_failed">Faddina in s\'iscarrigamentu de sa parte <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_final_sha">Verìfica SHA-256 de s\'archìviu finale faddida</string>
+    <string name="err_empty_body">Corpu de risposta bòidu pro sa parte <xliff:g id="index">%1$d</xliff:g></string>
+    <string name="err_unknown_size">Non si podet determinare sa mannària de <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_no_range">Su serbidore non suportat rechestas de intervalos: isetadu HTTP 206, retzidu <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_content_range">Intestatzione Content-Range mancante pro <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_bad_content_range">Content-Range non isetadu pro <xliff:g id="url">%1$s</xliff:g>: isetadu <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">Sos càmbios de protocollu non sunt permissos</string>
+    <string name="err_server_reply">Su serbidore at rispostu cun <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_no_fd">Non s\'at pòdidu otènnere su descritore de archìviu</string>
+    <string name="err_import_cancelled">Importatzione annullada</string>
+    <string name="err_verify_deleted">Verìfica faddida, s\'archìviu est istadu ischantzelladu</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">Àplica</string>
+    <string name="dialog_value_title">Valore</string>
+    <string name="unknown_size">Non notu</string>
+    <string name="slider_default">Predefinidu</string>
+    <string name="slider_default_value">Predefinidu (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">Errore de rete</string>
+    <string name="action_paused_state">In pàusa</string>
+    <string name="part_fallback_name">parte_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">Serbidore</string>
+    <string name="err_response_empty">Corpu de risposta bòidu</string>
+    <string name="err_changelog_body_empty">Corpu bòidu de su notulariu de càmbios</string>
+    <string name="err_changelog_too_large">Su notulariu de càmbios superat <xliff:g id="bytes" example="524288">%1$d</xliff:g> bytes</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: lìmites de rechestas superadu (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Torra a proare in <xliff:g id="wait" example="~2 min">%3$s</xliff:g>.</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: lìmites de rechestas superadu (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Proa a pustis.</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: archìviu o canale non agatadu (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: atzessu negadu (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: resursa bogada (HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: serbidore non disponìbile (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> min</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g>s</string>
+    <string name="err_download_file_missing">Archìviu iscarrigadu non agatadu</string>
+    <string name="err_sha_mismatch">Soma de controllu SHA-256 non currespondet</string>
+    <string name="err_sha_calc_failed">Càrculu de su SHA-256 faddidu</string>
+    <string name="err_ota_signature_failed">Verìfica de sa firma OTA faddida</string>
+    <string name="err_engine_signature">update_engine at refudadu sa firma de su pachete (còdighe <xliff:g id="code" example="20">%1$d</xliff:g>). Proa s\'installatzione fortzada pro mèdiu de Recovery.</string>
+    <string name="err_engine_downgrade">update_engine at blocadu su marcadore de degradamentu (còdighe <xliff:g id="code" example="51">%1$d</xliff:g>). Proa s\'installatzione fortzada pro mèdiu de Recovery.</string>
+    <string name="err_engine_storage">Ispàtziu non bastante pro s\'atualizatzione de s\'istampu A/B (còdighe <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_engine_partition">Verìfica de sa partitzione faddida (còdighe <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_cancelled">Installatzione annullada dae s\'usàriu.</string>
+    <string name="err_engine_generic">Còdighe de errore <xliff:g id="code" example="1">%1$d</xliff:g> de update_engine</string>
+    <string name="err_unsupported_ota_type">Genia de OTA non suportada: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found">Non s\'at agatadu <xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> in <xliff:g id="file" example="update.zip">%2$s</xliff:g></string>
+
+</resources>

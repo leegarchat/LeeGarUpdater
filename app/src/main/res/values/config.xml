@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- URL template for opening the device-specific downloads page from the update menu. -->
+
+    <!-- Prefix prepended to shorthand GitHub links (owner/repo/path) from the OTA feed. -->
+    <string name="link_github_prefix" translatable="false">https://example.com/</string>
+
+    <!-- Overlayable preference defaults. DeviceTree RRO can override any of these. -->
+    <bool name="def_ab_perf_mode">false</bool>
+    <bool name="def_auto_delete_updates">false</bool>
+    <bool name="def_metered_network_warning">true</bool>
+    <bool name="def_periodic_check_enabled">true</bool>
+    <bool name="def_stream_updates">false</bool>
+    <bool name="def_show_logo">true</bool>
+    <bool name="def_show_release_banner">true</bool>
+    <bool name="def_unsafe_install">false</bool>
+    <bool name="def_force_recovery_install">false</bool>
+    <bool name="def_verify_download_hashes">true</bool>
+    <bool name="def_wavy_progress">true</bool>
+    <bool name="def_parallel_split_download">false</bool>
+    <integer name="def_wavy_amplitude_percent">85</integer>
+    <integer name="def_blur_radius_dp">28</integer>
+    <integer name="def_blur_tint_percent">72</integer>
+    <string name="def_theme_mode" translatable="false">system</string>
+    <string name="def_check_interval" translatable="false">weekly</string>
+    <string name="def_custom_ota_url" translatable="false"></string>
+</resources>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="display_name">システムアップデート</string>
+    <string name="verification_failed_notification">検証に失敗しました</string>
+    <string name="verifying_download_notification">アップデートを検証中</string>
+    <string name="downloading_notification">ダウンロード中</string>
+    <string name="download_paused_notification">ダウンロードを一時停止しました</string>
+    <string name="download_paused_error_notification">ダウンロードエラー</string>
+    <string name="download_completed_notification">ダウンロードが完了しました</string>
+    <string name="download_starting_notification">ダウンロードを開始中</string>
+    <string name="update_failed_notification">更新に失敗しました</string>
+    <string name="installation_suspended_notification">インストールは保留されました</string>
+    <string name="new_updates_found_title">新しいアップデート</string>
+    <string name="new_updates_found_summary">タップして利用可能なアップデートを表示</string>
+    <string name="text_download_speed">%1$s、%2$s/s</string>
+    <string name="installing_update">システムアップデートをインストール中</string>
+    <string name="installing_update_error">インストールエラー</string>
+    <string name="installing_update_finished">保留中の再起動を更新</string>
+    <string name="finalizing_package">パッケージのインストールを完了中</string>
+    <string name="preparing_ota_first_boot">初回起動を準備中</string>
+    <string name="dialog_prepare_zip_message">予備のアップデート準備</string>
+    <string name="reboot">再起動</string>
+    <string name="checking_for_updates">アップデートを確認中</string>
+    <string name="pref_category_background_sync">バックグラウンド同期</string>
+    <string name="menu_auto_updates_check">アップデートを定期的に確認します</string>
+    <string name="menu_auto_updates_check_summary">バックグラウンドでアップデートを確認する</string>
+    <string name="menu_auto_delete_updates">アップデートの自動削除</string>
+    <string name="menu_stream_updates">オンラインアップデートをストリーミング</string>
+    <string name="menu_stream_updates_summary">ダウンロード中にアップデートをインストールします。エクスポート用のアップデートパッケージの保存するには無効にしてください。</string>
+    <string name="menu_export_update">アップデートのエクスポート</string>
+    <string name="menu_metered_network_warning">従量制課金接続の警告</string>
+    <string name="menu_metered_network_warning_summary">モバイルデータでダウンロードする前に警告する</string>
+    <string name="menu_ab_perf_mode">更新プロセスを優先する</string>
+    <string name="menu_update_recovery">リカバリーを更新</string>
+    <string name="menu_update_recovery_summary">OS とともにリカバリパーティションもアップデート</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">ビルド日時</string>
+    <string name="security_update">セキュリティアップデート</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">ダウンロード</string>
+    <string name="action_pause">一時停止</string>
+    <string name="action_resume">再開</string>
+    <string name="action_install">インストール</string>
+    <string name="action_info">情報</string>
+    <string name="action_delete">削除</string>
+    <string name="dialog_export_title">アップデートのエクスポート中</string>
+    <string name="notification_export_success">アップデートのエクスポート</string>
+    <string name="notification_export_fail">エラー出力</string>
+    <string name="toast_already_exporting">すでにアップデートをエクスポートしています。</string>
+    <string name="toast_export_started">エクスポートを開始しました</string>
+    <string name="blocked_update_dialog_title">更新をブロックしました</string>
+    <string name="blocked_update_dialog_title_downgrade">ダウングレードをブロックしました</string>
+    <string name="export_channel_title">エクスポート完了</string>
+    <string name="new_updates_channel_title">新しいアップデート</string>
+    <string name="ongoing_channel_title">ダウンロード中</string>
+    <string name="update_failed_channel_title">更新に失敗しました</string>
+    <string name="action_download_install">ダウンロードしてインストール</string>
+    <string name="check_for_update">アップデートを確認</string>
+    <string name="action_back">戻る</string>
+    <string name="tab_updates">アップデート</string>
+    <string name="tab_saved">保存済み</string>
+    <string name="tab_saved_count">保存済み (%1$d)</string>
+    <string name="tab_settings">設定</string>
+    <string name="toast_download_failed">ダウンロードに失敗しました</string>
+    <string name="toast_download_verified">ダウンロードの検証が完了し、準備ができました</string>
+    <string name="toast_import_failed">ZIPのインポートに失敗しました (無効なパッケージまたは署名)。カスタムZIPにはアンセーフモードをお試しください。</string>
+    <string name="toast_imported_format"><xliff:g id="name">%1$s</xliff:g>をダウンロード済みタブにインポートしました</string>
+    <string name="banner_no_internet">インターネットに接続していません</string>
+    <string name="banner_check_failed">アップデートの確認に失敗しました</string>
+    <string name="section_releases">利用可能なリリース</string>
+    <string name="section_releases_count">利用可能なリリース • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">アンセーフモード</string>
+    <string name="empty_releases_title">リリースが読み込まれていません</string>
+    <string name="empty_releases_desc">更新して、設定されたOTA JSONフィードからビルドを取得します。</string>
+    <string name="device_fallback_name">デバイス</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> 件の新しいビルドが利用可能です</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="other">システムは最新です • フィード内のビルド<xliff:g id="count">%1$d</xliff:g>件</item>
+    </plurals>
+    <string name="installed_label_format">インストール済み: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • パッチ: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">確認日時: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">不明な日付</string>
+    <string name="status_starting">開始中</string>
+    <string name="status_verifying">検証中</string>
+    <string name="status_merging">結合中 <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">一時停止中 <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">エラー</string>
+    <string name="status_installing">インストール中 <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">保留中 <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <plurals name="badge_split_parts">
+        <item quantity="other">分割 • <xliff:g id="count">%1$d</xliff:g> パーツ</item>
+    </plurals>
+    <string name="badge_downloaded">ダウンロード済み</string>
+    <string name="badge_reboot_required">再起動が必要です</string>
+    <string name="badge_local">ローカル</string>
+    <string name="badge_major_upgrade">メジャーアップグレード</string>
+    <string name="relation_newer">新しい</string>
+    <string name="relation_installed">インストール済み</string>
+    <string name="relation_downgrade">ダウングレード</string>
+    <string name="relation_build">ビルド</string>
+    <plurals name="downloaded_title">
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> 件のパッケージを保存済み</item>
+    </plurals>
+    <string name="downloaded_subtitle_used">使用容量: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">ローカルのZIPをインポートするか、アップデートからビルドをダウンロードします</string>
+    <string name="action_import_zip">ZIPをインポート</string>
+    <string name="empty_downloaded_title">ダウンロード済みのアップデートはありません</string>
+    <string name="empty_downloaded_desc">ダウンロードしたROMパッケージやインポートしたローカルZIPファイルは、インストール、エクスポート、削除用にここに表示されます。</string>
+    <string name="section_downloaded">ダウンロード済み・ローカルZIP</string>
+    <string name="install_confirm_recovery">リカバリー経由でフラッシュしますか (アンセーフモード)? デバイスはリカバリーで再起動します。</string>
+    <string name="install_confirm_force">検証せずに強制インストールしますか? このZIPがお使いのデバイス用であることを確認してください。</string>
+    <string name="install_confirm_now"><xliff:g id="name">%1$s</xliff:g>を今すぐインストールしますか?</string>
+    <string name="action_cancel">キャンセル</string>
+    <string name="action_confirm">確認</string>
+    <string name="action_proceed">続行</string>
+    <string name="action_reboot_now">今すぐ再起動</string>
+    <string name="action_export">エクスポート</string>
+    <string name="action_reset">リセット</string>
+    <string name="install_label_recovery">インストール (リカバリー)</string>
+    <string name="install_label_force">強制インストール</string>
+    <string name="action_stream_install">ストリーミングしてインストール</string>
+    <string name="action_download_install_new">ダウンロードしてインストール</string>
+    <string name="desc_close">閉じる</string>
+    <string name="desc_retry">再試行</string>
+    <string name="settings_check_interval">確認間隔</string>
+    <string name="interval_daily">毎日</string>
+    <string name="interval_weekly">毎週</string>
+    <string name="interval_monthly">毎月</string>
+    <string name="settings_group_downloads">ダウンロードと検証</string>
+    <string name="settings_parallel_title">並列分割ダウンロード</string>
+    <string name="settings_parallel_summary">最大3つの分割アーカイブパートを同時にダウンロードして高速化します</string>
+    <string name="settings_verify_title">SHA-256チェックサムを検証</string>
+    <string name="settings_verify_summary">JSONハッシュに対してすべての分割パートと最終アセンブリを検証します</string>
+    <string name="settings_autodelete_summary">アップデートが成功したらダウンロードしたパッケージを自動的に削除します</string>
+    <string name="settings_group_installation">インストール</string>
+    <string name="settings_ab_perf_summary">update_engineにより多くのCPUとI/Oを割り当ててインストールを高速化します</string>
+    <string name="settings_ab_perf_charging">AC電源接続中は自動的に有効になります</string>
+    <string name="settings_group_ota">OTAソース</string>
+    <string name="settings_ota_url_title">カスタムOTA JSON URL</string>
+    <string name="settings_ota_url_hint">ROM / DeviceTreeの既定のURLを使用するには空のままにしてください。</string>
+    <string name="settings_ota_apply">URLを適用</string>
+    <string name="toast_ota_reset">OTA URLを既定値にリセットしました</string>
+    <string name="toast_ota_updated">OTA URLを更新しました</string>
+    <string name="settings_group_appearance">外観とストレージ</string>
+    <string name="settings_theme_title">アプリのテーマ</string>
+    <string name="theme_system">システム</string>
+    <string name="theme_light">ライト</string>
+    <string name="theme_dark">ダーク</string>
+    <string name="settings_wavy_title">波状プログレスバー</string>
+    <string name="settings_wavy_summary">ダウンロード中やインストール中に波をアニメーション表示し、一時停止時は滑らかに平坦化します</string>
+    <string name="settings_amplitude_title">波の振幅</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">オフ</string>
+    <string name="settings_blur_title">ガラスのぼかし半径</string>
+    <string name="settings_tint_title">ガラスの色合い不透明度</string>
+    <string name="settings_logo_title">プロジェクトロゴを表示</string>
+    <string name="settings_logo_summary">プロジェクトバナー (GIF、画像、動画、アニメーションのワードマーク) を表示します</string>
+    <string name="settings_banner_title">リリースバナーを表示</string>
+    <string name="settings_banner_summary">カードヘッダーにリリースバナー画像または動画を表示します</string>
+    <string name="settings_clear_cache">メディアと変更履歴のキャッシュをクリア</string>
+    <string name="toast_cache_cleared">キャッシュをクリアしました</string>
+    <string name="settings_danger_title">危険 / アンセーフなインストール</string>
+    <string name="settings_danger_warning">自己責任で使用してください。誤ったROMをフラッシュすると端末が起動しなくなる恐れがあります。</string>
+    <string name="settings_unsafe_title">安全・検証チェックをバイパス</string>
+    <string name="settings_unsafe_summary">OTA署名検証、ダウングレードブロック、Android SDKガードを無効にします。ダウングレードやクロスROM ZIPのフラッシュが可能になります。</string>
+    <string name="settings_unsafe_confirm">ダウングレード、未署名ZIP、データ損失について全責任を負うことに同意します。</string>
+    <string name="danger_accept">リスクを承諾する</string>
+    <string name="settings_recovery_title">リカバリー経由で強制インストール</string>
+    <string name="settings_recovery_summary">ダウングレードのタイムスタンプや署名をupdate_engineが拒否する場合、update_engineを迂回してリカバリー (OrangeFox / TWRP) に再起動し、ZIPを直接フラッシュします。</string>
+    <string name="overlay_battery_low">バッテリー残量が少なくてインストールできません</string>
+    <string name="overlay_blocked_format">ブロックされました (<xliff:g id="reason">%1$s</xliff:g>)。強制インストールするには設定でアンセーフモードを有効にしてください。</string>
+    <string name="overlay_downgrade_blocked">ダウングレードは安全ルールによりブロックされています。設定でアンセーフモードを有効にして上書きしてください。</string>
+    <string name="overlay_major_blocked">メジャーAndroidアップグレードは安全ルールによりブロックされています。設定でアンセーフモードを有効にして上書きしてください。</string>
+    <string name="overlay_metered_format">従量制接続を使用中です。<xliff:g id="size">%1$s</xliff:g>を今すぐダウンロードしますか?</string>
+    <string name="overlay_unsafe_recovery">ダウンロードしてリカバリー経由でフラッシュしますか (アンセーフモード)?</string>
+    <string name="overlay_unsafe_force">検証なしでダウンロードして強制インストールしますか?</string>
+    <string name="overlay_scratch_mounted">スクラッチパーティションがマウントされているためインストールできません</string>
+    <string name="toast_sha_copied">SHA-256をコピーしました</string>
+    <string name="overlay_install_recovery">リカバリー経由でフラッシュしますか (アンセーフモード)? デバイスはリカバリーで再起動します。</string>
+    <string name="overlay_install_force">署名/ダウングレードチェックなしで強制インストールしますか? 自己責任で続行してください。</string>
+    <string name="overlay_changelog_title">変更履歴</string>
+    <string name="desc_reload_changelog">変更履歴を再読み込み</string>
+    <string name="overlay_changelog_loading">変更履歴を読み込み中…</string>
+    <string name="overlay_changelog_error">このビルドの変更履歴を読み込めませんでした。</string>
+    <string name="overlay_changelog_empty">このリリースの変更履歴はありません。</string>
+    <string name="overlay_archive_sha">アーカイブのSHA-256</string>
+    <string name="desc_copy_sha">SHA-256をコピー</string>
+    <string name="overlay_reboot_to_apply">アップデートを適用するには再起動してください</string>
+    <string name="overlay_pause_format">一時停止 (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">再開 (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">パッケージファイル</string>
+    <string name="overlay_parts_title">分割アーカイブパーツ (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">削除の確認</string>
+    <string name="info_package_size">パッケージサイズ</string>
+    <string name="info_android_api">Android API</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">ビルドタイプ</string>
+    <string name="info_delivery">配信方法</string>
+    <string name="info_delivery_split">分割 (<xliff:g id="count">%1$d</xliff:g> パーツ)</string>
+    <string name="float_importing">ローカルZIPをインポート中…</string>
+    <string name="float_copying">パッケージをコピーしてメタデータを確認中</string>
+    <string name="float_calculating">計算中…</string>
+    <plurals name="float_parts">
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> パーツ</item>
+    </plurals>
+    <string name="float_parallel">並列</string>
+    <string name="float_sequential">順次</string>
+    <string name="float_single">単一アーカイブ</string>
+    <string name="float_autoinstall">自動インストール</string>
+    <string name="float_parts_header">アーカイブパーツ (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> 完了)</string>
+    <string name="float_suspend">一時停止</string>
+    <string name="float_abort">中止</string>
+    <string name="desc_toggle_details">詳細の表示切り替え</string>
+    <string name="part_queued">待機中</string>
+    <string name="part_verifying">SHA-256を検証中</string>
+    <string name="part_verified">検証済み</string>
+    <string name="part_done">完了</string>
+    <string name="part_paused_format">一時停止中 • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">再試行 / エラー</string>
+    <string name="part_waiting">待機中…</string>
+    <string name="stage_connecting">サーバーに接続中…</string>
+    <string name="stage_verify_part">パート<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>のSHA-256を検証中…</string>
+    <string name="stage_assemble">パーツを結合中 (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">最終アーカイブのSHA-256を検証中…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> パーツがアクティブ • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">パート<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">ダウンロード中 • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• 自動インストール</string>
+    <string name="stage_paused">ダウンロード一時停止中 • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">ダウンロード失敗 • 再開をタップ</string>
+    <string name="stage_verifying_sig">アーカイブと署名を検証中…</string>
+    <string name="stage_finalizing">A/Bスロットを確定中 • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">アップデートをインストール中 • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">インストール保留中 • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">インストール済み — 再起動が必要です</string>
+    <string name="md_image_alt">画像</string>
+    <string name="md_image_failed">画像を読み込めませんでした</string>
+    <string name="importer_tag_local">ローカルZIP</string>
+    <string name="err_no_url">ダウンロードURLまたはパートが定義されていません</string>
+    <string name="err_no_dest">ダウンロード先が定義されていません</string>
+    <string name="err_no_callback">ダウンロードコールバックが定義されていません</string>
+    <string name="err_no_parts">ダウンロードパートが指定されていません</string>
+    <string name="err_no_tempdir">一時パートディレクトリを作成できません: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">パート<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>のチェックサムが一致しません</string>
+    <string name="err_part_failed">パート<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>のダウンロードに失敗しました</string>
+    <string name="err_final_sha">最終アーカイブのSHA-256検証に失敗しました</string>
+    <string name="err_empty_body">パート<xliff:g id="index">%1$d</xliff:g>の応答本文が空です</string>
+    <string name="err_unknown_size"><xliff:g id="url">%1$s</xliff:g>のサイズを特定できません</string>
+    <string name="err_no_range">サーバーが範囲リクエストをサポートしていません: HTTP 206が必要ですが、<xliff:g id="code">%1$d</xliff:g>を受信しました</string>
+    <string name="err_no_content_range"><xliff:g id="url">%1$s</xliff:g>のContent-Rangeヘッダーがありません</string>
+    <string name="err_bad_content_range">予期しないContent-Range (<xliff:g id="url">%1$s</xliff:g>): 予期値は<xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">プロトコルの変更は許可されていません</string>
+    <string name="err_server_reply">サーバー応答: <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_no_fd">fileDescriptorを取得できませんでした</string>
+    <string name="err_import_cancelled">インポートはキャンセルされました</string>
+    <string name="err_verify_deleted">検証に失敗したため、ファイルは削除されました</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">適用</string>
+    <string name="dialog_value_title">値</string>
+    <string name="unknown_size">不明</string>
+    <string name="slider_default">既定</string>
+    <string name="slider_default_value">既定 (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">ネットワークエラー</string>
+    <string name="action_paused_state">一時停止中</string>
+    <string name="part_fallback_name">part_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">サーバー</string>
+    <string name="err_response_empty">応答本文が空です</string>
+    <string name="err_changelog_body_empty">変更履歴の本文が空です</string>
+    <string name="err_changelog_too_large">変更履歴が<xliff:g id="bytes" example="524288">%1$d</xliff:g>バイトを超えています</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: レート制限を超えました (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>)。<xliff:g id="wait" example="~2 min">%3$s</xliff:g>後に再試行してください。</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: レート制限を超えました (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>)。後でもう一度お試しください。</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: ファイルまたはフィードが見つかりません (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: アクセスが拒否されました (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: リソースは削除されました (HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: サーバーを利用できません (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">約<xliff:g id="minutes" example="2">%1$d</xliff:g>分</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g>秒</string>
+    <string name="err_download_file_missing">ダウンロードしたファイルが見つかりません</string>
+    <string name="err_sha_mismatch">SHA-256チェックサムが一致しません</string>
+    <string name="err_sha_calc_failed">SHA-256の計算に失敗しました</string>
+    <string name="err_ota_signature_failed">OTA署名の検証に失敗しました</string>
+    <string name="err_engine_signature">update_engineがペイロード署名を拒否しました (コード <xliff:g id="code" example="20">%1$d</xliff:g>)。強制リカバリーインストールをお試しください。</string>
+    <string name="err_engine_downgrade">update_engineがダウングレードのタイムスタンプをブロックしました (コード <xliff:g id="code" example="51">%1$d</xliff:g>)。強制リカバリーインストールをお試しください。</string>
+    <string name="err_engine_storage">A/Bスロットアップデート用の空き容量が不足しています (コード <xliff:g id="code" example="7">%1$d</xliff:g>)。</string>
+    <string name="err_engine_partition">パーティションの検証に失敗しました (コード <xliff:g id="code" example="15">%1$d</xliff:g>)。</string>
+    <string name="err_engine_cancelled">インストールはユーザーによりキャンセルされました。</string>
+    <string name="err_engine_generic">update_engineエラーコード <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">サポートされていないOTAタイプ: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found"><xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g>が<xliff:g id="file" example="update.zip">%2$s</xliff:g>内に見つかりませんでした</string>
+</resources>

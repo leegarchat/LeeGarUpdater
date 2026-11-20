@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="verification_failed_notification">Doğrulama başarısız</string>
+    <string name="verifying_download_notification">Güncelleme doğrulanıyor</string>
+    <string name="downloading_notification">İndiriliyor</string>
+    <string name="download_paused_notification">İndirme duraklatıldı</string>
+    <string name="download_paused_error_notification">İndirme hatası</string>
+    <string name="download_completed_notification">İndirme tamamlandı</string>
+    <string name="download_starting_notification">İndirme başlatılıyor</string>
+    <string name="update_failed_notification">Güncelleme başarısız</string>
+    <string name="installation_suspended_notification">Kurulum askıya alındı</string>
+    <string name="new_updates_found_title">Yeni güncellemeler</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="installing_update_error">Yükleme hatası</string>
+    <string name="finalizing_package">Paket yükleme tamamlanıyor</string>
+    <string name="preparing_ota_first_boot">Ön yükleme için hazırlanıyor</string>
+    <string name="dialog_prepare_zip_message">Güncelleme ön hazırlığı</string>
+    <string name="reboot">Yeniden başlat</string>
+    <string name="menu_export_update">Güncellemeyi dışarı aktar</string>
+    <string name="menu_metered_network_warning">Mobil veri uyarısı</string>
+    <string name="menu_ab_perf_mode">Güncelleme sürecini öncelikli hale getir</string>
+    <string name="menu_update_recovery">Kurtarma modunu güncelle</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">İndir</string>
+    <string name="action_pause">Duraklat</string>
+    <string name="action_resume">Devam et</string>
+    <string name="action_install">Yükle</string>
+    <string name="action_info">Bilgi</string>
+    <string name="action_delete">Sil</string>
+    <string name="dialog_export_title">Güncellemeyi dışarı aktar</string>
+    <string name="notification_export_success">Dışa aktarılan güncelleme</string>
+    <string name="notification_export_fail">Dışa aktarma hatası</string>
+    <string name="toast_already_exporting">Zaten bir güncelleme dışa aktarılıyor</string>
+    <string name="toast_export_started">Dışa aktarma başladı</string>
+    <string name="blocked_update_dialog_title">Güncelleme engellendi</string>
+    <string name="export_channel_title">Dışa aktarma tamamlandı</string>
+    <string name="new_updates_channel_title">Yeni güncellemeler</string>
+    <string name="ongoing_channel_title">Devam eden indirmeler</string>
+    <string name="update_failed_channel_title">Güncelleme başarısız</string>
+    <string name="display_name">LeeGar Updater</string>
+    <string name="new_updates_found_summary">Mevcut güncellemeleri görmek için dokunun</string>
+    <string name="installing_update">Sistem güncellemesi yükleniyor</string>
+    <string name="installing_update_finished">Güncelleme yeniden başlatmayı bekliyor</string>
+    <string name="action_download_install">İndir ve yükle</string>
+    <string name="check_for_update">Güncellemeyi denetle</string>
+    <string name="action_back">Geri</string>
+    <string name="checking_for_updates">Güncellemeler denetleniyor</string>
+    <string name="pref_category_background_sync">Arka plan senkronizasyonu</string>
+    <string name="menu_auto_updates_check">Güncellemeleri düzenli olarak denetle</string>
+    <string name="menu_auto_updates_check_summary">Güncellemeleri arka planda denetle</string>
+    <string name="menu_auto_delete_updates">Güncellemeleri otomatik sil</string>
+    <string name="menu_stream_updates">Çevrimiçi güncellemeleri aktar</string>
+    <string name="menu_stream_updates_summary">Güncellemeleri indirirken yükleyin. Güncelleme paketlerini dışa aktarmak için saklamak istiyorsanız devre dışı bırakın.</string>
+    <string name="menu_metered_network_warning_summary">Mobil veri üzerinden indirmeden önce uyar</string>
+    <string name="menu_update_recovery_summary">İşletim sistemiyle birlikte kurtarma bölümünü güncelle</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">Derleme tarihi</string>
+    <string name="security_update">Güvenlik güncellemesi</string>
+    <string name="blocked_update_dialog_title_downgrade">Sürüm düşürme engellendi</string>
+    <string name="tab_updates">Güncellemeler</string>
+    <string name="tab_saved">Kaydedilenler</string>
+    <string name="tab_saved_count">Kaydedilenler (%1$d)</string>
+    <string name="tab_settings">Ayarlar</string>
+    <string name="toast_download_failed">İndirme başarısız oldu</string>
+    <string name="toast_download_verified">İndirme doğrulandı ve hazır</string>
+    <string name="toast_import_failed">ZIP içe aktarılamadı (paket veya imza geçersiz). Özel ZIP’ler için Güvenli olmayan modu deneyin.</string>
+    <string name="toast_imported_format"><xliff:g id="name">%1$s</xliff:g> Kaydedilenler sekmesine aktarıldı</string>
+    <string name="banner_no_internet">İnternet bağlantısı yok</string>
+    <string name="banner_check_failed">Güncellemeler denetlenemedi</string>
+    <string name="section_releases">Kullanılabilir sürümler</string>
+    <string name="section_releases_count">Kullanılabilir sürümler • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">Güvenli Olmayan Mod</string>
+    <string name="empty_releases_title">Hiç sürüm yüklenmedi</string>
+    <string name="empty_releases_desc">Yapılandırılan OTA JSON beslemesinden derlemeleri almak için yenilemeye dokunun.</string>
+    <string name="device_fallback_name">Cihaz</string>
+    <string name="installed_label_format">Yüklü: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • Yama: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">Denetlenme: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">Bilinmeyen tarih</string>
+    <string name="status_starting">Başlatılıyor</string>
+    <string name="status_verifying">Doğrulanıyor</string>
+    <string name="status_merging">Birleştiriliyor <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">Duraklatıldı <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">Hata</string>
+    <string name="status_installing">Yükleniyor <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">Askıya alındı <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="badge_downloaded">İndirildi</string>
+    <string name="badge_reboot_required">Yeniden başlatma gerekli</string>
+    <string name="badge_local">Yerel</string>
+    <string name="badge_major_upgrade">Büyük sürüm yükseltmesi</string>
+    <string name="relation_newer">Daha yeni</string>
+    <string name="relation_installed">Yüklü</string>
+    <string name="relation_downgrade">Sürüm düşürme</string>
+    <string name="relation_build">Derleme</string>
+    <string name="downloaded_subtitle_used">Kullanılan alan: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">Yerel bir ZIP içe aktarın veya Güncellemeler’den derleme indirin</string>
+    <string name="action_import_zip">ZIP içe aktar</string>
+    <string name="empty_downloaded_title">İndirilen güncelleme yok</string>
+    <string name="empty_downloaded_desc">İndirilen ROM paketleri ve içe aktarılan yerel ZIP dosyaları burada görünecek; yükleyebilir, dışa aktarabilir veya silebilirsiniz.</string>
+    <string name="section_downloaded">İndirilenler ve Yerel ZIP’ler</string>
+    <string name="install_confirm_recovery">Kurtarma ile yüklensin mi (Güvenli olmayan mod)? Cihaz Kurtarma kipinde yeniden başlatılacak.</string>
+    <string name="install_confirm_force">Doğrulamadan zorla yüklensin mi? Bu ZIP’in cihazınıza uygun olduğundan emin olun.</string>
+    <string name="install_confirm_now"><xliff:g id="name">%1$s</xliff:g> şimdi yüklensin mi?</string>
+    <string name="action_cancel">İptal</string>
+    <string name="action_confirm">Onayla</string>
+    <string name="action_proceed">Devam et</string>
+    <string name="action_reboot_now">Şimdi yeniden başlat</string>
+    <string name="action_export">Dışa aktar</string>
+    <string name="action_reset">Sıfırla</string>
+    <string name="install_label_recovery">Yükle (Kurtarma)</string>
+    <string name="install_label_force">Zorla yükle</string>
+    <string name="action_stream_install">Aktar ve Yükle</string>
+    <string name="action_download_install_new">İndir ve Yükle</string>
+    <string name="desc_close">Kapat</string>
+    <string name="desc_retry">Yeniden dene</string>
+    <string name="settings_check_interval">Denetleme aralığı</string>
+    <string name="interval_daily">Günlük</string>
+    <string name="interval_weekly">Haftalık</string>
+    <string name="interval_monthly">Aylık</string>
+    <string name="settings_group_downloads">İndirmeler ve doğrulama</string>
+    <string name="settings_parallel_title">Paralel bölünmüş indirme</string>
+    <string name="settings_parallel_summary">Daha hızlı indirme için en fazla 3 bölünmüş arşiv parçasını aynı anda indirin</string>
+    <string name="settings_verify_title">SHA-256 sağlama toplamlarını doğrula</string>
+    <string name="settings_verify_summary">Her bölünmüş parçayı ve birleştirilen arşivi JSON karmalarına göre doğrulayın</string>
+    <string name="settings_autodelete_summary">Güncelleme başarılı olduktan sonra indirilen paketi otomatik olarak sil</string>
+    <string name="settings_group_installation">Yükleme</string>
+    <string name="settings_ab_perf_summary">Daha hızlı yükleme için update_engine’e daha fazla CPU ve G/Ç ayırın</string>
+    <string name="settings_ab_perf_charging">AC gücüne bağlıyken otomatik olarak etkin</string>
+    <string name="settings_group_ota">OTA kaynağı</string>
+    <string name="settings_ota_url_title">Özel OTA JSON URL’si</string>
+    <string name="settings_ota_url_hint">ROM / DeviceTree yer paylaşımı varsayılan URL’sini kullanmak için boş bırakın.</string>
+    <string name="settings_ota_apply">URL’yi uygula</string>
+    <string name="toast_ota_reset">OTA URL’si varsayılana sıfırlandı</string>
+    <string name="toast_ota_updated">OTA URL’si güncellendi</string>
+    <string name="settings_group_appearance">Görünüm ve depolama</string>
+    <string name="settings_theme_title">Uygulama teması</string>
+    <string name="theme_system">Sistem</string>
+    <string name="theme_light">Açık</string>
+    <string name="theme_dark">Koyu</string>
+    <string name="settings_wavy_title">Dalgalı ilerleme çubuğu</string>
+    <string name="settings_wavy_summary">İndirirken veya yüklerken dalgayı canlandırın; duraklatıldığında yumuşakça düzleşir</string>
+    <string name="settings_amplitude_title">Dalga genliği</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">Kapalı</string>
+    <string name="settings_blur_title">Cam bulanıklık yarıçapı</string>
+    <string name="settings_tint_title">Cam renk opaklığı</string>
+    <string name="settings_logo_title">Proje logosunu göster</string>
+    <string name="settings_logo_summary">Proje başlığını göster (GIF, resim, video veya animasyonlu kelime markası)</string>
+    <string name="settings_banner_title">Sürüm başlığını göster</string>
+    <string name="settings_banner_summary">Kart başlığında sürüm başlığı resmini veya videosunu göster</string>
+    <string name="settings_clear_cache">Medya ve değişiklik günlüğü önbelleğini temizle</string>
+    <string name="toast_cache_cleared">Önbellek temizlendi</string>
+    <string name="settings_danger_title">Kritik / Güvenli Olmayan yükleme</string>
+    <string name="settings_danger_warning">Kullanım riski tamamen size aittir. Yanlış ROM yüklerseniz cihazınız kullanılamaz hale gelebilir.</string>
+    <string name="settings_unsafe_title">Güvenlik ve doğrulama denetimlerini atla</string>
+    <string name="settings_unsafe_summary">OTA imza doğrulamasını, sürüm düşürme engelini ve Android SDK korumalarını devre dışı bırakır. Sürüm düşürmeye veya farklı ROM ZIP’lerine izin verir.</string>
+    <string name="settings_unsafe_confirm">Onaylayın: sürüm düşürme, imzasız ZIP veya veri kaybının tüm sorumluluğunu kabul ediyorsunuz.</string>
+    <string name="danger_accept">Riski kabul ediyorum</string>
+    <string name="settings_recovery_title">Kurtarma ile yüklemeye zorla</string>
+    <string name="settings_recovery_summary">update_engine’i atlayıp doğrudan ZIP’i yüklemek için Kurtarma kipine (OrangeFox / TWRP) yeniden başlayın. update_engine sürüm düşürme zaman damgasını veya imzayı reddederse kullanışlıdır.</string>
+    <string name="overlay_battery_low">Pil seviyesi yükleme için çok düşük</string>
+    <string name="overlay_blocked_format">Engellendi (<xliff:g id="reason">%1$s</xliff:g>). Zorla yüklemek için Ayarlar’da Güvenli olmayan modu etkinleştirin.</string>
+    <string name="overlay_downgrade_blocked">Sürüm düşürme güvenlik kurallarıyla engellendi. Geçersiz kılmak için Ayarlar’da Güvenli olmayan modu etkinleştirin.</string>
+    <string name="overlay_major_blocked">Büyük Android sürüm yükseltmesi güvenlik kurallarıyla engellendi. Geçersiz kılmak için Ayarlar’da Güvenli olmayan modu etkinleştirin.</string>
+    <string name="overlay_metered_format">Mobil veri bağlantısındasınız. <xliff:g id="size">%1$s</xliff:g> şimdi indirilsin mi?</string>
+    <string name="overlay_unsafe_recovery">Kurtarma ile indirilip yüklensin mi (Güvenli olmayan mod)?</string>
+    <string name="overlay_unsafe_force">Doğrulamadan indirilip zorla yüklensin mi?</string>
+    <string name="overlay_scratch_mounted">Scratch bölümü bağlı; yüklenemiyor</string>
+    <string name="toast_sha_copied">SHA-256 kopyalandı</string>
+    <string name="overlay_install_recovery">Kurtarma ile yüklensin mi (Güvenli olmayan mod)? Cihaz Kurtarma kipine yeniden başlatılacak.</string>
+    <string name="overlay_install_force">İmza/sürüm düşürme denetimleri olmadan zorla yüklensin mi? Riski size aittir.</string>
+    <string name="overlay_changelog_title">Değişiklik günlüğü</string>
+    <string name="desc_reload_changelog">Değişiklik günlüğünü yeniden yükle</string>
+    <string name="overlay_changelog_loading">Değişiklik günlüğü yükleniyor…</string>
+    <string name="overlay_changelog_error">Bu derlemenin değişiklik günlüğü yüklenemedi.</string>
+    <string name="overlay_changelog_empty">Bu sürüm için değişiklik günlüğü sağlanmadı.</string>
+    <string name="overlay_archive_sha">Arşiv SHA-256</string>
+    <string name="desc_copy_sha">SHA-256 kopyala</string>
+    <string name="overlay_reboot_to_apply">Güncellemeyi uygulamak için yeniden başlatın</string>
+    <string name="overlay_pause_format">Duraklat (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">Devam et (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">Paket dosyası</string>
+    <string name="overlay_parts_title">Bölünmüş arşiv parçaları (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">Silmeyi onayla</string>
+    <string name="info_package_size">Paket boyutu</string>
+    <string name="info_android_api">Android API</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">Derleme türü</string>
+    <string name="info_delivery">Teslimat</string>
+    <string name="info_delivery_split">Bölünmüş (<xliff:g id="count">%1$d</xliff:g> parça)</string>
+    <string name="float_importing">Yerel ZIP içe aktarılıyor…</string>
+    <string name="float_copying">Paket kopyalanıyor ve meta veriler denetleniyor</string>
+    <string name="float_calculating">Hesaplanıyor…</string>
+    <string name="float_parallel">Paralel</string>
+    <string name="float_sequential">Sıralı</string>
+    <string name="float_single">Tek arşiv</string>
+    <string name="float_autoinstall">Otomatik yükleme</string>
+    <string name="float_parts_header">Arşiv parçaları (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> tamamlandı)</string>
+    <string name="float_suspend">Askıya al</string>
+    <string name="float_abort">Vazgeç</string>
+    <string name="desc_toggle_details">Ayrıntıları aç/kapat</string>
+    <string name="part_queued">Sırada</string>
+    <string name="part_verifying">SHA-256 doğrulanıyor</string>
+    <string name="part_verified">Doğrulandı</string>
+    <string name="part_done">Tamamlandı</string>
+    <string name="part_paused_format">Duraklatıldı • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">Yeniden dene / Hata</string>
+    <string name="part_waiting">Bekleniyor…</string>
+    <string name="stage_connecting">Sunucuya bağlanılıyor…</string>
+    <string name="stage_verify_part">Parça doğrulanıyor <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> SHA-256…</string>
+    <string name="stage_assemble">Parçalar birleştiriliyor (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">Son arşivin SHA-256 değeri doğrulanıyor…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> parça etkin • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">Parça <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">İndiriliyor • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• Otomatik yükleme</string>
+    <string name="stage_paused">İndirme duraklatıldı • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">İndirme başarısız oldu • Devam Et’e dokunun</string>
+    <string name="stage_verifying_sig">Arşiv ve imza doğrulanıyor…</string>
+    <string name="stage_finalizing">A/B yuvası tamamlanıyor • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">Güncelleme yükleniyor • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">Yükleme askıya alındı • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">Yüklendi — yeniden başlatma gerekli</string>
+    <string name="md_image_alt">Resim</string>
+    <string name="md_image_failed">Resim yüklenemedi</string>
+    <string name="importer_tag_local">Yerel ZIP</string>
+    <string name="err_no_url">İndirme URL’si veya parçası tanımlanmadı</string>
+    <string name="err_no_dest">İndirme hedefi tanımlanmadı</string>
+    <string name="err_no_callback">İndirme geri araması tanımlanmadı</string>
+    <string name="err_no_parts">İndirme parçası belirtilmedi</string>
+    <string name="err_no_tempdir">Geçici parça dizini oluşturulamıyor: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">Parça <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> sağlama toplamı uyumsuzluğu</string>
+    <string name="err_part_failed">Parça <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> indirilemedi</string>
+    <string name="err_final_sha">Son arşivin SHA-256 doğrulaması başarısız oldu</string>
+    <string name="err_empty_body">Parça <xliff:g id="index">%1$d</xliff:g> için boş yanıt gövdesi</string>
+    <string name="err_unknown_size"><xliff:g id="url">%1$s</xliff:g> boyutu belirlenemiyor</string>
+    <string name="err_no_range">Sunucu aralık isteklerini desteklemiyor: HTTP 206 bekleniyordu, <xliff:g id="code">%1$d</xliff:g> alındı</string>
+    <string name="err_no_content_range"><xliff:g id="url">%1$s</xliff:g> için Content-Range başlığı yok</string>
+    <string name="err_bad_content_range"><xliff:g id="url">%1$s</xliff:g> için beklenmeyen Content-Range: beklenen <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">Protokol değişikliklerine izin verilmiyor</string>
+    <string name="err_server_reply">Sunucu <xliff:g id="code">%1$s</xliff:g> ile yanıt verdi</string>
+    <string name="err_no_fd">fileDescriptor alınamadı</string>
+    <string name="err_import_cancelled">İçe aktarma iptal edildi</string>
+    <string name="err_verify_deleted">Doğrulama başarısız oldu, dosya silindi</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">Uygula</string>
+    <string name="dialog_value_title">Değer</string>
+    <string name="unknown_size">Bilinmiyor</string>
+    <string name="slider_default">Varsayılan</string>
+    <string name="slider_default_value">Varsayılan (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">Ağ hatası</string>
+    <string name="action_paused_state">Duraklatıldı</string>
+    <string name="part_fallback_name">parça_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">Sunucu</string>
+    <string name="err_response_empty">Boş yanıt gövdesi</string>
+    <string name="err_changelog_body_empty">Boş değişiklik günlüğü gövdesi</string>
+    <string name="err_changelog_too_large">Değişiklik günlüğü <xliff:g id="bytes" example="524288">%1$d</xliff:g> baytı aşıyor</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: hız sınırı aşıldı (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). <xliff:g id="wait" example="~2 min">%3$s</xliff:g> sonra yeniden deneyin.</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: hız sınırı aşıldı (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Daha sonra yeniden deneyin.</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: dosya veya besleme bulunamadı (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: erişim reddedildi (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: kaynak kaldırıldı (HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: sunucuya ulaşılamıyor (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> dk</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g> sn</string>
+    <string name="err_download_file_missing">İndirilen dosya bulunamadı</string>
+    <string name="err_sha_mismatch">SHA-256 sağlama toplamı uyuşmuyor</string>
+    <string name="err_sha_calc_failed">SHA-256 hesaplanamadı</string>
+    <string name="err_ota_signature_failed">OTA imza doğrulaması başarısız oldu</string>
+    <string name="err_engine_signature">update_engine yük imzasını reddetti (kod <xliff:g id="code" example="20">%1$d</xliff:g>). Kurtarma ile Zorla Yüklemeyi deneyin.</string>
+    <string name="err_engine_downgrade">update_engine sürüm düşürme zaman damgasını engelledi (kod <xliff:g id="code" example="51">%1$d</xliff:g>). Kurtarma ile Zorla Yüklemeyi deneyin.</string>
+    <string name="err_engine_storage">A/B yuvası güncellemesi için yeterli depolama alanı yok (kod <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_engine_partition">Bölüm doğrulaması başarısız oldu (kod <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_cancelled">Yükleme kullanıcı tarafından iptal edildi.</string>
+    <string name="err_engine_generic">update_engine hata kodu <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">Desteklenmeyen OTA türü: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found"><xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g>, <xliff:g id="file" example="update.zip">%2$s</xliff:g> içinde bulunamadı</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> yeni derleme kullanılabilir</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> yeni derleme kullanılabilir</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="one">Sistem güncel • beslemede <xliff:g id="count">%1$d</xliff:g> derleme</item>
+        <item quantity="other">Sistem güncel • beslemede <xliff:g id="count">%1$d</xliff:g> derleme</item>
+    </plurals>
+    <plurals name="badge_split_parts">
+        <item quantity="one">Bölünmüş • <xliff:g id="count">%1$d</xliff:g> parça</item>
+        <item quantity="other">Bölünmüş • <xliff:g id="count">%1$d</xliff:g> parça</item>
+    </plurals>
+    <plurals name="downloaded_title">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> paket depolandı</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> paket depolandı</item>
+    </plurals>
+    <plurals name="float_parts">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> parça</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> parça</item>
+    </plurals>
+</resources>

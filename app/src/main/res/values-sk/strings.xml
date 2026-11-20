@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="verification_failed_notification">Overovanie zlyhalo</string>
+    <string name="verifying_download_notification">Overovanie aktualizácie</string>
+    <string name="downloading_notification">Sťahovanie</string>
+    <string name="download_paused_notification">Sťahovanie pozastavené</string>
+    <string name="download_paused_error_notification">Chyba pri sťahovaní</string>
+    <string name="download_completed_notification">Sťahovanie dokončené</string>
+    <string name="download_starting_notification">Spúšťam sťahovanie</string>
+    <string name="update_failed_notification">Aktualizácia zlyhala</string>
+    <string name="installation_suspended_notification">Inštalácia bola pozastavená</string>
+    <string name="new_updates_found_title">Nové aktualizácie</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="installing_update_error">Chyba pri inštalácii</string>
+    <string name="finalizing_package">Dokončuje sa inštalácia balíka</string>
+    <string name="preparing_ota_first_boot">Príprava na prvé spustenie</string>
+    <string name="dialog_prepare_zip_message">Predbežná príprava aktualizácie</string>
+    <string name="reboot">Reštartovať</string>
+    <string name="menu_export_update">Export aktualizácie</string>
+    <string name="menu_ab_perf_mode">Uprednostňovať proces aktualizácie</string>
+    <string name="menu_update_recovery">Aktualizácia recovery</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">Stiahnuť</string>
+    <string name="action_pause">Pauza</string>
+    <string name="action_resume">Pokračovať</string>
+    <string name="action_install">Nainštalovať</string>
+    <string name="action_info">Informácie</string>
+    <string name="action_delete">Odstrániť</string>
+    <string name="dialog_export_title">Export aktualizácie</string>
+    <string name="notification_export_success">Aktualizácia exportovaná</string>
+    <string name="notification_export_fail">Chyba exportu</string>
+    <string name="toast_already_exporting">Aktualizácia sa už exportuje</string>
+    <string name="blocked_update_dialog_title">Aktualizácia bola zablokovaná</string>
+    <string name="export_channel_title">Dokončenie exportu</string>
+    <string name="new_updates_channel_title">Nové aktualizácie</string>
+    <string name="ongoing_channel_title">Prebiehajúce sťahovania</string>
+    <string name="update_failed_channel_title">Aktualizácia zlyhala</string>
+    <string name="display_name">LeeGar Updater</string>
+    <string name="new_updates_found_summary">Ťuknite pre zobrazenie dostupných aktualizácií</string>
+    <string name="installing_update">Inštalujem aktualizáciu systému</string>
+    <string name="installing_update_finished">Aktualizácia čaká na reštart</string>
+    <string name="action_download_install">Stiahnuť a nainštalovať</string>
+    <string name="check_for_update">Skontrolovať aktualizácie</string>
+    <string name="action_back">Späť</string>
+    <string name="checking_for_updates">Kontrolujú sa aktualizácie</string>
+    <string name="pref_category_background_sync">Synchronizácia na pozadí</string>
+    <string name="menu_auto_updates_check">Pravidelne kontrolovať aktualizácie</string>
+    <string name="menu_auto_updates_check_summary">Kontrolovať aktualizácie na pozadí</string>
+    <string name="menu_auto_delete_updates">Automaticky mazať aktualizácie</string>
+    <string name="menu_stream_updates">Streamovať online aktualizácie</string>
+    <string name="menu_stream_updates_summary">Inštalovať aktualizácie počas sťahovania. Vypnite, aby sa balíky aktualizácií uložili na export.</string>
+    <string name="menu_metered_network_warning">Upozornenie na merané pripojenie</string>
+    <string name="menu_metered_network_warning_summary">Upozorniť pred sťahovaním cez mobilné dáta</string>
+    <string name="menu_update_recovery_summary">Aktualizovať oddiel recovery spolu s OS</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">Dátum zostavenia</string>
+    <string name="security_update">Bezpečnostná aktualizácia</string>
+    <string name="toast_export_started">Export spustený</string>
+    <string name="blocked_update_dialog_title_downgrade">Downgrade zablokovaný</string>
+    <string name="tab_updates">Aktualizácie</string>
+    <string name="tab_saved">Uložené</string>
+    <string name="tab_saved_count">Uložené (%1$d)</string>
+    <string name="tab_settings">Nastavenia</string>
+    <string name="toast_download_failed">Sťahovanie zlyhalo</string>
+    <string name="toast_download_verified">Sťahovanie overené a pripravené</string>
+    <string name="toast_import_failed">Import ZIP zlyhal (neplatný balík alebo podpis). Pre vlastné ZIP vyskúšajte nebezpečný režim.</string>
+    <string name="toast_imported_format">Súbor <xliff:g id="name">%1$s</xliff:g> importovaný na kartu Stiahnuté</string>
+    <string name="banner_no_internet">Žiadne internetové pripojenie</string>
+    <string name="banner_check_failed">Nepodarilo sa skontrolovať aktualizácie</string>
+    <string name="section_releases">Dostupné vydania</string>
+    <string name="section_releases_count">Dostupné vydania • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">Nebezpečný režim</string>
+    <string name="empty_releases_title">Žiadne načítané vydania</string>
+    <string name="empty_releases_desc">Ťuknite na obnovenie, aby sa načítali zostavenia z nakonfigurovaného zdroja OTA JSON.</string>
+    <string name="device_fallback_name">Zariadenie</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="one">K dispozícii je <xliff:g id="count">%1$d</xliff:g> novšie zostavenie</item>
+        <item quantity="few">K dispozícii sú <xliff:g id="count">%1$d</xliff:g> novšie zostavenia</item>
+        <item quantity="other">K dispozícii je <xliff:g id="count">%1$d</xliff:g> novších zostavení</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="one">Systém je aktuálny • <xliff:g id="count">%1$d</xliff:g> zostavenie v zdroji</item>
+        <item quantity="few">Systém je aktuálny • <xliff:g id="count">%1$d</xliff:g> zostavenia v zdroji</item>
+        <item quantity="other">Systém je aktuálny • <xliff:g id="count">%1$d</xliff:g> zostavení v zdroji</item>
+    </plurals>
+    <string name="installed_label_format">Nainštalované: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • Oprava: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">Skontrolované: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">Neznámy dátum</string>
+    <string name="status_starting">Spúšťam</string>
+    <string name="status_verifying">Overujem</string>
+    <string name="status_merging">Zlučujem <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">Pozastavené <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">Chyba</string>
+    <string name="status_installing">Inštalujem <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">Pozastavené <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <plurals name="badge_split_parts">
+        <item quantity="one">Rozdelené • <xliff:g id="count">%1$d</xliff:g> časť</item>
+        <item quantity="few">Rozdelené • <xliff:g id="count">%1$d</xliff:g> časti</item>
+        <item quantity="other">Rozdelené • <xliff:g id="count">%1$d</xliff:g> častí</item>
+    </plurals>
+    <string name="badge_downloaded">Stiahnuté</string>
+    <string name="badge_reboot_required">Vyžaduje sa reštart</string>
+    <string name="badge_local">Miestne</string>
+    <string name="badge_major_upgrade">Veľká aktualizácia</string>
+    <string name="relation_newer">Novšie</string>
+    <string name="relation_installed">Nainštalované</string>
+    <string name="relation_downgrade">Downgrade</string>
+    <string name="relation_build">Zostavenie</string>
+    <plurals name="downloaded_title">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> uložený balík</item>
+        <item quantity="few"><xliff:g id="count">%1$d</xliff:g> uložené balíky</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> uložených balíkov</item>
+    </plurals>
+    <string name="downloaded_subtitle_used">Použité miesto: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">Importujte miestny súbor ZIP alebo stiahnite zostavenia z Aktualizácií</string>
+    <string name="action_import_zip">Importovať ZIP</string>
+    <string name="empty_downloaded_title">Žiadne stiahnuté aktualizácie</string>
+    <string name="empty_downloaded_desc">Stiahnuté balíky ROM a importované miestne súbory ZIP sa zobrazia tu na inštaláciu, export alebo odstránenie.</string>
+    <string name="section_downloaded">Stiahnuté a miestne ZIP súbory</string>
+    <string name="install_confirm_recovery">Inštalovať cez Recovery (nebezpečný režim)? Zariadenie sa reštartuje do Recovery.</string>
+    <string name="install_confirm_force">Vynútiť inštaláciu bez overenia? Uistite sa, že tento ZIP zodpovedá vášmu zariadeniu.</string>
+    <string name="install_confirm_now">Nainštalovať <xliff:g id="name">%1$s</xliff:g> teraz?</string>
+    <string name="action_cancel">Zrušiť</string>
+    <string name="action_confirm">Potvrdiť</string>
+    <string name="action_proceed">Pokračovať</string>
+    <string name="action_reboot_now">Reštartovať teraz</string>
+    <string name="action_export">Exportovať</string>
+    <string name="action_reset">Obnoviť</string>
+    <string name="install_label_recovery">Nainštalovať (Recovery)</string>
+    <string name="install_label_force">Vynútiť inštaláciu</string>
+    <string name="action_stream_install">Streamovať a nainštalovať</string>
+    <string name="action_download_install_new">Stiahnuť a nainštalovať</string>
+    <string name="desc_close">Zavrieť</string>
+    <string name="desc_retry">Opakovať</string>
+    <string name="settings_check_interval">Interval kontroly</string>
+    <string name="interval_daily">Denne</string>
+    <string name="interval_weekly">Týždenne</string>
+    <string name="interval_monthly">Mesačne</string>
+    <string name="settings_group_downloads">Sťahovanie a overovanie</string>
+    <string name="settings_parallel_title">Paralelné sťahovanie rozdelených častí</string>
+    <string name="settings_parallel_summary">Sťahovať až 3 časti rozdeleného archívu súčasne pre vyššiu rýchlosť</string>
+    <string name="settings_verify_title">Overovať kontrolné súčty SHA-256</string>
+    <string name="settings_verify_summary">Overiť každú rozdelenú časť a finálny zostavený archív voči hashom JSON</string>
+    <string name="settings_autodelete_summary">Po úspešnej aktualizácii automaticky odstrániť stiahnutý balík</string>
+    <string name="settings_group_installation">Inštalácia</string>
+    <string name="settings_ab_perf_summary">Prideliť viac CPU a I/O pre update_engine na rýchlejšie inštalácie</string>
+    <string name="settings_ab_perf_charging">Automaticky aktívne pri pripojení k napájaniu zo siete</string>
+    <string name="settings_group_ota">Zdroj OTA</string>
+    <string name="settings_ota_url_title">Vlastná OTA JSON URL</string>
+    <string name="settings_ota_url_hint">Nechajte prázdne, aby sa použila predvolená URL z ROM / DeviceTree.</string>
+    <string name="settings_ota_apply">Použiť URL</string>
+    <string name="toast_ota_reset">URL OTA obnovená na predvolenú</string>
+    <string name="toast_ota_updated">URL OTA aktualizovaná</string>
+    <string name="settings_group_appearance">Vzhľad a úložisko</string>
+    <string name="settings_theme_title">Motív aplikácie</string>
+    <string name="theme_system">Systémový</string>
+    <string name="theme_light">Svetlý</string>
+    <string name="theme_dark">Tmavý</string>
+    <string name="settings_wavy_title">Vlnitý indikátor priebehu</string>
+    <string name="settings_wavy_summary">Animovať vlnu počas sťahovania alebo inštalácie; pri pozastavení sa plynulo vyrovná</string>
+    <string name="settings_amplitude_title">Amplitúda vlny</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">Vypnuté</string>
+    <string name="settings_blur_title">Polomer rozmazania skla</string>
+    <string name="settings_tint_title">Nepriehľadnosť skla</string>
+    <string name="settings_logo_title">Zobraziť logo projektu</string>
+    <string name="settings_logo_summary">Zobraziť banner projektu (GIF, obrázok, video alebo animovaný nápis)</string>
+    <string name="settings_banner_title">Zobraziť banner vydania</string>
+    <string name="settings_banner_summary">Zobraziť obrázok alebo video vydania v hlavičke karty</string>
+    <string name="settings_clear_cache">Vymazať vyrovnávaciu pamäť médií a zoznamov zmien</string>
+    <string name="toast_cache_cleared">Vyrovnávacia pamäť vymazaná</string>
+    <string name="settings_danger_title">Kritická / nebezpečná inštalácia</string>
+    <string name="settings_danger_warning">Používajte výhradne na vlastné riziko. Pri flashovaní nesprávnej ROM môžete zariadenie znehodnotiť.</string>
+    <string name="settings_unsafe_title">Obísť bezpečnostné a overovacie kontroly</string>
+    <string name="settings_unsafe_summary">Vypne overovanie podpisu OTA, blokovanie downgradu a ochrany Android SDK. Umožňuje inštaláciu downgradov alebo ZIP súborov z iných ROM.</string>
+    <string name="settings_unsafe_confirm">Potvrďte: prijímate plnú zodpovednosť za downgrady, nepodpísané ZIP súbory alebo stratu údajov.</string>
+    <string name="danger_accept">Prijímam riziko</string>
+    <string name="settings_recovery_title">Vynútiť inštaláciu cez Recovery</string>
+    <string name="settings_recovery_summary">Obísť update_engine a reštartovať do Recovery (OrangeFox / TWRP) na priame flashnutie ZIP. Užitočné, ak update_engine odmietne časovú pečiatku downgradu alebo podpis.</string>
+    <string name="overlay_battery_low">Úroveň batérie je príliš nízka na inštaláciu</string>
+    <string name="overlay_blocked_format">Zablokované (<xliff:g id="reason">%1$s</xliff:g>). Ak chcete vynútiť inštaláciu, povoľte v Nastaveniach nebezpečný režim.</string>
+    <string name="overlay_downgrade_blocked">Downgrade je zablokovaný bezpečnostnými pravidlami. Ak ho chcete obísť, povoľte v Nastaveniach nebezpečný režim.</string>
+    <string name="overlay_major_blocked">Veľká aktualizácia Androidu je zablokovaná bezpečnostnými pravidlami. Ak ju chcete obísť, povoľte v Nastaveniach nebezpečný režim.</string>
+    <string name="overlay_metered_format">Ste na meranom pripojení. Stiahnuť <xliff:g id="size">%1$s</xliff:g> teraz?</string>
+    <string name="overlay_unsafe_recovery">Stiahnuť a nainštalovať cez Recovery (nebezpečný režim)?</string>
+    <string name="overlay_unsafe_force">Stiahnuť a vynútiť inštaláciu bez overenia?</string>
+    <string name="overlay_scratch_mounted">Oddiel scratch je pripojený; nemožno inštalovať</string>
+    <string name="toast_sha_copied">SHA-256 skopírované</string>
+    <string name="overlay_install_recovery">Inštalovať cez Recovery (nebezpečný režim)? Zariadenie sa reštartuje do Recovery.</string>
+    <string name="overlay_install_force">Vynútiť inštaláciu bez kontrol podpisu/downgradu? Pokračujete na vlastné riziko.</string>
+    <string name="overlay_changelog_title">Zoznam zmien</string>
+    <string name="desc_reload_changelog">Znovu načítať zoznam zmien</string>
+    <string name="overlay_changelog_loading">Načítavam zoznam zmien…</string>
+    <string name="overlay_changelog_error">Nepodarilo sa načítať zoznam zmien pre toto zostavenie.</string>
+    <string name="overlay_changelog_empty">Pre toto vydanie nie je uvedený žiadny zoznam zmien.</string>
+    <string name="overlay_archive_sha">SHA-256 archívu</string>
+    <string name="desc_copy_sha">Kopírovať SHA-256</string>
+    <string name="overlay_reboot_to_apply">Aktualizáciu použijete reštartom</string>
+    <string name="overlay_pause_format">Pozastaviť (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">Pokračovať (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">Súbor balíka</string>
+    <string name="overlay_parts_title">Časti rozdeleného archívu (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">Potvrdiť odstránenie</string>
+    <string name="info_package_size">Veľkosť balíka</string>
+    <string name="info_android_api">API systému Android</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">Typ zostavenia</string>
+    <string name="info_delivery">Doručenie</string>
+    <string name="info_delivery_split">Rozdelené (<xliff:g id="count">%1$d</xliff:g> častí)</string>
+    <string name="float_importing">Importujem miestny ZIP…</string>
+    <string name="float_copying">Kopírujem balík a kontrolujem metadáta</string>
+    <string name="float_calculating">Počítam…</string>
+    <plurals name="float_parts">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> časť</item>
+        <item quantity="few"><xliff:g id="count">%1$d</xliff:g> časti</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> častí</item>
+    </plurals>
+    <string name="float_parallel">Paralelne</string>
+    <string name="float_sequential">Postupne</string>
+    <string name="float_single">Jeden archív</string>
+    <string name="float_autoinstall">Automatická inštalácia</string>
+    <string name="float_parts_header">Časti archívu (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> hotové)</string>
+    <string name="float_suspend">Pozastaviť</string>
+    <string name="float_abort">Prerušiť</string>
+    <string name="desc_toggle_details">Prepnúť podrobnosti</string>
+    <string name="part_queued">V poradí</string>
+    <string name="part_verifying">Overujem SHA-256</string>
+    <string name="part_verified">Overené</string>
+    <string name="part_done">Hotovo</string>
+    <string name="part_paused_format">Pozastavené • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">Opakovať / Chyba</string>
+    <string name="part_waiting">Čakám…</string>
+    <string name="stage_connecting">Pripájam sa k serveru…</string>
+    <string name="stage_verify_part">Overujem časť <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> SHA-256…</string>
+    <string name="stage_assemble">Zostavujem časti (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">Overujem SHA-256 finálneho archívu…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> aktívnych častí • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">Časť <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">Sťahovanie • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• Automatická inštalácia</string>
+    <string name="stage_paused">Sťahovanie pozastavené • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">Sťahovanie zlyhalo • Ťuknite na Pokračovať</string>
+    <string name="stage_verifying_sig">Overujem archív a podpis…</string>
+    <string name="stage_finalizing">Dokončujem slot A/B • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">Inštalujem aktualizáciu • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">Inštalácia pozastavená • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">Nainštalované — vyžaduje sa reštart</string>
+    <string name="md_image_alt">Obrázok</string>
+    <string name="md_image_failed">Nepodarilo sa načítať obrázok</string>
+    <string name="importer_tag_local">Miestny ZIP</string>
+    <string name="err_no_url">Nie je definovaná žiadna adresa URL na stiahnutie ani časti</string>
+    <string name="err_no_dest">Nie je definovaný cieľ sťahovania</string>
+    <string name="err_no_callback">Nie je definované spätné volanie sťahovania</string>
+    <string name="err_no_parts">Nie sú zadané žiadne časti sťahovania</string>
+    <string name="err_no_tempdir">Nemožno vytvoriť dočasný adresár častí: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">Nezhoda kontrolného súčtu časti <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_part_failed">Nepodarilo sa stiahnuť časť <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_final_sha">Overenie SHA-256 finálneho archívu zlyhalo</string>
+    <string name="err_empty_body">Prázdne telo odpovede pre časť <xliff:g id="index">%1$d</xliff:g></string>
+    <string name="err_unknown_size">Nemožno určiť veľkosť pre <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_no_range">Server nepodporuje požiadavky na rozsah: očakávané HTTP 206, získané <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_content_range">Chýba hlavička Content-Range pre <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_bad_content_range">Neočakávaný Content-Range pre <xliff:g id="url">%1$s</xliff:g>: očakávané <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">Zmeny protokolu nie sú povolené</string>
+    <string name="err_server_reply">Server odpovedal kódom <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_no_fd">Nepodarilo sa získať fileDescriptor</string>
+    <string name="err_import_cancelled">Import zrušený</string>
+    <string name="err_verify_deleted">Overenie zlyhalo, súbor bol odstránený</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">Použiť</string>
+    <string name="dialog_value_title">Hodnota</string>
+    <string name="unknown_size">Neznáme</string>
+    <string name="slider_default">Predvolené</string>
+    <string name="slider_default_value">Predvolené (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">Chyba siete</string>
+    <string name="action_paused_state">Pozastavené</string>
+    <string name="part_fallback_name">časť_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">Server</string>
+    <string name="err_response_empty">Prázdne telo odpovede</string>
+    <string name="err_changelog_body_empty">Prázdne telo zoznamu zmien</string>
+    <string name="err_changelog_too_large">Zoznam zmien presahuje <xliff:g id="bytes" example="524288">%1$d</xliff:g> bajtov</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: prekročený limit požiadaviek (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Skúste to znova o <xliff:g id="wait" example="~2 min">%3$s</xliff:g>.</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: prekročený limit požiadaviek (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Skúste to znova neskôr.</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: súbor alebo zdroj sa nenašiel (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: prístup odmietnutý (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: zdroj odstránený (HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: server nedostupný (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> min</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g>s</string>
+    <string name="err_download_file_missing">Stiahnutý súbor chýba</string>
+    <string name="err_sha_mismatch">Nezhoda kontrolného súčtu SHA-256</string>
+    <string name="err_sha_calc_failed">Nepodarilo sa vypočítať SHA-256</string>
+    <string name="err_ota_signature_failed">Overenie podpisu OTA zlyhalo</string>
+    <string name="err_engine_signature">update_engine odmietol podpis balíka (kód <xliff:g id="code" example="20">%1$d</xliff:g>). Skúste vynútenú inštaláciu cez Recovery.</string>
+    <string name="err_engine_downgrade">update_engine zablokoval časovú pečiatku downgradu (kód <xliff:g id="code" example="51">%1$d</xliff:g>). Skúste vynútenú inštaláciu cez Recovery.</string>
+    <string name="err_engine_storage">Nedostatok miesta pre aktualizáciu slotu A/B (kód <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_engine_partition">Overenie oddielu zlyhalo (kód <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_cancelled">Inštalácia zrušená používateľom.</string>
+    <string name="err_engine_generic">Kód chyby update_engine <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">Nepodporovaný typ OTA: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found">Nenašiel sa záznam <xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> v súbore <xliff:g id="file" example="update.zip">%2$s</xliff:g></string>
+</resources>

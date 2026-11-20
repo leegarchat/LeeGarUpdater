@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="display_name">Atualizações do sistema</string>
+    <string name="verification_failed_notification">Falha na verificação</string>
+    <string name="verifying_download_notification">Verificando atualização</string>
+    <string name="downloading_notification">Download</string>
+    <string name="download_paused_notification">Download pausado</string>
+    <string name="download_paused_error_notification">Erro ao baixar</string>
+    <string name="download_completed_notification">Download concluído</string>
+    <string name="download_starting_notification">Iniciando download</string>
+    <string name="update_failed_notification">Falha na atualização</string>
+    <string name="installation_suspended_notification">Instalação suspensa</string>
+    <string name="new_updates_found_title">Novas atualizações</string>
+    <string name="new_updates_found_summary">Toque para ver as atualizações disponíveis</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="installing_update">Instalando atualização do sistema</string>
+    <string name="installing_update_error">Erro de instalação</string>
+    <string name="installing_update_finished">Atualização pendente de reinício</string>
+    <string name="finalizing_package">Finalizando a instalação do pacote</string>
+    <string name="preparing_ota_first_boot">Preparando-se para a primeira inicialização</string>
+    <string name="dialog_prepare_zip_message">Preparação preliminar de atualização</string>
+    <string name="reboot">Reiniciar</string>
+    <string name="checking_for_updates">Conferindo se há atualizações</string>
+    <string name="pref_category_background_sync">Sincronização em segundo plano</string>
+    <string name="menu_auto_updates_check">Conferir se há atualizações periodicamente</string>
+    <string name="menu_auto_updates_check_summary">Conferir se há atualizações em segundo plano</string>
+    <string name="menu_auto_delete_updates">Apagar atualizações automaticamente</string>
+    <string name="menu_stream_updates">Fazer streaming de atualizações on-line</string>
+    <string name="menu_stream_updates_summary">Instalar atualizações ao baixar. Desative para salvar os pacotes de atualização para exportação.</string>
+    <string name="menu_export_update">Exportar atualização</string>
+    <string name="menu_metered_network_warning">Alerta de rede limitada</string>
+    <string name="menu_metered_network_warning_summary">Avisar antes de baixar pelos dados móveis</string>
+    <string name="menu_ab_perf_mode">Priorizar o processo de atualização</string>
+    <string name="menu_update_recovery">Atualizar recuperação</string>
+    <string name="menu_update_recovery_summary">Atualizar partição de recuperação com o sistema operacional</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">Data de compilação</string>
+    <string name="security_update">Atualização de segurança</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">Baixar</string>
+    <string name="action_pause">Pausar</string>
+    <string name="action_resume">Retomar</string>
+    <string name="action_install">Instalar</string>
+    <string name="action_info">Informações</string>
+    <string name="action_delete">Apagar</string>
+    <string name="dialog_export_title">Exportando atualização</string>
+    <string name="notification_export_success">Atualização exportada</string>
+    <string name="notification_export_fail">Falha ao exportar</string>
+    <string name="toast_already_exporting">Uma atualização já está sendo exportada</string>
+    <string name="toast_export_started">Exportação iniciada</string>
+    <string name="blocked_update_dialog_title">Atualização bloqueada</string>
+    <string name="blocked_update_dialog_title_downgrade">Retorno à versão anterior bloqueado</string>
+    <string name="export_channel_title">Exportação concluída</string>
+    <string name="new_updates_channel_title">Novas atualizações</string>
+    <string name="ongoing_channel_title">Downloads em andamento</string>
+    <string name="update_failed_channel_title">Falha ao atualizar</string>
+    <string name="action_download_install">Baixar e instalar</string>
+    <string name="check_for_update">Verificar atualização</string>
+    <string name="action_back">Voltar</string>
+    <string name="tab_updates">Atualizações</string>
+    <string name="tab_saved">Salvos</string>
+    <string name="tab_saved_count">Salvos (%1$d)</string>
+    <string name="tab_settings">Configurações</string>
+    <string name="toast_download_failed">Falha no download</string>
+    <string name="toast_download_verified">Download verificado e pronto</string>
+    <string name="toast_import_failed">Falha ao importar ZIP (pacote ou assinatura inválidos). Tente o modo inseguro para ZIPs personalizados.</string>
+    <string name="toast_imported_format"><xliff:g id="name">%1$s</xliff:g> importado para a aba Baixados</string>
+    <string name="banner_no_internet">Sem conexão com a internet</string>
+    <string name="banner_check_failed">Falha ao verificar atualizações</string>
+    <string name="section_releases">Versões disponíveis</string>
+    <string name="section_releases_count">Versões disponíveis • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">Modo inseguro</string>
+    <string name="empty_releases_title">Nenhuma versão carregada</string>
+    <string name="empty_releases_desc">Toque em atualizar para buscar compilações do feed OTA JSON configurado.</string>
+    <string name="device_fallback_name">Dispositivo</string>
+    <string name="installed_label_format">Instalado: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • Correção: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">Verificado: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">Data desconhecida</string>
+    <string name="status_starting">Iniciando</string>
+    <string name="status_verifying">Verificando</string>
+    <string name="status_merging">Mesclando <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">Pausado <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">Erro</string>
+    <string name="status_installing">Instalando <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">Suspenso <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="badge_downloaded">Baixado</string>
+    <string name="badge_reboot_required">Reinicialização necessária</string>
+    <string name="badge_local">Local</string>
+    <string name="badge_major_upgrade">Atualização importante</string>
+    <string name="relation_newer">Mais recente</string>
+    <string name="relation_installed">Instalada</string>
+    <string name="relation_downgrade">Downgrade</string>
+    <string name="relation_build">Compilação</string>
+    <string name="downloaded_subtitle_used">Espaço usado: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">Importe um ZIP local ou baixe compilações em Atualizações</string>
+    <string name="action_import_zip">Importar ZIP</string>
+    <string name="empty_downloaded_title">Nenhuma atualização baixada</string>
+    <string name="empty_downloaded_desc">Pacotes de ROM baixados e arquivos ZIP locais importados aparecerão aqui para instalação, exportação ou remoção.</string>
+    <string name="section_downloaded">ZIPs baixados e locais</string>
+    <string name="install_confirm_recovery">Gravar via recuperação (modo inseguro)? O dispositivo será reiniciado na recuperação.</string>
+    <string name="install_confirm_force">Forçar instalação sem verificação? Verifique se este ZIP é do seu dispositivo.</string>
+    <string name="install_confirm_now">Instalar <xliff:g id="name">%1$s</xliff:g> agora?</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_confirm">Confirmar</string>
+    <string name="action_proceed">Continuar</string>
+    <string name="action_reboot_now">Reiniciar agora</string>
+    <string name="action_export">Exportar</string>
+    <string name="action_reset">Redefinir</string>
+    <string name="install_label_recovery">Instalar (recuperação)</string>
+    <string name="install_label_force">Forçar instalação</string>
+    <string name="action_stream_install">Transmitir e instalar</string>
+    <string name="action_download_install_new">Baixar e instalar</string>
+    <string name="desc_close">Fechar</string>
+    <string name="desc_retry">Tentar novamente</string>
+    <string name="settings_check_interval">Intervalo de verificação</string>
+    <string name="interval_daily">Diariamente</string>
+    <string name="interval_weekly">Semanalmente</string>
+    <string name="interval_monthly">Mensalmente</string>
+    <string name="settings_group_downloads">Downloads e verificação</string>
+    <string name="settings_parallel_title">Download paralelo dividido</string>
+    <string name="settings_parallel_summary">Baixar até 3 partes divididas do arquivo simultaneamente para velocidades maiores</string>
+    <string name="settings_verify_title">Verificar somas de verificação SHA-256</string>
+    <string name="settings_verify_summary">Validar cada parte dividida e o arquivo final montado em relação aos hashes JSON</string>
+    <string name="settings_autodelete_summary">Remover o pacote baixado automaticamente após a atualização bem-sucedida</string>
+    <string name="settings_group_installation">Instalação</string>
+    <string name="settings_ab_perf_summary">Alocar mais CPU e I/O ao update_engine para instalações mais rápidas</string>
+    <string name="settings_ab_perf_charging">Ativo automaticamente quando conectado à energia CA</string>
+    <string name="settings_group_ota">Fonte OTA</string>
+    <string name="settings_ota_url_title">URL OTA JSON personalizado</string>
+    <string name="settings_ota_url_hint">Deixe vazio para usar o URL padrão da sobreposição de ROM / DeviceTree.</string>
+    <string name="settings_ota_apply">Aplicar URL</string>
+    <string name="toast_ota_reset">URL OTA redefinido para o padrão</string>
+    <string name="toast_ota_updated">URL OTA atualizado</string>
+    <string name="settings_group_appearance">Aparência e armazenamento</string>
+    <string name="settings_theme_title">Tema do app</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Escuro</string>
+    <string name="settings_wavy_title">Barra de progresso ondulada</string>
+    <string name="settings_wavy_summary">Animar onda ao baixar ou instalar; achata suavemente ao pausar</string>
+    <string name="settings_amplitude_title">Amplitude da onda</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">Desligado</string>
+    <string name="settings_blur_title">Raio de desfoque do vidro</string>
+    <string name="settings_tint_title">Opacidade da tonalidade do vidro</string>
+    <string name="settings_logo_title">Mostrar logotipo do projeto</string>
+    <string name="settings_logo_summary">Exibir banner do projeto (GIF, imagem, vídeo ou logotipo animado)</string>
+    <string name="settings_banner_title">Mostrar banner da versão</string>
+    <string name="settings_banner_summary">Exibir imagem ou vídeo do banner da versão no cabeçalho do cartão</string>
+    <string name="settings_clear_cache">Limpar cache de mídia e registro de alterações</string>
+    <string name="toast_cache_cleared">Cache limpo</string>
+    <string name="settings_danger_title">Instalação crítica / insegura</string>
+    <string name="settings_danger_warning">Use estritamente por sua conta e risco. Pode danificar o dispositivo ao gravar uma ROM errada.</string>
+    <string name="settings_unsafe_title">Ignorar verificações de segurança</string>
+    <string name="settings_unsafe_summary">Desativa a verificação de assinatura OTA, o bloqueio de downgrade e as proteções do SDK do Android. Permite gravar downgrades ou ZIPs de outra ROM.</string>
+    <string name="settings_unsafe_confirm">Confirme: você assume total responsabilidade por downgrades, ZIPs não assinados ou perda de dados.</string>
+    <string name="danger_accept">Aceito o risco</string>
+    <string name="settings_recovery_title">Forçar instalação via recuperação</string>
+    <string name="settings_recovery_summary">Ignorar o update_engine e reiniciar na recuperação (OrangeFox / TWRP) para gravar o ZIP diretamente. Útil se o update_engine rejeitar o carimbo de data/hora de downgrade ou a assinatura.</string>
+    <string name="overlay_battery_low">Nível de bateria muito baixo para instalar</string>
+    <string name="overlay_blocked_format">Bloqueado (<xliff:g id="reason">%1$s</xliff:g>). Ative o modo inseguro em Configurações para forçar a instalação.</string>
+    <string name="overlay_downgrade_blocked">O downgrade foi bloqueado pelas regras de segurança. Ative o modo inseguro em Configurações para substituir.</string>
+    <string name="overlay_major_blocked">A atualização principal do Android foi bloqueada pelas regras de segurança. Ative o modo inseguro em Configurações para substituir.</string>
+    <string name="overlay_metered_format">Você está em uma conexão limitada. Baixar <xliff:g id="size">%1$s</xliff:g> agora?</string>
+    <string name="overlay_unsafe_recovery">Baixar e gravar via recuperação (modo inseguro)?</string>
+    <string name="overlay_unsafe_force">Baixar e forçar instalação sem verificação?</string>
+    <string name="overlay_scratch_mounted">Partição scratch montada; não é possível instalar</string>
+    <string name="toast_sha_copied">SHA-256 copiado</string>
+    <string name="overlay_install_recovery">Gravar via recuperação (modo inseguro)? O dispositivo será reiniciado na recuperação.</string>
+    <string name="overlay_install_force">Forçar instalação sem verificações de assinatura/downgrade? Prossiga por sua conta e risco.</string>
+    <string name="overlay_changelog_title">Registro de alterações</string>
+    <string name="desc_reload_changelog">Recarregar registro de alterações</string>
+    <string name="overlay_changelog_loading">Carregando registro de alterações…</string>
+    <string name="overlay_changelog_error">Não foi possível carregar o registro de alterações desta compilação.</string>
+    <string name="overlay_changelog_empty">Nenhum registro de alterações fornecido para esta versão.</string>
+    <string name="overlay_archive_sha">SHA-256 do arquivo</string>
+    <string name="desc_copy_sha">Copiar SHA-256</string>
+    <string name="overlay_reboot_to_apply">Reinicie para aplicar a atualização</string>
+    <string name="overlay_pause_format">Pausar (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">Retomar (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">Arquivo do pacote</string>
+    <string name="overlay_parts_title">Partes divididas do arquivo (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">Confirmar exclusão</string>
+    <string name="info_package_size">Tamanho do pacote</string>
+    <string name="info_android_api">API do Android</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">Tipo de compilação</string>
+    <string name="info_delivery">Entrega</string>
+    <string name="info_delivery_split">Dividida (<xliff:g id="count">%1$d</xliff:g> partes)</string>
+    <string name="float_importing">Importando ZIP local…</string>
+    <string name="float_copying">Copiando pacote e verificando metadados</string>
+    <string name="float_calculating">Calculando…</string>
+    <string name="float_parallel">Paralelo</string>
+    <string name="float_sequential">Sequencial</string>
+    <string name="float_single">Arquivo único</string>
+    <string name="float_autoinstall">Instalação automática</string>
+    <string name="float_parts_header">Partes do arquivo (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> concluídas)</string>
+    <string name="float_suspend">Suspender</string>
+    <string name="float_abort">Interromper</string>
+    <string name="desc_toggle_details">Alternar detalhes</string>
+    <string name="part_queued">Na fila</string>
+    <string name="part_verifying">Verificando SHA-256</string>
+    <string name="part_verified">Verificado</string>
+    <string name="part_done">Concluído</string>
+    <string name="part_paused_format">Pausado • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">Repetir / erro</string>
+    <string name="part_waiting">Aguardando…</string>
+    <string name="stage_connecting">Conectando ao servidor…</string>
+    <string name="stage_verify_part">Verificando SHA-256 da parte <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>…</string>
+    <string name="stage_assemble">Montando partes (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">Verificando SHA-256 do arquivo final…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> partes ativas • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">Parte <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">Baixando • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• Instalação automática</string>
+    <string name="stage_paused">Download pausado • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">Falha no download • Toque em Retomar</string>
+    <string name="stage_verifying_sig">Verificando arquivo e assinatura…</string>
+    <string name="stage_finalizing">Finalizando slot A/B • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">Instalando atualização • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">Instalação suspensa • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">Instalado — reinicialização necessária</string>
+    <string name="md_image_alt">Imagem</string>
+    <string name="md_image_failed">Falha ao carregar imagem</string>
+    <string name="importer_tag_local">ZIP local</string>
+    <string name="err_no_url">Nenhum URL de download ou partes definidas</string>
+    <string name="err_no_dest">Nenhum destino de download definido</string>
+    <string name="err_no_callback">Nenhum retorno de download definido</string>
+    <string name="err_no_parts">Nenhuma parte de download especificada</string>
+    <string name="err_no_tempdir">Não foi possível criar o diretório temporário das partes: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">Soma de verificação da parte <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> incompatível</string>
+    <string name="err_part_failed">Falha ao baixar a parte <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_final_sha">Falha na verificação SHA-256 do arquivo final</string>
+    <string name="err_empty_body">Corpo de resposta vazio para a parte <xliff:g id="index">%1$d</xliff:g></string>
+    <string name="err_unknown_size">Não foi possível determinar o tamanho de <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_no_range">O servidor não oferece suporte a solicitações de intervalo: esperado HTTP 206, recebido <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_content_range">Cabeçalho Content-Range ausente para <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_bad_content_range">Content-Range inesperado para <xliff:g id="url">%1$s</xliff:g>: esperado <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">Mudanças de protocolo não são permitidas</string>
+    <string name="err_server_reply">O servidor respondeu com <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_no_fd">Falha ao obter fileDescriptor</string>
+    <string name="err_import_cancelled">Importação cancelada</string>
+    <string name="err_verify_deleted">Falha na verificação, o arquivo foi excluído</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">Aplicar</string>
+    <string name="dialog_value_title">Valor</string>
+    <string name="unknown_size">Desconhecido</string>
+    <string name="slider_default">Padrão</string>
+    <string name="slider_default_value">Padrão (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">Erro de rede</string>
+    <string name="action_paused_state">Pausado</string>
+    <string name="part_fallback_name">part_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">Servidor</string>
+    <string name="err_response_empty">Corpo de resposta vazio</string>
+    <string name="err_changelog_body_empty">Corpo do registro de alterações vazio</string>
+    <string name="err_changelog_too_large">Registro de alterações excede <xliff:g id="bytes" example="524288">%1$d</xliff:g> bytes</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: limite de taxa excedido (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Tente novamente em <xliff:g id="wait" example="~2 min">%3$s</xliff:g>.</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: limite de taxa excedido (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Tente novamente mais tarde.</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: arquivo ou feed não encontrado (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: acesso negado (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: recurso removido (HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: servidor indisponível (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> min</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g>s</string>
+    <string name="err_download_file_missing">Arquivo baixado ausente</string>
+    <string name="err_sha_mismatch">Soma de verificação SHA-256 incompatível</string>
+    <string name="err_sha_calc_failed">Falha ao calcular SHA-256</string>
+    <string name="err_ota_signature_failed">Falha na verificação da assinatura OTA</string>
+    <string name="err_engine_signature">update_engine rejeitou a assinatura do payload (código <xliff:g id="code" example="20">%1$d</xliff:g>). Tente a instalação forçada via recuperação.</string>
+    <string name="err_engine_downgrade">update_engine bloqueou o carimbo de data/hora de downgrade (código <xliff:g id="code" example="51">%1$d</xliff:g>). Tente a instalação forçada via recuperação.</string>
+    <string name="err_engine_storage">Sem espaço de armazenamento suficiente para a atualização do slot A/B (código <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_engine_partition">Falha na verificação da partição (código <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_cancelled">Instalação cancelada pelo usuário.</string>
+    <string name="err_engine_generic">Código de erro do update_engine <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">Tipo de OTA não suportado: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found">Não foi possível encontrar <xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> em <xliff:g id="file" example="update.zip">%2$s</xliff:g></string>
+    <plurals name="hero_newer_builds">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> compilação mais recente disponível</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> compilações mais recentes disponíveis</item>
+        <item quantity="many"><xliff:g id="count">%1$d</xliff:g> compilações mais recentes disponíveis</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="one">Sistema atualizado • <xliff:g id="count">%1$d</xliff:g> compilação no feed</item>
+        <item quantity="other">Sistema atualizado • <xliff:g id="count">%1$d</xliff:g> compilações no feed</item>
+        <item quantity="many">Sistema atualizado • <xliff:g id="count">%1$d</xliff:g> compilações no feed</item>
+    </plurals>
+    <plurals name="badge_split_parts">
+        <item quantity="one">Dividido • <xliff:g id="count">%1$d</xliff:g> parte</item>
+        <item quantity="other">Dividido • <xliff:g id="count">%1$d</xliff:g> partes</item>
+        <item quantity="many">Dividido • <xliff:g id="count">%1$d</xliff:g> partes</item>
+    </plurals>
+    <plurals name="downloaded_title">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> pacote armazenado</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> pacotes armazenados</item>
+        <item quantity="many"><xliff:g id="count">%1$d</xliff:g> pacotes armazenados</item>
+    </plurals>
+    <plurals name="float_parts">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> parte</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> partes</item>
+        <item quantity="many"><xliff:g id="count">%1$d</xliff:g> partes</item>
+    </plurals>
+</resources>

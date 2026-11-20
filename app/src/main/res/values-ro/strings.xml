@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="display_name">Actualizări de sistem</string>
+    <string name="verification_failed_notification">Verificarea a eșuat</string>
+    <string name="verifying_download_notification">Verificare actualizare</string>
+    <string name="downloading_notification">Descărcare</string>
+    <string name="download_paused_notification">Descărcare întreruptă</string>
+    <string name="download_paused_error_notification">Eroare la descărcare</string>
+    <string name="download_completed_notification">Descărcare terminată</string>
+    <string name="download_starting_notification">Pornire descărcare</string>
+    <string name="update_failed_notification">Actualizare eșuată</string>
+    <string name="installation_suspended_notification">Instalarea a fost suspendată</string>
+    <string name="new_updates_found_title">Actualizări noi</string>
+    <string name="new_updates_found_summary">Atingeți pentru a vizualiza actualizările disponibile</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="installing_update">Instalare actualizare de sistem</string>
+    <string name="installing_update_error">Eroare la instalare</string>
+    <string name="installing_update_finished">Repornire necesară pentru actualizare</string>
+    <string name="finalizing_package">Se finalizează instalarea pachetului</string>
+    <string name="preparing_ota_first_boot">Se pregătește pentru prima pornire</string>
+    <string name="dialog_prepare_zip_message">Pregătire preliminară pentru actualizare</string>
+    <string name="reboot">Repornire</string>
+    <string name="checking_for_updates">Căutare actualizări</string>
+    <string name="pref_category_background_sync">Sincronizare fundal</string>
+    <string name="menu_auto_updates_check">Verificare periodică pentru actualizări</string>
+    <string name="menu_auto_updates_check_summary">Verifică dacă există actualizări în fundal</string>
+    <string name="menu_auto_delete_updates">Ștergere automată actualizări</string>
+    <string name="menu_stream_updates">Actualizări online prin streaming</string>
+    <string name="menu_stream_updates_summary">Instalați actualizările în timpul descărcării. Dezactivați pentru a salva pachetele de actualizare pentru export.</string>
+    <string name="menu_export_update">Exportează actualizarea</string>
+    <string name="menu_metered_network_warning">Avertizare rețea contorizată</string>
+    <string name="menu_metered_network_warning_summary">Avertizează înainte de a descărca pe date mobile</string>
+    <string name="menu_ab_perf_mode">Proces update prioritar</string>
+    <string name="menu_update_recovery">Actualizare recovery</string>
+    <string name="menu_update_recovery_summary">Actualizare partiție de recuperare împreună cu OS</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">Dată de compilare</string>
+    <string name="security_update">Actualizare de securitate</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">Descărcați</string>
+    <string name="action_pause">Pauză</string>
+    <string name="action_resume">Reluaţi</string>
+    <string name="action_install">Instalați</string>
+    <string name="action_info">Info</string>
+    <string name="action_delete">Ștergeți</string>
+    <string name="dialog_export_title">Exportare actualizare</string>
+    <string name="notification_export_success">Actualizare exportată</string>
+    <string name="notification_export_fail">Eroare de export</string>
+    <string name="toast_already_exporting">Se exportează deja o actualizare</string>
+    <string name="toast_export_started">Export inițiat</string>
+    <string name="blocked_update_dialog_title">Actualizare blocată</string>
+    <string name="blocked_update_dialog_title_downgrade">Downgradare blocată</string>
+    <string name="export_channel_title">Completare export</string>
+    <string name="new_updates_channel_title">Actualizări noi</string>
+    <string name="ongoing_channel_title">Descărcări în desfășurare</string>
+    <string name="update_failed_channel_title">Actualizare eșuată</string>
+    <string name="action_download_install">Descarcă și instalează</string>
+    <string name="check_for_update">Verifică actualizările</string>
+    <string name="action_back">Înapoi</string>
+    <string name="tab_updates">Actualizări</string>
+    <string name="tab_saved">Salvate</string>
+    <string name="tab_saved_count">Salvate (%1$d)</string>
+    <string name="tab_settings">Setări</string>
+    <string name="toast_download_failed">Descărcarea a eșuat</string>
+    <string name="toast_download_verified">Descărcare verificată și gata</string>
+    <string name="toast_import_failed">Importul ZIP a eșuat (pachet sau semnătură nevalidă). Încearcă modul nesigur pentru ZIP-uri personalizate.</string>
+    <string name="toast_imported_format"><xliff:g id="name">%1$s</xliff:g> importat în fila Descărcate</string>
+    <string name="banner_no_internet">Fără conexiune la internet</string>
+    <string name="banner_check_failed">Verificarea actualizărilor a eșuat</string>
+    <string name="section_releases">Versiuni disponibile</string>
+    <string name="section_releases_count">Versiuni disponibile • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">Mod nesigur</string>
+    <string name="empty_releases_title">Nicio versiune încărcată</string>
+    <string name="empty_releases_desc">Atinge reîmprospătarea pentru a prelua versiuni din fluxul OTA JSON configurat.</string>
+    <string name="device_fallback_name">Dispozitiv</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="one">Este disponibilă <xliff:g id="count">%1$d</xliff:g> versiune mai nouă</item>
+        <item quantity="few">Sunt disponibile <xliff:g id="count">%1$d</xliff:g> versiuni mai noi</item>
+        <item quantity="other">Sunt disponibile <xliff:g id="count">%1$d</xliff:g> de versiuni mai noi</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="one">Sistemul este actualizat • <xliff:g id="count">%1$d</xliff:g> versiune în flux</item>
+        <item quantity="few">Sistemul este actualizat • <xliff:g id="count">%1$d</xliff:g> versiuni în flux</item>
+        <item quantity="other">Sistemul este actualizat • <xliff:g id="count">%1$d</xliff:g> de versiuni în flux</item>
+    </plurals>
+    <string name="installed_label_format">Instalat: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • Patch: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">Verificat: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">Dată necunoscută</string>
+    <string name="status_starting">Se pornește</string>
+    <string name="status_verifying">Se verifică</string>
+    <string name="status_merging">Se combină <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">În pauză <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">Eroare</string>
+    <string name="status_installing">Se instalează <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">Suspendat <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <plurals name="badge_split_parts">
+        <item quantity="one">Divizat • <xliff:g id="count">%1$d</xliff:g> parte</item>
+        <item quantity="few">Divizat • <xliff:g id="count">%1$d</xliff:g> părți</item>
+        <item quantity="other">Divizat • <xliff:g id="count">%1$d</xliff:g> de părți</item>
+    </plurals>
+    <string name="badge_downloaded">Descărcat</string>
+    <string name="badge_reboot_required">Necesită repornire</string>
+    <string name="badge_local">Local</string>
+    <string name="badge_major_upgrade">Actualizare majoră</string>
+    <string name="relation_newer">Mai nouă</string>
+    <string name="relation_installed">Instalată</string>
+    <string name="relation_downgrade">Retrogradare</string>
+    <string name="relation_build">Versiune</string>
+    <plurals name="downloaded_title">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> pachet stocat</item>
+        <item quantity="few"><xliff:g id="count">%1$d</xliff:g> pachete stocate</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> de pachete stocate</item>
+    </plurals>
+    <string name="downloaded_subtitle_used">Spațiu utilizat: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">Importă un ZIP local sau descarcă versiuni din Actualizări</string>
+    <string name="action_import_zip">Importă ZIP</string>
+    <string name="empty_downloaded_title">Nicio actualizare descărcată</string>
+    <string name="empty_downloaded_desc">Pachetele ROM descărcate și fișierele ZIP locale importate vor apărea aici pentru instalare, export sau eliminare.</string>
+    <string name="section_downloaded">Descărcate și ZIP-uri locale</string>
+    <string name="install_confirm_recovery">Instalezi prin Recovery (mod nesigur)? Dispozitivul va reporni în Recovery.</string>
+    <string name="install_confirm_force">Forțezi instalarea fără verificare? Asigură-te că acest ZIP corespunde dispozitivului tău.</string>
+    <string name="install_confirm_now">Instalezi <xliff:g id="name">%1$s</xliff:g> acum?</string>
+    <string name="action_cancel">Anulează</string>
+    <string name="action_confirm">Confirmă</string>
+    <string name="action_proceed">Continuă</string>
+    <string name="action_reboot_now">Repornește acum</string>
+    <string name="action_export">Exportă</string>
+    <string name="action_reset">Resetează</string>
+    <string name="install_label_recovery">Instalare (Recovery)</string>
+    <string name="install_label_force">Forțează instalarea</string>
+    <string name="action_stream_install">Transmite și instalează</string>
+    <string name="action_download_install_new">Descarcă și instalează</string>
+    <string name="desc_close">Închide</string>
+    <string name="desc_retry">Reîncearcă</string>
+    <string name="settings_check_interval">Interval de verificare</string>
+    <string name="interval_daily">Zilnic</string>
+    <string name="interval_weekly">Săptămânal</string>
+    <string name="interval_monthly">Lunar</string>
+    <string name="settings_group_downloads">Descărcări și verificare</string>
+    <string name="settings_parallel_title">Descărcare divizată paralelă</string>
+    <string name="settings_parallel_summary">Descarcă simultan până la 3 părți ale arhivei divizate pentru viteze mai mari</string>
+    <string name="settings_verify_title">Verifică sumele SHA-256</string>
+    <string name="settings_verify_summary">Validează fiecare parte divizată și arhiva finală asamblată față de hash-urile JSON</string>
+    <string name="settings_autodelete_summary">Elimină automat pachetul descărcat după ce actualizarea reușește</string>
+    <string name="settings_group_installation">Instalare</string>
+    <string name="settings_ab_perf_summary">Alocă mai mult CPU și I/O pentru update_engine pentru instalări mai rapide</string>
+    <string name="settings_ab_perf_charging">Activ automat la conectarea la alimentarea CA</string>
+    <string name="settings_group_ota">Sursă OTA</string>
+    <string name="settings_ota_url_title">URL OTA JSON personalizat</string>
+    <string name="settings_ota_url_hint">Lasă gol pentru a folosi URL-ul implicit din ROM / DeviceTree.</string>
+    <string name="settings_ota_apply">Aplică URL-ul</string>
+    <string name="toast_ota_reset">URL-ul OTA a fost resetat la implicit</string>
+    <string name="toast_ota_updated">URL-ul OTA a fost actualizat</string>
+    <string name="settings_group_appearance">Aspect și stocare</string>
+    <string name="settings_theme_title">Tema aplicației</string>
+    <string name="theme_system">Sistem</string>
+    <string name="theme_light">Luminos</string>
+    <string name="theme_dark">Întunecat</string>
+    <string name="settings_wavy_title">Bară de progres ondulată</string>
+    <string name="settings_wavy_summary">Animează unda în timpul descărcării sau instalării; se aplatizează lin la pauză</string>
+    <string name="settings_amplitude_title">Amplitudinea undei</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">Oprit</string>
+    <string name="settings_blur_title">Raza de estompare a sticlei</string>
+    <string name="settings_tint_title">Opacitatea sticlei</string>
+    <string name="settings_logo_title">Afișează sigla proiectului</string>
+    <string name="settings_logo_summary">Afișează bannerul proiectului (GIF, imagine, videoclip sau siglă animată)</string>
+    <string name="settings_banner_title">Afișează bannerul versiunii</string>
+    <string name="settings_banner_summary">Afișează imaginea sau videoclipul versiunii în antetul cardului</string>
+    <string name="settings_clear_cache">Golește memoria cache media și jurnalele de modificări</string>
+    <string name="toast_cache_cleared">Memoria cache a fost golită</string>
+    <string name="settings_danger_title">Instalare critică / nesigură</string>
+    <string name="settings_danger_warning">Folosește strict pe propriul risc. Poate distruge dispozitivul dacă instalezi un ROM greșit.</string>
+    <string name="settings_unsafe_title">Ocolește verificările de siguranță și verificare</string>
+    <string name="settings_unsafe_summary">Dezactivează verificarea semnăturii OTA, blocarea retrogradării și protecțiile SDK Android. Permite instalarea retrogradărilor sau a ZIP-urilor de ROM-uri încrucișate.</string>
+    <string name="settings_unsafe_confirm">Confirmă: îți asumi întreaga responsabilitate pentru retrogradări, ZIP-uri nesemnate sau pierderea datelor.</string>
+    <string name="danger_accept">Accept riscul</string>
+    <string name="settings_recovery_title">Forțează instalarea prin Recovery</string>
+    <string name="settings_recovery_summary">Ocolește update_engine și repornește în Recovery (OrangeFox / TWRP) pentru a instala ZIP direct. Util dacă update_engine respinge marcajul temporal sau semnătura de retrogradare.</string>
+    <string name="overlay_battery_low">Nivelul bateriei este prea scăzut pentru instalare</string>
+    <string name="overlay_blocked_format">Blocat (<xliff:g id="reason">%1$s</xliff:g>). Activează modul nesigur în Setări pentru a forța instalarea.</string>
+    <string name="overlay_downgrade_blocked">Retrogradarea este blocată de regulile de siguranță. Activează modul nesigur în Setări pentru a trece peste.</string>
+    <string name="overlay_major_blocked">Actualizarea majoră de Android este blocată de regulile de siguranță. Activează modul nesigur în Setări pentru a trece peste.</string>
+    <string name="overlay_metered_format">Ești pe o conexiune contorizată. Descarci <xliff:g id="size">%1$s</xliff:g> acum?</string>
+    <string name="overlay_unsafe_recovery">Descarci și instalezi prin Recovery (mod nesigur)?</string>
+    <string name="overlay_unsafe_force">Descarci și forțezi instalarea fără verificare?</string>
+    <string name="overlay_scratch_mounted">Partiția scratch este montată; instalarea nu este posibilă</string>
+    <string name="toast_sha_copied">SHA-256 copiat</string>
+    <string name="overlay_install_recovery">Instalezi prin Recovery (mod nesigur)? Dispozitivul va reporni în Recovery.</string>
+    <string name="overlay_install_force">Forțezi instalarea fără verificări de semnătură/retrogradare? Continuă pe propriul risc.</string>
+    <string name="overlay_changelog_title">Jurnal de modificări</string>
+    <string name="desc_reload_changelog">Reîncarcă jurnalul de modificări</string>
+    <string name="overlay_changelog_loading">Se încarcă jurnalul de modificări…</string>
+    <string name="overlay_changelog_error">Nu s-a putut încărca jurnalul de modificări pentru această versiune.</string>
+    <string name="overlay_changelog_empty">Niciun jurnal de modificări furnizat pentru această versiune.</string>
+    <string name="overlay_archive_sha">SHA-256 al arhivei</string>
+    <string name="desc_copy_sha">Copiază SHA-256</string>
+    <string name="overlay_reboot_to_apply">Repornește pentru a aplica actualizarea</string>
+    <string name="overlay_pause_format">Pauză (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">Reia (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">Fișierul pachetului</string>
+    <string name="overlay_parts_title">Părțile arhivei divizate (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">Confirmă ștergerea</string>
+    <string name="info_package_size">Dimensiunea pachetului</string>
+    <string name="info_android_api">API Android</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">Tip de versiune</string>
+    <string name="info_delivery">Livrare</string>
+    <string name="info_delivery_split">Divizată (<xliff:g id="count">%1$d</xliff:g> părți)</string>
+    <string name="float_importing">Se importă ZIP local…</string>
+    <string name="float_copying">Se copiază pachetul și se verifică metadatele</string>
+    <string name="float_calculating">Se calculează…</string>
+    <plurals name="float_parts">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> parte</item>
+        <item quantity="few"><xliff:g id="count">%1$d</xliff:g> părți</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> de părți</item>
+    </plurals>
+    <string name="float_parallel">Paralel</string>
+    <string name="float_sequential">Secvențial</string>
+    <string name="float_single">Arhivă unică</string>
+    <string name="float_autoinstall">Instalare automată</string>
+    <string name="float_parts_header">Părțile arhivei (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> gata)</string>
+    <string name="float_suspend">Suspendă</string>
+    <string name="float_abort">Anulează</string>
+    <string name="desc_toggle_details">Comută detaliile</string>
+    <string name="part_queued">În așteptare</string>
+    <string name="part_verifying">Se verifică SHA-256</string>
+    <string name="part_verified">Verificată</string>
+    <string name="part_done">Gata</string>
+    <string name="part_paused_format">În pauză • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">Reîncearcă / Eroare</string>
+    <string name="part_waiting">Se așteaptă…</string>
+    <string name="stage_connecting">Conectare la server…</string>
+    <string name="stage_verify_part">Se verifică partea <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> SHA-256…</string>
+    <string name="stage_assemble">Se asamblează părțile (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">Se verifică SHA-256 al arhivei finale…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> părți active • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">Partea <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">Se descarcă • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• Instalare automată</string>
+    <string name="stage_paused">Descărcare în pauză • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">Descărcarea a eșuat • Atinge Reia</string>
+    <string name="stage_verifying_sig">Se verifică arhiva și semnătura…</string>
+    <string name="stage_finalizing">Se finalizează slotul A/B • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">Se instalează actualizarea • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">Instalare suspendată • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">Instalat — necesită repornire</string>
+    <string name="md_image_alt">Imagine</string>
+    <string name="md_image_failed">Încărcarea imaginii a eșuat</string>
+    <string name="importer_tag_local">ZIP local</string>
+    <string name="err_no_url">Niciun URL de descărcare sau părți definite</string>
+    <string name="err_no_dest">Nicio destinație de descărcare definită</string>
+    <string name="err_no_callback">Niciun callback de descărcare definit</string>
+    <string name="err_no_parts">Nicio parte de descărcare specificată</string>
+    <string name="err_no_tempdir">Nu se poate crea directorul temporar pentru părți: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">Sumă de control nepotrivită pentru partea <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_part_failed">Descărcarea părții <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> a eșuat</string>
+    <string name="err_final_sha">Verificarea SHA-256 a arhivei finale a eșuat</string>
+    <string name="err_empty_body">Corp de răspuns gol pentru partea <xliff:g id="index">%1$d</xliff:g></string>
+    <string name="err_unknown_size">Nu se poate determina dimensiunea pentru <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_no_range">Serverul nu acceptă cereri de interval: se aștepta HTTP 206, s-a primit <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_content_range">Lipsește antetul Content-Range pentru <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_bad_content_range">Content-Range neașteptat pentru <xliff:g id="url">%1$s</xliff:g>: se aștepta <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">Schimbările de protocol nu sunt permise</string>
+    <string name="err_server_reply">Serverul a răspuns cu <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_no_fd">Nu s-a putut obține descriptorul de fișier</string>
+    <string name="err_import_cancelled">Import anulat</string>
+    <string name="err_verify_deleted">Verificarea a eșuat, fișierul a fost șters</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">Aplică</string>
+    <string name="dialog_value_title">Valoare</string>
+    <string name="unknown_size">Necunoscut</string>
+    <string name="slider_default">Implicit</string>
+    <string name="slider_default_value">Implicit (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">Eroare de rețea</string>
+    <string name="action_paused_state">În pauză</string>
+    <string name="part_fallback_name">parte_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">Server</string>
+    <string name="err_response_empty">Corp de răspuns gol</string>
+    <string name="err_changelog_body_empty">Corp gol al jurnalului de modificări</string>
+    <string name="err_changelog_too_large">Jurnalul de modificări depășește <xliff:g id="bytes" example="524288">%1$d</xliff:g> de octeți</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: limită de rată depășită (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Reîncearcă în <xliff:g id="wait" example="~2 min">%3$s</xliff:g>.</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: limită de rată depășită (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Încearcă mai târziu.</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: fișier sau flux negăsit (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: acces refuzat (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: resursă eliminată (HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: server indisponibil (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> min</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g>s</string>
+    <string name="err_download_file_missing">Fișierul descărcat lipsește</string>
+    <string name="err_sha_mismatch">Sumă de control SHA-256 nepotrivită</string>
+    <string name="err_sha_calc_failed">Calculul SHA-256 a eșuat</string>
+    <string name="err_ota_signature_failed">Verificarea semnăturii OTA a eșuat</string>
+    <string name="err_engine_signature">update_engine a respins semnătura pachetului (cod <xliff:g id="code" example="20">%1$d</xliff:g>). Încearcă instalarea forțată prin Recovery.</string>
+    <string name="err_engine_downgrade">update_engine a blocat marcajul temporal de retrogradare (cod <xliff:g id="code" example="51">%1$d</xliff:g>). Încearcă instalarea forțată prin Recovery.</string>
+    <string name="err_engine_storage">Spațiu insuficient pentru actualizarea slotului A/B (cod <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_engine_partition">Verificarea partiției a eșuat (cod <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_cancelled">Instalare anulată de utilizator.</string>
+    <string name="err_engine_generic">Cod de eroare update_engine <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">Tip OTA neacceptat: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found">Nu s-a găsit <xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> în <xliff:g id="file" example="update.zip">%2$s</xliff:g></string>
+
+</resources>

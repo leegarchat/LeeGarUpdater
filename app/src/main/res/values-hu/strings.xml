@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="display_name">Rendszerfrissítések</string>
+    <string name="verification_failed_notification">Az ellenőrzés sikertelen</string>
+    <string name="verifying_download_notification">Frissítésellenőrzés</string>
+    <string name="downloading_notification">Letöltés</string>
+    <string name="download_paused_notification">A letöltés szüneteltetve</string>
+    <string name="download_paused_error_notification">Letöltési hiba</string>
+    <string name="download_completed_notification">A letöltés befejeződött</string>
+    <string name="download_starting_notification">A letöltés indítása</string>
+    <string name="update_failed_notification">A frissítés sikertelen</string>
+    <string name="installation_suspended_notification">A telepítés felfüggesztve</string>
+    <string name="new_updates_found_title">Új frissítések</string>
+    <string name="new_updates_found_summary">Érintse meg az elérhető frissítések megtekintéséhez</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="installing_update">A Rendszerfrissítés telepítése</string>
+    <string name="installing_update_error">Telepítési hiba</string>
+    <string name="installing_update_finished">A frissítés újraindításra vár</string>
+    <string name="finalizing_package">A csomagtelepítés véglegesítése</string>
+    <string name="preparing_ota_first_boot">Felkészülés az első indításra</string>
+    <string name="dialog_prepare_zip_message">A frissítés előzetes előkészítése</string>
+    <string name="reboot">Újraindítás</string>
+    <string name="checking_for_updates">Frissítések keresése</string>
+    <string name="pref_category_background_sync">Szinkronizálás a háttérben</string>
+    <string name="menu_auto_updates_check">Frissítések időszakos keresése</string>
+    <string name="menu_auto_updates_check_summary">Frissítések keresése a háttérben</string>
+    <string name="menu_auto_delete_updates">Frissítések automatikus törlése</string>
+    <string name="menu_stream_updates">Frissítés online adatfolyamként</string>
+    <string name="menu_stream_updates_summary">Frissítések mentés nélküli telepítése letöltés közben. Kapcsolja ki, ha menteni szeretné a frissítési csomagokat exportáláshoz.</string>
+    <string name="menu_export_update">A frissítés exportálása</string>
+    <string name="menu_metered_network_warning">Mobiladat-költség figyelmeztetés</string>
+    <string name="menu_metered_network_warning_summary">Figyelmeztetés mobilinterneten keresztül történő letöltés előtt</string>
+    <string name="menu_ab_perf_mode">Állítsa fontossági sorrendbe a frissítési folyamatot</string>
+    <string name="menu_update_recovery">Recovery-frissítés</string>
+    <string name="menu_update_recovery_summary">Recovery partíció frissítése az operációs rendszerrel együtt</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">A kiadás dátuma</string>
+    <string name="security_update">Biztonsági frissítés</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">Letöltés</string>
+    <string name="action_pause">Szüneteltetés</string>
+    <string name="action_resume">Folytatás</string>
+    <string name="action_install">Telepítés</string>
+    <string name="action_info">Információ</string>
+    <string name="action_delete">Törlés</string>
+    <string name="dialog_export_title">A frissítés exportálása</string>
+    <string name="notification_export_success">A frissítés exportálva</string>
+    <string name="notification_export_fail">Exportálás hiba</string>
+    <string name="toast_already_exporting">Egy frissítés exportálása már folyamatban van</string>
+    <string name="toast_export_started">Az exportálás elindult</string>
+    <string name="blocked_update_dialog_title">A frissítés blokkolva</string>
+    <string name="blocked_update_dialog_title_downgrade">Korábbi verzióra váltás blokkolva</string>
+    <string name="export_channel_title">Exportálás-véglegesítés</string>
+    <string name="new_updates_channel_title">Új frissítések</string>
+    <string name="ongoing_channel_title">Folyamatban lévő letöltések</string>
+    <string name="update_failed_channel_title">A frissítés sikertelen</string>
+    <string name="action_apply">Alkalmaz</string>
+    <string name="action_back">Vissza</string>
+    <string name="action_cancel">Mégse</string>
+    <string name="action_confirm">Megerősítés</string>
+    <string name="action_download_install">Letöltés és telepítés</string>
+    <string name="action_download_install_new">Letöltés és telepítés</string>
+    <string name="action_export">Exportálás</string>
+    <string name="action_import_zip">ZIP importálása</string>
+    <string name="action_paused_state">Szüneteltetve</string>
+    <string name="action_proceed">Folytatás</string>
+    <string name="action_reboot_now">Újraindítás most</string>
+    <string name="action_reset">Visszaállítás</string>
+    <string name="action_stream_install">Telepítés streameléssel</string>
+    <string name="badge_downloaded">Letöltve</string>
+    <string name="badge_local">Helyi</string>
+    <string name="badge_major_upgrade">Főverzió-frissítés</string>
+    <string name="badge_reboot_required">Újraindítás szükséges</string>
+    <plurals name="badge_split_parts">
+        <item quantity="one">Darabolt • <xliff:g id="count">%1$d</xliff:g> rész</item>
+        <item quantity="other">Darabolt • <xliff:g id="count">%1$d</xliff:g> rész</item>
+    </plurals>
+    <string name="badge_unsafe_mode">Nem biztonságos mód</string>
+    <string name="banner_check_failed">A frissítések keresése sikertelen</string>
+    <string name="banner_no_internet">Nincs internetkapcsolat</string>
+    <string name="check_for_update">Frissítés keresése</string>
+    <string name="checked_format">Ellenőrizve: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="danger_accept">Elfogadom a kockázatot</string>
+    <string name="desc_close">Bezárás</string>
+    <string name="desc_copy_sha">SHA-256 másolása</string>
+    <string name="desc_reload_changelog">Változásnapló újratöltése</string>
+    <string name="desc_retry">Újra</string>
+    <string name="desc_toggle_details">Részletek váltása</string>
+    <string name="device_fallback_name">Eszköz</string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • Javítás: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="dialog_value_title">Érték</string>
+    <string name="downloaded_subtitle_hint">Helyi ZIP importálása vagy build-ek letöltése a Frissítések lapon</string>
+    <string name="downloaded_subtitle_used">Használt tárhely: <xliff:g id="size">%1$s</xliff:g></string>
+    <plurals name="downloaded_title">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> csomag tárolva</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> csomag tárolva</item>
+    </plurals>
+    <string name="empty_downloaded_desc">A letöltött ROM-csomagok és az importált helyi ZIP-fájlok itt jelennek meg telepítéshez, exportáláshoz vagy törléshez.</string>
+    <string name="empty_downloaded_title">Nincsenek letöltött frissítések</string>
+    <string name="empty_releases_desc">Érintse meg a frissítést a build-ek lekéréséhez a beállított OTA JSON-csatornából.</string>
+    <string name="empty_releases_title">Nincsenek betöltött kiadások</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: hozzáférés megtagadva (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_bad_content_range">Váratlan Content-Range ehhez: <xliff:g id="url">%1$s</xliff:g>: várt <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_changelog_body_empty">Üres változásnapló-törzs</string>
+    <string name="err_changelog_too_large">A változásnapló meghaladja a(z) <xliff:g id="bytes" example="524288">%1$d</xliff:g> bájtot</string>
+    <string name="err_download_file_missing">A letöltött fájl hiányzik</string>
+    <string name="err_empty_body">Üres választest a(z) <xliff:g id="index">%1$d</xliff:g>. részhez</string>
+    <string name="err_engine_cancelled">A telepítést a felhasználó megszakította.</string>
+    <string name="err_engine_downgrade">Az update_engine blokkolta a visszaállítási időbélyeget (<xliff:g id="code" example="51">%1$d</xliff:g> kód). Próbálja a kényszerített Recovery-telepítést.</string>
+    <string name="err_engine_generic">update_engine hiba: <xliff:g id="code" example="1">%1$d</xliff:g> kód</string>
+    <string name="err_engine_partition">Partíció-ellenőrzés sikertelen (<xliff:g id="code" example="15">%1$d</xliff:g> kód).</string>
+    <string name="err_engine_signature">Az update_engine elutasította a csomag aláírását (<xliff:g id="code" example="20">%1$d</xliff:g> kód). Próbálja a kényszerített Recovery-telepítést.</string>
+    <string name="err_engine_storage">Nincs elég tárhely az A/B frissítéshez (<xliff:g id="code" example="7">%1$d</xliff:g> kód).</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: a fájl vagy a csatorna nem található (HTTP 404)</string>
+    <string name="err_final_sha">A végső archívum SHA-256 ellenőrzése sikertelen</string>
+    <string name="err_host_server">Kiszolgáló</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_import_cancelled">Az importálás megszakítva</string>
+    <string name="err_metadata_not_found">Nem található <xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> itt: <xliff:g id="file" example="update.zip">%2$s</xliff:g></string>
+    <string name="err_network">Hálózati hiba</string>
+    <string name="err_no_callback">Nincs letöltési visszahívás megadva</string>
+    <string name="err_no_content_range">Hiányzó Content-Range fejléc: <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_no_dest">Nincs letöltési cél megadva</string>
+    <string name="err_no_fd">Nem sikerült a fileDescriptor lekérése</string>
+    <string name="err_no_parts">Nincsenek letöltési részek megadva</string>
+    <string name="err_no_range">A kiszolgáló nem támogatja a tartomány-kéréseket: várt HTTP 206, kapott <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_tempdir">Nem hozható létre az ideiglenes részkönyvtár: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_no_url">Nincs letöltési URL vagy rész megadva</string>
+    <string name="err_ota_signature_failed">Az OTA-aláírás ellenőrzése sikertelen</string>
+    <string name="err_part_failed">Nem sikerült letölteni a(z) <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>. részt</string>
+    <string name="err_part_mismatch">A(z) <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>. rész ellenőrzőösszege nem egyezik</string>
+    <string name="err_proto_change">Protokollváltás nem engedélyezett</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: gyakorisági korlát túllépve (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Próbálja újra később.</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: gyakorisági korlát túllépve (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Újrapróbálás: <xliff:g id="wait" example="~2 min">%3$s</xliff:g>.</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: az erőforrás el lett távolítva (HTTP 410)</string>
+    <string name="err_response_empty">Üres választest</string>
+    <string name="err_server_reply">A kiszolgáló válasza: <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: a kiszolgáló nem érhető el (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_sha_calc_failed">Az SHA-256 kiszámítása sikertelen</string>
+    <string name="err_sha_mismatch">Az SHA-256 ellenőrzőösszeg nem egyezik</string>
+    <string name="err_unknown_size">Nem határozható meg a méret: <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_unsupported_ota_type">Nem támogatott OTA-típus: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_verify_deleted">Az ellenőrzés sikertelen, a fájl törölve lett</string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> perc</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g> mp</string>
+    <string name="float_abort">Megszakítás</string>
+    <string name="float_autoinstall">Automatikus telepítés</string>
+    <string name="float_calculating">Számítás…</string>
+    <string name="float_copying">Csomag másolása és metaadatok ellenőrzése</string>
+    <string name="float_importing">Helyi ZIP importálása…</string>
+    <string name="float_parallel">Párhuzamos</string>
+    <plurals name="float_parts">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> rész</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> rész</item>
+    </plurals>
+    <string name="float_parts_header">Archívumrészek (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> kész)</string>
+    <string name="float_sequential">Sorrendi</string>
+    <string name="float_single">Egy archívum</string>
+    <string name="float_suspend">Felfüggesztés</string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <plurals name="hero_newer_builds">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> újabb build érhető el</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> újabb build érhető el</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="one">A rendszer naprakész • <xliff:g id="count">%1$d</xliff:g> build a csatornában</item>
+        <item quantity="other">A rendszer naprakész • <xliff:g id="count">%1$d</xliff:g> build a csatornában</item>
+    </plurals>
+    <string name="importer_tag_local">Helyi ZIP</string>
+    <string name="info_android_api">Android API</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">Build típusa</string>
+    <string name="info_delivery">Kézbesítés</string>
+    <string name="info_delivery_split">Darabolt (<xliff:g id="count">%1$d</xliff:g> rész)</string>
+    <string name="info_package_size">Csomagméret</string>
+    <string name="install_confirm_force">Kényszerített telepítés ellenőrzés nélkül? Győződjön meg, hogy a ZIP az eszközéhez való.</string>
+    <string name="install_confirm_now">Telepíti most: <xliff:g id="name">%1$s</xliff:g>?</string>
+    <string name="install_confirm_recovery">Telepítés Recovery módban (nem biztonságos mód)? Az eszköz Recovery-be indul újra.</string>
+    <string name="install_label_force">Kényszerített telepítés</string>
+    <string name="install_label_recovery">Telepítés (Recovery)</string>
+    <string name="installed_label_format">Telepítve: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="interval_daily">Naponta</string>
+    <string name="interval_monthly">Havonta</string>
+    <string name="interval_weekly">Hetente</string>
+    <string name="md_image_alt">Kép</string>
+    <string name="md_image_failed">A kép betöltése sikertelen</string>
+    <string name="overlay_archive_sha">Archívum SHA-256</string>
+    <string name="overlay_battery_low">Az akkumulátor töltöttsége túl alacsony a telepítéshez</string>
+    <string name="overlay_blocked_format">Blokkolva (<xliff:g id="reason">%1$s</xliff:g>). A kényszerített telepítéshez engedélyezze a nem biztonságos módot a Beállításokban.</string>
+    <string name="overlay_changelog_empty">Ehhez a kiadáshoz nincs változásnapló.</string>
+    <string name="overlay_changelog_error">Nem sikerült betölteni a build változásnaplóját.</string>
+    <string name="overlay_changelog_loading">Változásnapló betöltése…</string>
+    <string name="overlay_changelog_title">Változásnapló</string>
+    <string name="overlay_confirm_delete">Törlés megerősítése</string>
+    <string name="overlay_downgrade_blocked">A visszaállítás biztonsági okokból blokkolva. Felülbíráláshoz engedélyezze a nem biztonságos módot a Beállításokban.</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_install_force">Kényszerített telepítés aláírás- és visszaállítás-ellenőrzés nélkül? Csak saját felelősségre folytassa.</string>
+    <string name="overlay_install_recovery">Telepítés Recovery módban (nem biztonságos mód)? Az eszköz Recovery-be indul újra.</string>
+    <string name="overlay_major_blocked">A fő Android-verziófrissítés biztonsági okokból blokkolva. Felülbíráláshoz engedélyezze a nem biztonságos módot a Beállításokban.</string>
+    <string name="overlay_metered_format">Forgalmi díjas kapcsolaton van. Letölti most: <xliff:g id="size">%1$s</xliff:g>?</string>
+    <string name="overlay_package_file">Csomagfájl</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_parts_title">Darabolt archívum részei (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_pause_format">Szünet (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_reboot_to_apply">Újraindítás a frissítés alkalmazásához</string>
+    <string name="overlay_resume_format">Folytatás (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_scratch_mounted">A scratch partíció csatolva van; nem telepíthető</string>
+    <string name="overlay_unsafe_force">Letöltés és kényszerített telepítés ellenőrzés nélkül?</string>
+    <string name="overlay_unsafe_recovery">Letöltés és telepítés Recovery módban (nem biztonságos mód)?</string>
+    <string name="part_done">Kész</string>
+    <string name="part_error">Újra / Hiba</string>
+    <string name="part_fallback_name">part_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="part_paused_format">Szüneteltetve • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_queued">Sorban áll</string>
+    <string name="part_verified">Ellenőrizve</string>
+    <string name="part_verifying">SHA-256 ellenőrzése</string>
+    <string name="part_waiting">Várakozás…</string>
+    <string name="relation_build">Build</string>
+    <string name="relation_downgrade">Visszaállítás</string>
+    <string name="relation_installed">Telepített</string>
+    <string name="relation_newer">Újabb</string>
+    <string name="section_downloaded">Letöltött és helyi ZIP-ek</string>
+    <string name="section_releases">Elérhető kiadások</string>
+    <string name="section_releases_count">Elérhető kiadások • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="settings_ab_perf_charging">AC-töltés közben automatikusan aktív</string>
+    <string name="settings_ab_perf_summary">Több CPU és I/O az update_engine számára a gyorsabb telepítéshez</string>
+    <string name="settings_amplitude_title">Hullám amplitúdója</string>
+    <string name="settings_autodelete_summary">A letöltött csomag automatikus törlése a sikeres frissítés után</string>
+    <string name="settings_banner_summary">Kiadási szalagkép vagy videó megjelenítése a kártya fejlécében</string>
+    <string name="settings_banner_title">Kiadási szalag megjelenítése</string>
+    <string name="settings_blur_title">Üveg-elmosás sugara</string>
+    <string name="settings_check_interval">Ellenőrzési időköz</string>
+    <string name="settings_clear_cache">Média- és változásnapló-gyorsítótár törlése</string>
+    <string name="settings_danger_title">Kritikus / nem biztonságos telepítés</string>
+    <string name="settings_danger_warning">Csak saját felelősségre használja. Rossz ROM telepítése tönkreteheti az eszközt.</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_group_appearance">Megjelenés és tárhely</string>
+    <string name="settings_group_downloads">Letöltések és ellenőrzés</string>
+    <string name="settings_group_installation">Telepítés</string>
+    <string name="settings_group_ota">OTA-forrás</string>
+    <string name="settings_logo_summary">Projekt-szalag megjelenítése (GIF, kép, videó vagy animált logó)</string>
+    <string name="settings_logo_title">Projektlogó megjelenítése</string>
+    <string name="settings_ota_apply">URL alkalmazása</string>
+    <string name="settings_ota_url_hint">Hagyja üresen a ROM / DeviceTree átfedés alapértelmezett URL-jének használatához.</string>
+    <string name="settings_ota_url_title">Egyéni OTA JSON URL</string>
+    <string name="settings_parallel_summary">Legfeljebb 3 darabolt archívumrész egyidejű letöltése a gyorsabb sebességért</string>
+    <string name="settings_parallel_title">Párhuzamos darabolt letöltés</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_recovery_summary">Az update_engine megkerülésével újraindítás Recovery-be (OrangeFox / TWRP) a ZIP közvetlen telepítéséhez. Hasznos, ha az update_engine elutasítja a visszaállítási időbélyeget vagy az aláírást.</string>
+    <string name="settings_recovery_title">Kényszerített telepítés Recovery módban</string>
+    <string name="settings_theme_title">Alkalmazástéma</string>
+    <string name="settings_tint_title">Üvegszínezés átlátszatlansága</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unsafe_confirm">Megerősítés: teljes felelősséget vállalok a visszaállításokért, az aláíratlan ZIP-ekért és az adatvesztésért.</string>
+    <string name="settings_unsafe_summary">Kikapcsolja az OTA-aláírás ellenőrzését, a visszaállítási blokkot és az Android SDK-őrzőket. Lehetővé teszi visszaállítások vagy ROM-ok közötti ZIP-ek telepítését.</string>
+    <string name="settings_unsafe_title">Biztonsági és ellenőrzési vizsgálatok megkerülése</string>
+    <string name="settings_value_off">Ki</string>
+    <string name="settings_verify_summary">Minden darabolt rész és a végső összeállított archívum ellenőrzése a JSON-kivonatok alapján</string>
+    <string name="settings_verify_title">SHA-256 ellenőrzőösszegek ellenőrzése</string>
+    <string name="settings_wavy_summary">Hullám animálása letöltés vagy telepítés közben; szüneteltetéskor simán ellaposodik</string>
+    <string name="settings_wavy_title">Hullámos folyamatjelző</string>
+    <string name="slider_default">Alapértelmezett</string>
+    <string name="slider_default_value">Alapértelmezett (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="stage_assemble">Részek összeállítása (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• Automatikus telepítés</string>
+    <string name="stage_connecting">Csatlakozás a kiszolgálóhoz…</string>
+    <string name="stage_downloading">Letöltés • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">A letöltés sikertelen • Érintse meg a Folytatást</string>
+    <string name="stage_finalizing">A/B slot véglegesítése • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">Telepítve — újraindítás szükséges</string>
+    <string name="stage_installing">Frissítés telepítése • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_part_progress"><xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>. rész • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> rész aktív • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_paused">Letöltés szüneteltetve • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">Telepítés felfüggesztve • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_verify_final">A végső archívum SHA-256 ellenőrzése…</string>
+    <string name="stage_verify_part">A(z) <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>. rész SHA-256 ellenőrzése…</string>
+    <string name="stage_verifying_sig">Archívum és aláírás ellenőrzése…</string>
+    <string name="status_error">Hiba</string>
+    <string name="status_installing">Telepítés: <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_merging">Egyesítés: <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">Szüneteltetve: <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_starting">Indítás</string>
+    <string name="status_suspended">Felfüggesztve: <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_verifying">Ellenőrzés</string>
+    <string name="tab_saved">Mentett</string>
+    <string name="tab_saved_count">Mentett (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="tab_settings">Beállítások</string>
+    <string name="tab_updates">Frissítések</string>
+    <string name="theme_dark">Sötét</string>
+    <string name="theme_light">Világos</string>
+    <string name="theme_system">Rendszer</string>
+    <string name="toast_cache_cleared">Gyorsítótár törölve</string>
+    <string name="toast_download_failed">A letöltés sikertelen</string>
+    <string name="toast_download_verified">A letöltés ellenőrizve, kész</string>
+    <string name="toast_import_failed">A ZIP importálása sikertelen (érvénytelen csomag vagy aláírás). Egyéni ZIP-ekhez próbálja a nem biztonságos módot.</string>
+    <string name="toast_imported_format"><xliff:g id="name">%1$s</xliff:g> importálva a Letöltött lapra</string>
+    <string name="toast_ota_reset">Az OTA URL visszaállítva az alapértelmezettre</string>
+    <string name="toast_ota_updated">Az OTA URL frissítve</string>
+    <string name="toast_sha_copied">SHA-256 másolva</string>
+    <string name="unknown_date">Ismeretlen dátum</string>
+    <string name="unknown_size">Ismeretlen</string>
+</resources>

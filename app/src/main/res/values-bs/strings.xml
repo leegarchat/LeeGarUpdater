@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="export_channel_title">Izvoz završen</string>
+    <string name="ongoing_channel_title">Preuzimanja u toku</string>
+    <string name="display_name">LeeGar Updater</string>
+    <string name="verification_failed_notification">Provjera nije uspjela</string>
+    <string name="verifying_download_notification">Provjera ažuriranja</string>
+    <string name="downloading_notification">Preuzimanje</string>
+    <string name="download_paused_notification">Preuzimanje pauzirano</string>
+    <string name="download_paused_error_notification">Greška pri preuzimanju</string>
+    <string name="download_completed_notification">Preuzimanje završeno</string>
+    <string name="download_starting_notification">Preuzimanje počinje</string>
+    <string name="update_failed_notification">Ažuriranje nije uspjelo</string>
+    <string name="installation_suspended_notification">Instalacija obustavljena</string>
+    <string name="new_updates_found_title">Nova ažuriranja</string>
+    <string name="new_updates_found_summary">Dodirnite za prikaz dostupnih ažuriranja</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="installing_update">Instaliranje ažuriranja sistema</string>
+    <string name="installing_update_error">Greška pri instalaciji</string>
+    <string name="installing_update_finished">Ažuriranje čeka ponovno pokretanje</string>
+    <string name="finalizing_package">Dovršavanje instalacije paketa</string>
+    <string name="preparing_ota_first_boot">Priprema za prvo pokretanje</string>
+    <string name="dialog_prepare_zip_message">Preliminarna priprema ažuriranja</string>
+    <string name="reboot">Ponovo pokreni</string>
+    <string name="action_download_install">Preuzmi i instaliraj</string>
+    <string name="check_for_update">Provjeri ažuriranja</string>
+    <string name="action_back">Nazad</string>
+    <string name="checking_for_updates">Provjera ažuriranja</string>
+    <string name="pref_category_background_sync">Sinhronizacija u pozadini</string>
+    <string name="menu_auto_updates_check">Periodično provjeravaj ažuriranja</string>
+    <string name="menu_auto_updates_check_summary">Provjeravaj ažuriranja u pozadini</string>
+    <string name="menu_auto_delete_updates">Automatski briši ažuriranja</string>
+    <string name="menu_stream_updates">Strimuj online ažuriranja</string>
+    <string name="menu_stream_updates_summary">Instaliraj ažuriranja tokom preuzimanja. Onemogući za čuvanje paketa ažuriranja radi izvoza.</string>
+    <string name="menu_export_update">Izvezi ažuriranje</string>
+    <string name="menu_metered_network_warning">Upozorenje za ograničenu mrežu</string>
+    <string name="menu_metered_network_warning_summary">Upozori prije preuzimanja putem mobilnih podataka</string>
+    <string name="menu_ab_perf_mode">Daj prednost procesu ažuriranja</string>
+    <string name="menu_update_recovery">Ažuriraj recovery</string>
+    <string name="menu_update_recovery_summary">Ažuriraj recovery particiju zajedno sa OS-om</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">Datum izdanja</string>
+    <string name="security_update">Sigurnosno ažuriranje</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">Preuzmi</string>
+    <string name="action_pause">Pauziraj</string>
+    <string name="action_resume">Nastavi</string>
+    <string name="action_install">Instaliraj</string>
+    <string name="action_info">Info</string>
+    <string name="action_delete">Obriši</string>
+    <string name="dialog_export_title">Izvoz ažuriranja</string>
+    <string name="notification_export_success">Ažuriranje izvezeno</string>
+    <string name="notification_export_fail">Greška pri izvozu</string>
+    <string name="toast_already_exporting">Izvoz ažuriranja je već u toku</string>
+    <string name="toast_export_started">Izvoz započet</string>
+    <string name="blocked_update_dialog_title">Ažuriranje blokirano</string>
+    <string name="blocked_update_dialog_title_downgrade">Vraćanje na stariju verziju blokirano</string>
+    <string name="new_updates_channel_title">Nova ažuriranja</string>
+    <string name="update_failed_channel_title">Ažuriranje nije uspjelo</string>
+    <string name="tab_updates">Ažuriranja</string>
+    <string name="tab_saved">Sačuvano</string>
+    <string name="tab_saved_count">Sačuvano (%1$d)</string>
+    <string name="tab_settings">Postavke</string>
+    <string name="toast_download_failed">Preuzimanje nije uspjelo</string>
+    <string name="toast_download_verified">Preuzimanje provjereno i spremno</string>
+    <string name="toast_import_failed">Uvoz ZIP-a nije uspio (nevažeći paket ili potpis). Isprobaj nesigurni način za prilagođene ZIP-ove.</string>
+    <string name="toast_imported_format"><xliff:g id="name">%1$s</xliff:g> uvezeno u karticu Preuzeto</string>
+    <string name="banner_no_internet">Nema internetske veze</string>
+    <string name="banner_check_failed">Provjera ažuriranja nije uspjela</string>
+    <string name="section_releases">Dostupna izdanja</string>
+    <string name="section_releases_count">Dostupna izdanja • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">Nesigurni način</string>
+    <string name="empty_releases_title">Nema učitanih izdanja</string>
+    <string name="empty_releases_desc">Dodirni osvježi za preuzimanje izdanja iz konfiguriranog OTA JSON izvora.</string>
+    <string name="device_fallback_name">Uređaj</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> novije izdanje dostupno</item>
+        <item quantity="few"><xliff:g id="count">%1$d</xliff:g> novija izdanja dostupna</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> novijih izdanja dostupno</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="one">Sistem je ažuran • <xliff:g id="count">%1$d</xliff:g> izdanje u izvoru</item>
+        <item quantity="few">Sistem je ažuran • <xliff:g id="count">%1$d</xliff:g> izdanja u izvoru</item>
+        <item quantity="other">Sistem je ažuran • <xliff:g id="count">%1$d</xliff:g> izdanja u izvoru</item>
+    </plurals>
+    <string name="installed_label_format">Instalirano: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • Zakrpa: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">Provjereno: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">Nepoznat datum</string>
+    <string name="status_starting">Pokretanje</string>
+    <string name="status_verifying">Provjera</string>
+    <string name="status_merging">Spajanje <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">Pauzirano <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">Greška</string>
+    <string name="status_installing">Instaliranje <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">Obustavljeno <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <plurals name="badge_split_parts">
+        <item quantity="one">Podijeljeno • <xliff:g id="count">%1$d</xliff:g> dio</item>
+        <item quantity="few">Podijeljeno • <xliff:g id="count">%1$d</xliff:g> dijela</item>
+        <item quantity="other">Podijeljeno • <xliff:g id="count">%1$d</xliff:g> dijelova</item>
+    </plurals>
+    <string name="badge_downloaded">Preuzeto</string>
+    <string name="badge_reboot_required">Potrebno ponovno pokretanje</string>
+    <string name="badge_local">Lokalno</string>
+    <string name="badge_major_upgrade">Velika nadogradnja</string>
+    <string name="relation_newer">Novije</string>
+    <string name="relation_installed">Instalirano</string>
+    <string name="relation_downgrade">Starija verzija</string>
+    <string name="relation_build">Izdanje</string>
+    <plurals name="downloaded_title">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> paket sačuvan</item>
+        <item quantity="few"><xliff:g id="count">%1$d</xliff:g> paketa sačuvana</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> paketa sačuvano</item>
+    </plurals>
+    <string name="downloaded_subtitle_used">Iskorišteno prostora: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">Uvezi lokalni ZIP ili preuzmi izdanja iz Ažuriranja</string>
+    <string name="action_import_zip">Uvezi ZIP</string>
+    <string name="empty_downloaded_title">Nema preuzetih ažuriranja</string>
+    <string name="empty_downloaded_desc">Preuzeti ROM paketi i uvezeni lokalni ZIP-ovi pojavit će se ovdje za instalaciju, izvoz ili uklanjanje.</string>
+    <string name="section_downloaded">Preuzeto i lokalni ZIP-ovi</string>
+    <string name="install_confirm_recovery">Flešuj putem Recoveryja (nesigurni način)? Uređaj će se ponovo pokrenuti u Recovery.</string>
+    <string name="install_confirm_force">Prisilno instaliraj bez provjere? Provjeri da ovaj ZIP odgovara tvom uređaju.</string>
+    <string name="install_confirm_now">Instalirati <xliff:g id="name">%1$s</xliff:g> sada?</string>
+    <string name="action_cancel">Otkaži</string>
+    <string name="action_confirm">Potvrdi</string>
+    <string name="action_proceed">Nastavi</string>
+    <string name="action_reboot_now">Ponovo pokreni sada</string>
+    <string name="action_export">Izvezi</string>
+    <string name="action_reset">Resetuj</string>
+    <string name="install_label_recovery">Instaliraj (Recovery)</string>
+    <string name="install_label_force">Prisilna instalacija</string>
+    <string name="action_stream_install">Strimuj i instaliraj</string>
+    <string name="action_download_install_new">Preuzmi i instaliraj</string>
+    <string name="desc_close">Zatvori</string>
+    <string name="desc_retry">Pokušaj ponovo</string>
+    <string name="settings_check_interval">Interval provjere</string>
+    <string name="interval_daily">Dnevno</string>
+    <string name="interval_weekly">Sedmično</string>
+    <string name="interval_monthly">Mjesečno</string>
+    <string name="settings_group_downloads">Preuzimanja i provjera</string>
+    <string name="settings_parallel_title">Paralelno preuzimanje dijelova</string>
+    <string name="settings_parallel_summary">Preuzimaj do 3 dijela podijeljene arhive istovremeno za veće brzine</string>
+    <string name="settings_verify_title">Provjeri SHA-256 kontrolne sume</string>
+    <string name="settings_verify_summary">Potvrdi svaki dio i konačnu sastavljenu arhivu prema JSON haševima</string>
+    <string name="settings_autodelete_summary">Automatski ukloni preuzeti paket nakon uspješnog ažuriranja</string>
+    <string name="settings_group_installation">Instalacija</string>
+    <string name="settings_ab_perf_summary">Dodijeli više CPU i I/O resursa update_engine procesu za brže instalacije</string>
+    <string name="settings_ab_perf_charging">Automatski aktivno dok je priključeno na AC napajanje</string>
+    <string name="settings_group_ota">OTA izvor</string>
+    <string name="settings_ota_url_title">Prilagođeni OTA JSON URL</string>
+    <string name="settings_ota_url_hint">Ostavi prazno za korištenje zadane URL adrese iz ROM / DeviceTree overlayja.</string>
+    <string name="settings_ota_apply">Primijeni URL</string>
+    <string name="toast_ota_reset">OTA URL vraćen na zadani</string>
+    <string name="toast_ota_updated">OTA URL ažuriran</string>
+    <string name="settings_group_appearance">Izgled i pohrana</string>
+    <string name="settings_theme_title">Tema aplikacije</string>
+    <string name="theme_system">Sistemska</string>
+    <string name="theme_light">Svijetla</string>
+    <string name="theme_dark">Tamna</string>
+    <string name="settings_wavy_title">Valovita traka napretka</string>
+    <string name="settings_wavy_summary">Animiraj val tokom preuzimanja ili instalacije; poravnava se pri pauzi</string>
+    <string name="settings_amplitude_title">Amplituda vala</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">Isključeno</string>
+    <string name="settings_blur_title">Radijus zamućenja stakla</string>
+    <string name="settings_tint_title">Neprozirnost nijanse stakla</string>
+    <string name="settings_logo_title">Prikaži logo projekta</string>
+    <string name="settings_logo_summary">Prikaži baner projekta (GIF, slika, video ili animirani natpis)</string>
+    <string name="settings_banner_title">Prikaži baner izdanja</string>
+    <string name="settings_banner_summary">Prikaži sliku ili video izdanja u zaglavlju kartice</string>
+    <string name="settings_clear_cache">Očisti keš medija i dnevnika promjena</string>
+    <string name="toast_cache_cleared">Keš očišćen</string>
+    <string name="settings_danger_title">Kritična / nesigurna instalacija</string>
+    <string name="settings_danger_warning">Koristi isključivo na vlastitu odgovornost. Može oštetiti uređaj pri flešovanju pogrešnog ROM-a.</string>
+    <string name="settings_unsafe_title">Zaobiđi sigurnosne i provjere autentičnosti</string>
+    <string name="settings_unsafe_summary">Onemogućava provjeru OTA potpisa, blokadu vraćanja na stariju verziju i Android SDK zaštite. Omogućava flešovanje starijih verzija ili ZIP-ova drugog ROM-a.</string>
+    <string name="settings_unsafe_confirm">Potvrdi: prihvataš punu odgovornost za vraćanje na stariju verziju, nepotpisane ZIP-ove ili gubitak podataka.</string>
+    <string name="danger_accept">Prihvatam rizik</string>
+    <string name="settings_recovery_title">Prisilna instalacija putem Recoveryja</string>
+    <string name="settings_recovery_summary">Zaobiđi update_engine i ponovo pokreni u Recovery (OrangeFox / TWRP) za direktno flešovanje ZIP-a. Korisno ako update_engine odbije vremensku oznaku ili potpis starije verzije.</string>
+    <string name="overlay_battery_low">Nivo baterije je prenizak za instalaciju</string>
+    <string name="overlay_blocked_format">Blokirano (<xliff:g id="reason">%1$s</xliff:g>). Omogući nesigurni način u Postavkama za prisilnu instalaciju.</string>
+    <string name="overlay_downgrade_blocked">Vraćanje na stariju verziju blokirano je sigurnosnim pravilima. Omogući nesigurni način u Postavkama za zaobilaženje.</string>
+    <string name="overlay_major_blocked">Velika Android nadogradnja blokirana je sigurnosnim pravilima. Omogući nesigurni način u Postavkama za zaobilaženje.</string>
+    <string name="overlay_metered_format">Na ograničenoj si vezi. Preuzeti <xliff:g id="size">%1$s</xliff:g> sada?</string>
+    <string name="overlay_unsafe_recovery">Preuzeti i flešovati putem Recoveryja (nesigurni način)?</string>
+    <string name="overlay_unsafe_force">Preuzeti i prisilno instalirati bez provjere?</string>
+    <string name="overlay_scratch_mounted">Scratch particija je montirana; instalacija nije moguća</string>
+    <string name="toast_sha_copied">SHA-256 kopiran</string>
+    <string name="overlay_install_recovery">Flešovati putem Recoveryja (nesigurni način)? Uređaj će se ponovo pokrenuti u Recovery.</string>
+    <string name="overlay_install_force">Prisilno instalirati bez provjere potpisa/vraćanja? Nastavi na vlastitu odgovornost.</string>
+    <string name="overlay_changelog_title">Dnevnik promjena</string>
+    <string name="desc_reload_changelog">Ponovo učitaj dnevnik promjena</string>
+    <string name="overlay_changelog_loading">Učitavanje dnevnika promjena…</string>
+    <string name="overlay_changelog_error">Dnevnik promjena za ovo izdanje nije moguće učitati.</string>
+    <string name="overlay_changelog_empty">Nema dostupnog dnevnika promjena za ovo izdanje.</string>
+    <string name="overlay_archive_sha">SHA-256 arhive</string>
+    <string name="desc_copy_sha">Kopiraj SHA-256</string>
+    <string name="overlay_reboot_to_apply">Ponovo pokreni za primjenu ažuriranja</string>
+    <string name="overlay_pause_format">Pauziraj (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">Nastavi (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">Datoteka paketa</string>
+    <string name="overlay_parts_title">Dijelovi podijeljene arhive (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">Potvrdi brisanje</string>
+    <string name="info_package_size">Veličina paketa</string>
+    <string name="info_android_api">Android API</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">Vrsta izdanja</string>
+    <string name="info_delivery">Isporuka</string>
+    <string name="info_delivery_split">Podijeljeno (<xliff:g id="count">%1$d</xliff:g> dijela)</string>
+    <string name="float_importing">Uvoz lokalnog ZIP-a…</string>
+    <string name="float_copying">Kopiranje paketa i provjera metapodataka</string>
+    <string name="float_calculating">Izračunavanje…</string>
+    <plurals name="float_parts">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> dio</item>
+        <item quantity="few"><xliff:g id="count">%1$d</xliff:g> dijela</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> dijelova</item>
+    </plurals>
+    <string name="float_parallel">Paralelno</string>
+    <string name="float_sequential">Sekvencijalno</string>
+    <string name="float_single">Jedinstvena arhiva</string>
+    <string name="float_autoinstall">Automatska instalacija</string>
+    <string name="float_parts_header">Dijelovi arhive (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> gotovo)</string>
+    <string name="float_suspend">Obustavi</string>
+    <string name="float_abort">Prekini</string>
+    <string name="desc_toggle_details">Prikaži/sakrij detalje</string>
+    <string name="part_queued">Na čekanju</string>
+    <string name="part_verifying">Provjera SHA-256</string>
+    <string name="part_verified">Provjereno</string>
+    <string name="part_done">Gotovo</string>
+    <string name="part_paused_format">Pauzirano • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">Pokušaj ponovo / Greška</string>
+    <string name="part_waiting">Čekanje…</string>
+    <string name="stage_connecting">Povezivanje sa serverom…</string>
+    <string name="stage_verify_part">Provjera SHA-256 dijela <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>…</string>
+    <string name="stage_assemble">Sastavljanje dijelova (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">Provjera SHA-256 konačne arhive…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> dijelova aktivno • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">Dio <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">Preuzimanje • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• Automatska instalacija</string>
+    <string name="stage_paused">Preuzimanje pauzirano • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">Preuzimanje nije uspjelo • Dodirni Nastavi</string>
+    <string name="stage_verifying_sig">Provjera arhive i potpisa…</string>
+    <string name="stage_finalizing">Dovršavanje A/B slota • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">Instaliranje ažuriranja • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">Instalacija obustavljena • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">Instalirano — potrebno ponovno pokretanje</string>
+    <string name="md_image_alt">Slika</string>
+    <string name="md_image_failed">Učitavanje slike nije uspjelo</string>
+    <string name="importer_tag_local">Lokalni ZIP</string>
+    <string name="err_no_url">Nije definiran URL za preuzimanje ni dijelovi</string>
+    <string name="err_no_dest">Nije definirano odredište preuzimanja</string>
+    <string name="err_no_callback">Nije definiran povratni poziv preuzimanja</string>
+    <string name="err_no_parts">Nisu navedeni dijelovi preuzimanja</string>
+    <string name="err_no_tempdir">Nije moguće kreirati privremeni direktorij dijelova: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">Ne podudara se kontrolna suma dijela <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_part_failed">Preuzimanje dijela <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> nije uspjelo</string>
+    <string name="err_final_sha">Provjera SHA-256 konačne arhive nije uspjela</string>
+    <string name="err_empty_body">Prazno tijelo odgovora za dio <xliff:g id="index">%1$d</xliff:g></string>
+    <string name="err_unknown_size">Nije moguće odrediti veličinu za <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_no_range">Server ne podržava zahtjeve za opseg: očekivan HTTP 206, dobijen <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_content_range">Nedostaje Content-Range zaglavlje za <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_bad_content_range">Neočekivani Content-Range za <xliff:g id="url">%1$s</xliff:g>: očekivan <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">Promjene protokola nisu dozvoljene</string>
+    <string name="err_server_reply">Server je odgovorio sa <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_no_fd">Nije moguće dobiti fileDescriptor</string>
+    <string name="err_import_cancelled">Uvoz otkazan</string>
+    <string name="err_verify_deleted">Provjera nije uspjela, datoteka je obrisana</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">Primijeni</string>
+    <string name="dialog_value_title">Vrijednost</string>
+    <string name="unknown_size">Nepoznato</string>
+    <string name="slider_default">Zadano</string>
+    <string name="slider_default_value">Zadano (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">Mrežna greška</string>
+    <string name="action_paused_state">Pauzirano</string>
+    <string name="part_fallback_name">part_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">Server</string>
+    <string name="err_response_empty">Prazno tijelo odgovora</string>
+    <string name="err_changelog_body_empty">Prazno tijelo dnevnika promjena</string>
+    <string name="err_changelog_too_large">Dnevnik promjena prelazi <xliff:g id="bytes" example="524288">%1$d</xliff:g> bajtova</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: prekoračeno ograničenje zahtjeva (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Pokušaj ponovo za <xliff:g id="wait" example="~2 min">%3$s</xliff:g>.</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: prekoračeno ograničenje zahtjeva (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Pokušaj kasnije.</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: datoteka ili izvor nije pronađen (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: pristup odbijen (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: resurs uklonjen (HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: server nedostupan (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> min</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g>s</string>
+    <string name="err_download_file_missing">Preuzeta datoteka nedostaje</string>
+    <string name="err_sha_mismatch">Ne podudara se SHA-256 kontrolna suma</string>
+    <string name="err_sha_calc_failed">Izračunavanje SHA-256 nije uspjelo</string>
+    <string name="err_ota_signature_failed">Provjera OTA potpisa nije uspjela</string>
+    <string name="err_engine_signature">update_engine je odbio potpis paketa (kod <xliff:g id="code" example="20">%1$d</xliff:g>). Isprobaj prisilnu instalaciju putem Recoveryja.</string>
+    <string name="err_engine_downgrade">update_engine je blokirao vremensku oznaku vraćanja (kod <xliff:g id="code" example="51">%1$d</xliff:g>). Isprobaj prisilnu instalaciju putem Recoveryja.</string>
+    <string name="err_engine_storage">Nedovoljno prostora za A/B slot ažuriranje (kod <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_engine_partition">Provjera particije nije uspjela (kod <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_cancelled">Korisnik je otkazao instalaciju.</string>
+    <string name="err_engine_generic">Greška update_engine procesa, kod <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">Nepodržana OTA vrsta: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found"><xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> nije pronađen u <xliff:g id="file" example="update.zip">%2$s</xliff:g></string>
+</resources>

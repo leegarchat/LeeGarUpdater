@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="verification_failed_notification">Methodd y dilysiad</string>
+    <string name="verifying_download_notification">Yn gwireddu\'r diweddariad</string>
+    <string name="downloading_notification">Yn lawrlwytho</string>
+    <string name="download_paused_notification">Lawrlwytho wedi seibio</string>
+    <string name="download_paused_error_notification">Gwall lawrlwytho</string>
+    <string name="download_completed_notification">Lawrlwytho wedi cwblhau</string>
+    <string name="download_starting_notification">Yn dechrau lawrlwytho</string>
+    <string name="update_failed_notification">Methodd y diweddariad</string>
+    <string name="installation_suspended_notification">Ataliwyd y gosod</string>
+    <string name="new_updates_found_title">Diweddariadau newydd</string>
+    <string name="text_download_speed">%1$s, %2$s/e</string>
+    <string name="installing_update_error">Gwall gosod</string>
+    <string name="finalizing_package">Yn cwblhau gosod y pecyn</string>
+    <string name="preparing_ota_first_boot">Yn paratoi i lwytho a rhedeg am y tro cyntaf</string>
+    <string name="dialog_prepare_zip_message">Paratoi diweddaru rhagbaratoawl</string>
+    <string name="reboot">Ailgychwyn</string>
+    <string name="menu_export_update">Allforio\'r diweddariad</string>
+    <string name="menu_metered_network_warning">Rhybudd rhwydwaith mesuredig</string>
+    <string name="menu_ab_perf_mode">Blaenoriaethu\'r broses diweddaru</string>
+    <string name="menu_update_recovery">Adfer y modd diweddaru</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">Lawrlwytho</string>
+    <string name="action_pause">Seibio</string>
+    <string name="action_resume">Parhau</string>
+    <string name="action_install">Gosod</string>
+    <string name="action_info">Gwybodaeth</string>
+    <string name="action_delete">Dileu</string>
+    <string name="dialog_export_title">Yn allforio\'r diweddariad</string>
+    <string name="notification_export_success">Allforiwyd y diweddariad</string>
+    <string name="notification_export_fail">Gwall allforio</string>
+    <string name="toast_already_exporting">Eisoes yn allforio diweddariad</string>
+    <string name="toast_export_started">Wedi dechrau allforio</string>
+    <string name="blocked_update_dialog_title">Rhwystrwyd y diweddariad</string>
+    <string name="export_channel_title">Cwblhawyd allforio</string>
+    <string name="new_updates_channel_title">Diweddariadau newydd</string>
+    <string name="ongoing_channel_title">Llwythi sy\'n parhau</string>
+    <string name="update_failed_channel_title">Methodd y diweddariad</string>
+    <string name="display_name">LeeGar Updater</string>
+    <string name="new_updates_found_summary">Tapiwch i weld y diweddariadau sydd ar gael</string>
+    <string name="installing_update">Yn gosod diweddariad system</string>
+    <string name="installing_update_finished">Diweddariad yn aros am ailgychwyn</string>
+    <string name="action_download_install">Lawrlwytho a gosod</string>
+    <string name="check_for_update">Gwirio am ddiweddariad</string>
+    <string name="action_back">Yn ôl</string>
+    <string name="checking_for_updates">Yn gwirio am ddiweddariadau</string>
+    <string name="pref_category_background_sync">Cydamseru yn y cefndir</string>
+    <string name="menu_auto_updates_check">Gwirio am ddiweddariadau\'n rheolaidd</string>
+    <string name="menu_auto_updates_check_summary">Gwirio am ddiweddariadau yn y cefndir</string>
+    <string name="menu_auto_delete_updates">Dileu diweddariadau\'n awtomatig</string>
+    <string name="menu_stream_updates">Ffrydio diweddariadau ar-lein</string>
+    <string name="menu_stream_updates_summary">Gosod diweddariadau wrth lawrlwytho. Analluogwch i gadw pecynnau diweddaru ar gyfer allforio.</string>
+    <string name="menu_metered_network_warning_summary">Rhybuddio cyn lawrlwytho dros ddata symudol</string>
+    <string name="menu_update_recovery_summary">Diweddaru\'r rhaniad adfer gyda\'r OS</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">Dyddiad adeiladu</string>
+    <string name="security_update">Diweddariad diogelwch</string>
+    <string name="blocked_update_dialog_title_downgrade">Israddio wedi\'i rwystro</string>
+    <string name="tab_updates">Diweddariadau</string>
+    <string name="tab_saved">Wedi\'u cadw</string>
+    <string name="tab_saved_count">Wedi\'u cadw (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="tab_settings">Gosodiadau</string>
+    <string name="toast_download_failed">Methodd y lawrlwytho</string>
+    <string name="toast_download_verified">Lawrlwytho wedi\'i ddilysu ac yn barod</string>
+    <string name="toast_import_failed">Methodd mewnforio ZIP (pecyn neu lofnod annilys). Rhowch gynnig ar y Modd Anniogel ar gyfer ZIPs personol.</string>
+    <string name="toast_imported_format">Wedi mewnforio <xliff:g id="name">%1$s</xliff:g> i\'r tab Wedi lawrlwytho</string>
+    <string name="banner_no_internet">Dim cysylltiad rhyngrwyd</string>
+    <string name="banner_check_failed">Methwyd gwirio am ddiweddariadau</string>
+    <string name="section_releases">Datganiadau ar gael</string>
+    <string name="section_releases_count">Datganiadau ar gael • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">Modd Anniogel</string>
+    <string name="empty_releases_title">Dim datganiadau wedi\'u llwytho</string>
+    <string name="empty_releases_desc">Tapiwch adnewyddu i nôl adeiladau o\'r porthiant OTA JSON a ffurfiwyd.</string>
+    <string name="device_fallback_name">Dyfais</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="zero"><xliff:g id="count">%1$d</xliff:g> adeilad mwy newydd ar gael</item>
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> adeilad mwy newydd ar gael</item>
+        <item quantity="two"><xliff:g id="count">%1$d</xliff:g> adeilad mwy newydd ar gael</item>
+        <item quantity="few"><xliff:g id="count">%1$d</xliff:g> adeilad mwy newydd ar gael</item>
+        <item quantity="many"><xliff:g id="count">%1$d</xliff:g> o adeiladau mwy newydd ar gael</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> adeilad mwy newydd ar gael</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="zero">Mae\'r system yn gyfredol • <xliff:g id="count">%1$d</xliff:g> adeilad yn y porthiant</item>
+        <item quantity="one">Mae\'r system yn gyfredol • <xliff:g id="count">%1$d</xliff:g> adeilad yn y porthiant</item>
+        <item quantity="two">Mae\'r system yn gyfredol • <xliff:g id="count">%1$d</xliff:g> adeilad yn y porthiant</item>
+        <item quantity="few">Mae\'r system yn gyfredol • <xliff:g id="count">%1$d</xliff:g> adeilad yn y porthiant</item>
+        <item quantity="many">Mae\'r system yn gyfredol • <xliff:g id="count">%1$d</xliff:g> o adeiladau yn y porthiant</item>
+        <item quantity="other">Mae\'r system yn gyfredol • <xliff:g id="count">%1$d</xliff:g> adeilad yn y porthiant</item>
+    </plurals>
+    <string name="installed_label_format">Wedi\'i osod: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • Patch: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">Wedi gwirio: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">Dyddiad anhysbys</string>
+    <string name="status_starting">Yn dechrau</string>
+    <string name="status_verifying">Yn gwireddu</string>
+    <string name="status_merging">Yn cyfuno <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">Wedi seibio <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">Gwall</string>
+    <string name="status_installing">Yn gosod <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">Wedi atal <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <plurals name="badge_split_parts">
+        <item quantity="zero">Hollt • <xliff:g id="count">%1$d</xliff:g> rhan</item>
+        <item quantity="one">Hollt • <xliff:g id="count">%1$d</xliff:g> rhan</item>
+        <item quantity="two">Hollt • <xliff:g id="count">%1$d</xliff:g> rhan</item>
+        <item quantity="few">Hollt • <xliff:g id="count">%1$d</xliff:g> rhan</item>
+        <item quantity="many">Hollt • <xliff:g id="count">%1$d</xliff:g> o rannau</item>
+        <item quantity="other">Hollt • <xliff:g id="count">%1$d</xliff:g> rhan</item>
+    </plurals>
+    <string name="badge_downloaded">Wedi lawrlwytho</string>
+    <string name="badge_reboot_required">Angen ailgychwyn</string>
+    <string name="badge_local">Lleol</string>
+    <string name="badge_major_upgrade">Uwchraddiad mawr</string>
+    <string name="relation_newer">Mwy newydd</string>
+    <string name="relation_installed">Wedi\'i osod</string>
+    <string name="relation_downgrade">Israddio</string>
+    <string name="relation_build">Adeilad</string>
+    <plurals name="downloaded_title">
+        <item quantity="zero"><xliff:g id="count">%1$d</xliff:g> pecyn wedi\'i storio</item>
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> pecyn wedi\'i storio</item>
+        <item quantity="two"><xliff:g id="count">%1$d</xliff:g> pecyn wedi\'i storio</item>
+        <item quantity="few"><xliff:g id="count">%1$d</xliff:g> pecyn wedi\'i storio</item>
+        <item quantity="many"><xliff:g id="count">%1$d</xliff:g> o becynnau wedi\'u storio</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> pecyn wedi\'i storio</item>
+    </plurals>
+    <string name="downloaded_subtitle_used">Lle a ddefnyddir: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">Mewnforiwch ZIP lleol neu lawrlwythwch adeiladau o Ddiweddariadau</string>
+    <string name="action_import_zip">Mewnforio ZIP</string>
+    <string name="empty_downloaded_title">Dim diweddariadau wedi\'u lawrlwytho</string>
+    <string name="empty_downloaded_desc">Bydd pecynnau ROM wedi\'u lawrlwytho a ffeiliau ZIP lleol a fewnforiwyd yn ymddangos yma i\'w gosod, allforio neu ddileu.</string>
+    <string name="section_downloaded">ZIPs Wedi\'u Lawrlwytho a Lleol</string>
+    <string name="install_confirm_recovery">Fflachio drwy Adfer (Modd Anniogel)? Bydd y ddyfais yn ailgychwyn i Adfer.</string>
+    <string name="install_confirm_force">Gorfodi gosod heb ei ddilysu? Gwnewch yn siŵr bod y ZIP hwn yn cyfateb i\'ch dyfais.</string>
+    <string name="install_confirm_now">Gosod <xliff:g id="name">%1$s</xliff:g> nawr?</string>
+    <string name="action_cancel">Diddymu</string>
+    <string name="action_confirm">Cadarnhau</string>
+    <string name="action_proceed">Parhau</string>
+    <string name="action_reboot_now">Ailgychwyn nawr</string>
+    <string name="action_export">Allforio</string>
+    <string name="action_reset">Ailosod</string>
+    <string name="install_label_recovery">Gosod (Adfer)</string>
+    <string name="install_label_force">Gorfodi gosod</string>
+    <string name="action_stream_install">Ffrydio a Gosod</string>
+    <string name="action_download_install_new">Lawrlwytho a Gosod</string>
+    <string name="desc_close">Cau</string>
+    <string name="desc_retry">Ceisio eto</string>
+    <string name="settings_check_interval">Amlder gwirio</string>
+    <string name="interval_daily">Yn ddyddiol</string>
+    <string name="interval_weekly">Yn wythnosol</string>
+    <string name="interval_monthly">Yn fisol</string>
+    <string name="settings_group_downloads">Lawrlwythi a dilysu</string>
+    <string name="settings_parallel_title">Lawrlwytho rhannau hollt yn gyfochrog</string>
+    <string name="settings_parallel_summary">Lawrlwythwch hyd at 3 rhan o archif hollt ar yr un pryd am gyflymder cyflymach</string>
+    <string name="settings_verify_title">Dilysu cyfansymiau SHA-256</string>
+    <string name="settings_verify_summary">Dilysu pob rhan a\'r archif terfynol yn erbyn hashau JSON</string>
+    <string name="settings_autodelete_summary">Dileu\'r pecyn wedi\'i lawrlwytho\'n awtomatig unwaith y bydd y diweddariad yn llwyddo</string>
+    <string name="settings_group_installation">Gosod</string>
+    <string name="settings_ab_perf_summary">Dyrannu mwy o CPU a I/O i update_engine ar gyfer gosod cyflymach</string>
+    <string name="settings_ab_perf_charging">Yn weithredol yn awtomatig wrth gysylltu â phŵer AC</string>
+    <string name="settings_group_ota">Ffynhonnell OTA</string>
+    <string name="settings_ota_url_title">URL JSON OTA personol</string>
+    <string name="settings_ota_url_hint">Gadewch yn wag i ddefnyddio URL diofyn y ROM / troshaen DeviceTree.</string>
+    <string name="settings_ota_apply">Defnyddio URL</string>
+    <string name="toast_ota_reset">Ailosod URL OTA i\'r diofyn</string>
+    <string name="toast_ota_updated">Diweddarwyd URL OTA</string>
+    <string name="settings_group_appearance">Ymddangosiad a storio</string>
+    <string name="settings_theme_title">Thema ap</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Golau</string>
+    <string name="theme_dark">Tywyll</string>
+    <string name="settings_wavy_title">Bar cynnydd tonnog</string>
+    <string name="settings_wavy_summary">Animeiddio ton wrth lawrlwytho neu osod; yn gwastatau\'n esmwyth ar seibio</string>
+    <string name="settings_amplitude_title">Osledd ton</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">I ffwrdd</string>
+    <string name="settings_blur_title">Radiws aneglur gwydr</string>
+    <string name="settings_tint_title">Didreiddedd arlliw gwydr</string>
+    <string name="settings_logo_title">Dangos logo prosiect</string>
+    <string name="settings_logo_summary">Dangos baner prosiect (GIF, delwedd, fideo neu airnod animeiddiedig)</string>
+    <string name="settings_banner_title">Dangos baner datganiad</string>
+    <string name="settings_banner_summary">Dangos delwedd neu fideo datganiad ym mhennyn y cerdyn</string>
+    <string name="settings_clear_cache">Clirio storfa cyfryngau a newidlyfrau</string>
+    <string name="toast_cache_cleared">Storfa wedi\'i chlirio</string>
+    <string name="settings_danger_title">Gosod critigol / anniogel</string>
+    <string name="settings_danger_warning">Defnyddiwch ar eich menter eich hun yn unig. Gall ROM anghywir ddinistrio\'r ddyfais.</string>
+    <string name="settings_unsafe_title">Osgoi gwiriadau diogelwch a dilysu</string>
+    <string name="settings_unsafe_summary">Yn analluogi dilysu llofnod OTA, blocio israddio a gwiriadau SDK Android. Yn caniatáu fflachio israddiadau neu ZIPs cross-ROM.</string>
+    <string name="settings_unsafe_confirm">Cadarnhau: rydych yn derbyn cyfrifoldeb llawn am israddiadau, ZIPs heb eu llofnodi neu golli data.</string>
+    <string name="danger_accept">Rwy\'n derbyn y risg</string>
+    <string name="settings_recovery_title">Gorfodi gosod drwy Adfer</string>
+    <string name="settings_recovery_summary">Osgoi update_engine ac ailgychwyn i Adfer (OrangeFox / TWRP) i fflachio ZIP yn uniongyrchol. Defnyddiol os yw update_engine yn gwrthod stamp amser israddio neu lofnod.</string>
+    <string name="overlay_battery_low">Mae lefel y batri yn rhy isel i osod</string>
+    <string name="overlay_blocked_format">Wedi\'i rwystro (<xliff:g id="reason">%1$s</xliff:g>). Galluogwch y Modd Anniogel yn Gosodiadau i orfodi gosod.</string>
+    <string name="overlay_downgrade_blocked">Mae israddio wedi\'i rwystro gan reolau diogelwch. Galluogwch y Modd Anniogel yn Gosodiadau i ddiystyru.</string>
+    <string name="overlay_major_blocked">Mae uwchraddiad Android mawr wedi\'i rwystro gan reolau diogelwch. Galluogwch y Modd Anniogel yn Gosodiadau i ddiystyru.</string>
+    <string name="overlay_metered_format">Rydych ar gysylltiad mesuredig. Lawrlwytho <xliff:g id="size">%1$s</xliff:g> nawr?</string>
+    <string name="overlay_unsafe_recovery">Lawrlwytho a fflachio drwy Adfer (Modd Anniogel)?</string>
+    <string name="overlay_unsafe_force">Lawrlwytho a gorfodi gosod heb ei ddilysu?</string>
+    <string name="overlay_scratch_mounted">Mae\'r rhaniad crafu wedi\'i osod; methu gosod</string>
+    <string name="toast_sha_copied">SHA-256 wedi\'i gopïo</string>
+    <string name="overlay_install_recovery">Fflachio drwy Adfer (Modd Anniogel)? Bydd y ddyfais yn ailgychwyn i Adfer.</string>
+    <string name="overlay_install_force">Gorfodi gosod heb wiriadau llofnod/israddio? Parhewch ar eich menter.</string>
+    <string name="overlay_changelog_title">Newidlyfr</string>
+    <string name="desc_reload_changelog">Ail-lwytho\'r newidlyfr</string>
+    <string name="overlay_changelog_loading">Yn llwytho\'r newidlyfr…</string>
+    <string name="overlay_changelog_error">Methwyd llwytho\'r newidlyfr ar gyfer yr adeilad hwn.</string>
+    <string name="overlay_changelog_empty">Dim newidlyfr wedi\'i ddarparu ar gyfer y datganiad hwn.</string>
+    <string name="overlay_archive_sha">SHA-256 yr archif</string>
+    <string name="desc_copy_sha">Copïo SHA-256</string>
+    <string name="overlay_reboot_to_apply">Ailgychwynwch i gymhwyso\'r diweddariad</string>
+    <string name="overlay_pause_format">Seibio (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">Parhau (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">Ffeil pecyn</string>
+    <string name="overlay_parts_title">Rhannau archif hollt (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">Cadarnhau dileu</string>
+    <string name="info_package_size">Maint pecyn</string>
+    <string name="info_android_api">API Android</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">Math adeilad</string>
+    <string name="info_delivery">Cyflwyno</string>
+    <string name="info_delivery_split">Hollt (<xliff:g id="count">%1$d</xliff:g> rhan)</string>
+    <string name="float_importing">Yn mewnforio ZIP lleol…</string>
+    <string name="float_copying">Yn copïo pecyn ac yn gwirio metadata</string>
+    <string name="float_calculating">Yn cyfrifo…</string>
+    <plurals name="float_parts">
+        <item quantity="zero"><xliff:g id="count">%1$d</xliff:g> rhan</item>
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> rhan</item>
+        <item quantity="two"><xliff:g id="count">%1$d</xliff:g> rhan</item>
+        <item quantity="few"><xliff:g id="count">%1$d</xliff:g> rhan</item>
+        <item quantity="many"><xliff:g id="count">%1$d</xliff:g> o rannau</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> rhan</item>
+    </plurals>
+    <string name="float_parallel">Cyfochrog</string>
+    <string name="float_sequential">Dilyniannol</string>
+    <string name="float_single">Archif sengl</string>
+    <string name="float_autoinstall">Awtosod</string>
+    <string name="float_parts_header">Rhannau archif (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> wedi gorffen)</string>
+    <string name="float_suspend">Atal</string>
+    <string name="float_abort">Erthylu</string>
+    <string name="desc_toggle_details">Toglo manylion</string>
+    <string name="part_queued">Yn y ciw</string>
+    <string name="part_verifying">Yn gwireddu SHA-256</string>
+    <string name="part_verified">Wedi\'i ddilysu</string>
+    <string name="part_done">Wedi gorffen</string>
+    <string name="part_paused_format">Wedi seibio • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">Ceisio eto / Gwall</string>
+    <string name="part_waiting">Yn aros…</string>
+    <string name="stage_connecting">Yn cysylltu â\'r gweinydd…</string>
+    <string name="stage_verify_part">Yn gwireddu rhan <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> SHA-256…</string>
+    <string name="stage_assemble">Yn cydosod rhannau (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">Yn gwireddu SHA-256 yr archif terfynol…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> rhan yn weithredol • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">Rhan <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">Yn lawrlwytho • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• Awtosod</string>
+    <string name="stage_paused">Lawrlwytho wedi seibio • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">Methodd y lawrlwytho • Tapiwch Parhau</string>
+    <string name="stage_verifying_sig">Yn gwireddu\'r archif a\'r llofnod…</string>
+    <string name="stage_finalizing">Yn cwblhau slot A/B • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">Yn gosod diweddariad • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">Gosod wedi\'i atal • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">Wedi\'i osod — mae angen ailgychwyn</string>
+    <string name="md_image_alt">Delwedd</string>
+    <string name="md_image_failed">Methwyd llwytho delwedd</string>
+    <string name="importer_tag_local">ZIP Lleol</string>
+    <string name="err_no_url">Dim URL lawrlwytho na rhannau wedi\'u nodi</string>
+    <string name="err_no_dest">Dim cyrchfan lawrlwytho wedi\'i nodi</string>
+    <string name="err_no_callback">Dim galwad yn ôl lawrlwytho wedi\'i nodi</string>
+    <string name="err_no_parts">Dim rhannau lawrlwytho wedi\'u nodi</string>
+    <string name="err_no_tempdir">Methu creu cyfeiriadur rhannau dros dro: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">Camgyfateb cyfanswm rhan <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_part_failed">Methwyd lawrlwytho rhan <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_final_sha">Methodd dilysu SHA-256 yr archif terfynol</string>
+    <string name="err_empty_body">Corff ymateb gwag ar gyfer rhan <xliff:g id="index">%1$d</xliff:g></string>
+    <string name="err_unknown_size">Methu pennu maint ar gyfer <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_no_range">Nid yw\'r gweinydd yn cynnal ceisiadau amrediad: disgwylwyd HTTP 206, cafwyd <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_content_range">Pennawd Content-Range ar goll ar gyfer <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_bad_content_range">Content-Range annisgwyl ar gyfer <xliff:g id="url">%1$s</xliff:g>: disgwylwyd <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">Ni chaniateir newidiadau protocol</string>
+    <string name="err_server_reply">Ymatebodd y gweinydd gyda <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_no_fd">Methwyd cael fileDescriptor</string>
+    <string name="err_import_cancelled">Mewnforio wedi\'i ddiddymu</string>
+    <string name="err_verify_deleted">Methodd y dilysiad, mae\'r ffeil wedi\'i dileu</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">Defnyddio</string>
+    <string name="dialog_value_title">Gwerth</string>
+    <string name="unknown_size">Anhysbys</string>
+    <string name="slider_default">Diofyn</string>
+    <string name="slider_default_value">Diofyn (<xliff:g id="value">%1$s</xliff:g>)</string>
+    <string name="err_network">Gwall rhwydwaith</string>
+    <string name="action_paused_state">Wedi seibio</string>
+    <string name="part_fallback_name">part_<xliff:g id="index">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version">%1$s</xliff:g> • <xliff:g id="device">%2$s</xliff:g></string>
+    <string name="err_host_server">Gweinydd</string>
+    <string name="err_response_empty">Corff ymateb gwag</string>
+    <string name="err_changelog_body_empty">Corff newidlyfr gwag</string>
+    <string name="err_changelog_too_large">Mae\'r newidlyfr yn fwy na <xliff:g id="bytes">%1$d</xliff:g> beit</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host">%1$s</xliff:g>: terfyn cyfradd wedi\'i orbwyso (HTTP <xliff:g id="code">%2$d</xliff:g>). Ceisiwch eto ymhen <xliff:g id="wait">%3$s</xliff:g>.</string>
+    <string name="err_rate_limit_later"><xliff:g id="host">%1$s</xliff:g>: terfyn cyfradd wedi\'i orbwyso (HTTP <xliff:g id="code">%2$d</xliff:g>). Ceisiwch eto\'n hwyrach.</string>
+    <string name="err_feed_not_found"><xliff:g id="host">%1$s</xliff:g>: ffeil neu borthiant heb ei ganfod (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host">%1$s</xliff:g>: mynediad wedi\'i wrthod (HTTP <xliff:g id="code">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host">%1$s</xliff:g>: adnodd wedi\'i ddileu (HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host">%1$s</xliff:g>: gweinydd ddim ar gael (HTTP <xliff:g id="code">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host">%1$s</xliff:g>: HTTP <xliff:g id="code">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes">%1$d</xliff:g> mun</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds">%1$d</xliff:g>e</string>
+    <string name="err_download_file_missing">Mae\'r ffeil wedi\'i lawrlwytho ar goll</string>
+    <string name="err_sha_mismatch">Camgyfateb cyfanswm SHA-256</string>
+    <string name="err_sha_calc_failed">Methwyd cyfrifo SHA-256</string>
+    <string name="err_ota_signature_failed">Methodd dilysu llofnod OTA</string>
+    <string name="err_engine_signature">Gwrthododd update_engine lofnod y pecyn (cod <xliff:g id="code">%1$d</xliff:g>). Rhowch gynnig ar Osod Adfer Gorfodol.</string>
+    <string name="err_engine_downgrade">Rhwystrwyd stamp amser israddio gan update_engine (cod <xliff:g id="code">%1$d</xliff:g>). Rhowch gynnig ar Osod Adfer Gorfodol.</string>
+    <string name="err_engine_storage">Dim digon o le storio ar gyfer diweddariad slot A/B (cod <xliff:g id="code">%1$d</xliff:g>).</string>
+    <string name="err_engine_partition">Methodd dilysu\'r rhaniad (cod <xliff:g id="code">%1$d</xliff:g>).</string>
+    <string name="err_engine_cancelled">Gosod wedi\'i ddiddymu gan y defnyddiwr.</string>
+    <string name="err_engine_generic">Gwall update_engine cod <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">Math OTA heb ei gynnal: <xliff:g id="type">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found">Methwyd canfod <xliff:g id="entry">%1$s</xliff:g> yn <xliff:g id="file">%2$s</xliff:g></string>
+</resources>

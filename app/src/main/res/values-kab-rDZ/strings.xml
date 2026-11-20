@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="verification_failed_notification">Icceḍ usenqed</string>
+    <string name="verifying_download_notification">Asenqed n welqem</string>
+    <string name="downloading_notification">Asider</string>
+    <string name="download_paused_error_notification">Tuccḍa n usider</string>
+    <string name="download_completed_notification">Asider yemmed</string>
+    <string name="download_starting_notification">Asenker n usider</string>
+    <string name="installation_suspended_notification">Ittwafsex usebdded</string>
+    <string name="new_updates_found_title">Ileqman imaynuten</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="installing_update_error">Tuccḍa g usebded</string>
+    <string name="preparing_ota_first_boot">Aheggi i tnekra tamezwarut</string>
+    <string name="dialog_prepare_zip_message">Aheggi n lqem n unezwer</string>
+    <string name="reboot">Ales asenker</string>
+    <string name="menu_export_update">Sifeḍ lqem</string>
+    <string name="menu_update_recovery">Leqqem aḥraz</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">Sider</string>
+    <string name="action_pause">Steɛfu</string>
+    <string name="action_resume">Kemmel</string>
+    <string name="action_install">Sebded</string>
+    <string name="action_info">Talɣut</string>
+    <string name="action_delete">Kkes</string>
+    <string name="dialog_export_title">Asifeḍ n lqem</string>
+    <string name="notification_export_success">Lqem ittwasifeḍ</string>
+    <string name="notification_export_fail">Tuccḍa g usifeḍ</string>
+    <string name="blocked_update_dialog_title">Lqem iwḥel</string>
+    <string name="new_updates_channel_title">Ileqman imaynuten</string>
+    <string name="display_name">LeeGar Updater</string>
+    <string name="download_paused_notification">Asider ittwasṭeɛfa</string>
+    <string name="update_failed_notification">Aleqqem yecceḍ</string>
+    <string name="new_updates_found_summary">Sit iwakken ad twaliḍ ileqman iheggan</string>
+    <string name="installing_update">Asebded n unezwer n unagraw</string>
+    <string name="installing_update_finished">Aleqqem yettraǧu ales asenker</string>
+    <string name="finalizing_package">Asneggez n usebded n uɣawis</string>
+    <string name="action_download_install">Sider syen sebded</string>
+    <string name="check_for_update">Nadi ileqman</string>
+    <string name="action_back">Uɣal</string>
+    <string name="checking_for_updates">Asenqed n yileqman</string>
+    <string name="pref_category_background_sync">Amtawi n ugilal</string>
+    <string name="menu_auto_updates_check">Senqed ileqman mkul tikkelt</string>
+    <string name="menu_auto_updates_check_summary">Senqed ileqman deg ugilal</string>
+    <string name="menu_auto_delete_updates">Kkes ileqman s wudem awurman</string>
+    <string name="menu_stream_updates">Sider ileqman s usider</string>
+    <string name="menu_stream_updates_summary">Sebded ileqman mi ara ttwasidren. Ssens-it iwakken ad ḥerzeḍ iɣawisen n usifeḍ.</string>
+    <string name="menu_metered_network_warning">Aloneɣ n uzeṭṭa s lexlaṣ</string>
+    <string name="menu_metered_network_warning_summary">Aloneɣ uqbel asider s yisefka n tilifun</string>
+    <string name="menu_ab_perf_mode">Rnu-d tazzla i useqed n uleqem</string>
+    <string name="menu_update_recovery_summary">Leqqem abeṭṭu n uḥraz akked OS</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">Azemz n lqem</string>
+    <string name="security_update">Aḥraz n tɣellist</string>
+    <string name="toast_already_exporting">Asifeḍ n uleqem yettwaxdam yakan.</string>
+    <string name="toast_export_started">Asifeḍ yebda</string>
+    <string name="blocked_update_dialog_title_downgrade">Usenqes n lqem yewḥel</string>
+    <string name="export_channel_title">Asifeḍ yemmed</string>
+    <string name="ongoing_channel_title">Isidren n tura</string>
+    <string name="update_failed_channel_title">Aleqqem yecceḍ</string>
+    <string name="tab_updates">Ileqman</string>
+    <string name="tab_saved">Yettwaḥrazen</string>
+    <string name="tab_saved_count">Yettwaḥrazen (%1$d)</string>
+    <string name="tab_settings">Yiɣewwaren</string>
+    <string name="toast_download_failed">Asider yecceḍ</string>
+    <string name="toast_download_verified">Asider yettwasenqed yerna ihegga</string>
+    <string name="toast_import_failed">Tukterta n ZIP tecceḍ (aɣawis neɣ azmul ur ṣeḥḥan ara). Ɛreḍ Askar uḥdir i ZIP udmawanen.</string>
+    <string name="toast_imported_format"><xliff:g id="name">%1$s</xliff:g> yettwakater ar teccact Yettwasider</string>
+    <string name="banner_no_internet">Ulac tuqqna ar internet</string>
+    <string name="banner_check_failed">Asenqed n yileqman yecceḍ</string>
+    <string name="section_releases">Ileqman iheggan</string>
+    <string name="section_releases_count">Ileqman iheggan • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">Askar uḥdir</string>
+    <string name="empty_releases_title">Ulac ileqman yettwaran</string>
+    <string name="empty_releases_desc">Sfes iwakken ad d-tawiḍ ileqman seg uqeddac n OTA JSON yettwaxdamen.</string>
+    <string name="device_fallback_name">Imessel</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> n lqem amaynut iheggan</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> n leqmamat imaynuten heggan</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="one">Anagraw yettwaleqqem • <xliff:g id="count">%1$d</xliff:g> n lqem deg uɣbalu</item>
+        <item quantity="other">Anagraw yettwaleqqem • <xliff:g id="count">%1$d</xliff:g> n leqmamat deg uɣbalu</item>
+    </plurals>
+    <string name="installed_label_format">Yettwasebded: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • Aḥraz: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">Yettwaxdem usenqed: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">Azemz ur nettwassen ara</string>
+    <string name="status_starting">Abdu</string>
+    <string name="status_verifying">Asenqed</string>
+    <string name="status_merging">Anejmuɛ <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">Ittwasteɛfa <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">Tuccḍa</string>
+    <string name="status_installing">Asebded <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">Ittwasṭexeṣ <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <plurals name="badge_split_parts">
+        <item quantity="one">Yettwabḍa • <xliff:g id="count">%1$d</xliff:g> n umur</item>
+        <item quantity="other">Yettwabḍa • <xliff:g id="count">%1$d</xliff:g> n yimuren</item>
+    </plurals>
+    <string name="badge_downloaded">Ittwasider</string>
+    <string name="badge_reboot_required">Yessefk wales asenker</string>
+    <string name="badge_local">Adigan</string>
+    <string name="badge_major_upgrade">Aleqqem ameqqran</string>
+    <string name="relation_newer">Amaynut</string>
+    <string name="relation_installed">Yettwasebded</string>
+    <string name="relation_downgrade">Asenqes</string>
+    <string name="relation_build">Lqem</string>
+    <plurals name="downloaded_title">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> n uɣawis yettwaḥraz</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> n yiɣawisen ḥerzen</item>
+    </plurals>
+    <string name="downloaded_subtitle_used">Umḍin yettwaseqdacen: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">Kter ZIP adigan neɣ sider ileqman seg Yileqman</string>
+    <string name="action_import_zip">Kter ZIP</string>
+    <string name="empty_downloaded_title">Ulac ileqman yettwasidren</string>
+    <string name="empty_downloaded_desc">Iɣawisen n ROM yettwasidren d yifuyla n ZIP idiganen ad d-banen dagi i usebded, usifeḍ neɣ tukksa.</string>
+    <string name="section_downloaded">Yettwasidren d ZIP idiganen</string>
+    <string name="install_confirm_recovery">Sfeḍ s Tɣellist (Askar uḥdir)? Tmedyazt ad d-tales ar Tɣellist.</string>
+    <string name="install_confirm_force">Tḥettmeḍ ad tsebdeḍ war asenqed? Wali ma yella ZIP-a yemṣasa d tmedyazt-ik.</string>
+    <string name="install_confirm_now">Sebded <xliff:g id="name">%1$s</xliff:g> tura?</string>
+    <string name="action_cancel">Sefsex</string>
+    <string name="action_confirm">Sentem</string>
+    <string name="action_proceed">Kemmel</string>
+    <string name="action_reboot_now">Ales asenker tura</string>
+    <string name="action_export">Sifeḍ</string>
+    <string name="action_reset">Ales bdu</string>
+    <string name="install_label_recovery">Sebded (Tɣellist)</string>
+    <string name="install_label_force">Asebded s tmeẓẓelt</string>
+    <string name="action_stream_install">Sider rnu sebded</string>
+    <string name="action_download_install_new">Sider syen sebded</string>
+    <string name="desc_close">Mdel</string>
+    <string name="desc_retry">Ɛreḍ tikkelt niḍen</string>
+    <string name="settings_check_interval">Tallit n usenqed</string>
+    <string name="interval_daily">Yal ass</string>
+    <string name="interval_weekly">Yal ddurt</string>
+    <string name="interval_monthly">Yal ayyur</string>
+    <string name="settings_group_downloads">Isidren d usenqed</string>
+    <string name="settings_parallel_title">Asider azɣelan n yimuren yettwabḍan</string>
+    <string name="settings_parallel_summary">Sider armi d 3 n yimuren n uɣawis yettwabḍan deg yiwet n tikkelt iwakken ad iɣav usider</string>
+    <string name="settings_verify_title">Senqed SHA-256</string>
+    <string name="settings_verify_summary">Senqed yal amur yettwabḍan d unejmuɛ aneggaru mgal hash n JSON</string>
+    <string name="settings_autodelete_summary">Kkes aɣawis yettwasider s wudem awurman ticki aleqqem ad iṣuḥ</string>
+    <string name="settings_group_installation">Asebded</string>
+    <string name="settings_ab_perf_summary">Rnu-d CPU d I/O i update_engine iwakken asebded ad iɣav</string>
+    <string name="settings_ab_perf_charging">Ittwarmad s wudem awurman mi ara yettwachen ar tyawt n AC</string>
+    <string name="settings_group_ota">Aɣbalu n OTA</string>
+    <string name="settings_ota_url_title">URL n OTA JSON udmawan</string>
+    <string name="settings_ota_url_hint">Eǧǧ-it d ilem iwakken ad seqdaceḍ URL n ROM / DeviceTree.</string>
+    <string name="settings_ota_apply">Snes URL</string>
+    <string name="toast_ota_reset">URL n OTA yettwales ar umagnu</string>
+    <string name="toast_ota_updated">URL n OTA yettwaleqqem</string>
+    <string name="settings_group_appearance">Udem d iseɣẓanen</string>
+    <string name="settings_theme_title">Anaw n usnas</string>
+    <string name="theme_system">Anagraw</string>
+    <string name="theme_light">Afaw</string>
+    <string name="theme_dark">Amḍellus</string>
+    <string name="settings_wavy_title">Afeggag n tmujja</string>
+    <string name="settings_wavy_summary">Sḥerkeǧ tmujja mi ara d-ttwasidren neɣ ttwasabdaden; tetwalaɣ ticki asteɛfu</string>
+    <string name="settings_amplitude_title">Teɣzi n tmujja</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">Yensa</string>
+    <string name="settings_blur_title">Amḍiq n wexleḍ n zğağ</string>
+    <string name="settings_tint_title">Taẓedt n zğağ</string>
+    <string name="settings_logo_title">Sken azmul n useɣru</string>
+    <string name="settings_logo_summary">Sken alugu n useɣru (GIF, tugna, vidyu neɣ awal n useɣru)</string>
+    <string name="settings_banner_title">Sken alugu n lqem</string>
+    <string name="settings_banner_summary">Sken alugu n lqem deg uqerru n tkarḍa</string>
+    <string name="settings_clear_cache">Sfeḍ lkac n tmidya d umeskar n yibeddilen</string>
+    <string name="toast_cache_cleared">Lkac yettwasfeḍ</string>
+    <string name="settings_danger_title">Asebded n uksad / ur iḥdir ara</string>
+    <string name="settings_danger_warning">Seqdec-tt s tmeẓẓelt-ik. Tzemreḍ ad txeṣreḍ tmedyazt ma tsebdeḍ ROM ur nemṣasa ara.</string>
+    <string name="settings_unsafe_title">Zgel ineqqisen n tɣellist d usenqed</string>
+    <string name="settings_unsafe_summary">Sens asenqed n uzmul n OTA, aḥbas n usenqes d yiḥrase n Android SDK. Yettaǧǧa asebded n yisenqasen neɣ ZIP n ROM niḍen.</string>
+    <string name="settings_unsafe_confirm">Sentmeɣ: qebleɣ tamasult tamezwarut i yisenqasen, ZIP ur nettwazmilen ara neɣ tḍeffa n yisefka.</string>
+    <string name="danger_accept">Qebleɣ aksad</string>
+    <string name="settings_recovery_title">Ḥettem asebded s Tɣellist</string>
+    <string name="settings_recovery_summary">Zgel update_engine syen ales ar Tɣellist (OrangeFox / TWRP) iwakken ad tsefḍeḍ ZIP s rid, ma update_engine yugi azemz n usenqes neɣ azmul.</string>
+    <string name="overlay_battery_low">Tbatrit meẓẓiyet ur tezmireḍ ara ad tsebdeḍ</string>
+    <string name="overlay_blocked_format">Yewḥel (<xliff:g id="reason">%1$s</xliff:g>). Rmed Askar uḥdir deg Yiɣewwaren iwakken ad tḥetmeḍ asebded.</string>
+    <string name="overlay_downgrade_blocked">Usenqes yewḥel s yidamen n tɣellist. Rmed Askar uḥdir deg Yiɣewwaren iwakken ad tɛeddiḍ.</string>
+    <string name="overlay_major_blocked">Aleqqem ameqqran n Android yewḥel s yidamen n tɣellist. Rmed Askar uḥdir deg Yiɣewwaren iwakken ad tɛeddiḍ.</string>
+    <string name="overlay_metered_format">Tseqdaceḍ tuqqna s lexlaṣ. Sider <xliff:g id="size">%1$s</xliff:g> tura?</string>
+    <string name="overlay_unsafe_recovery">Sider syen sfeḍ s Tɣellist (Askar uḥdir)?</string>
+    <string name="overlay_unsafe_force">Sider syen ḥettem asebded war asenqed?</string>
+    <string name="overlay_scratch_mounted">Abeṭṭu n scratch yettwasekles; izmer ad isebded</string>
+    <string name="toast_sha_copied">SHA-256 yettwanɣel</string>
+    <string name="overlay_install_recovery">Sfeḍ s Tɣellist (Askar uḥdir)? Tmedyazt ad d-tales ar Tɣellist.</string>
+    <string name="overlay_install_force">Asebded s tmeẓẓelt war asenqed n uzmul? Kemmel s tmeẓẓelt-ik.</string>
+    <string name="overlay_changelog_title">Umeskar n yibeddilen</string>
+    <string name="desc_reload_changelog">Ales aram n umeskar n yibeddilen</string>
+    <string name="overlay_changelog_loading">Asali n umeskar n yibeddilen…</string>
+    <string name="overlay_changelog_error">Izmer ad d-yaru umeskar n yibeddilen i lqem-a.</string>
+    <string name="overlay_changelog_empty">Ulac umeskar n yibeddilen i lqem-a.</string>
+    <string name="overlay_archive_sha">SHA-256 n uɣawis</string>
+    <string name="desc_copy_sha">Nɣel SHA-256</string>
+    <string name="overlay_reboot_to_apply">Ales asenker iwakken ad tsnesmeḍ aleqqem</string>
+    <string name="overlay_pause_format">Steɛfu (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">Kemmel (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">Afaylu n uɣawis</string>
+    <string name="overlay_parts_title">Yimuren n uɣawis yettwabḍan (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">Sentem tukksa</string>
+    <string name="info_package_size">Teɣzi n uɣawis</string>
+    <string name="info_android_api">API n Android</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">Anaw n lqem</string>
+    <string name="info_delivery">Tarrayt n uwḍan</string>
+    <string name="info_delivery_split">Yettwabḍa (<xliff:g id="count">%1$d</xliff:g> n yimuren)</string>
+    <string name="float_importing">Tukterta n ZIP adigan…</string>
+    <string name="float_copying">Anɣel n uɣawis d usenqed n yimetadaten</string>
+    <string name="float_calculating">Asḥisseb…</string>
+    <plurals name="float_parts">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> n umur</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> n yimuren</item>
+    </plurals>
+    <string name="float_parallel">Azɣel</string>
+    <string name="float_sequential">S leṣf</string>
+    <string name="float_single">Uɣawis yiwen</string>
+    <string name="float_autoinstall">Asebded awurman</string>
+    <string name="float_parts_header">Yimuren n uɣawis (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> mmiden)</string>
+    <string name="float_suspend">Steɛfu</string>
+    <string name="float_abort">Sefsex</string>
+    <string name="desc_toggle_details">Beddel timeẓriwin</string>
+    <string name="part_queued">Yettraǧu</string>
+    <string name="part_verifying">Asenqed n SHA-256</string>
+    <string name="part_verified">Yettwasenqed</string>
+    <string name="part_done">Yemmed</string>
+    <string name="part_paused_format">Ittwasteɛfa • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">Ɛreḍ / Tuccḍa</string>
+    <string name="part_waiting">Yettraǧu…</string>
+    <string name="stage_connecting">Tuqqna ar uqeddac…</string>
+    <string name="stage_verify_part">Asenqed n umur <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> SHA-256…</string>
+    <string name="stage_assemble">Anejmuɛ n yimuren (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">Asenqed n SHA-256 n uɣawis aneggaru…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> n yimuren rmiden • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">Amur <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">Asider • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• Asebded awurman</string>
+    <string name="stage_paused">Asider ittwasṭeɛfa • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">Asider yecceḍ • Sit Kemmel</string>
+    <string name="stage_verifying_sig">Asenqed n uɣawis d uzmul…</string>
+    <string name="stage_finalizing">Asneggez n usiḍes A/B • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">Asebded n uleqem • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">Asebded ittwasṭexeṣ • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">Yettwasebded — yessefk wales asenker</string>
+    <string name="md_image_alt">Tugna</string>
+    <string name="md_image_failed">Asali n tugna yecceḍ</string>
+    <string name="importer_tag_local">ZIP adigan</string>
+    <string name="err_no_url">Ulac aseɣwen n usider neɣ yimuren</string>
+    <string name="err_no_dest">Ulac amḍiq n usider yettwabedren</string>
+    <string name="err_no_callback">Ulac asnas n usider yettwabedren</string>
+    <string name="err_no_parts">Ulac yimuren n usider yettwabedren</string>
+    <string name="err_no_tempdir">Izmer ad yexleq akaram n yimuren ikudanen: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">Asenqed n umur <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> ur yemṣasa ara</string>
+    <string name="err_part_failed">Asider n umur <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> yecceḍ</string>
+    <string name="err_final_sha">Asenqed n SHA-256 n uɣawis aneggaru yecceḍ</string>
+    <string name="err_empty_body">Aḥric n tiririt i umur <xliff:g id="index">%1$d</xliff:g> d ilem</string>
+    <string name="err_unknown_size">Izmer ad yessen teɣzi n <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_no_range">Aqeddac ur yessefrak ara isutar n umḍiq: yettwargu HTTP 206, yettwadref <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_content_range">Uqerru n Content-Range ulac-itt i <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_bad_content_range">Content-Range ur nettwargu ara i <xliff:g id="url">%1$s</xliff:g>: yettwargu <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">Abeddel n unagraw ur yettwasireg ara</string>
+    <string name="err_server_reply">Aqeddac yerra-d s <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_no_fd">Asaweḍ n fileDescriptor yecceḍ</string>
+    <string name="err_import_cancelled">Tukterta tettwasenṭeḍ</string>
+    <string name="err_verify_deleted">Asenqed yecceḍ, afaylu yettwakkes</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">Snes</string>
+    <string name="dialog_value_title">Azal</string>
+    <string name="unknown_size">Ur nettwassen ara</string>
+    <string name="slider_default">Amagnu</string>
+    <string name="slider_default_value">Amagnu (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">Tuccḍa n uzeṭṭa</string>
+    <string name="action_paused_state">Ittwasteɛfa</string>
+    <string name="part_fallback_name">part_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">Aqeddac</string>
+    <string name="err_response_empty">Aḥric n tiririt d ilem</string>
+    <string name="err_changelog_body_empty">Aḥric n umeskar n yibeddilen d ilem</string>
+    <string name="err_changelog_too_large">Umeskar n yibeddilen yeɛda <xliff:g id="bytes" example="524288">%1$d</xliff:g> n yivayten</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: talast tettwaɛedda (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Ɛreḍ ticki <xliff:g id="wait" example="~2 min">%3$s</xliff:g>.</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: talast tettwaɛedda (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Ɛreḍ tikkelt niḍen ticki.</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: afaylu neɣ aɣbalu ulac-itt (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: anekcum yettwagdel (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: aɣbalu yettwakkes (HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: aqeddac ulac-itt (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> n tesdatin</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g>s</string>
+    <string name="err_download_file_missing">Afaylu yettwasider ulac-itt</string>
+    <string name="err_sha_mismatch">Asenqed n SHA-256 ur yemṣasa ara</string>
+    <string name="err_sha_calc_failed">Asḥisseb n SHA-256 yecceḍ</string>
+    <string name="err_ota_signature_failed">Asenqed n uzmul n OTA yecceḍ</string>
+    <string name="err_engine_signature">update_engine yugi azmul n uɣawis (tangalt <xliff:g id="code" example="20">%1$d</xliff:g>). Ɛreḍ Asebded n Tɣellist s Tmeẓẓelt.</string>
+    <string name="err_engine_downgrade">update_engine yewḥel azemz n usenqes (tangalt <xliff:g id="code" example="51">%1$d</xliff:g>). Ɛreḍ Asebded n Tɣellist s Tmeẓẓelt.</string>
+    <string name="err_engine_storage">Ulac umḍin idelqen i uleqem n usiḍes A/B (tangalt <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_engine_partition">Asenqed n ubeṭṭu yecceḍ (tangalt <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_cancelled">Asebded ittwasenṭeḍ sɣur useqdac.</string>
+    <string name="err_engine_generic">Tangalt n tuccḍa n update_engine <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">Anaw n OTA ur nettwasefrag ara: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found">Ur yettwafi ara <xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> deg <xliff:g id="file" example="update.zip">%2$s</xliff:g></string>
+</resources>

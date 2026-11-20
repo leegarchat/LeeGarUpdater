@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="verification_failed_notification">검증 실패</string>
+    <string name="verifying_download_notification">업데이트 검증 중</string>
+    <string name="downloading_notification">다운로드 중</string>
+    <string name="download_paused_notification">다운로드 일시 중지됨</string>
+    <string name="download_paused_error_notification">다운로드 오류</string>
+    <string name="download_completed_notification">다운로드 완료</string>
+    <string name="download_starting_notification">다운로드 시작</string>
+    <string name="update_failed_notification">업데이트 실패</string>
+    <string name="installation_suspended_notification">설치가 지연됨</string>
+    <string name="new_updates_found_title">새 업데이트</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="installing_update_error">설치 오류</string>
+    <string name="finalizing_package">패키지 설치 마무리 중</string>
+    <string name="preparing_ota_first_boot">첫 번째 부팅 준비 중</string>
+    <string name="dialog_prepare_zip_message">예비 업데이트 준비</string>
+    <string name="reboot">다시 시작</string>
+    <string name="menu_export_update">업데이트 내보내기</string>
+    <string name="menu_metered_network_warning">모바일 데이터 사용 경고</string>
+    <string name="menu_ab_perf_mode">우선 업데이트</string>
+    <string name="menu_update_recovery">복구 모드 업데이트</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">다운로드</string>
+    <string name="action_pause">일시 중지</string>
+    <string name="action_resume">이어 받기</string>
+    <string name="action_install">설치</string>
+    <string name="action_info">정보</string>
+    <string name="action_delete">삭제</string>
+    <string name="dialog_export_title">업데이트 내보내는 중</string>
+    <string name="notification_export_success">업데이트를 내보냈습니다.</string>
+    <string name="notification_export_fail">내보내기 오류</string>
+    <string name="toast_already_exporting">이미 업데이트를 내보내는 중입니다.</string>
+    <string name="toast_export_started">내보내기를 시작했습니다.</string>
+    <string name="blocked_update_dialog_title">업데이트 차단됨</string>
+    <string name="export_channel_title">내보내기 완료</string>
+    <string name="new_updates_channel_title">새 업데이트</string>
+    <string name="ongoing_channel_title">진행 중인 다운로드</string>
+    <string name="update_failed_channel_title">업데이트 실패</string>
+    <string name="display_name">LeeGar Updater</string>
+    <string name="new_updates_found_summary">탭하여 사용 가능한 업데이트 보기</string>
+    <string name="installing_update">시스템 업데이트 설치 중</string>
+    <string name="installing_update_finished">업데이트 후 다시 시작 대기 중</string>
+    <string name="action_download_install">다운로드 및 설치</string>
+    <string name="check_for_update">업데이트 확인</string>
+    <string name="action_back">뒤로</string>
+    <string name="checking_for_updates">업데이트 확인 중</string>
+    <string name="pref_category_background_sync">백그라운드 동기화</string>
+    <string name="menu_auto_updates_check">주기적으로 업데이트 확인</string>
+    <string name="menu_auto_updates_check_summary">백그라운드에서 업데이트 확인</string>
+    <string name="menu_auto_delete_updates">업데이트 자동 삭제</string>
+    <string name="menu_stream_updates">온라인 업데이트 스트리밍</string>
+    <string name="menu_stream_updates_summary">다운로드 중에 업데이트를 설치합니다. 내보내기용 업데이트 패키지를 보관하려면 비활성화하세요.</string>
+    <string name="menu_metered_network_warning_summary">모바일 데이터로 다운로드하기 전에 경고</string>
+    <string name="menu_update_recovery_summary">OS와 함께 복구 파티션도 업데이트</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">빌드 날짜</string>
+    <string name="security_update">보안 업데이트</string>
+    <string name="blocked_update_dialog_title_downgrade">다운그레이드 차단됨</string>
+    <string name="tab_updates">업데이트</string>
+    <string name="tab_saved">저장됨</string>
+    <string name="tab_saved_count">저장됨(%1$d)</string>
+    <string name="tab_settings">설정</string>
+    <string name="toast_download_failed">다운로드 실패</string>
+    <string name="toast_download_verified">다운로드가 검증되어 준비되었습니다</string>
+    <string name="toast_import_failed">ZIP 가져오기 실패(잘못된 패키지 또는 서명). 사용자 지정 ZIP에는 안전 모드 해제를 사용해 보세요.</string>
+    <string name="toast_imported_format"><xliff:g id="name">%1$s</xliff:g>을(를) 다운로드 탭으로 가져왔습니다</string>
+    <string name="banner_no_internet">인터넷 연결 없음</string>
+    <string name="banner_check_failed">업데이트 확인 실패</string>
+    <string name="section_releases">사용 가능한 릴리스</string>
+    <string name="section_releases_count">사용 가능한 릴리스 • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">안전 모드 해제</string>
+    <string name="empty_releases_title">불러온 릴리스 없음</string>
+    <string name="empty_releases_desc">새로고침하여 구성된 OTA JSON 피드에서 빌드를 가져오세요.</string>
+    <string name="device_fallback_name">기기</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="other">새 빌드 <xliff:g id="count">%1$d</xliff:g>개 사용 가능</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="other">시스템이 최신 상태입니다 • 피드의 빌드 <xliff:g id="count">%1$d</xliff:g>개</item>
+    </plurals>
+    <string name="installed_label_format">설치됨: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g>(API <xliff:g id="sdk">%2$d</xliff:g>) • 패치: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">확인: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">알 수 없는 날짜</string>
+    <string name="status_starting">시작 중</string>
+    <string name="status_verifying">검증 중</string>
+    <string name="status_merging">병합 중 <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">일시 중지됨 <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">오류</string>
+    <string name="status_installing">설치 중 <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">지연됨 <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <plurals name="badge_split_parts">
+        <item quantity="other">분할 • <xliff:g id="count">%1$d</xliff:g>개 파트</item>
+    </plurals>
+    <string name="badge_downloaded">다운로드됨</string>
+    <string name="badge_reboot_required">다시 시작 필요</string>
+    <string name="badge_local">로컬</string>
+    <string name="badge_major_upgrade">메이저 업그레이드</string>
+    <string name="relation_newer">최신</string>
+    <string name="relation_installed">설치됨</string>
+    <string name="relation_downgrade">다운그레이드</string>
+    <string name="relation_build">빌드</string>
+    <plurals name="downloaded_title">
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g>개 패키지 저장됨</item>
+    </plurals>
+    <string name="downloaded_subtitle_used">사용된 공간: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">로컬 ZIP을 가져오거나 업데이트에서 빌드를 다운로드하세요</string>
+    <string name="action_import_zip">ZIP 가져오기</string>
+    <string name="empty_downloaded_title">다운로드한 업데이트 없음</string>
+    <string name="empty_downloaded_desc">다운로드한 ROM 패키지와 가져온 로컬 ZIP 파일이 설치, 내보내기 또는 삭제용으로 여기에 표시됩니다.</string>
+    <string name="section_downloaded">다운로드 및 로컬 ZIP</string>
+    <string name="install_confirm_recovery">복구 모드로 플래시하시겠습니까(안전 모드 해제)? 기기가 복구 모드로 다시 시작됩니다.</string>
+    <string name="install_confirm_force">검증 없이 강제 설치하시겠습니까? 이 ZIP이 기기에 맞는 것인지 확인하세요.</string>
+    <string name="install_confirm_now"><xliff:g id="name">%1$s</xliff:g>을(를) 지금 설치하시겠습니까?</string>
+    <string name="action_cancel">취소</string>
+    <string name="action_confirm">확인</string>
+    <string name="action_proceed">계속</string>
+    <string name="action_reboot_now">지금 다시 시작</string>
+    <string name="action_export">내보내기</string>
+    <string name="action_reset">초기화</string>
+    <string name="install_label_recovery">설치(복구)</string>
+    <string name="install_label_force">강제 설치</string>
+    <string name="action_stream_install">스트리밍 및 설치</string>
+    <string name="action_download_install_new">다운로드 및 설치</string>
+    <string name="desc_close">닫기</string>
+    <string name="desc_retry">다시 시도</string>
+    <string name="settings_check_interval">확인 간격</string>
+    <string name="interval_daily">매일</string>
+    <string name="interval_weekly">매주</string>
+    <string name="interval_monthly">매월</string>
+    <string name="settings_group_downloads">다운로드 및 검증</string>
+    <string name="settings_parallel_title">병렬 분할 다운로드</string>
+    <string name="settings_parallel_summary">더 빠른 속도를 위해 최대 3개의 분할 아카이브 파트를 동시에 다운로드합니다</string>
+    <string name="settings_verify_title">SHA-256 체크섬 검증</string>
+    <string name="settings_verify_summary">JSON 해시에 대해 모든 분할 파트와 최종 아카이브를 검증합니다</string>
+    <string name="settings_autodelete_summary">업데이트가 성공하면 다운로드한 패키지를 자동으로 삭제합니다</string>
+    <string name="settings_group_installation">설치</string>
+    <string name="settings_ab_perf_summary">빠른 설치를 위해 update_engine에 CPU 및 I/O를 더 할당합니다</string>
+    <string name="settings_ab_perf_charging">AC 전원에 연결된 동안 자동으로 활성화됩니다</string>
+    <string name="settings_group_ota">OTA 소스</string>
+    <string name="settings_ota_url_title">사용자 지정 OTA JSON URL</string>
+    <string name="settings_ota_url_hint">ROM / DeviceTree 기본 URL을 사용하려면 비워 두세요.</string>
+    <string name="settings_ota_apply">URL 적용</string>
+    <string name="toast_ota_reset">OTA URL이 기본값으로 초기화되었습니다</string>
+    <string name="toast_ota_updated">OTA URL이 업데이트되었습니다</string>
+    <string name="settings_group_appearance">모양 및 저장공간</string>
+    <string name="settings_theme_title">앱 테마</string>
+    <string name="theme_system">시스템</string>
+    <string name="theme_light">라이트</string>
+    <string name="theme_dark">다크</string>
+    <string name="settings_wavy_title">물결 모양 진행률 표시줄</string>
+    <string name="settings_wavy_summary">다운로드 또는 설치 중에 파동을 애니메이션으로 표시하고 일시 중지 시 부드럽게 평평해집니다</string>
+    <string name="settings_amplitude_title">파동 진폭</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">끄기</string>
+    <string name="settings_blur_title">글래스 블러 반경</string>
+    <string name="settings_tint_title">글래스 틴트 불투명도</string>
+    <string name="settings_logo_title">프로젝트 로고 표시</string>
+    <string name="settings_logo_summary">프로젝트 배너(GIF, 이미지, 동영상 또는 애니메이션 워드마크)를 표시합니다</string>
+    <string name="settings_banner_title">릴리스 배너 표시</string>
+    <string name="settings_banner_summary">카드 헤더에 릴리스 배너 이미지 또는 동영상을 표시합니다</string>
+    <string name="settings_clear_cache">미디어 및 변경 로그 캐시 지우기</string>
+    <string name="toast_cache_cleared">캐시가 지워졌습니다</string>
+    <string name="settings_danger_title">위험 / 안전하지 않은 설치</string>
+    <string name="settings_danger_warning">본인 책임하에 사용하세요. 잘못된 ROM을 플래시하면 기기가 손상될 수 있습니다.</string>
+    <string name="settings_unsafe_title">안전 및 검증 검사 우회</string>
+    <string name="settings_unsafe_summary">OTA 서명 검증, 다운그레이드 차단 및 Android SDK 가드를 비활성화합니다. 다운그레이드나 크로스 ROM ZIP 플래시를 허용합니다.</string>
+    <string name="settings_unsafe_confirm">확인: 다운그레이드, 서명되지 않은 ZIP 또는 데이터 손실에 대한 모든 책임을 수락합니다.</string>
+    <string name="danger_accept">위험을 감수하겠습니다</string>
+    <string name="settings_recovery_title">복구 모드로 강제 설치</string>
+    <string name="settings_recovery_summary">다운그레이드 타임스탬프나 서명을 update_engine이 거부하면 update_engine을 우회하여 복구(OrangeFox / TWRP)로 다시 시작해 ZIP을 직접 플래시합니다.</string>
+    <string name="overlay_battery_low">배터리 잔량이 부족하여 설치할 수 없습니다</string>
+    <string name="overlay_blocked_format">차단됨(<xliff:g id="reason">%1$s</xliff:g>). 강제 설치하려면 설정에서 안전 모드 해제를 활성화하세요.</string>
+    <string name="overlay_downgrade_blocked">안전 규칙에 의해 다운그레이드가 차단되었습니다. 재정의하려면 설정에서 안전 모드 해제를 활성화하세요.</string>
+    <string name="overlay_major_blocked">안전 규칙에 의해 메이저 Android 업그레이드가 차단되었습니다. 재정의하려면 설정에서 안전 모드 해제를 활성화하세요.</string>
+    <string name="overlay_metered_format">모바일 데이터 연결을 사용 중입니다. <xliff:g id="size">%1$s</xliff:g>을(를) 지금 다운로드하시겠습니까?</string>
+    <string name="overlay_unsafe_recovery">다운로드하여 복구 모드로 플래시하시겠습니까(안전 모드 해제)?</string>
+    <string name="overlay_unsafe_force">검증 없이 다운로드하여 강제 설치하시겠습니까?</string>
+    <string name="overlay_scratch_mounted">스크래치 파티션이 마운트되어 설치할 수 없습니다</string>
+    <string name="toast_sha_copied">SHA-256이 복사되었습니다</string>
+    <string name="overlay_install_recovery">복구 모드로 플래시하시겠습니까(안전 모드 해제)? 기기가 복구 모드로 다시 시작됩니다.</string>
+    <string name="overlay_install_force">서명/다운그레이드 검사 없이 강제 설치하시겠습니까? 본인 책임하에 계속하세요.</string>
+    <string name="overlay_changelog_title">변경 로그</string>
+    <string name="desc_reload_changelog">변경 로그 다시 불러오기</string>
+    <string name="overlay_changelog_loading">변경 로그 불러오는 중…</string>
+    <string name="overlay_changelog_error">이 빌드의 변경 로그를 불러오지 못했습니다.</string>
+    <string name="overlay_changelog_empty">이 릴리스에 대한 변경 로그가 없습니다.</string>
+    <string name="overlay_archive_sha">아카이브 SHA-256</string>
+    <string name="desc_copy_sha">SHA-256 복사</string>
+    <string name="overlay_reboot_to_apply">업데이트를 적용하려면 다시 시작하세요</string>
+    <string name="overlay_pause_format">일시 중지(<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">이어 받기(<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">패키지 파일</string>
+    <string name="overlay_parts_title">분할 아카이브 파트(<xliff:g id="count">%1$d</xliff:g>개)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">삭제 확인</string>
+    <string name="info_package_size">패키지 크기</string>
+    <string name="info_android_api">Android API</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">빌드 유형</string>
+    <string name="info_delivery">제공 방식</string>
+    <string name="info_delivery_split">분할(<xliff:g id="count">%1$d</xliff:g>개 파트)</string>
+    <string name="float_importing">로컬 ZIP 가져오는 중…</string>
+    <string name="float_copying">패키지 복사 및 메타데이터 확인 중</string>
+    <string name="float_calculating">계산 중…</string>
+    <plurals name="float_parts">
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g>개 파트</item>
+    </plurals>
+    <string name="float_parallel">병렬</string>
+    <string name="float_sequential">순차</string>
+    <string name="float_single">단일 아카이브</string>
+    <string name="float_autoinstall">자동 설치</string>
+    <string name="float_parts_header">아카이브 파트(<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> 완료)</string>
+    <string name="float_suspend">일시 중단</string>
+    <string name="float_abort">중단</string>
+    <string name="desc_toggle_details">세부정보 전환</string>
+    <string name="part_queued">대기 중</string>
+    <string name="part_verifying">SHA-256 검증 중</string>
+    <string name="part_verified">검증됨</string>
+    <string name="part_done">완료</string>
+    <string name="part_paused_format">일시 중지됨 • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">다시 시도 / 오류</string>
+    <string name="part_waiting">대기 중…</string>
+    <string name="stage_connecting">서버에 연결 중…</string>
+    <string name="stage_verify_part">파트 <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> SHA-256 검증 중…</string>
+    <string name="stage_assemble">파트 병합 중(<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">최종 아카이브 SHA-256 검증 중…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g>개 파트 활성 • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">파트 <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">다운로드 중 • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• 자동 설치</string>
+    <string name="stage_paused">다운로드 일시 중지됨 • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">다운로드 실패 • 이어 받기를 탭하세요</string>
+    <string name="stage_verifying_sig">아카이브 및 서명 검증 중…</string>
+    <string name="stage_finalizing">A/B 슬롯 마무리 중 • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">업데이트 설치 중 • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">설치 지연됨 • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">설치됨 — 다시 시작 필요</string>
+    <string name="md_image_alt">이미지</string>
+    <string name="md_image_failed">이미지를 불러오지 못했습니다</string>
+    <string name="importer_tag_local">로컬 ZIP</string>
+    <string name="err_no_url">다운로드 URL 또는 파트가 정의되지 않았습니다</string>
+    <string name="err_no_dest">다운로드 대상이 정의되지 않았습니다</string>
+    <string name="err_no_callback">다운로드 콜백이 정의되지 않았습니다</string>
+    <string name="err_no_parts">다운로드 파트가 지정되지 않았습니다</string>
+    <string name="err_no_tempdir">임시 파트 디렉터리를 만들 수 없습니다: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">파트 <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> 체크섬 불일치</string>
+    <string name="err_part_failed">파트 <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> 다운로드 실패</string>
+    <string name="err_final_sha">최종 아카이브 SHA-256 검증 실패</string>
+    <string name="err_empty_body">파트 <xliff:g id="index">%1$d</xliff:g>의 응답 본문이 비어 있습니다</string>
+    <string name="err_unknown_size"><xliff:g id="url">%1$s</xliff:g>의 크기를 확인할 수 없습니다</string>
+    <string name="err_no_range">서버가 범위 요청을 지원하지 않습니다. HTTP 206이 필요하지만 <xliff:g id="code">%1$d</xliff:g>을(를) 받았습니다</string>
+    <string name="err_no_content_range"><xliff:g id="url">%1$s</xliff:g>의 Content-Range 헤더가 없습니다</string>
+    <string name="err_bad_content_range">예상치 못한 Content-Range(<xliff:g id="url">%1$s</xliff:g>): 예상 값은 <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">프로토콜 변경은 허용되지 않습니다</string>
+    <string name="err_server_reply">서버 응답: <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_no_fd">fileDescriptor를 가져오지 못했습니다</string>
+    <string name="err_import_cancelled">가져오기가 취소되었습니다</string>
+    <string name="err_verify_deleted">검증 실패로 파일이 삭제되었습니다</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">적용</string>
+    <string name="dialog_value_title">값</string>
+    <string name="unknown_size">알 수 없음</string>
+    <string name="slider_default">기본값</string>
+    <string name="slider_default_value">기본값(<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">네트워크 오류</string>
+    <string name="action_paused_state">일시 중지됨</string>
+    <string name="part_fallback_name">part_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">서버</string>
+    <string name="err_response_empty">응답 본문이 비어 있습니다</string>
+    <string name="err_changelog_body_empty">변경 로그 본문이 비어 있습니다</string>
+    <string name="err_changelog_too_large">변경 로그가 <xliff:g id="bytes" example="524288">%1$d</xliff:g>바이트를 초과합니다</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: 속도 제한 초과(HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). <xliff:g id="wait" example="~2 min">%3$s</xliff:g> 후에 다시 시도하세요.</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: 속도 제한 초과(HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). 나중에 다시 시도하세요.</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: 파일 또는 피드를 찾을 수 없습니다(HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: 액세스가 거부되었습니다(HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: 리소스가 삭제되었습니다(HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: 서버를 사용할 수 없습니다(HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">약 <xliff:g id="minutes" example="2">%1$d</xliff:g>분</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g>초</string>
+    <string name="err_download_file_missing">다운로드한 파일이 없습니다</string>
+    <string name="err_sha_mismatch">SHA-256 체크섬 불일치</string>
+    <string name="err_sha_calc_failed">SHA-256 계산 실패</string>
+    <string name="err_ota_signature_failed">OTA 서명 검증 실패</string>
+    <string name="err_engine_signature">update_engine이 페이로드 서명을 거부했습니다(코드 <xliff:g id="code" example="20">%1$d</xliff:g>). 강제 복구 설치를 시도하세요.</string>
+    <string name="err_engine_downgrade">update_engine이 다운그레이드 타임스탬프를 차단했습니다(코드 <xliff:g id="code" example="51">%1$d</xliff:g>). 강제 복구 설치를 시도하세요.</string>
+    <string name="err_engine_storage">A/B 슬롯 업데이트용 저장 공간이 부족합니다(코드 <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_engine_partition">파티션 검증 실패(코드 <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_cancelled">사용자가 설치를 취소했습니다.</string>
+    <string name="err_engine_generic">update_engine 오류 코드 <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">지원되지 않는 OTA 유형: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found"><xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g>을(를) <xliff:g id="file" example="update.zip">%2$s</xliff:g>에서 찾을 수 없습니다</string>
+</resources>

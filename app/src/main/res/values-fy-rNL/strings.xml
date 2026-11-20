@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="verification_failed_notification">Ferifikaasje mislearre</string>
+    <string name="verifying_download_notification">Fernijing ferifiearje</string>
+    <string name="downloading_notification">Downloade</string>
+    <string name="download_paused_notification">Download pauzearre</string>
+    <string name="download_paused_error_notification">Flater by downloaden</string>
+    <string name="download_completed_notification">Downloaden foltôge</string>
+    <string name="download_starting_notification">Download starte</string>
+    <string name="update_failed_notification">Fernijing mislearre</string>
+    <string name="installation_suspended_notification">Ynstallaasje ûnderbrutsen</string>
+    <string name="new_updates_found_title">Nije fernijingen</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="installing_update_error">Ynstallaasjeflater</string>
+    <string name="finalizing_package">Ynstallaasje fan het pakket foltôgje</string>
+    <string name="preparing_ota_first_boot">Earste start tariede</string>
+    <string name="dialog_prepare_zip_message">Fernijing tariede</string>
+    <string name="reboot">Opnij starte</string>
+    <string name="menu_export_update">Fernijing eksportearje</string>
+    <string name="menu_ab_perf_mode">Fernijingsproses prioriteit jaan</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">Downloade</string>
+    <string name="action_pause">Pauzeearje</string>
+    <string name="action_resume">Ferfetsje</string>
+    <string name="action_install">Ynstallearje</string>
+    <string name="action_info">Ynformaasje</string>
+    <string name="action_delete">Fuortsmite</string>
+    <string name="dialog_export_title">Fernijing eksportearje</string>
+    <string name="notification_export_success">Fernijing eksportearre</string>
+    <string name="notification_export_fail">Flater by eksportearjen</string>
+    <string name="toast_already_exporting">Der wurdt al in fernijing eksportearre</string>
+    <string name="blocked_update_dialog_title">Fernijing blokkearre</string>
+    <string name="export_channel_title">Eksportearjen foltôge</string>
+    <string name="new_updates_channel_title">Nije fernijingen</string>
+    <string name="ongoing_channel_title">Aktuele downloads</string>
+    <string name="update_failed_channel_title">Fernijing mislearre</string>
+    <string name="display_name">LeeGar Updater</string>
+    <string name="new_updates_found_summary">Tik om beskikbere fernijingen te besjen</string>
+    <string name="installing_update">Systeemfernijing ynstallearje</string>
+    <string name="installing_update_finished">Fernijing wachtet op opnij starten</string>
+    <string name="action_download_install">Downloade en ynstallearje</string>
+    <string name="check_for_update">Kontrolearje op fernijing</string>
+    <string name="action_back">Werom</string>
+    <string name="checking_for_updates">Sykje nei fernijingen</string>
+    <string name="pref_category_background_sync">Syngronisaasje op de eftergrûn</string>
+    <string name="menu_auto_updates_check">Periodyk kontrolearje op fernijingen</string>
+    <string name="menu_auto_updates_check_summary">Kontrolearje op fernijingen op de eftergrûn</string>
+    <string name="menu_auto_delete_updates">Fernijingen automatysk fuortsmite</string>
+    <string name="menu_stream_updates">Online fernijingen streame</string>
+    <string name="menu_stream_updates_summary">Ynstallearje fernijingen wylst se download wurde. Skeakelje út om fernijingspakketten te bewarjen foar eksport.</string>
+    <string name="menu_metered_network_warning">Warskôging dosearre netwurk</string>
+    <string name="menu_metered_network_warning_summary">Warskôgje foar downloaden oer mobile data</string>
+    <string name="menu_update_recovery">Recovery fernije</string>
+    <string name="menu_update_recovery_summary">Fernijje recovery-partysje tegearre mei it bestjoeringssysteem</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">Bouddatum</string>
+    <string name="security_update">Feilichheidsfernijing</string>
+    <string name="toast_export_started">Eksportearjen starte</string>
+    <string name="blocked_update_dialog_title_downgrade">Downgrade blokkearre</string>
+    <string name="tab_updates">Fernijingen</string>
+    <string name="tab_saved">Bewarre</string>
+    <string name="tab_saved_count">Bewarre (%1$d)</string>
+    <string name="tab_settings">Ynstellingen</string>
+    <string name="toast_download_failed">Downloaden mislearre</string>
+    <string name="toast_download_verified">Download ferifiearre en klear</string>
+    <string name="toast_import_failed">ZIP ymportearjen mislearre (ûnjildich pakket of hântekening). Besykje Unfeilige modus foar oanpaste ZIPs.</string>
+    <string name="toast_imported_format"><xliff:g id="name">%1$s</xliff:g> ymportearre yn ljepper Download</string>
+    <string name="banner_no_internet">Gjin ynternetferbining</string>
+    <string name="banner_check_failed">Kontrôle op fernijingen mislearre</string>
+    <string name="section_releases">Beskikbere releases</string>
+    <string name="section_releases_count">Beskikbere releases • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">Unfeilige modus</string>
+    <string name="empty_releases_title">Gjin releases laden</string>
+    <string name="empty_releases_desc">Tik op fernije om builds te laden fan de ynstelde OTA JSON-feed.</string>
+    <string name="device_fallback_name">Apparaat</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> nijere build beskikber</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> nijere builds beskikber</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="one">Systeem is by de tiid • <xliff:g id="count">%1$d</xliff:g> build yn feed</item>
+        <item quantity="other">Systeem is by de tiid • <xliff:g id="count">%1$d</xliff:g> builds yn feed</item>
+    </plurals>
+    <string name="installed_label_format">Ynstallearre: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • Patch: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">Kontrolearre: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">Unbekende datum</string>
+    <string name="status_starting">Starte</string>
+    <string name="status_verifying">Ferifiearje</string>
+    <string name="status_merging">Gearfoegje <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">Pauzearre <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">Flater</string>
+    <string name="status_installing">Ynstallearje <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">Underbrutsen <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <plurals name="badge_split_parts">
+        <item quantity="one">Split • <xliff:g id="count">%1$d</xliff:g> diel</item>
+        <item quantity="other">Split • <xliff:g id="count">%1$d</xliff:g> dielen</item>
+    </plurals>
+    <string name="badge_downloaded">Download</string>
+    <string name="badge_reboot_required">Opnij starten fereaske</string>
+    <string name="badge_local">Lokaal</string>
+    <string name="badge_major_upgrade">Grutte upgrade</string>
+    <string name="relation_newer">Nijer</string>
+    <string name="relation_installed">Ynstallearre</string>
+    <string name="relation_downgrade">Downgrade</string>
+    <string name="relation_build">Build</string>
+    <plurals name="downloaded_title">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> pakket opslein</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> pakketten opslein</item>
+    </plurals>
+    <string name="downloaded_subtitle_used">Brûkte romte: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">Ymportearje in lokale ZIP of download builds fan Fernijingen</string>
+    <string name="action_import_zip">ZIP ymportearje</string>
+    <string name="empty_downloaded_title">Gjin downloade fernijingen</string>
+    <string name="empty_downloaded_desc">Downloade ROM-pakketten en ymportearre lokale ZIP-bestannen ferskine hjir foar ynstallaasje, eksport of fuortsmiten.</string>
+    <string name="section_downloaded">Download en lokale ZIPs</string>
+    <string name="install_confirm_recovery">Flashe fia Recovery (Unfeilige modus)? Apparaat start opnij op yn Recovery.</string>
+    <string name="install_confirm_force">Ynstallearje sûnder ferifikaasje forsearje? Soargje derfoar dat dizze ZIP by dyn apparaat past.</string>
+    <string name="install_confirm_now"><xliff:g id="name">%1$s</xliff:g> no ynstallearje?</string>
+    <string name="action_cancel">Annulearje</string>
+    <string name="action_confirm">Befêstigje</string>
+    <string name="action_proceed">Trochgean</string>
+    <string name="action_reboot_now">No opnij starte</string>
+    <string name="action_export">Eksportearje</string>
+    <string name="action_reset">Weromsette</string>
+    <string name="install_label_recovery">Ynstallearje (Recovery)</string>
+    <string name="install_label_force">Forsearre ynstallaasje</string>
+    <string name="action_stream_install">Streame en ynstallearje</string>
+    <string name="action_download_install_new">Downloade en ynstallearje</string>
+    <string name="desc_close">Slute</string>
+    <string name="desc_retry">Opnij besykje</string>
+    <string name="settings_check_interval">Kontrôle-ynterfal</string>
+    <string name="interval_daily">Deistich</string>
+    <string name="interval_weekly">Wykliks</string>
+    <string name="interval_monthly">Moannelik</string>
+    <string name="settings_group_downloads">Downloads en ferifikaasje</string>
+    <string name="settings_parallel_title">Splitte download parallel</string>
+    <string name="settings_parallel_summary">Download maksimaal 3 splitte argyfdielen tagelyk foar fluggere snelheden</string>
+    <string name="settings_verify_title">SHA-256-kontrolesommen ferifiearje</string>
+    <string name="settings_verify_summary">Falidearje elk splitdiel en it definitive gearstalde argyf tsjin JSON-hashes</string>
+    <string name="settings_autodelete_summary">Download pakket automatysk fuortsmite as de fernijing slagget</string>
+    <string name="settings_group_installation">Ynstallaasje</string>
+    <string name="settings_ab_perf_summary">Jou mear CPU en I/O oan update_engine foar fluggere ynstallaasjes</string>
+    <string name="settings_ab_perf_charging">Automatysk aktyf by ferbining mei netstroom</string>
+    <string name="settings_group_ota">OTA-boarne</string>
+    <string name="settings_ota_url_title">Oanpaste OTA JSON-URL</string>
+    <string name="settings_ota_url_hint">Lit leech om standert-URL fan ROM / DeviceTree-overlay te brûken.</string>
+    <string name="settings_ota_apply">URL tapasse</string>
+    <string name="toast_ota_reset">OTA-URL weromset nei standert</string>
+    <string name="toast_ota_updated">OTA-URL bywurke</string>
+    <string name="settings_group_appearance">Uterlik en opslach</string>
+    <string name="settings_theme_title">App-tema</string>
+    <string name="theme_system">Systeem</string>
+    <string name="theme_light">Ljocht</string>
+    <string name="theme_dark">Tsjuster</string>
+    <string name="settings_wavy_title">Golvende fuortgongsbalke</string>
+    <string name="settings_wavy_summary">Animearje golf wylst download of ynstallearre wurdt; flakket glêd ôf by pauze</string>
+    <string name="settings_amplitude_title">Golfamplitude</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">Út</string>
+    <string name="settings_blur_title">Glêsblur-radius</string>
+    <string name="settings_tint_title">Glêstint-dekking</string>
+    <string name="settings_logo_title">Projektlogo toane</string>
+    <string name="settings_logo_summary">Toan projektbanner (GIF, ôfbylding, fideo of animearre wurkmerk)</string>
+    <string name="settings_banner_title">Release-banner toane</string>
+    <string name="settings_banner_summary">Toan release-bannerôfbylding of -fideo yn kaartkop</string>
+    <string name="settings_clear_cache">Media- en feroaringslog-cache wiskje</string>
+    <string name="toast_cache_cleared">Cache wiske</string>
+    <string name="settings_danger_title">Krityske / Unfeilige ynstallaasje</string>
+    <string name="settings_danger_warning">Allinnich op eigen risiko brûke. Kin apparaat ûnbrûkber meitsje by ferkearde ROM.</string>
+    <string name="settings_unsafe_title">Feilichheids- en ferifikaasjekontrôles oerslaan</string>
+    <string name="settings_unsafe_summary">Skeakelt OTA-hântekeningferifikaasje, downgrade-blokkade en Android SDK-bewakers út. Makket flashen fan downgrades of cross-ROM-ZIPs mooglik.</string>
+    <string name="settings_unsafe_confirm">Befêstigje: do akseptearje folsleine ferantwurdlikheid foar downgrades, net-ûndertekene ZIPs of gegevensferlies.</string>
+    <string name="danger_accept">Ik akseptear it risiko</string>
+    <string name="settings_recovery_title">Forsearre ynstallaasje fia Recovery</string>
+    <string name="settings_recovery_summary">Gean om update_engine hinne en start opnij op yn Recovery (OrangeFox / TWRP) om ZIP direkt te flashen. Nuttich as update_engine downgrade-tiidstempel of hântekening wegeret.</string>
+    <string name="overlay_battery_low">Batterijnivo te leech om te ynstallearjen</string>
+    <string name="overlay_blocked_format">Blokkearre (<xliff:g id="reason">%1$s</xliff:g>). Skeakelje Unfeilige modus yn by Ynstellingen om forsearre ynstallaasje mooglik te meitsjen.</string>
+    <string name="overlay_downgrade_blocked">Downgrade wurdt blokkearre troch feilichheidsregels. Skeakelje Unfeilige modus yn by Ynstellingen om dit te oerskriuwen.</string>
+    <string name="overlay_major_blocked">Grutte Android-upgrade wurdt blokkearre troch feilichheidsregels. Skeakelje Unfeilige modus yn by Ynstellingen om dit te oerskriuwen.</string>
+    <string name="overlay_metered_format">Do bist op in dosearre ferbining. <xliff:g id="size">%1$s</xliff:g> no downloade?</string>
+    <string name="overlay_unsafe_recovery">Downloade en flashe fia Recovery (Unfeilige modus)?</string>
+    <string name="overlay_unsafe_force">Downloade en forsearre ynstallearje sûnder ferifikaasje?</string>
+    <string name="overlay_scratch_mounted">Scratch-partysje is oankeppele; kin net ynstallearje</string>
+    <string name="toast_sha_copied">SHA-256 kopiearre</string>
+    <string name="overlay_install_recovery">Flashe fia Recovery (Unfeilige modus)? Apparaat start opnij op yn Recovery.</string>
+    <string name="overlay_install_force">Forsearre ynstallaasje sûnder hântekening- of downgrade-kontrôles? Doch dit op eigen risiko.</string>
+    <string name="overlay_changelog_title">Feroaringslog</string>
+    <string name="desc_reload_changelog">Feroaringslog opnij lade</string>
+    <string name="overlay_changelog_loading">Feroaringslog lade…</string>
+    <string name="overlay_changelog_error">Koe feroaringslog foar dizze build net lade.</string>
+    <string name="overlay_changelog_empty">Gjin feroaringslog foar dizze release.</string>
+    <string name="overlay_archive_sha">Argyf SHA-256</string>
+    <string name="desc_copy_sha">SHA-256 kopiearje</string>
+    <string name="overlay_reboot_to_apply">Opnij starte om fernijing ta te passen</string>
+    <string name="overlay_pause_format">Pauzearje (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">Ferfetsje (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">Pakketbestân</string>
+    <string name="overlay_parts_title">Split-argyfdielen (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">Fuortsmite befêstigje</string>
+    <string name="info_package_size">Pakketgrutte</string>
+    <string name="info_android_api">Android API</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">Buildtype</string>
+    <string name="info_delivery">Levering</string>
+    <string name="info_delivery_split">Split (<xliff:g id="count">%1$d</xliff:g> dielen)</string>
+    <string name="float_importing">Lokale ZIP ymportearje…</string>
+    <string name="float_copying">Pakket kopiearje en metadata kontrolearje</string>
+    <string name="float_calculating">Berekkenje…</string>
+    <plurals name="float_parts">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> diel</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> dielen</item>
+    </plurals>
+    <string name="float_parallel">Parallel</string>
+    <string name="float_sequential">Efterinoar</string>
+    <string name="float_single">Ien argyf</string>
+    <string name="float_autoinstall">Automatysk ynstallearje</string>
+    <string name="float_parts_header">Argyfdielen (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> klear)</string>
+    <string name="float_suspend">Underbrekke</string>
+    <string name="float_abort">Ôfbrekke</string>
+    <string name="desc_toggle_details">Details toane/ferbergje</string>
+    <string name="part_queued">Yn rige</string>
+    <string name="part_verifying">SHA-256 ferifiearje</string>
+    <string name="part_verified">Ferifiearre</string>
+    <string name="part_done">Klear</string>
+    <string name="part_paused_format">Pauzearre • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">Opnij besykje / Flater</string>
+    <string name="part_waiting">Wachtsje…</string>
+    <string name="stage_connecting">Ferbine mei server…</string>
+    <string name="stage_verify_part">Diel <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> SHA-256 ferifiearje…</string>
+    <string name="stage_assemble">Dielen gearstalle (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">Definityf argyf SHA-256 ferifiearje…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> dielen aktyf • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">Diel <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">Downloade • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• Automatysk ynstallearje</string>
+    <string name="stage_paused">Download pauzearre • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">Downloaden mislearre • Tik op Ferfetsje</string>
+    <string name="stage_verifying_sig">Argyf en hântekening ferifiearje…</string>
+    <string name="stage_finalizing">A/B-slot finalisearje • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">Fernijing ynstallearje • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">Ynstallaasje ûnderbrutsen • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">Ynstallearre — opnij starten fereaske</string>
+    <string name="md_image_alt">Ofbylding</string>
+    <string name="md_image_failed">Ofbylding laden mislearre</string>
+    <string name="importer_tag_local">Lokale ZIP</string>
+    <string name="err_no_url">Gjin download-URL of dielen definiearre</string>
+    <string name="err_no_dest">Gjin downloadbestimming definiearre</string>
+    <string name="err_no_callback">Gjin download-callback definiearre</string>
+    <string name="err_no_parts">Gjin downloaddielen opjûn</string>
+    <string name="err_no_tempdir">Kin tydlike dielmap net meitsje: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">Kontrole fan diel <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> komt net oerien</string>
+    <string name="err_part_failed">Diel <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> downloaden mislearre</string>
+    <string name="err_final_sha">SHA-256-ferifikaasje fan it definitive argyf mislearre</string>
+    <string name="err_empty_body">Lege antwurd-body foar diel <xliff:g id="index">%1$d</xliff:g></string>
+    <string name="err_unknown_size">Kin grutte net bepale foar <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_no_range">Server stipet gjin berikfersiken: ferwachte HTTP 206, krige <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_content_range">Content-Range-header ûntbrekt foar <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_bad_content_range">Unferwachte Content-Range foar <xliff:g id="url">%1$s</xliff:g>: ferwachte <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">Protokolwikselingen binne net tastien</string>
+    <string name="err_server_reply">Server antwurde mei <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_no_fd">Koe fileDescriptor net krije</string>
+    <string name="err_import_cancelled">Ymport annulearre</string>
+    <string name="err_verify_deleted">Ferifikaasje mislearre, bestân is fuortsmiten</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">Tapasse</string>
+    <string name="dialog_value_title">Wearde</string>
+    <string name="unknown_size">Unbekend</string>
+    <string name="slider_default">Standert</string>
+    <string name="slider_default_value">Standert (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">Netwurkflater</string>
+    <string name="action_paused_state">Pauzearre</string>
+    <string name="part_fallback_name">diel_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">Server</string>
+    <string name="err_response_empty">Lege antwurd-body</string>
+    <string name="err_changelog_body_empty">Lege feroaringslog-body</string>
+    <string name="err_changelog_too_large">Feroaringslog grutter as <xliff:g id="bytes" example="524288">%1$d</xliff:g> bytes</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: limyt oerskreden (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Opnij besykje oer <xliff:g id="wait" example="~2 min">%3$s</xliff:g>.</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: limyt oerskreden (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Besykje it letter opnij.</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: bestân of feed net fûn (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: tagong wegere (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: boarne fuortsmiten (410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: server net beskikber (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> min</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g>s</string>
+    <string name="err_download_file_missing">Download bestân ûntbrekt</string>
+    <string name="err_sha_mismatch">SHA-256 komt net oerien</string>
+    <string name="err_sha_calc_failed">SHA-256 berekkenjen mislearre</string>
+    <string name="err_ota_signature_failed">Ferifikaasje fan OTA-hântekening mislearre</string>
+    <string name="err_engine_signature">update_engine wegere payload-hântekening (koade <xliff:g id="code" example="20">%1$d</xliff:g>). Besykje Force Recovery-ynstallaasje.</string>
+    <string name="err_engine_downgrade">update_engine blokkearre downgrade-tiidstempel (koade <xliff:g id="code" example="51">%1$d</xliff:g>). Besykje Force Recovery-ynstallaasje.</string>
+    <string name="err_engine_storage">Net genôch opslachromte foar A/B-slot-fernijing (koade <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_engine_partition">Partysjeferifikaasje mislearre (koade <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_cancelled">Ynstallaasje annulearre troch brûker.</string>
+    <string name="err_engine_generic">update_engine flaterkoade <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">Net-stipe OTA-type: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found">Koe <xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> net fine yn <xliff:g id="file" example="update.zip">%2$s</xliff:g></string>
+</resources>

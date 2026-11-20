@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="verification_failed_notification">დამოწმება ვერ მოხერხდა</string>
+    <string name="verifying_download_notification">მიმდინარეობს განახლების დამოწმება</string>
+    <string name="downloading_notification">ჩამოიტვირთება</string>
+    <string name="download_paused_notification">ჩამოტვირთვა შეჩერებულია</string>
+    <string name="download_paused_error_notification">ჩამოტვირთვის შეცდომა</string>
+    <string name="download_completed_notification">ჩამოტვირთვა დასრულებულია</string>
+    <string name="download_starting_notification">ჩამოტვირთვა იწყება</string>
+    <string name="update_failed_notification">განახლება ვერ მოხერხდა</string>
+    <string name="installation_suspended_notification">დაყენება გადაიდო</string>
+    <string name="new_updates_found_title">ბოლო განახლებები</string>
+    <string name="text_download_speed">%1$s, %2$s/წმ</string>
+    <string name="installing_update_error">შეცდომა დაყენებისას</string>
+    <string name="finalizing_package">სრულდება კრებულის ჩადგმა</string>
+    <string name="preparing_ota_first_boot">მზადდება პირველი ჩატვირთვისთვის</string>
+    <string name="dialog_prepare_zip_message">წინასწარი მომზადება განახლებისთვის</string>
+    <string name="reboot">გადატვირთვა</string>
+    <string name="menu_export_update">განახლების გატანა</string>
+    <string name="menu_metered_network_warning">შეზღუდული ქსელის გაფრთხილება</string>
+    <string name="menu_ab_perf_mode">განახლებისთვის უპირატესობის მინიჭება</string>
+    <string name="menu_update_recovery">აღმდგენის განახლება</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">ჩამოტვირთვა</string>
+    <string name="action_pause">შეჩერება</string>
+    <string name="action_resume">გაგრძელება</string>
+    <string name="action_install">დაყენება</string>
+    <string name="action_info">მონაცემები</string>
+    <string name="action_delete">წაშლა</string>
+    <string name="dialog_export_title">განახლება ცალკე შეინახება</string>
+    <string name="notification_export_success">განახლება გატანილია ფაილში</string>
+    <string name="notification_export_fail">შეცდომა გატანისას</string>
+    <string name="toast_already_exporting">გატანა უკვე მიმდინარეობს</string>
+    <string name="toast_export_started">გატანა დაწყებულია</string>
+    <string name="blocked_update_dialog_title">განახლება შეიზღუდა</string>
+    <string name="export_channel_title">გადატანა დასრულებულია</string>
+    <string name="new_updates_channel_title">ბოლო განახლებები</string>
+    <string name="ongoing_channel_title">მიმდინარე ჩამოტვირთვები</string>
+    <string name="update_failed_channel_title">განახლება ვერ მოხერხდა</string>
+    <string name="display_name">LeeGar Updater</string>
+    <string name="new_updates_found_summary">შეეხეთ ხელმისაწვდომი განახლებების სანახავად</string>
+    <string name="installing_update">დგდება სისტემის განახლება</string>
+    <string name="installing_update_finished">განახლება ელოდება გადატვირთვას</string>
+    <string name="action_download_install">ჩამოტვირთვა და დაყენება</string>
+    <string name="check_for_update">განახლების შემოწმება</string>
+    <string name="action_back">უკან</string>
+    <string name="checking_for_updates">მოწმდება განახლებები</string>
+    <string name="pref_category_background_sync">ფონური სინქრონიზაცია</string>
+    <string name="menu_auto_updates_check">განახლებების პერიოდული შემოწმება</string>
+    <string name="menu_auto_updates_check_summary">განახლებების შემოწმება ფონზე</string>
+    <string name="menu_auto_delete_updates">განახლებების ავტო-წაშლა</string>
+    <string name="menu_stream_updates">ონლაინ განახლებების ნაკადური ჩატვირთვა</string>
+    <string name="menu_stream_updates_summary">დააყენეთ განახლებები ჩამოტვირთვისას. გამორთეთ, რომ შეინახოთ განახლების პაკეტები ექსპორტისთვის.</string>
+    <string name="menu_metered_network_warning_summary">გაფრთხილება მობილური ინტერნეტით ჩამოტვირთვამდე</string>
+    <string name="menu_update_recovery_summary">აღდგენის დანაყოფის განახლება OS-თან ერთად</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">კრებულის თარიღი</string>
+    <string name="security_update">უსაფრთხოების განახლება</string>
+    <string name="blocked_update_dialog_title_downgrade">ვერსიის დაქვეითება დაბლოკილია</string>
+    <string name="tab_updates">განახლებები</string>
+    <string name="tab_saved">შენახული</string>
+    <string name="tab_saved_count">შენახული (%1$d)</string>
+    <string name="tab_settings">პარამეტრები</string>
+    <string name="toast_download_failed">ჩამოტვირთვა ვერ მოხერხდა</string>
+    <string name="toast_download_verified">ჩამოტვირთვა დამოწმებულია და მზადაა</string>
+    <string name="toast_import_failed">ZIP-ის იმპორტი ვერ მოხერხდა (პაკეტი ან ხელმოწერა არასწორია). მორგებული ZIP-ებისთვის სცადეთ სახიფათო რეჟიმი.</string>
+    <string name="toast_imported_format"><xliff:g id="name">%1$s</xliff:g> შემოტანილია ჩანართში ჩამოტვირთული</string>
+    <string name="banner_no_internet">ინტერნეტთან კავშირი არ არის</string>
+    <string name="banner_check_failed">განახლებების შემოწმება ვერ მოხერხდა</string>
+    <string name="section_releases">ხელმისაწვდომი რელიზები</string>
+    <string name="section_releases_count">ხელმისაწვდომი რელიზები • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">სახიფათო რეჟიმი</string>
+    <string name="empty_releases_title">რელიზები არ არის ჩატვირთული</string>
+    <string name="empty_releases_desc">მონიშნეთ განახლება, რომ ჩაიტვირთოს კრებულები მითითებული OTA JSON არხიდან.</string>
+    <string name="device_fallback_name">მოწყობილობა</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> ახალი კრებული ხელმისაწვდომია</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> ახალი კრებული ხელმისაწვდომია</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="one">სისტემა განახლებულია • არხში <xliff:g id="count">%1$d</xliff:g> კრებულია</item>
+        <item quantity="other">სისტემა განახლებულია • არხში <xliff:g id="count">%1$d</xliff:g> კრებულია</item>
+    </plurals>
+    <string name="installed_label_format">დაყენებულია: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • პაჩი: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">შემოწმდა: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">უცნობი თარიღი</string>
+    <string name="status_starting">იწყება</string>
+    <string name="status_verifying">მოწმდება</string>
+    <string name="status_merging">ერთდება <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">შეჩერებულია <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">შეცდომა</string>
+    <string name="status_installing">დგდება <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">შეჩერებულია <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <plurals name="badge_split_parts">
+        <item quantity="one">გაყოფილი • <xliff:g id="count">%1$d</xliff:g> ნაწილი</item>
+        <item quantity="other">გაყოფილი • <xliff:g id="count">%1$d</xliff:g> ნაწილი</item>
+    </plurals>
+    <string name="badge_downloaded">ჩამოტვირთულია</string>
+    <string name="badge_reboot_required">საჭიროებს გადატვირთვას</string>
+    <string name="badge_local">ლოკალური</string>
+    <string name="badge_major_upgrade">მსხვილი განახლება</string>
+    <string name="relation_newer">ახალი</string>
+    <string name="relation_installed">დაყენებული</string>
+    <string name="relation_downgrade">ვერსიის დაქვეითება</string>
+    <string name="relation_build">კრებული</string>
+    <plurals name="downloaded_title">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> პაკეტი შენახულია</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> პაკეტი შენახულია</item>
+    </plurals>
+    <string name="downloaded_subtitle_used">გამოყენებული ადგილი: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">შემოიტანეთ ლოკალური ZIP ან ჩამოტვირთეთ კრებულები განახლებებიდან</string>
+    <string name="action_import_zip">ZIP-ის იმპორტი</string>
+    <string name="empty_downloaded_title">ჩამოტვირთული განახლებები არ არის</string>
+    <string name="empty_downloaded_desc">ჩამოტვირთული ROM პაკეტები და შემოტანილი ლოკალური ZIP ფაილები გამოჩნდება აქ დასაყენებლად, ექსპორტისთვის ან წასაშლელად.</string>
+    <string name="section_downloaded">ჩამოტვირთული და ლოკალური ZIP-ები</string>
+    <string name="install_confirm_recovery">ჩაიწეროს აღდგენით (სახიფათო რეჟიმი)? მოწყობილობა გადაიტვირთება აღდგენაში.</string>
+    <string name="install_confirm_force">დაყენდეს დამოწმების გარეშე? დარწმუნდით, რომ ეს ZIP თქვენი მოწყობილობისაა.</string>
+    <string name="install_confirm_now">დავაყენოთ <xliff:g id="name">%1$s</xliff:g> ახლავე?</string>
+    <string name="action_cancel">გაუქმება</string>
+    <string name="action_confirm">დადასტურება</string>
+    <string name="action_proceed">გაგრძელება</string>
+    <string name="action_reboot_now">ახლავე გადატვირთვა</string>
+    <string name="action_export">ექსპორტი</string>
+    <string name="action_reset">განულება</string>
+    <string name="install_label_recovery">დაყენება (აღდგენა)</string>
+    <string name="install_label_force">იძულებითი დაყენება</string>
+    <string name="action_stream_install">ნაკადური დაყენება</string>
+    <string name="action_download_install_new">ჩამოტვირთვა და დაყენება</string>
+    <string name="desc_close">დახურვა</string>
+    <string name="desc_retry">გამეორება</string>
+    <string name="settings_check_interval">შემოწმების ინტერვალი</string>
+    <string name="interval_daily">ყოველდღიური</string>
+    <string name="interval_weekly">ყოველკვირეული</string>
+    <string name="interval_monthly">ყოველთვიური</string>
+    <string name="settings_group_downloads">ჩამოტვირთვები და დამოწმება</string>
+    <string name="settings_parallel_title">პარალელური გაყოფილი ჩამოტვირთვა</string>
+    <string name="settings_parallel_summary">ჩამოტვირთეთ 3-მდე გაყოფილი არქივის ნაწილი ერთდროულად უფრო სწრაფად</string>
+    <string name="settings_verify_title">SHA-256 საკონტროლო ჯამების დამოწმება</string>
+    <string name="settings_verify_summary">ყოველი გაყოფილი ნაწილისა და საბოლოო არქივის დამოწმება JSON ჰეშებთან</string>
+    <string name="settings_autodelete_summary">ჩამოტვირთული პაკეტის ავტომატური წაშლა განახლების წარმატების შემდეგ</string>
+    <string name="settings_group_installation">დაყენება</string>
+    <string name="settings_ab_perf_summary">მეტი CPU და I/O რესურსის გამოყოფა update_engine-ისთვის ჩადგმის დასაჩქარებლად</string>
+    <string name="settings_ab_perf_charging">ავტომატურად აქტიურდება AC კვებაზე შეერთებისას</string>
+    <string name="settings_group_ota">OTA წყარო</string>
+    <string name="settings_ota_url_title">მორგებული OTA JSON ბმული</string>
+    <string name="settings_ota_url_hint">დატოვეთ ცარიელი, რომ გამოიყენოთ ROM / DeviceTree-ის ნაგულისხმევი ბმული.</string>
+    <string name="settings_ota_apply">ბმულის გამოყენება</string>
+    <string name="toast_ota_reset">OTA ბმული განულდა ნაგულისხმევზე</string>
+    <string name="toast_ota_updated">OTA ბმული განახლებულია</string>
+    <string name="settings_group_appearance">იერსახე და მეხსიერება</string>
+    <string name="settings_theme_title">აპის თემა</string>
+    <string name="theme_system">სისტემური</string>
+    <string name="theme_light">ღია</string>
+    <string name="theme_dark">მუქი</string>
+    <string name="settings_wavy_title">ტალღოვანი პროგრესის ზოლი</string>
+    <string name="settings_wavy_summary">ტალღის ანიმაცია ჩამოტვირთვის ან დაყენებისას; შეჩერებისას რბილად სწორდება</string>
+    <string name="settings_amplitude_title">ტალღის ამპლიტუდა</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">გამორთულია</string>
+    <string name="settings_blur_title">მინის დაბინდვის რადიუსი</string>
+    <string name="settings_tint_title">მინის შეფერვის გამჭვირვალობა</string>
+    <string name="settings_logo_title">პროექტის ლოგოს ჩვენება</string>
+    <string name="settings_logo_summary">პროექტის ბანერის ჩვენება (GIF, სურათი, ვიდეო ან ანიმაციური წარწერა)</string>
+    <string name="settings_banner_title">რელიზის ბანერის ჩვენება</string>
+    <string name="settings_banner_summary">რელიზის ბანერის სურათის ან ვიდეოს ჩვენება ბარათის სათაურში</string>
+    <string name="settings_clear_cache">მედიის და ცვლილებების სიის ქეშის გასუფთავება</string>
+    <string name="toast_cache_cleared">ქეში გასუფთავებულია</string>
+    <string name="settings_danger_title">კრიტიკული / სახიფათო დაყენება</string>
+    <string name="settings_danger_warning">გამოიყენეთ მხოლოდ საკუთარი რისკით. არასწორი ROM-ის ჩაწერამ შეიძლება დააზიანოს მოწყობილობა.</string>
+    <string name="settings_unsafe_title">უსაფრთხოებისა და დამოწმების შემოწმებების გვერდის ავლა</string>
+    <string name="settings_unsafe_summary">თიშავს OTA ხელმოწერის დამოწმებას, ვერსიის დაქვეითების ბლოკს და Android SDK დამცავებს. იძლევა ვერსიის დაქვეითების ან სხვა ROM-ის ZIP-ების ჩაწერის საშუალებას.</string>
+    <string name="settings_unsafe_confirm">ვადასტურებ: ვიღებ სრულ პასუხისმგებლობას ვერსიის დაქვეითებაზე, ხელმოუწერელ ZIP-ებზე ან მონაცემთა დაკარგვაზე.</string>
+    <string name="danger_accept">ვიღებ რისკს</string>
+    <string name="settings_recovery_title">იძულებითი დაყენება აღდგენით</string>
+    <string name="settings_recovery_summary">update_engine-ის გვერდის ავლით გადატვირთვა აღდგენაში (OrangeFox / TWRP) ZIP-ის პირდაპირ ჩასაწერად. სასარგებლოა, თუ update_engine უარყოფს ვერსიის დაქვეითების დროის ნიშანს ან ხელმოწერას.</string>
+    <string name="overlay_battery_low">ელემენტის დამუხტვა დაბალია დასაყენებლად</string>
+    <string name="overlay_blocked_format">დაბლოკილია (<xliff:g id="reason">%1$s</xliff:g>). იძულებითი დაყენებისთვის ჩართეთ სახიფათო რეჟიმი პარამეტრებში.</string>
+    <string name="overlay_downgrade_blocked">ვერსიის დაქვეითება დაბლოკილია უსაფრთხოების წესებით. გადასაფარად ჩართეთ სახიფათო რეჟიმი პარამეტრებში.</string>
+    <string name="overlay_major_blocked">Android-ის მსხვილი განახლება დაბლოკილია უსაფრთხოების წესებით. გადასაფარად ჩართეთ სახიფათო რეჟიმი პარამეტრებში.</string>
+    <string name="overlay_metered_format">თქვენ ხართ ლიმიტირებულ კავშირზე. ჩამოიტვირთოს <xliff:g id="size">%1$s</xliff:g> ახლავე?</string>
+    <string name="overlay_unsafe_recovery">ჩამოიტვირთოს და ჩაიწეროს აღდგენით (სახიფათო რეჟიმი)?</string>
+    <string name="overlay_unsafe_force">ჩამოიტვირთოს და იძულებით დაყენდეს დამოწმების გარეშე?</string>
+    <string name="overlay_scratch_mounted">scratch დანაყოფი დამონტაჟებულია; დაყენება შეუძლებელია</string>
+    <string name="toast_sha_copied">SHA-256 კოპირებულია</string>
+    <string name="overlay_install_recovery">ჩაიწეროს აღდგენით (სახიფათო რეჟიმი)? მოწყობილობა გადაიტვირთება აღდგენაში.</string>
+    <string name="overlay_install_force">დავაყენოთ ხელმოწერის/ვერსიის შემოწმების გარეშე? გააგრძელეთ საკუთარი რისკით.</string>
+    <string name="overlay_changelog_title">ცვლილებების სია</string>
+    <string name="desc_reload_changelog">ცვლილებების სიის განახლება</string>
+    <string name="overlay_changelog_loading">იტვირთება ცვლილებების სია…</string>
+    <string name="overlay_changelog_error">ამ კრებულის ცვლილებების სიის ჩატვირთვა ვერ მოხერხდა.</string>
+    <string name="overlay_changelog_empty">ამ რელიზისთვის ცვლილებების სია არ არის.</string>
+    <string name="overlay_archive_sha">არქივის SHA-256</string>
+    <string name="desc_copy_sha">SHA-256-ის კოპირება</string>
+    <string name="overlay_reboot_to_apply">გადატვირთეთ განახლების გასააქტიურებლად</string>
+    <string name="overlay_pause_format">შეჩერება (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">გაგრძელება (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">პაკეტის ფაილი</string>
+    <string name="overlay_parts_title">გაყოფილი არქივის ნაწილები (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">წაშლის დადასტურება</string>
+    <string name="info_package_size">პაკეტის ზომა</string>
+    <string name="info_android_api">Android API</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">კრებულის ტიპი</string>
+    <string name="info_delivery">მიწოდება</string>
+    <string name="info_delivery_split">გაყოფილი (<xliff:g id="count">%1$d</xliff:g> ნაწილი)</string>
+    <string name="float_importing">ლოკალური ZIP-ის იმპორტი…</string>
+    <string name="float_copying">პაკეტის კოპირება და მეტამონაცემების შემოწმება</string>
+    <string name="float_calculating">იანგარიშება…</string>
+    <plurals name="float_parts">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> ნაწილი</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> ნაწილი</item>
+    </plurals>
+    <string name="float_parallel">პარალელური</string>
+    <string name="float_sequential">თანმიმდევრული</string>
+    <string name="float_single">ერთიანი არქივი</string>
+    <string name="float_autoinstall">ავტო-დაყენება</string>
+    <string name="float_parts_header">არქივის ნაწილები (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> მზადაა)</string>
+    <string name="float_suspend">შეჩერება</string>
+    <string name="float_abort">შეწყვეტა</string>
+    <string name="desc_toggle_details">დეტალების ჩვენება</string>
+    <string name="part_queued">რიგშია</string>
+    <string name="part_verifying">SHA-256-ის დამოწმება</string>
+    <string name="part_verified">დამოწმებულია</string>
+    <string name="part_done">მზადაა</string>
+    <string name="part_paused_format">შეჩერებულია • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">გამეორება / შეცდომა</string>
+    <string name="part_waiting">იცდის…</string>
+    <string name="stage_connecting">სერვერთან დაკავშირება…</string>
+    <string name="stage_verify_part">ნაწილის დამოწმება <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> SHA-256…</string>
+    <string name="stage_assemble">ნაწილების აწყობა (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">საბოლოო არქივის SHA-256 დამოწმება…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> ნაწილი აქტიურია • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">ნაწილი <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">ჩამოტვირთვა • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• ავტო-დაყენება</string>
+    <string name="stage_paused">ჩამოტვირთვა შეჩერებულია • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">ჩამოტვირთვა ვერ მოხერხდა • შეეხეთ გასაგრძელებლად</string>
+    <string name="stage_verifying_sig">არქივისა და ხელმოწერის დამოწმება…</string>
+    <string name="stage_finalizing">A/B სლოტის ფინალიზაცია • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">მიმდინარეობს განახლების დაყენება • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">დაყენება შეჩერებულია • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">დაყენებულია — საჭიროებს გადატვირთვას</string>
+    <string name="md_image_alt">გამოსახულება</string>
+    <string name="md_image_failed">გამოსახულების ჩატვირთვა ვერ მოხერხდა</string>
+    <string name="importer_tag_local">ლოკალური ZIP</string>
+    <string name="err_no_url">ჩამოტვირთვის ბმული ან ნაწილები არ არის მითითებული</string>
+    <string name="err_no_dest">ჩამოტვირთვის დანიშნულება არ არის მითითებული</string>
+    <string name="err_no_callback">ჩამოტვირთვის უკუკავშირი არ არის მითითებული</string>
+    <string name="err_no_parts">ჩამოტვირთვის ნაწილები არ არის მითითებული</string>
+    <string name="err_no_tempdir">ვერ შეიქმნა დროებითი ნაწილების საქაღალდე: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">ნაწილის საკონტროლო ჯამი არ ემთხვევა <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_part_failed">ნაწილის ჩამოტვირთვა ვერ მოხერხდა <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_final_sha">საბოლოო არქივის SHA-256 დამოწმება ვერ მოხერხდა</string>
+    <string name="err_empty_body">ცარიელი საპასუხო ტექსტი ნაწილისთვის <xliff:g id="index">%1$d</xliff:g></string>
+    <string name="err_unknown_size">ვერ დადგინდა ზომა <xliff:g id="url">%1$s</xliff:g>-სთვის</string>
+    <string name="err_no_range">სერვერი არ უჭერს მხარს დიაპაზონის მოთხოვნებს: მოსალოდნელი იყო HTTP 206, მიღებულია <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_content_range">Content-Range სათაური აკლია <xliff:g id="url">%1$s</xliff:g>-სთვის</string>
+    <string name="err_bad_content_range">მოულოდნელი Content-Range <xliff:g id="url">%1$s</xliff:g>-სთვის: მოსალოდნელი იყო <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">პროტოკოლის შეცვლა დაუშვებელია</string>
+    <string name="err_server_reply">სერვერმა უპასუხა <xliff:g id="code">%1$s</xliff:g>-ით</string>
+    <string name="err_no_fd">fileDescriptor-ის მიღება ვერ მოხერხდა</string>
+    <string name="err_import_cancelled">იმპორტი გაუქმებულია</string>
+    <string name="err_verify_deleted">დამოწმება ვერ მოხერხდა, ფაილი წაშლილია</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">გამოყენება</string>
+    <string name="dialog_value_title">მნიშვნელობა</string>
+    <string name="unknown_size">უცნობია</string>
+    <string name="slider_default">ნაგულისხმევი</string>
+    <string name="slider_default_value">ნაგულისხმევი (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">ქსელის შეცდომა</string>
+    <string name="action_paused_state">შეჩერებულია</string>
+    <string name="part_fallback_name">part_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">სერვერი</string>
+    <string name="err_response_empty">ცარიელი საპასუხო ტექსტი</string>
+    <string name="err_changelog_body_empty">ცვლილებების სიის ტექსტი ცარიელია</string>
+    <string name="err_changelog_too_large">ცვლილებების სია აღემატება <xliff:g id="bytes" example="524288">%1$d</xliff:g> ბაიტს</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: ლიმიტი ამოწურულია (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). გაიმეორეთ <xliff:g id="wait" example="~2 min">%3$s</xliff:g>-ში.</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: ლიმიტი ამოწურულია (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). სცადეთ მოგვიანებით.</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: ფაილი ან არხი ვერ მოიძებნა (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: წვდომა აკრძალულია (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: რესურსი წაშლილია (HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: სერვერი მიუწვდომელია (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> წთ</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g>წმ</string>
+    <string name="err_download_file_missing">ჩამოტვირთული ფაილი ვერ მოიძებნა</string>
+    <string name="err_sha_mismatch">SHA-256 საკონტროლო ჯამი არ ემთხვევა</string>
+    <string name="err_sha_calc_failed">SHA-256-ის გამოთვლა ვერ მოხერხდა</string>
+    <string name="err_ota_signature_failed">OTA ხელმოწერის დამოწმება ვერ მოხერხდა</string>
+    <string name="err_engine_signature">update_engine-მა უარყო პაკეტის ხელმოწერა (კოდი <xliff:g id="code" example="20">%1$d</xliff:g>). სცადეთ აღდგენით იძულებითი დაყენება.</string>
+    <string name="err_engine_downgrade">update_engine-მა დაბლოკა ვერსიის დაქვეითების დროის ნიშანი (კოდი <xliff:g id="code" example="51">%1$d</xliff:g>). სცადეთ აღდგენით იძულებითი დაყენება.</string>
+    <string name="err_engine_storage">არ არის საკმარისი ადგილი A/B სლოტის განახლებისთვის (კოდი <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_engine_partition">დანაყოფის დამოწმება ვერ მოხერხდა (კოდი <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_cancelled">დაყენება შეწყდა მომხმარებლის მიერ.</string>
+    <string name="err_engine_generic">update_engine-ის შეცდომის კოდი <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">მხარდაუჭერელი OTA ტიპი: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found">ვერ მოიძებნა <xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> <xliff:g id="file" example="update.zip">%2$s</xliff:g>-ში</string>
+</resources>

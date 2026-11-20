@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="display_name">سىستېما يېڭىلاش</string>
+    <string name="verification_failed_notification">دەلىللىيەلمىدى</string>
+    <string name="verifying_download_notification">يېڭىلاشنى دەلىللەۋاتىدۇ</string>
+    <string name="downloading_notification">چۈشۈرۈۋاتىدۇ</string>
+    <string name="download_paused_notification">چۈشۈرۈش ۋاقىتلىق توختىتىلدى</string>
+    <string name="download_paused_error_notification">چۈشۈرۈش خاتالىقى</string>
+    <string name="download_completed_notification">چۈشۈرۈش تامام</string>
+    <string name="download_starting_notification">چۈشۈرۈشنى باشلاۋاتىدۇ</string>
+    <string name="update_failed_notification">يېڭىلىيالمىدى</string>
+    <string name="installation_suspended_notification">ئورنىتىش كېچىكتۈرۈلدى</string>
+    <string name="new_updates_found_title">يېڭى نەشرى</string>
+    <string name="new_updates_found_summary">چېكىلسە يېڭىلانمىنى كۆرسىتىدۇ</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="installing_update">سىستېما يېڭىلانمىسىنى ئورنىتىۋاتىدۇ</string>
+    <string name="installing_update_error">ئورنىتىش خاتالىقى</string>
+    <string name="installing_update_finished">يېڭىلاش قايتا قوزغىتىشنى كېچىكتۈرۈۋاتىدۇ</string>
+    <string name="finalizing_package">بولاق ئورنىتىشنى ئاخىرلاشتۇرۇۋاتىدۇ</string>
+    <string name="preparing_ota_first_boot">تۇنجى قوزغىتىشقا تەييارلاۋاتىدۇ</string>
+    <string name="dialog_prepare_zip_message">دەسلەپكى يېڭىلاش تەييارلىقى</string>
+    <string name="reboot">قايتا قوزغات</string>
+    <string name="checking_for_updates">يېڭىلانمىنى تەكشۈرۈۋاتىدۇ</string>
+    <string name="pref_category_background_sync">ئارقا سۇپىدا قەدەمداشلاش</string>
+    <string name="menu_auto_updates_check">قەرەللىك يېڭىلانما تەكشۈرۈش</string>
+    <string name="menu_auto_updates_check_summary">ئارقا سۇپىدا يېڭىلانما تەكشۈرىدۇ</string>
+    <string name="menu_auto_delete_updates">يېڭىلانمىنى ئۆزلۈكىدىن ئۆچۈر</string>
+    <string name="menu_stream_updates">توردا ئېقىم تارقىتىپ يېڭىلا</string>
+    <string name="menu_stream_updates_summary">يېڭىلانمىنى چۈشۈرۈۋاتقاندا ئورنىتىدۇ. يېڭىلانما بوغچىسىنى چىقىرىش ئۈچۈن ساقلاشنى چەكلەيدۇ.</string>
+    <string name="menu_export_update">يېڭىلاشنى چىقار</string>
+    <string name="menu_metered_network_warning">ئېقىم ھېسابلىنىدىغان تور ئاگاھلاندۇرۇشى</string>
+    <string name="menu_metered_network_warning_summary">كۆچمە سانلىق مەلۇمات ئىشلىتىۋاتقاندا چۈشۈرۈشتىن ئىلگىرى ئاگاھلاندۇرىدۇ</string>
+    <string name="menu_ab_perf_mode">يېڭىلاش جەريانىنى ئەلالاشتۇرىدۇ</string>
+    <string name="menu_update_recovery">ئەسلىگە كەلتۈرگۈچنى يېڭىلايدۇ</string>
+    <string name="menu_update_recovery_summary">ئەسلىگە كەلتۈرۈش رايونىنى مەشغۇلات سىستېمىسى بىلەن بىللە يېڭىلايدۇ</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">ھاسىللىغان چېسلا</string>
+    <string name="security_update">بىخەتەرلىك يېڭىلانمىسى</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">چۈشۈر</string>
+    <string name="action_pause">ۋاقىتلىق توختا</string>
+    <string name="action_resume">داۋاملاشتۇر</string>
+    <string name="action_install">ئورنات</string>
+    <string name="action_info">ئۇچۇر</string>
+    <string name="action_delete">ئۆچۈر</string>
+    <string name="dialog_export_title">يېڭىلاشنى چىقار</string>
+    <string name="notification_export_success">يېڭىلاش چىقىرىلدى</string>
+    <string name="notification_export_fail">چىقىرىش خاتالىقى</string>
+    <string name="toast_already_exporting">يېڭىلاشنى چىقاردى</string>
+    <string name="toast_export_started">چىقىرىش باشلاندى</string>
+    <string name="blocked_update_dialog_title">يېڭىلانما توسۇلدى</string>
+    <string name="blocked_update_dialog_title_downgrade">نەشر تۆۋەنلىتىش توسۇلغان</string>
+    <string name="export_channel_title">چىقىرىش تاماملاندى</string>
+    <string name="new_updates_channel_title">يېڭى نەشرى</string>
+    <string name="ongoing_channel_title">داۋاملىشىۋاتقان چۈشۈرۈش</string>
+    <string name="update_failed_channel_title">يېڭىلىيالمىدى</string>
+    <string name="action_download_install">چۈشۈرۈپ ئورنات</string>
+    <string name="check_for_update">يېڭىلانمىنى تەكشۈر</string>
+    <string name="action_back">قايتىش</string>
+    <string name="tab_updates">يېڭىلاش</string>
+    <string name="tab_saved">ساقلانغان</string>
+    <string name="tab_saved_count">ساقلانغان (%1$d)</string>
+    <string name="tab_settings">تەڭشەك</string>
+    <string name="toast_download_failed">چۈشۈرۈش مەغلۇپ بولدى</string>
+    <string name="toast_download_verified">چۈشۈرۈش دەلىللەندى ۋە تەييار</string>
+    <string name="toast_import_failed">ZIP ئەكىرىش مەغلۇپ بولدى (بوغچا ياكى ئىمزا ئىناۋەتسىز). ئۆزىڭىزنىڭ ZIP نۇسخىسى ئۈچۈن بىخەتەر بولمىغان ھالەتنى سىناڭ.</string>
+    <string name="toast_imported_format"><xliff:g id="name">%1$s</xliff:g> ساقلانغان بەتكە ئەكىرىلدى</string>
+    <string name="banner_no_internet">ئىنتېرنېت ئۇلىنىشى يوق</string>
+    <string name="banner_check_failed">يېڭىلانمىنى تەكشۈرۈش مەغلۇپ بولدى</string>
+    <string name="section_releases">ئىشلىتىشكە بولىدىغان نەشرى</string>
+    <string name="section_releases_count">ئىشلىتىشكە بولىدىغان نەشرى • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">بىخەتەر بولمىغان ھالەت</string>
+    <string name="empty_releases_title">ھېچقانداق نەشرى يۈكلەنمىدى</string>
+    <string name="empty_releases_desc">سەپلەنگەن OTA JSON مەنبەسىدىن ھاسىلاتلارنى ئېلىش ئۈچۈن يېڭىلاشنى چېكىڭ.</string>
+    <string name="device_fallback_name">ئۈسكۈنە</string>
+    <string name="installed_label_format">ئورنىتىلغان: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • تولۇقلىما: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">تەكشۈرۈلگەن: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">نامەلۇم چېسلا</string>
+    <string name="status_starting">باشلاۋاتىدۇ</string>
+    <string name="status_verifying">دەلىللەۋاتىدۇ</string>
+    <string name="status_merging">بىرىكتۈرۈۋاتىدۇ <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">ۋاقتلىق توختىتىلدى <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">خاتالىق</string>
+    <string name="status_installing">ئورنىتىۋاتىدۇ <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">كېچىكتۈرۈلدى <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="badge_downloaded">چۈشۈرۈلدى</string>
+    <string name="badge_reboot_required">قايتا قوزغىتىش كېرەك</string>
+    <string name="badge_local">يەرلىك</string>
+    <string name="badge_major_upgrade">چوڭ نەشرى يۇقىرىلىتىش</string>
+    <string name="relation_newer">يېڭىراق</string>
+    <string name="relation_installed">ئورنىتىلغان</string>
+    <string name="relation_downgrade">نەشرى تۆۋەنلىتىش</string>
+    <string name="relation_build">ھاسىلات</string>
+    <string name="downloaded_subtitle_used">ئىشلىتىلگەن بوشلۇق: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">يەرلىك ZIP ئەكىرىڭ ياكى يېڭىلاشتىن ھاسىلات چۈشۈرۈڭ</string>
+    <string name="action_import_zip">ZIP ئەكىرىش</string>
+    <string name="empty_downloaded_title">چۈشۈرۈلگەن يېڭىلاش يوق</string>
+    <string name="empty_downloaded_desc">چۈشۈرۈلگەن ROM بوغچىلىرى ۋە ئەكىرىلگەن يەرلىك ZIP ھۆججەتلىرى بۇ يەردە كۆرسىتىلىدۇ، ئورناتقىلى، چىقارغىلى ياكى ئۆچۈرگىلى بولىدۇ.</string>
+    <string name="section_downloaded">چۈشۈرۈلگەن ۋە يەرلىك ZIP لار</string>
+    <string name="install_confirm_recovery">ئەسلىگە كەلتۈرگۈچ ئارقىلىق ئورنىتىلسۇن (بىخەتەر بولمىغان ھالەت)؟ ئۈسكۈنە ئەسلىگە كەلتۈرگۈچتە قايتا قوزغىلىدۇ.</string>
+    <string name="install_confirm_force">دەلىللىمەي مەجبۇرىي ئورنىتىلسۇن؟ بۇ ZIP نىڭ ئۈسكۈنىڭىزگە ماس كېلىدىغانلىقىنى جەزملەشتۈرۈڭ.</string>
+    <string name="install_confirm_now"><xliff:g id="name">%1$s</xliff:g> ھازىر ئورنىتىلسۇن؟</string>
+    <string name="action_cancel">بىكار قىل</string>
+    <string name="action_confirm">جەزملە</string>
+    <string name="action_proceed">داۋاملاشتۇر</string>
+    <string name="action_reboot_now">ھازىر قايتا قوزغات</string>
+    <string name="action_export">چىقار</string>
+    <string name="action_reset">ئەسلىگە قايتۇر</string>
+    <string name="install_label_recovery">ئورنات (ئەسلىگە كەلتۈرگۈچ)</string>
+    <string name="install_label_force">مەجبۇرىي ئورنات</string>
+    <string name="action_stream_install">تارقىتىپ ئورنات</string>
+    <string name="action_download_install_new">چۈشۈرۈپ ئورنات</string>
+    <string name="desc_close">تاقا</string>
+    <string name="desc_retry">قايتا سىنا</string>
+    <string name="settings_check_interval">تەكشۈرۈش ئارىلىقى</string>
+    <string name="interval_daily">ھەر كۈنى</string>
+    <string name="interval_weekly">ھەر ھەپتە</string>
+    <string name="interval_monthly">ھەر ئاي</string>
+    <string name="settings_group_downloads">چۈشۈرۈش ۋە دەلىللەش</string>
+    <string name="settings_parallel_title">پاراللېل پارچە چۈشۈرۈش</string>
+    <string name="settings_parallel_summary">تېز چۈشۈرۈش ئۈچۈن ئەڭ كۆپ 3 پارچە ئارخىپنى بىراقلا چۈشۈرىدۇ</string>
+    <string name="settings_verify_title">SHA-256 تەكشۈرۈش كودىنى دەلىللە</string>
+    <string name="settings_verify_summary">JSON ھاش قىممىتى بويىچە ھەر پارچە ۋە ئاخىرقى ئارخىپنى دەلىللەيدۇ</string>
+    <string name="settings_autodelete_summary">يېڭىلاش مۇۋەپپەقىيەتلىك بولغاندىن كېيىن چۈشۈرۈلگەن بوغچىنى ئۆزلۈكىدىن ئۆچۈرىدۇ</string>
+    <string name="settings_group_installation">ئورنىتىش</string>
+    <string name="settings_ab_perf_summary">تېز ئورنىتىش ئۈچۈن update_engine گە تېخىمۇ كۆپ CPU ۋە I/O ئاجرىتىدۇ</string>
+    <string name="settings_ab_perf_charging">AC توكقا ئۇلانغاندا ئۆزلۈكىدىن ئىشقا چۈشىدۇ</string>
+    <string name="settings_group_ota">OTA مەنبەسى</string>
+    <string name="settings_ota_url_title">ئىختىيارىي OTA JSON URL</string>
+    <string name="settings_ota_url_hint">ROM / DeviceTree قاپلىمىسىنىڭ كۆڭۈلدىكى URL نى ئىشلىتىش ئۈچۈن بوش قويۇڭ.</string>
+    <string name="settings_ota_apply">URL نى قوللان</string>
+    <string name="toast_ota_reset">OTA URL كۆڭۈلدىكىگە ئەسلىگە كەلتۈرۈلدى</string>
+    <string name="toast_ota_updated">OTA URL يېڭىلاندى</string>
+    <string name="settings_group_appearance">كۆرۈنۈش ۋە ساقلاش</string>
+    <string name="settings_theme_title">ئەپ تېمىسى</string>
+    <string name="theme_system">سىستېما</string>
+    <string name="theme_light">يورۇق</string>
+    <string name="theme_dark">قاراڭغۇ</string>
+    <string name="settings_wavy_title">دولقۇنلۇق ئىلگىرىلەش بالدىقى</string>
+    <string name="settings_wavy_summary">چۈشۈرۈۋاتقاندا ياكى ئورنىتىۋاتقاندا دولقۇننى ھەرىكەتلەندۈرىدۇ؛ ۋاقتلىق توختىغاندا تەكشىلىنىدۇ</string>
+    <string name="settings_amplitude_title">دولقۇن ئامپلىتۇدىسى</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">ئېتىك</string>
+    <string name="settings_blur_title">ئەينەك غۇۋالىق رادىئۇسى</string>
+    <string name="settings_tint_title">ئەينەك رەڭ سۈزۈكلىكى</string>
+    <string name="settings_logo_title">تۈر بەلگىسىنى كۆرسەت</string>
+    <string name="settings_logo_summary">تۈر باش بەلگىسىنى كۆرسىتىدۇ (GIF، سۈرەت، سىن ياكى ھەرىكەتچان سۆز بەلگىسى)</string>
+    <string name="settings_banner_title">نەشرى بەلگىسىنى كۆرسەت</string>
+    <string name="settings_banner_summary">كارتا بېشىدا نەشرى سۈرىتى ياكى سىنىنى كۆرسىتىدۇ</string>
+    <string name="settings_clear_cache">مېدىيا ۋە ئۆزگىرىش خاتىرىسى كېشىنى تازىلا</string>
+    <string name="toast_cache_cleared">كېش تازىلاندى</string>
+    <string name="settings_danger_title">ھالقىلىق / بىخەتەر بولمىغان ئورنىتىش</string>
+    <string name="settings_danger_warning">خەۋپ-خەتەرنى ئۆز ئۈستىڭىزگە ئالىسىز. خاتا ROM ئورناتسىڭىز ئۈسكۈنە بۇزۇلۇپ قېلىشى مۇمكىن.</string>
+    <string name="settings_unsafe_title">بىخەتەرلىك ۋە دەلىللەش تەكشۈرۈشىدىن ئاتلاش</string>
+    <string name="settings_unsafe_summary">OTA ئىمزا دەلىللىشى، نەشرى تۆۋەنلىتىشنى توسۇش ۋە Android SDK قوغداشنى چەكلەيدۇ. نەشرى تۆۋەنلىتىش ياكى باشقا ROM ZIP نۇسخىلىرىنى ئورنىتىشقا يول قويىدۇ.</string>
+    <string name="settings_unsafe_confirm">جەزملەڭ: نەشرى تۆۋەنلىتىش، ئىمزاسىز ZIP ياكى سانلىق مەلۇمات يوقىلىشىنىڭ تولۇق مەسئۇلىيىتىنى ئۆز ئۈستىڭىزگە ئالىسىز.</string>
+    <string name="danger_accept">خەۋپنى قوبۇل قىلىمەن</string>
+    <string name="settings_recovery_title">ئەسلىگە كەلتۈرگۈچ ئارقىلىق ئورنىتىشقا مەجبۇرلا</string>
+    <string name="settings_recovery_summary">update_engine دىن ئاتلاپ ZIP نى بىۋاسىتە ئورنىتىش ئۈچۈن ئەسلىگە كەلتۈرگۈچتە (OrangeFox / TWRP) قايتا قوزغىلىدۇ. ئەگەر update_engine نەشرى تۆۋەنلىتىش ۋاقىت بەلگىسى ياكى ئىمزاسىنى رەت قىلسا پايدىلىق.</string>
+    <string name="overlay_battery_low">توك مىقدارى ئورنىتىشقا يەتمەيدۇ</string>
+    <string name="overlay_blocked_format">توسۇلدى (<xliff:g id="reason">%1$s</xliff:g>). مەجبۇرىي ئورنىتىش ئۈچۈن تەڭشەكتە بىخەتەر بولمىغان ھالەتنى قوزغىتىڭ.</string>
+    <string name="overlay_downgrade_blocked">نەشرى تۆۋەنلىتىش بىخەتەرلىك قائىدىسى بويىچە توسۇلدى. ئەسلىگە قايتۇرۇش ئۈچۈن تەڭشەكتە بىخەتەر بولمىغان ھالەتنى قوزغىتىڭ.</string>
+    <string name="overlay_major_blocked">چوڭ Android نەشرى يۇقىرىلىتىش بىخەتەرلىك قائىدىسى بويىچە توسۇلدى. ئەسلىگە قايتۇرۇش ئۈچۈن تەڭشەكتە بىخەتەر بولمىغان ھالەتنى قوزغىتىڭ.</string>
+    <string name="overlay_metered_format">سىز ھېسابلىنىدىغان تور ئۇلىنىشىدا. ھازىر <xliff:g id="size">%1$s</xliff:g> چۈشۈرەمسىز؟</string>
+    <string name="overlay_unsafe_recovery">چۈشۈرۈپ ئەسلىگە كەلتۈرگۈچ ئارقىلىق ئورنىتىلسۇن (بىخەتەر بولمىغان ھالەت)؟</string>
+    <string name="overlay_unsafe_force">دەلىللىمەي چۈشۈرۈپ مەجبۇرىي ئورنىتىلسۇن؟</string>
+    <string name="overlay_scratch_mounted">Scratch بۆلىكى باغلانغان؛ ئورناتقىلى بولمايدۇ</string>
+    <string name="toast_sha_copied">SHA-256 كۆچۈرۈلدى</string>
+    <string name="overlay_install_recovery">ئەسلىگە كەلتۈرگۈچ ئارقىلىق ئورنىتىلسۇن (بىخەتەر بولمىغان ھالەت)؟ ئۈسكۈنە ئەسلىگە كەلتۈرگۈچتە قايتا قوزغىلىدۇ.</string>
+    <string name="overlay_install_force">ئىمزا/نەشرى تۆۋەنلىتىش تەكشۈرۈشىسىز مەجبۇرىي ئورنىتىلسۇن؟ خەۋپ ئۆز ئۈستىڭىزدە.</string>
+    <string name="overlay_changelog_title">ئۆزگىرىش خاتىرىسى</string>
+    <string name="desc_reload_changelog">ئۆزگىرىش خاتىرىسىنى قايتا يۈكلە</string>
+    <string name="overlay_changelog_loading">ئۆزگىرىش خاتىرىسى يۈكلەنمەكتە…</string>
+    <string name="overlay_changelog_error">بۇ ھاسىلاتنىڭ ئۆزگىرىش خاتىرىسىنى يۈكلىگىلى بولمىدى.</string>
+    <string name="overlay_changelog_empty">بۇ نەشرىگە ئۆزگىرىش خاتىرىسى بېرىلمىگەن.</string>
+    <string name="overlay_archive_sha">ئارخىپ SHA-256</string>
+    <string name="desc_copy_sha">SHA-256 كۆچۈر</string>
+    <string name="overlay_reboot_to_apply">يېڭىلاشنى قوللىنىش ئۈچۈن قايتا قوزغىتىڭ</string>
+    <string name="overlay_pause_format">ۋاقتلىق توختا (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">داۋاملاشتۇر (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">بوغچا ھۆججىتى</string>
+    <string name="overlay_parts_title">پارچە ئارخىپ بۆلەكلىرى (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">ئۆچۈرۈشنى جەزملە</string>
+    <string name="info_package_size">بوغچا چوڭلۇقى</string>
+    <string name="info_android_api">Android API</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">ھاسىلات تىپى</string>
+    <string name="info_delivery">يەتكۈزۈش</string>
+    <string name="info_delivery_split">پارچە (<xliff:g id="count">%1$d</xliff:g> پارچە)</string>
+    <string name="float_importing">يەرلىك ZIP ئەكىرىنمەكتە…</string>
+    <string name="float_copying">بوغچا كۆچۈرۈلۈپ مېتا سانلىق مەلۇمات تەكشۈرۈلمەكتە</string>
+    <string name="float_calculating">ھېسابلاۋاتىدۇ…</string>
+    <string name="float_parallel">پاراللېل</string>
+    <string name="float_sequential">تەرتىپلىك</string>
+    <string name="float_single">يەككە ئارخىپ</string>
+    <string name="float_autoinstall">ئۆزلۈكىدىن ئورنات</string>
+    <string name="float_parts_header">ئارخىپ پارچىلىرى (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> تامام)</string>
+    <string name="float_suspend">كېچىكتۈر</string>
+    <string name="float_abort">توختات</string>
+    <string name="desc_toggle_details">تەپسىلاتنى ئالماشتۇر</string>
+    <string name="part_queued">سەپتە</string>
+    <string name="part_verifying">SHA-256 دەلىللەنمەكتە</string>
+    <string name="part_verified">دەلىللەندى</string>
+    <string name="part_done">تامام</string>
+    <string name="part_paused_format">ۋاقتلىق توختىتىلدى • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">قايتا سىنا / خاتالىق</string>
+    <string name="part_waiting">كۈتمەكتە…</string>
+    <string name="stage_connecting">مۇلازىمېتىرغا ئۇلانماقتا…</string>
+    <string name="stage_verify_part">پارچە دەلىللەنمەكتە <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> SHA-256…</string>
+    <string name="stage_assemble">پارچىلار بىرىكمەكتە (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">ئاخىرقى ئارخىپ SHA-256 دەلىللەنمەكتە…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> پارچە ئاكتىپ • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">پارچە <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">چۈشۈرۈلمەكتە • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• ئۆزلۈكىدىن ئورنات</string>
+    <string name="stage_paused">چۈشۈرۈش ۋاقتلىق توختىتىلدى • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">چۈشۈرۈش مەغلۇپ بولدى • داۋاملاشتۇرنى چېكىڭ</string>
+    <string name="stage_verifying_sig">ئارخىپ ۋە ئىمزا دەلىللەنمەكتە…</string>
+    <string name="stage_finalizing">A/B سلىتى ئاخىرلاشماقتا • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">يېڭىلاش ئورنىتىلماقتا • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">ئورنىتىش كېچىكتۈرۈلدى • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">ئورنىتىلدى — قايتا قوزغىتىش كېرەك</string>
+    <string name="md_image_alt">سۈرەت</string>
+    <string name="md_image_failed">سۈرەت يۈكلىنەلمىدى</string>
+    <string name="importer_tag_local">يەرلىك ZIP</string>
+    <string name="err_no_url">چۈشۈرۈش URL ياكى پارچىسى بېكىتىلمىگەن</string>
+    <string name="err_no_dest">چۈشۈرۈش مەنزىلى بېكىتىلمىگەن</string>
+    <string name="err_no_callback">چۈشۈرۈش قايتۇرۇشى بېكىتىلمىگەن</string>
+    <string name="err_no_parts">چۈشۈرۈش پارچىسى كۆرسىتىلمىگەن</string>
+    <string name="err_no_tempdir">ۋاقتلىق پارچە مۇندەرىجىسى قۇرۇلغىلى بولمىدى: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">پارچە <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> تەكشۈرۈش كودى ماس كەلمىدى</string>
+    <string name="err_part_failed">پارچە <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> چۈشۈرۈش مەغلۇپ بولدى</string>
+    <string name="err_final_sha">ئاخىرقى ئارخىپ SHA-256 دەلىللىشى مەغلۇپ بولدى</string>
+    <string name="err_empty_body">پارچە <xliff:g id="index">%1$d</xliff:g> نىڭ جاۋاب گەۋدىسى بوش</string>
+    <string name="err_unknown_size"><xliff:g id="url">%1$s</xliff:g> نىڭ چوڭلۇقىنى بېكىتكىلى بولمىدى</string>
+    <string name="err_no_range">مۇلازىمېتىر دائىرە سورىشىنى قوللىمايدۇ: HTTP 206 كۈتۈلگەن، <xliff:g id="code">%1$d</xliff:g> كەلدى</string>
+    <string name="err_no_content_range"><xliff:g id="url">%1$s</xliff:g> دە Content-Range بېشى يوق</string>
+    <string name="err_bad_content_range"><xliff:g id="url">%1$s</xliff:g> نىڭ Content-Range ى كۈتۈلگەندەك ئەمەس: كۈتۈلگەن <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">كېلىشىمنى ئۆزگەرتىشكە يول قويۇلمايدۇ</string>
+    <string name="err_server_reply">مۇلازىمېتىر <xliff:g id="code">%1$s</xliff:g> بىلەن جاۋاب بەردى</string>
+    <string name="err_no_fd">fileDescriptor غا ئېرىشكىلى بولمىدى</string>
+    <string name="err_import_cancelled">ئەكىرىش بىكار قىلىندى</string>
+    <string name="err_verify_deleted">دەلىللەش مەغلۇپ بولدى، ھۆججەت ئۆچۈرۈلدى</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">قوللان</string>
+    <string name="dialog_value_title">قىممەت</string>
+    <string name="unknown_size">نامەلۇم</string>
+    <string name="slider_default">كۆڭۈلدىكى</string>
+    <string name="slider_default_value">كۆڭۈلدىكى (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">تور خاتالىقى</string>
+    <string name="action_paused_state">ۋاقتلىق توختىتىلدى</string>
+    <string name="part_fallback_name">پارچە_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">مۇلازىمېتىر</string>
+    <string name="err_response_empty">جاۋاب گەۋدىسى بوش</string>
+    <string name="err_changelog_body_empty">ئۆزگىرىش خاتىرىسى گەۋدىسى بوش</string>
+    <string name="err_changelog_too_large">ئۆزگىرىش خاتىرىسى <xliff:g id="bytes" example="524288">%1$d</xliff:g> بايتتىن ئېشىپ كەتتى</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: چەكلىمىدىن ئېشىپ كەتتى (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). <xliff:g id="wait" example="~2 min">%3$s</xliff:g> كېيىن قايتا سىناڭ.</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: چەكلىمىدىن ئېشىپ كەتتى (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). كېيىن قايتا سىناڭ.</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: ھۆججەت ياكى مەنبە تېپىلمىدى (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: زىيارەت رەت قىلىندى (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: مەنبە ئۆچۈرۈلگەن (HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: مۇلازىمېتىر ئىشلىمەيدۇ (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> مىنۇت</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g> سېكۇنت</string>
+    <string name="err_download_file_missing">چۈشۈرۈلگەن ھۆججەت يوق</string>
+    <string name="err_sha_mismatch">SHA-256 تەكشۈرۈش كودى ماس كەلمىدى</string>
+    <string name="err_sha_calc_failed">SHA-256 ھېسابلىنەلمىدى</string>
+    <string name="err_ota_signature_failed">OTA ئىمزا دەلىللىشى مەغلۇپ بولدى</string>
+    <string name="err_engine_signature">update_engine ئورنىتىش ئىمزاسىنى رەت قىلدى (كود <xliff:g id="code" example="20">%1$d</xliff:g>). ئەسلىگە كەلتۈرگۈچتە مەجبۇرىي ئورنىتىشنى سىناڭ.</string>
+    <string name="err_engine_downgrade">update_engine نەشرى تۆۋەنلىتىش ۋاقىت بەلگىسىنى توسۇدى (كود <xliff:g id="code" example="51">%1$d</xliff:g>). ئەسلىگە كەلتۈرگۈچتە مەجبۇرىي ئورنىتىشنى سىناڭ.</string>
+    <string name="err_engine_storage">A/B سلىت يېڭىلاشقا ساقلاش بوشلۇقى يەتمەيدۇ (كود <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_engine_partition">بۆلەك دەلىللىشى مەغلۇپ بولدى (كود <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_cancelled">ئورنىتىش ئىشلەتكۈچى تەرىپىدىن بىكار قىلىندى.</string>
+    <string name="err_engine_generic">update_engine خاتالىق كودى <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">قوللىمايدىغان OTA تىپى: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found"><xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> <xliff:g id="file" example="update.zip">%2$s</xliff:g> ئىچىدە تېپىلمىدى</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> يېڭى ھاسىلات ئىشلىتىشكە بولىدۇ</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="other">سىستېما ئەڭ يېڭى • مەنبەدە <xliff:g id="count">%1$d</xliff:g> ھاسىلات بار</item>
+    </plurals>
+    <plurals name="badge_split_parts">
+        <item quantity="other">پارچە • <xliff:g id="count">%1$d</xliff:g> پارچە</item>
+    </plurals>
+    <plurals name="downloaded_title">
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> بوغچا ساقلانغان</item>
+    </plurals>
+    <plurals name="float_parts">
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> پارچە</item>
+    </plurals>
+</resources>

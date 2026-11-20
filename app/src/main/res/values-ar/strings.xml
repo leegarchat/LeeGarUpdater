@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="verification_failed_notification">فشل التحقق</string>
+    <string name="verifying_download_notification">التحقق من التحديث</string>
+    <string name="downloading_notification">جارٍ التنزيل</string>
+    <string name="download_paused_notification">توقف التنزيل مؤقتاً</string>
+    <string name="download_paused_error_notification">خطأ في التنزيل</string>
+    <string name="download_completed_notification">اكتمل التنزيل</string>
+    <string name="download_starting_notification">بدء التنزيل</string>
+    <string name="update_failed_notification">فشل التحديث</string>
+    <string name="installation_suspended_notification">تم تعليق التثبيت</string>
+    <string name="new_updates_found_title">تحديثات جديدة</string>
+    <string name="text_download_speed">%1$s، %2$s/ثانية</string>
+    <string name="installing_update_error">خطأ في التثبيت</string>
+    <string name="finalizing_package">جارٍ إنهاء تثبيت الحزمة</string>
+    <string name="preparing_ota_first_boot">جارٍ الإعداد للتشغيل الأول</string>
+    <string name="dialog_prepare_zip_message">التجهيز للتحديث الأولي</string>
+    <string name="reboot">إعادة التشغيل</string>
+    <string name="menu_export_update">تصدير التحديث</string>
+    <string name="menu_metered_network_warning">تحذير شبكة مقننة</string>
+    <string name="menu_ab_perf_mode">إعطاء الأولوية لعملية التحديث</string>
+    <string name="menu_update_recovery">تحديث وضع الاسترداد</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">تنزيل</string>
+    <string name="action_pause">إيقاف مؤقت</string>
+    <string name="action_resume">استئناف</string>
+    <string name="action_install">تثبيت</string>
+    <string name="action_info">معلومات</string>
+    <string name="action_delete">حذف</string>
+    <string name="dialog_export_title">تصدير التحديث</string>
+    <string name="notification_export_success">تم تصدير التحديث</string>
+    <string name="notification_export_fail">خطأ في التصدير</string>
+    <string name="toast_already_exporting">جاري تصدير تحديث بالفعل</string>
+    <string name="toast_export_started">بدأ التصدير</string>
+    <string name="blocked_update_dialog_title">التحديث محظور</string>
+    <string name="export_channel_title">اكتمال التصدير</string>
+    <string name="new_updates_channel_title">تحديثات جديدة</string>
+    <string name="ongoing_channel_title">التنزيلات الحالية</string>
+    <string name="update_failed_channel_title">فشل التحديث</string>
+    <string name="display_name">LeeGar Updater</string>
+    <string name="new_updates_found_summary">انقر لعرض التحديثات المتاحة</string>
+    <string name="installing_update">جارٍ تثبيت تحديث النظام</string>
+    <string name="installing_update_finished">التحديث بانتظار إعادة التشغيل</string>
+    <string name="action_download_install">تنزيل وتثبيت</string>
+    <string name="check_for_update">التحقق من وجود تحديث</string>
+    <string name="action_back">رجوع</string>
+    <string name="checking_for_updates">جارٍ التحقق من وجود تحديثات</string>
+    <string name="pref_category_background_sync">المزامنة في الخلفية</string>
+    <string name="menu_auto_updates_check">التحقق من التحديثات دورياً</string>
+    <string name="menu_auto_updates_check_summary">التحقق من التحديثات في الخلفية</string>
+    <string name="menu_auto_delete_updates">حذف التحديثات تلقائياً</string>
+    <string name="menu_stream_updates">تثبيت التحديثات أثناء التنزيل</string>
+    <string name="menu_stream_updates_summary">ثبّت التحديثات أثناء تنزيلها. عطّل هذا الخيار للاحتفاظ بحزم التحديث للتصدير.</string>
+    <string name="menu_metered_network_warning_summary">تحذير قبل التنزيل عبر بيانات الجوال</string>
+    <string name="menu_update_recovery_summary">تحديث قسم الاسترداد مع النظام</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">تاريخ البناء</string>
+    <string name="security_update">تحديث الأمان</string>
+    <string name="blocked_update_dialog_title_downgrade">الرجوع إلى إصدار أقدم محظور</string>
+    <string name="tab_updates">التحديثات</string>
+    <string name="tab_saved">المحفوظة</string>
+    <string name="tab_saved_count">المحفوظة (%1$d)</string>
+    <string name="tab_settings">الإعدادات</string>
+    <string name="toast_download_failed">فشل التنزيل</string>
+    <string name="toast_download_verified">تم التحقق من التنزيل وجاهز</string>
+    <string name="toast_import_failed">فشل استيراد ZIP (حزمة أو توقيع غير صالح). جرّب الوضع غير الآمن لملفات ZIP المخصصة.</string>
+    <string name="toast_imported_format">تم استيراد <xliff:g id="name">%1$s</xliff:g> إلى تبويب التنزيلات</string>
+    <string name="banner_no_internet">لا يوجد اتصال بالإنترنت</string>
+    <string name="banner_check_failed">فشل التحقق من وجود تحديثات</string>
+    <string name="section_releases">الإصدارات المتاحة</string>
+    <string name="section_releases_count">الإصدارات المتاحة • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">الوضع غير الآمن</string>
+    <string name="empty_releases_title">لا توجد إصدارات محمّلة</string>
+    <string name="empty_releases_desc">انقر على التحديث لجلب البنيات من موجز OTA المُعد.</string>
+    <string name="device_fallback_name">الجهاز</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="zero"><xliff:g id="count">%1$d</xliff:g> بنيات أحدث متاحة</item>
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> بنية أحدث متاحة</item>
+        <item quantity="two"><xliff:g id="count">%1$d</xliff:g> بنيتان أحدث متاحتان</item>
+        <item quantity="few"><xliff:g id="count">%1$d</xliff:g> بنيات أحدث متاحة</item>
+        <item quantity="many"><xliff:g id="count">%1$d</xliff:g> بنية أحدث متاحة</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> بنية أحدث متاحة</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="zero">النظام محدّث • <xliff:g id="count">%1$d</xliff:g> بنيات في الموجز</item>
+        <item quantity="one">النظام محدّث • <xliff:g id="count">%1$d</xliff:g> بنية في الموجز</item>
+        <item quantity="two">النظام محدّث • <xliff:g id="count">%1$d</xliff:g> بنيتان في الموجز</item>
+        <item quantity="few">النظام محدّث • <xliff:g id="count">%1$d</xliff:g> بنيات في الموجز</item>
+        <item quantity="many">النظام محدّث • <xliff:g id="count">%1$d</xliff:g> بنية في الموجز</item>
+        <item quantity="other">النظام محدّث • <xliff:g id="count">%1$d</xliff:g> بنية في الموجز</item>
+    </plurals>
+    <string name="installed_label_format">المثبت: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • التصحيح: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">تم التحقق: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">تاريخ غير معروف</string>
+    <string name="status_starting">جارٍ البدء</string>
+    <string name="status_verifying">جارٍ التحقق</string>
+    <string name="status_merging">جارٍ الدمج <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">متوقف مؤقتاً <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">خطأ</string>
+    <string name="status_installing">جارٍ التثبيت <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">معلّق <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <plurals name="badge_split_parts">
+        <item quantity="zero">مجزّأ • <xliff:g id="count">%1$d</xliff:g> أجزاء</item>
+        <item quantity="one">مجزّأ • <xliff:g id="count">%1$d</xliff:g> جزء</item>
+        <item quantity="two">مجزّأ • <xliff:g id="count">%1$d</xliff:g> جزآن</item>
+        <item quantity="few">مجزّأ • <xliff:g id="count">%1$d</xliff:g> أجزاء</item>
+        <item quantity="many">مجزّأ • <xliff:g id="count">%1$d</xliff:g> جزءاً</item>
+        <item quantity="other">مجزّأ • <xliff:g id="count">%1$d</xliff:g> جزء</item>
+    </plurals>
+    <string name="badge_downloaded">تم التنزيل</string>
+    <string name="badge_reboot_required">يلزم إعادة التشغيل</string>
+    <string name="badge_local">محلي</string>
+    <string name="badge_major_upgrade">ترقية رئيسية</string>
+    <string name="relation_newer">أحدث</string>
+    <string name="relation_installed">المثبت</string>
+    <string name="relation_downgrade">رجوع</string>
+    <string name="relation_build">بنية</string>
+    <plurals name="downloaded_title">
+        <item quantity="zero"><xliff:g id="count">%1$d</xliff:g> حزم مخزنة</item>
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> حزمة مخزنة</item>
+        <item quantity="two"><xliff:g id="count">%1$d</xliff:g> حزمتان مخزنتان</item>
+        <item quantity="few"><xliff:g id="count">%1$d</xliff:g> حزم مخزنة</item>
+        <item quantity="many"><xliff:g id="count">%1$d</xliff:g> حزمة مخزنة</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> حزمة مخزنة</item>
+    </plurals>
+    <string name="downloaded_subtitle_used">المساحة المستخدمة: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">استورد ملف ZIP محلياً أو نزّل البنيات من التحديثات</string>
+    <string name="action_import_zip">استيراد ZIP</string>
+    <string name="empty_downloaded_title">لا توجد تحديثات منزّلة</string>
+    <string name="empty_downloaded_desc">ستظهر هنا حزم ROM المنزّلة وملفات ZIP المستوردة للتثبيت أو التصدير أو الإزالة.</string>
+    <string name="section_downloaded">المنزّلة وملفات ZIP المحلية</string>
+    <string name="install_confirm_recovery">تثبيت عبر الاسترداد (الوضع غير الآمن)؟ سيُعاد تشغيل الجهاز إلى الاسترداد.</string>
+    <string name="install_confirm_force">فرض التثبيت دون تحقق؟ تأكد من مطابقة ZIP لجهازك.</string>
+    <string name="install_confirm_now">تثبيت <xliff:g id="name">%1$s</xliff:g> الآن؟</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_confirm">تأكيد</string>
+    <string name="action_proceed">متابعة</string>
+    <string name="action_reboot_now">إعادة التشغيل الآن</string>
+    <string name="action_export">تصدير</string>
+    <string name="action_reset">إعادة تعيين</string>
+    <string name="install_label_recovery">تثبيت (الاسترداد)</string>
+    <string name="install_label_force">فرض التثبيت</string>
+    <string name="action_stream_install">تثبيت أثناء التنزيل</string>
+    <string name="action_download_install_new">تنزيل وتثبيت</string>
+    <string name="desc_close">إغلاق</string>
+    <string name="desc_retry">إعادة المحاولة</string>
+    <string name="settings_check_interval">فترة التحقق</string>
+    <string name="interval_daily">يومياً</string>
+    <string name="interval_weekly">أسبوعياً</string>
+    <string name="interval_monthly">شهرياً</string>
+    <string name="settings_group_downloads">التنزيلات والتحقق</string>
+    <string name="settings_parallel_title">التنزيل المتوازي المجزأ</string>
+    <string name="settings_parallel_summary">تنزيل ما يصل إلى 3 أجزاء من الأرشيف المجزأ في وقت واحد لسرعات أعلى</string>
+    <string name="settings_verify_title">التحقق من مجاميع SHA-256</string>
+    <string name="settings_verify_summary">التحقق من كل جزء مجزأ والأرشيف النهائي المجمّع مقابل بصمات JSON</string>
+    <string name="settings_autodelete_summary">إزالة حزمة التنزيل تلقائياً بعد نجاح التحديث</string>
+    <string name="settings_group_installation">التثبيت</string>
+    <string name="settings_ab_perf_summary">تخصيص المزيد من المعالج والإدخال/الإخراج لـ update_engine لتثبيت أسرع</string>
+    <string name="settings_ab_perf_charging">يُفعّل تلقائياً أثناء الاتصال بالطاقة</string>
+    <string name="settings_group_ota">مصدر OTA</string>
+    <string name="settings_ota_url_title">رابط OTA JSON مخصص</string>
+    <string name="settings_ota_url_hint">اتركه فارغاً لاستخدام رابط ROM / DeviceTree الافتراضي.</string>
+    <string name="settings_ota_apply">تطبيق الرابط</string>
+    <string name="toast_ota_reset">تمت إعادة تعيين رابط OTA إلى الافتراضي</string>
+    <string name="toast_ota_updated">تم تحديث رابط OTA</string>
+    <string name="settings_group_appearance">المظهر والتخزين</string>
+    <string name="settings_theme_title">مظهر التطبيق</string>
+    <string name="theme_system">النظام</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+    <string name="settings_wavy_title">شريط تقدم متموج</string>
+    <string name="settings_wavy_summary">تحريك الموجة أثناء التنزيل أو التثبيت؛ يستوي بسلاسة عند الإيقاف</string>
+    <string name="settings_amplitude_title">سعة الموجة</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">إيقاف</string>
+    <string name="settings_blur_title">نصف قطر التمويه الزجاجي</string>
+    <string name="settings_tint_title">شفافية الصبغة الزجاجية</string>
+    <string name="settings_logo_title">إظهار شعار المشروع</string>
+    <string name="settings_logo_summary">عرض لافتة المشروع (GIF أو صورة أو فيديو أو علامة متحركة)</string>
+    <string name="settings_banner_title">إظهار لافتة الإصدار</string>
+    <string name="settings_banner_summary">عرض صورة أو فيديو لافتة الإصدار في رأس البطاقة</string>
+    <string name="settings_clear_cache">مسح ذاكرة الوسائط وسجل التغييرات</string>
+    <string name="toast_cache_cleared">تم مسح الذاكرة</string>
+    <string name="settings_danger_title">التثبيت الحرج / غير الآمن</string>
+    <string name="settings_danger_warning">استخدم على مسؤوليتك الخاصة حصراً. قد يتلف الجهاز عند تثبيت ROM خاطئ.</string>
+    <string name="settings_unsafe_title">تجاوز فحوصات السلامة والتحقق</string>
+    <string name="settings_unsafe_summary">يعطّل التحقق من توقيع OTA وحظر الرجوع وحراس Android SDK. يسمح بتثبيت إصدارات أقدم أو حزم ZIP من رومات أخرى.</string>
+    <string name="settings_unsafe_confirm">تأكيد: أنت تتحمل المسؤولية الكاملة عن الرجوع أو الحزم غير الموقعة أو فقدان البيانات.</string>
+    <string name="danger_accept">أقبل المخاطرة</string>
+    <string name="settings_recovery_title">فرض التثبيت عبر الاسترداد</string>
+    <string name="settings_recovery_summary">تجاوز update_engine وإعادة التشغيل إلى الاسترداد (OrangeFox / TWRP) لتثبيت ZIP مباشرة. مفيد إذا رفض update_engine الطابع الزمني أو التوقيع.</string>
+    <string name="overlay_battery_low">مستوى البطارية منخفض جداً للتثبيت</string>
+    <string name="overlay_blocked_format">محظور (<xliff:g id="reason">%1$s</xliff:g>). فعّل الوضع غير الآمن في الإعدادات لفرض التثبيت.</string>
+    <string name="overlay_downgrade_blocked">الرجوع محظور بقواعد السلامة. فعّل الوضع غير الآمن في الإعدادات للتجاوز.</string>
+    <string name="overlay_major_blocked">ترقية Android الرئيسية محظورة بقواعد السلامة. فعّل الوضع غير الآمن في الإعدادات للتجاوز.</string>
+    <string name="overlay_metered_format">أنت على اتصال مقنن. تنزيل <xliff:g id="size">%1$s</xliff:g> الآن؟</string>
+    <string name="overlay_unsafe_recovery">تنزيل وتثبيت عبر الاسترداد (الوضع غير الآمن)؟</string>
+    <string name="overlay_unsafe_force">تنزيل وفرض التثبيت دون تحقق؟</string>
+    <string name="overlay_scratch_mounted">قسم Scratch مثبّت؛ لا يمكن التثبيت</string>
+    <string name="toast_sha_copied">تم نسخ SHA-256</string>
+    <string name="overlay_install_recovery">تثبيت عبر الاسترداد (الوضع غير الآمن)؟ سيُعاد تشغيل الجهاز إلى الاسترداد.</string>
+    <string name="overlay_install_force">فرض التثبيت دون فحوصات التوقيع/الرجوع؟ تابع على مسؤوليتك.</string>
+    <string name="overlay_changelog_title">سجل التغييرات</string>
+    <string name="desc_reload_changelog">إعادة تحميل سجل التغييرات</string>
+    <string name="overlay_changelog_loading">جارٍ تحميل سجل التغييرات…</string>
+    <string name="overlay_changelog_error">تعذّر تحميل سجل التغييرات لهذه البنية.</string>
+    <string name="overlay_changelog_empty">لا يوجد سجل تغييرات لهذا الإصدار.</string>
+    <string name="overlay_archive_sha">SHA-256 للأرشيف</string>
+    <string name="desc_copy_sha">نسخ SHA-256</string>
+    <string name="overlay_reboot_to_apply">أعد التشغيل لتطبيق التحديث</string>
+    <string name="overlay_pause_format">إيقاف مؤقت (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">استئناف (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">ملف الحزمة</string>
+    <string name="overlay_parts_title">أجزاء الأرشيف المجزأ (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">تأكيد الحذف</string>
+    <string name="info_package_size">حجم الحزمة</string>
+    <string name="info_android_api">واجهة Android API</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">نوع البنية</string>
+    <string name="info_delivery">التوصيل</string>
+    <string name="info_delivery_split">مجزّأ (<xliff:g id="count">%1$d</xliff:g> أجزاء)</string>
+    <string name="float_importing">جارٍ استيراد ZIP محلي…</string>
+    <string name="float_copying">جارٍ نسخ الحزمة والتحقق من البيانات</string>
+    <string name="float_calculating">جارٍ الحساب…</string>
+    <plurals name="float_parts">
+        <item quantity="zero"><xliff:g id="count">%1$d</xliff:g> أجزاء</item>
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> جزء</item>
+        <item quantity="two"><xliff:g id="count">%1$d</xliff:g> جزآن</item>
+        <item quantity="few"><xliff:g id="count">%1$d</xliff:g> أجزاء</item>
+        <item quantity="many"><xliff:g id="count">%1$d</xliff:g> جزءاً</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> جزء</item>
+    </plurals>
+    <string name="float_parallel">متوازٍ</string>
+    <string name="float_sequential">متسلسل</string>
+    <string name="float_single">أرشيف واحد</string>
+    <string name="float_autoinstall">تثبيت تلقائي</string>
+    <string name="float_parts_header">أجزاء الأرشيف (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> منجزة)</string>
+    <string name="float_suspend">تعليق</string>
+    <string name="float_abort">إجهاض</string>
+    <string name="desc_toggle_details">تبديل التفاصيل</string>
+    <string name="part_queued">في الانتظار</string>
+    <string name="part_verifying">جارٍ التحقق من SHA-256</string>
+    <string name="part_verified">تم التحقق</string>
+    <string name="part_done">تم</string>
+    <string name="part_paused_format">متوقف مؤقتاً • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">إعادة المحاولة / خطأ</string>
+    <string name="part_waiting">جارٍ الانتظار…</string>
+    <string name="stage_connecting">جارٍ الاتصال بالخادم…</string>
+    <string name="stage_verify_part">جارٍ التحقق من الجزء <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> SHA-256…</string>
+    <string name="stage_assemble">جارٍ تجميع الأجزاء (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">جارٍ التحقق من SHA-256 للأرشيف النهائي…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> أجزاء نشطة • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">الجزء <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">جارٍ التنزيل • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• تثبيت تلقائي</string>
+    <string name="stage_paused">التنزيل متوقف • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">فشل التنزيل • انقر للاستئناف</string>
+    <string name="stage_verifying_sig">جارٍ التحقق من الأرشيف والتوقيع…</string>
+    <string name="stage_finalizing">جارٍ الإنهاء في فتحة A/B • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">جارٍ تثبيت التحديث • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">التثبيت معلّق • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">تم التثبيت — يلزم إعادة التشغيل</string>
+    <string name="md_image_alt">صورة</string>
+    <string name="md_image_failed">فشل تحميل الصورة</string>
+    <string name="importer_tag_local">ZIP محلي</string>
+    <string name="err_no_url">لا يوجد رابط تنزيل أو أجزاء محددة</string>
+    <string name="err_no_dest">لا توجد وجهة تنزيل محددة</string>
+    <string name="err_no_callback">لا يوجد رد اتصال للتنزيل</string>
+    <string name="err_no_parts">لم تُحدد أجزاء للتنزيل</string>
+    <string name="err_no_tempdir">تعذّر إنشاء مجلد الأجزاء المؤقت: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">عدم تطابق المجموع للجزء <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_part_failed">فشل تنزيل الجزء <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_final_sha">فشل التحقق من SHA-256 للأرشيف النهائي</string>
+    <string name="err_empty_body">نص استجابة فارغ للجزء <xliff:g id="index">%1$d</xliff:g></string>
+    <string name="err_unknown_size">تعذّر تحديد الحجم لـ <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_no_range">الخادم لا يدعم طلبات النطاق: متوقع HTTP 206، حصلنا على <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_content_range">ترويسة Content-Range مفقودة لـ <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_bad_content_range">Content-Range غير متوقع لـ <xliff:g id="url">%1$s</xliff:g>: متوقع <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">تغييرات البروتوكول غير مسموحة</string>
+    <string name="err_server_reply">رد الخادم بـ <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_no_fd">فشل الحصول على fileDescriptor</string>
+    <string name="err_import_cancelled">أُلغي الاستيراد</string>
+    <string name="err_verify_deleted">فشل التحقق، تم حذف الملف</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">تطبيق</string>
+    <string name="dialog_value_title">القيمة</string>
+    <string name="unknown_size">غير معروف</string>
+    <string name="slider_default">الافتراضي</string>
+    <string name="slider_default_value">الافتراضي (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">خطأ في الشبكة</string>
+    <string name="action_paused_state">متوقف مؤقتاً</string>
+    <string name="part_fallback_name">part_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">الخادم</string>
+    <string name="err_response_empty">نص استجابة فارغ</string>
+    <string name="err_changelog_body_empty">نص سجل تغييرات فارغ</string>
+    <string name="err_changelog_too_large">سجل التغييرات يتجاوز <xliff:g id="bytes" example="524288">%1$d</xliff:g> بايت</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: تم تجاوز حد المعدل (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). أعد المحاولة بعد <xliff:g id="wait" example="~2 min">%3$s</xliff:g>.</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: تم تجاوز حد المعدل (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). حاول لاحقاً.</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: الملف أو الموجز غير موجود (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: تم رفض الوصول (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: المورد أُزيل (HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: الخادم غير متاح (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> د</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g> ث</string>
+    <string name="err_download_file_missing">ملف التنزيل مفقود</string>
+    <string name="err_sha_mismatch">عدم تطابق مجموع SHA-256</string>
+    <string name="err_sha_calc_failed">فشل حساب SHA-256</string>
+    <string name="err_ota_signature_failed">فشل التحقق من توقيع OTA</string>
+    <string name="err_engine_signature">رفض update_engine توقيع الحمولة (الرمز <xliff:g id="code" example="20">%1$d</xliff:g>). جرّب فرض التثبيت عبر الاسترداد.</string>
+    <string name="err_engine_downgrade">منع update_engine طابع الرجوع الزمني (الرمز <xliff:g id="code" example="51">%1$d</xliff:g>). جرّب فرض التثبيت عبر الاسترداد.</string>
+    <string name="err_engine_storage">لا توجد مساحة تخزين كافية لتحديث فتحة A/B (الرمز <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_engine_partition">فشل التحقق من القسم (الرمز <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_cancelled">ألغى المستخدم التثبيت.</string>
+    <string name="err_engine_generic">خطأ update_engine بالرمز <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">نوع OTA غير مدعوم: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found">تعذّر العثور على <xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> في <xliff:g id="file" example="update.zip">%2$s</xliff:g></string>
+</resources>

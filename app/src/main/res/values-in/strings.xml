@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="display_name">Pembaruan sistem</string>
+    <string name="verification_failed_notification">Verifikasi gagal</string>
+    <string name="verifying_download_notification">Memverifikasi pembaruan</string>
+    <string name="downloading_notification">Mengunduh</string>
+    <string name="download_paused_notification">Unduhan dijeda</string>
+    <string name="download_paused_error_notification">Kesalahan pengunduhan</string>
+    <string name="download_completed_notification">Unduhan selesai</string>
+    <string name="download_starting_notification">Memulai unduhan</string>
+    <string name="update_failed_notification">Pembaruan gagal</string>
+    <string name="installation_suspended_notification">Pemasangan ditunda</string>
+    <string name="new_updates_found_title">Pembaruan baru</string>
+    <string name="text_download_speed">%1$s, %2$s/d</string>
+    <string name="installing_update_error">Kesalahan pemasangan</string>
+    <string name="finalizing_package">Menyelesaikan pemasangan paket</string>
+    <string name="preparing_ota_first_boot">Mempersiapkan untuk boot pertama</string>
+    <string name="dialog_prepare_zip_message">Persiapan awal pembaruan</string>
+    <string name="reboot">Mulai ulang</string>
+    <string name="checking_for_updates">Memeriksa pembaruan</string>
+    <string name="menu_auto_updates_check">Periksa pembaruan secara berkala</string>
+    <string name="menu_stream_updates_summary">Instal pembaruan saat mengunduh. Nonaktifkan opsi untuk menyimpan paket pembaruan untuk diekspor.</string>
+    <string name="menu_export_update">Ekspor pembaruan</string>
+    <string name="menu_metered_network_warning">Peringatan jaringan terukur</string>
+    <string name="menu_ab_perf_mode">Prioritaskan proses pembaruan</string>
+    <string name="menu_update_recovery">Perbarui Recovery</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">Unduh</string>
+    <string name="action_pause">Jeda</string>
+    <string name="action_resume">Lanjutkan</string>
+    <string name="action_install">Pasang</string>
+    <string name="action_info">Info</string>
+    <string name="action_delete">Hapus</string>
+    <string name="dialog_export_title">Mengekspor pembaruan</string>
+    <string name="notification_export_success">Pembaruan diekspor</string>
+    <string name="notification_export_fail">Kesalahan saat mengekspor</string>
+    <string name="toast_already_exporting">Sudah mengekspor pembaruan</string>
+    <string name="toast_export_started">Ekspor dimulai</string>
+    <string name="blocked_update_dialog_title">Pembaruan diblokir</string>
+    <string name="export_channel_title">Penyelesaian ekspor</string>
+    <string name="new_updates_channel_title">Pembaruan baru</string>
+    <string name="ongoing_channel_title">Unduhan sedang berlangsung</string>
+    <string name="update_failed_channel_title">Pembaruan gagal</string>
+    <string name="action_apply">Terapkan</string>
+    <string name="action_back">Kembali</string>
+    <string name="action_cancel">Batal</string>
+    <string name="action_confirm">Konfirmasi</string>
+    <string name="action_download_install">Unduh dan pasang</string>
+    <string name="action_download_install_new">Unduh &amp; Pasang</string>
+    <string name="action_export">Ekspor</string>
+    <string name="action_import_zip">Impor ZIP</string>
+    <string name="action_paused_state">Dijeda</string>
+    <string name="action_proceed">Lanjutkan</string>
+    <string name="action_reboot_now">Mulai ulang sekarang</string>
+    <string name="action_reset">Atur ulang</string>
+    <string name="action_stream_install">Streaming &amp; Pasang</string>
+    <string name="badge_downloaded">Diunduh</string>
+    <string name="badge_local">Lokal</string>
+    <string name="badge_major_upgrade">Peningkatan mayor</string>
+    <string name="badge_reboot_required">Perlu mulai ulang</string>
+    <plurals name="badge_split_parts">
+        <item quantity="one">Split • <xliff:g id="count">%1$d</xliff:g> bagian</item>
+        <item quantity="other">Split • <xliff:g id="count">%1$d</xliff:g> bagian</item>
+    </plurals>
+    <string name="badge_unsafe_mode">Mode Tidak Aman</string>
+    <string name="banner_check_failed">Gagal memeriksa pembaruan</string>
+    <string name="banner_no_internet">Tidak ada koneksi internet</string>
+    <string name="blocked_update_dialog_title_downgrade">Penurunan versi diblokir</string>
+    <string name="build_date">Tanggal build</string>
+    <string name="check_for_update">Periksa pembaruan</string>
+    <string name="checked_format">Diperiksa: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="danger_accept">Saya menerima risikonya</string>
+    <string name="desc_close">Tutup</string>
+    <string name="desc_copy_sha">Salin SHA-256</string>
+    <string name="desc_reload_changelog">Muat ulang log perubahan</string>
+    <string name="desc_retry">Coba lagi</string>
+    <string name="desc_toggle_details">Alihkan detail</string>
+    <string name="device_fallback_name">Perangkat</string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • Patch: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="dialog_value_title">Nilai</string>
+    <string name="downloaded_subtitle_hint">Impor ZIP lokal atau unduh build dari Pembaruan</string>
+    <string name="downloaded_subtitle_used">Ruang terpakai: <xliff:g id="size">%1$s</xliff:g></string>
+    <plurals name="downloaded_title">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> paket tersimpan</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> paket tersimpan</item>
+    </plurals>
+    <string name="empty_downloaded_desc">Paket ROM yang diunduh dan file ZIP lokal yang diimpor akan muncul di sini untuk pemasangan, ekspor, atau penghapusan.</string>
+    <string name="empty_downloaded_title">Tidak ada pembaruan yang diunduh</string>
+    <string name="empty_releases_desc">Ketuk muat ulang untuk mengambil build dari umpan OTA JSON yang dikonfigurasi.</string>
+    <string name="empty_releases_title">Tidak ada rilis yang dimuat</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: akses ditolak (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_bad_content_range">Content-Range tak terduga untuk <xliff:g id="url">%1$s</xliff:g>: diharapkan <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_changelog_body_empty">Isi log perubahan kosong</string>
+    <string name="err_changelog_too_large">Log perubahan melebihi <xliff:g id="bytes" example="524288">%1$d</xliff:g> byte</string>
+    <string name="err_download_file_missing">File unduhan hilang</string>
+    <string name="err_empty_body">Isi respons kosong untuk bagian <xliff:g id="index">%1$d</xliff:g></string>
+    <string name="err_engine_cancelled">Pemasangan dibatalkan oleh pengguna.</string>
+    <string name="err_engine_downgrade">update_engine memblokir stempel waktu penurunan versi (kode <xliff:g id="code" example="51">%1$d</xliff:g>). Coba Pasang Paksa via Recovery.</string>
+    <string name="err_engine_generic">Kesalahan update_engine kode <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_engine_partition">Verifikasi partisi gagal (kode <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_signature">update_engine menolak tanda tangan payload (kode <xliff:g id="code" example="20">%1$d</xliff:g>). Coba Pasang Paksa via Recovery.</string>
+    <string name="err_engine_storage">Ruang penyimpanan tidak cukup untuk pembaruan slot A/B (kode <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: file atau umpan tidak ditemukan (HTTP 404)</string>
+    <string name="err_final_sha">Verifikasi SHA-256 arsip final gagal</string>
+    <string name="err_host_server">Server</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_import_cancelled">Impor dibatalkan</string>
+    <string name="err_metadata_not_found">Tidak dapat menemukan <xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> di <xliff:g id="file" example="update.zip">%2$s</xliff:g></string>
+    <string name="err_network">Kesalahan jaringan</string>
+    <string name="err_no_callback">Tidak ada callback unduhan yang ditentukan</string>
+    <string name="err_no_content_range">Header Content-Range hilang untuk <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_no_dest">Tidak ada tujuan unduhan yang ditentukan</string>
+    <string name="err_no_fd">Gagal mendapatkan fileDescriptor</string>
+    <string name="err_no_parts">Tidak ada bagian unduhan yang ditentukan</string>
+    <string name="err_no_range">Server tidak mendukung permintaan rentang: diharapkan HTTP 206, mendapat <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_tempdir">Tidak dapat membuat direktori bagian sementara: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_no_url">Tidak ada URL unduhan atau bagian yang ditentukan</string>
+    <string name="err_ota_signature_failed">Verifikasi tanda tangan OTA gagal</string>
+    <string name="err_part_failed">Gagal mengunduh bagian <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_part_mismatch">Ketidakcocokan checksum bagian <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_proto_change">Perubahan protokol tidak diizinkan</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: batas laju terlampaui (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Coba lagi nanti.</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: batas laju terlampaui (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Coba lagi dalam <xliff:g id="wait" example="~2 min">%3$s</xliff:g>.</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: sumber daya dihapus (HTTP 410)</string>
+    <string name="err_response_empty">Isi respons kosong</string>
+    <string name="err_server_reply">Server menjawab dengan <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: server tidak tersedia (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_sha_calc_failed">Gagal menghitung SHA-256</string>
+    <string name="err_sha_mismatch">Ketidakcocokan checksum SHA-256</string>
+    <string name="err_unknown_size">Tidak dapat menentukan ukuran untuk <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_unsupported_ota_type">Jenis OTA tidak didukung: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_verify_deleted">Verifikasi gagal, file telah dihapus</string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> mnt</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g> dtk</string>
+    <string name="float_abort">Batalkan</string>
+    <string name="float_autoinstall">Pasang otomatis</string>
+    <string name="float_calculating">Menghitung…</string>
+    <string name="float_copying">Menyalin paket &amp; memeriksa metadata</string>
+    <string name="float_importing">Mengimpor ZIP lokal…</string>
+    <string name="float_parallel">Paralel</string>
+    <plurals name="float_parts">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> bagian</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> bagian</item>
+    </plurals>
+    <string name="float_parts_header">Bagian arsip (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> selesai)</string>
+    <string name="float_sequential">Berurutan</string>
+    <string name="float_single">Arsip tunggal</string>
+    <string name="float_suspend">Tunda</string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <plurals name="hero_newer_builds">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> build baru tersedia</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> build baru tersedia</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="one">Sistem sudah terbaru • <xliff:g id="count">%1$d</xliff:g> build di umpan</item>
+        <item quantity="other">Sistem sudah terbaru • <xliff:g id="count">%1$d</xliff:g> build di umpan</item>
+    </plurals>
+    <string name="importer_tag_local">ZIP Lokal</string>
+    <string name="info_android_api">API Android</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">Jenis build</string>
+    <string name="info_delivery">Pengiriman</string>
+    <string name="info_delivery_split">Split (<xliff:g id="count">%1$d</xliff:g> bagian)</string>
+    <string name="info_package_size">Ukuran paket</string>
+    <string name="install_confirm_force">Pasang paksa tanpa verifikasi? Pastikan ZIP ini cocok dengan perangkat Anda.</string>
+    <string name="install_confirm_now">Pasang <xliff:g id="name">%1$s</xliff:g> sekarang?</string>
+    <string name="install_confirm_recovery">Flash via Recovery (Mode Tidak Aman)? Perangkat akan mulai ulang ke Recovery.</string>
+    <string name="install_label_force">Pasang paksa</string>
+    <string name="install_label_recovery">Pasang (Recovery)</string>
+    <string name="installed_label_format">Terpasang: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="installing_update">Memasang pembaruan sistem</string>
+    <string name="installing_update_finished">Pembaruan menunggu mulai ulang</string>
+    <string name="interval_daily">Harian</string>
+    <string name="interval_monthly">Bulanan</string>
+    <string name="interval_weekly">Mingguan</string>
+    <string name="md_image_alt">Gambar</string>
+    <string name="md_image_failed">Gagal memuat gambar</string>
+    <string name="menu_auto_delete_updates">Hapus pembaruan otomatis</string>
+    <string name="menu_auto_updates_check_summary">Periksa pembaruan di latar belakang</string>
+    <string name="menu_metered_network_warning_summary">Peringatkan sebelum mengunduh lewat data seluler</string>
+    <string name="menu_stream_updates">Streaming pembaruan online</string>
+    <string name="menu_update_recovery_summary">Perbarui partisi recovery bersama OS</string>
+    <string name="new_updates_found_summary">Ketuk untuk melihat pembaruan yang tersedia</string>
+    <string name="overlay_archive_sha">SHA-256 arsip</string>
+    <string name="overlay_battery_low">Level baterai terlalu rendah untuk memasang</string>
+    <string name="overlay_blocked_format">Diblokir (<xliff:g id="reason">%1$s</xliff:g>). Aktifkan Mode Tidak Aman di Pengaturan untuk memaksa pemasangan.</string>
+    <string name="overlay_changelog_empty">Tidak ada log perubahan untuk rilis ini.</string>
+    <string name="overlay_changelog_error">Tidak dapat memuat log perubahan untuk build ini.</string>
+    <string name="overlay_changelog_loading">Memuat log perubahan…</string>
+    <string name="overlay_changelog_title">Log perubahan</string>
+    <string name="overlay_confirm_delete">Konfirmasi hapus</string>
+    <string name="overlay_downgrade_blocked">Penurunan versi diblokir oleh aturan keamanan. Aktifkan Mode Tidak Aman di Pengaturan untuk mengabaikan.</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_install_force">Pasang paksa tanpa pemeriksaan tanda tangan/penurunan versi? Lanjutkan atas risiko sendiri.</string>
+    <string name="overlay_install_recovery">Flash via Recovery (Mode Tidak Aman)? Perangkat akan mulai ulang ke Recovery.</string>
+    <string name="overlay_major_blocked">Peningkatan Android mayor diblokir oleh aturan keamanan. Aktifkan Mode Tidak Aman di Pengaturan untuk mengabaikan.</string>
+    <string name="overlay_metered_format">Anda menggunakan koneksi terukur. Unduh <xliff:g id="size">%1$s</xliff:g> sekarang?</string>
+    <string name="overlay_package_file">File paket</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_parts_title">Bagian arsip split (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_pause_format">Jeda (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_reboot_to_apply">Mulai ulang untuk menerapkan pembaruan</string>
+    <string name="overlay_resume_format">Lanjutkan (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_scratch_mounted">Partisi scratch terpasang; tidak dapat memasang</string>
+    <string name="overlay_unsafe_force">Unduh dan pasang paksa tanpa verifikasi?</string>
+    <string name="overlay_unsafe_recovery">Unduh dan flash via Recovery (Mode Tidak Aman)?</string>
+    <string name="part_done">Selesai</string>
+    <string name="part_error">Coba lagi / Kesalahan</string>
+    <string name="part_fallback_name">part_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="part_paused_format">Dijeda • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_queued">Antre</string>
+    <string name="part_verified">Terverifikasi</string>
+    <string name="part_verifying">Memverifikasi SHA-256</string>
+    <string name="part_waiting">Menunggu…</string>
+    <string name="pref_category_background_sync">Sinkronisasi latar belakang</string>
+    <string name="relation_build">Build</string>
+    <string name="relation_downgrade">Penurunan versi</string>
+    <string name="relation_installed">Terpasang</string>
+    <string name="relation_newer">Lebih baru</string>
+    <string name="section_downloaded">Diunduh &amp; ZIP Lokal</string>
+    <string name="section_releases">Rilis tersedia</string>
+    <string name="section_releases_count">Rilis tersedia • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="security_update">Pembaruan keamanan</string>
+    <string name="settings_ab_perf_charging">Otomatis aktif saat tersambung ke daya AC</string>
+    <string name="settings_ab_perf_summary">Alokasikan lebih banyak CPU &amp; I/O ke update_engine untuk pemasangan lebih cepat</string>
+    <string name="settings_amplitude_title">Amplitudo gelombang</string>
+    <string name="settings_autodelete_summary">Hapus paket unduhan otomatis setelah pembaruan berhasil</string>
+    <string name="settings_banner_summary">Tampilkan gambar atau video banner rilis di header kartu</string>
+    <string name="settings_banner_title">Tampilkan banner rilis</string>
+    <string name="settings_blur_title">Radius blur kaca</string>
+    <string name="settings_check_interval">Interval pemeriksaan</string>
+    <string name="settings_clear_cache">Hapus cache media &amp; log perubahan</string>
+    <string name="settings_danger_title">Pemasangan kritis / tidak aman</string>
+    <string name="settings_danger_warning">Gunakan sepenuhnya atas risiko sendiri. Bisa merusak perangkat jika flash ROM yang salah.</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_group_appearance">Tampilan &amp; penyimpanan</string>
+    <string name="settings_group_downloads">Unduhan &amp; verifikasi</string>
+    <string name="settings_group_installation">Pemasangan</string>
+    <string name="settings_group_ota">Sumber OTA</string>
+    <string name="settings_logo_summary">Tampilkan banner proyek (GIF, gambar, video, atau wordmark animasi)</string>
+    <string name="settings_logo_title">Tampilkan logo proyek</string>
+    <string name="settings_ota_apply">Terapkan URL</string>
+    <string name="settings_ota_url_hint">Kosongkan untuk memakai URL default overlay ROM / DeviceTree.</string>
+    <string name="settings_ota_url_title">URL OTA JSON kustom</string>
+    <string name="settings_parallel_summary">Unduh hingga 3 bagian arsip split secara bersamaan untuk kecepatan lebih tinggi</string>
+    <string name="settings_parallel_title">Unduhan split paralel</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_recovery_summary">Lewati update_engine dan mulai ulang ke Recovery (OrangeFox / TWRP) untuk flash ZIP langsung. Berguna jika update_engine menolak stempel waktu penurunan versi atau tanda tangan.</string>
+    <string name="settings_recovery_title">Pasang paksa via Recovery</string>
+    <string name="settings_theme_title">Tema aplikasi</string>
+    <string name="settings_tint_title">Opasitas tint kaca</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unsafe_confirm">Konfirmasi: saya bertanggung jawab penuh atas penurunan versi, ZIP tak bertanda tangan, atau kehilangan data.</string>
+    <string name="settings_unsafe_summary">Menonaktifkan verifikasi tanda tangan OTA, blokir penurunan versi, dan penjaga Android SDK. Memungkinkan flash penurunan versi atau ZIP lintas ROM.</string>
+    <string name="settings_unsafe_title">Lewati pemeriksaan keamanan &amp; verifikasi</string>
+    <string name="settings_value_off">Mati</string>
+    <string name="settings_verify_summary">Validasi setiap bagian split dan arsip rakitan final terhadap hash JSON</string>
+    <string name="settings_verify_title">Verifikasi checksum SHA-256</string>
+    <string name="settings_wavy_summary">Animasikan gelombang saat mengunduh atau memasang; merata dengan halus saat dijeda</string>
+    <string name="settings_wavy_title">Bilah kemajuan bergelombang</string>
+    <string name="slider_default">Default</string>
+    <string name="slider_default_value">Default (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="stage_assemble">Merakit bagian (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• Pasang otomatis</string>
+    <string name="stage_connecting">Menghubungkan ke server…</string>
+    <string name="stage_downloading">Mengunduh • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">Unduhan gagal • Ketuk Lanjutkan</string>
+    <string name="stage_finalizing">Finalisasi slot A/B • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">Terpasang — perlu mulai ulang</string>
+    <string name="stage_installing">Memasang pembaruan • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_part_progress">Bagian <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> bagian aktif • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_paused">Unduhan dijeda • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">Pemasangan ditunda • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_verify_final">Memverifikasi SHA-256 arsip final…</string>
+    <string name="stage_verify_part">Memverifikasi SHA-256 bagian <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>…</string>
+    <string name="stage_verifying_sig">Memverifikasi arsip &amp; tanda tangan…</string>
+    <string name="status_error">Kesalahan</string>
+    <string name="status_installing">Memasang <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_merging">Menggabung <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">Dijeda <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_starting">Memulai</string>
+    <string name="status_suspended">Ditunda <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_verifying">Memverifikasi</string>
+    <string name="tab_saved">Tersimpan</string>
+    <string name="tab_saved_count">Tersimpan (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="tab_settings">Pengaturan</string>
+    <string name="tab_updates">Pembaruan</string>
+    <string name="theme_dark">Gelap</string>
+    <string name="theme_light">Terang</string>
+    <string name="theme_system">Sistem</string>
+    <string name="toast_cache_cleared">Cache dihapus</string>
+    <string name="toast_download_failed">Unduhan gagal</string>
+    <string name="toast_download_verified">Unduhan terverifikasi &amp; siap</string>
+    <string name="toast_import_failed">Gagal mengimpor ZIP (paket atau tanda tangan tidak valid). Coba Mode Tidak Aman untuk ZIP kustom.</string>
+    <string name="toast_imported_format"><xliff:g id="name">%1$s</xliff:g> diimpor ke tab Diunduh</string>
+    <string name="toast_ota_reset">URL OTA dikembalikan ke default</string>
+    <string name="toast_ota_updated">URL OTA diperbarui</string>
+    <string name="toast_sha_copied">SHA-256 disalin</string>
+    <string name="unknown_date">Tanggal tidak diketahui</string>
+    <string name="unknown_size">Tidak diketahui</string>
+</resources>

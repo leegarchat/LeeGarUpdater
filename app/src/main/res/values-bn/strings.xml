@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="verification_failed_notification">যাচাইকরণ ব্যর্থ হয়েছে</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="menu_update_recovery">রিকভারি আপডেট করুন</string>
+    <string name="toast_export_started">রপ্তানি করা শুরু হয়েছে</string>
+    <string name="display_name">LeeGar Updater</string>
+    <string name="verifying_download_notification">আপডেট যাচাই করা হচ্ছে</string>
+    <string name="downloading_notification">ডাউনলোড হচ্ছে</string>
+    <string name="download_paused_notification">ডাউনলোড বিরত আছে</string>
+    <string name="download_paused_error_notification">ডাউনলোডে ত্রুটি</string>
+    <string name="download_completed_notification">ডাউনলোড সম্পন্ন হয়েছে</string>
+    <string name="download_starting_notification">ডাউনলোড শুরু হচ্ছে</string>
+    <string name="update_failed_notification">আপডেট ব্যর্থ হয়েছে</string>
+    <string name="installation_suspended_notification">ইনস্টলেশন স্থগিত আছে</string>
+    <string name="new_updates_found_title">নতুন আপডেট</string>
+    <string name="new_updates_found_summary">উপলব্ধ আপডেট দেখতে ট্যাপ করুন</string>
+    <string name="installing_update">সিস্টেম আপডেট ইনস্টল করা হচ্ছে</string>
+    <string name="installing_update_error">ইনস্টল করতে ত্রুটি</string>
+    <string name="installing_update_finished">আপডেট পুনরায় চালুর অপেক্ষায়</string>
+    <string name="finalizing_package">প্যাকেজ ইনস্টলেশন চূড়ান্ত করা হচ্ছে</string>
+    <string name="preparing_ota_first_boot">প্রথম বুটের জন্য প্রস্তুতি নেওয়া হচ্ছে</string>
+    <string name="dialog_prepare_zip_message">প্রাথমিক আপডেট প্রস্তুতি</string>
+    <string name="reboot">পুনরায় চালু করুন</string>
+    <string name="action_download_install">ডাউনলোড ও ইনস্টল করুন</string>
+    <string name="check_for_update">আপডেট আছে কি না দেখুন</string>
+    <string name="action_back">পেছনে</string>
+    <string name="checking_for_updates">আপডেট পরীক্ষা করা হচ্ছে</string>
+    <string name="pref_category_background_sync">ব্যাকগ্রাউন্ড সিঙ্ক</string>
+    <string name="menu_auto_updates_check">পর্যায়ক্রমে আপডেট পরীক্ষা করুন</string>
+    <string name="menu_auto_updates_check_summary">ব্যাকগ্রাউন্ডে আপডেট পরীক্ষা করুন</string>
+    <string name="menu_auto_delete_updates">আপডেট স্বয়ংক্রিয়ভাবে মুছুন</string>
+    <string name="menu_stream_updates">অনলাইন আপডেট স্ট্রিম করুন</string>
+    <string name="menu_stream_updates_summary">ডাউনলোডের সময় আপডেট ইনস্টল করুন। আপডেট প্যাকেজ রপ্তানির জন্য সংরক্ষণ করতে অক্ষম করুন।</string>
+    <string name="menu_export_update">আপডেট রপ্তানি করুন</string>
+    <string name="menu_metered_network_warning">মিটার্ড নেটওয়ার্ক সতর্কতা</string>
+    <string name="menu_metered_network_warning_summary">মোবাইল ডেটায় ডাউনলোডের আগে সতর্ক করুন</string>
+    <string name="menu_ab_perf_mode">আপডেট প্রক্রিয়াকে অগ্রাধিকার দিন</string>
+    <string name="menu_update_recovery_summary">OS-এর সাথে রিকভারি পার্টিশনও আপডেট করুন</string>
+    <string name="header_android_version">অ্যান্ড্রয়েড <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">বিল্ডের তারিখ</string>
+    <string name="security_update">নিরাপত্তা আপডেট</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">ডাউনলোড</string>
+    <string name="action_pause">বিরতি</string>
+    <string name="action_resume">পুনরায় শুরু করুন</string>
+    <string name="action_install">ইনস্টল করুন</string>
+    <string name="action_info">তথ্য</string>
+    <string name="action_delete">মুছুন</string>
+    <string name="dialog_export_title">আপডেট রপ্তানি করা হচ্ছে</string>
+    <string name="notification_export_success">আপডেট রপ্তানি হয়েছে</string>
+    <string name="notification_export_fail">রপ্তানিতে ত্রুটি</string>
+    <string name="toast_already_exporting">ইতিমধ্যে একটি আপডেট রপ্তানি করা হচ্ছে</string>
+    <string name="blocked_update_dialog_title">আপডেট আটকে দেওয়া হয়েছে</string>
+    <string name="blocked_update_dialog_title_downgrade">ডাউনগ্রেড আটকে দেওয়া হয়েছে</string>
+    <string name="export_channel_title">রপ্তানি সম্পন্ন</string>
+    <string name="new_updates_channel_title">নতুন আপডেট</string>
+    <string name="ongoing_channel_title">চলমান ডাউনলোড</string>
+    <string name="update_failed_channel_title">আপডেট ব্যর্থ হয়েছে</string>
+    <string name="tab_updates">আপডেট</string>
+    <string name="tab_saved">সংরক্ষিত</string>
+    <string name="tab_saved_count">সংরক্ষিত (%1$d)</string>
+    <string name="tab_settings">সেটিংস</string>
+    <string name="toast_download_failed">ডাউনলোড ব্যর্থ হয়েছে</string>
+    <string name="toast_download_verified">ডাউনলোড যাচাই হয়েছে ও প্রস্তুত</string>
+    <string name="toast_import_failed">ZIP আমদানি ব্যর্থ (অবৈধ প্যাকেজ বা স্বাক্ষর)। কাস্টম ZIP-এর জন্য অনিরাপদ মোড চেষ্টা করুন।</string>
+    <string name="toast_imported_format"><xliff:g id="name">%1$s</xliff:g> ডাউনলোড করা ট্যাবে আমদানি করা হয়েছে</string>
+    <string name="banner_no_internet">ইন্টারনেট সংযোগ নেই</string>
+    <string name="banner_check_failed">আপডেট পরীক্ষা ব্যর্থ হয়েছে</string>
+    <string name="section_releases">উপলব্ধ রিলিজ</string>
+    <string name="section_releases_count">উপলব্ধ রিলিজ • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">অনিরাপদ মোড</string>
+    <string name="empty_releases_title">কোনো রিলিজ লোড হয়নি</string>
+    <string name="empty_releases_desc">কনফিগার করা OTA JSON ফিড থেকে বিল্ড আনতে রিফ্রেশ চাপুন।</string>
+    <string name="device_fallback_name">ডিভাইস</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g>টি নতুন বিল্ড উপলব্ধ</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g>টি নতুন বিল্ড উপলব্ধ</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="one">সিস্টেম হালনাগাদ • ফিডে <xliff:g id="count">%1$d</xliff:g>টি বিল্ড</item>
+        <item quantity="other">সিস্টেম হালনাগাদ • ফিডে <xliff:g id="count">%1$d</xliff:g>টি বিল্ড</item>
+    </plurals>
+    <string name="installed_label_format">ইনস্টল করা: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">অ্যান্ড্রয়েড <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • প্যাচ: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">পরীক্ষা করা হয়েছে: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">অজানা তারিখ</string>
+    <string name="status_starting">শুরু হচ্ছে</string>
+    <string name="status_verifying">যাচাই করা হচ্ছে</string>
+    <string name="status_merging">একত্রিত করা হচ্ছে <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">বিরত <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">ত্রুটি</string>
+    <string name="status_installing">ইনস্টল হচ্ছে <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">স্থগিত <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <plurals name="badge_split_parts">
+        <item quantity="one">বিভক্ত • <xliff:g id="count">%1$d</xliff:g> অংশ</item>
+        <item quantity="other">বিভক্ত • <xliff:g id="count">%1$d</xliff:g> অংশ</item>
+    </plurals>
+    <string name="badge_downloaded">ডাউনলোড হয়েছে</string>
+    <string name="badge_reboot_required">পুনরায় চালু করা প্রয়োজন</string>
+    <string name="badge_local">স্থানীয়</string>
+    <string name="badge_major_upgrade">বড় আপগ্রেড</string>
+    <string name="relation_newer">নতুনতর</string>
+    <string name="relation_installed">ইনস্টল করা</string>
+    <string name="relation_downgrade">ডাউনগ্রেড</string>
+    <string name="relation_build">বিল্ড</string>
+    <plurals name="downloaded_title">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g>টি প্যাকেজ সংরক্ষিত</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g>টি প্যাকেজ সংরক্ষিত</item>
+    </plurals>
+    <string name="downloaded_subtitle_used">ব্যবহৃত স্থান: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">স্থানীয় ZIP আমদানি করুন বা আপডেট থেকে বিল্ড ডাউনলোড করুন</string>
+    <string name="action_import_zip">ZIP আমদানি করুন</string>
+    <string name="empty_downloaded_title">কোনো ডাউনলোড করা আপডেট নেই</string>
+    <string name="empty_downloaded_desc">ডাউনলোড করা ROM প্যাকেজ ও আমদানি করা স্থানীয় ZIP ফাইল ইনস্টল, রপ্তানি বা অপসারণের জন্য এখানে দেখা যাবে।</string>
+    <string name="section_downloaded">ডাউনলোড করা ও স্থানীয় ZIP</string>
+    <string name="install_confirm_recovery">রিকভারি দিয়ে ফ্ল্যাশ করবেন (অনিরাপদ মোড)? ডিভাইস রিকভারিতে পুনরায় চালু হবে।</string>
+    <string name="install_confirm_force">যাচাই ছাড়াই জোর করে ইনস্টল করবেন? নিশ্চিত করুন এই ZIP আপনার ডিভাইসের।</string>
+    <string name="install_confirm_now"><xliff:g id="name">%1$s</xliff:g> এখন ইনস্টল করবেন?</string>
+    <string name="action_cancel">বাতিল করুন</string>
+    <string name="action_confirm">নিশ্চিত করুন</string>
+    <string name="action_proceed">এগিয়ে যান</string>
+    <string name="action_reboot_now">এখন পুনরায় চালু করুন</string>
+    <string name="action_export">রপ্তানি করুন</string>
+    <string name="action_reset">রিসেট করুন</string>
+    <string name="install_label_recovery">ইনস্টল (রিকভারি)</string>
+    <string name="install_label_force">জোর করে ইনস্টল</string>
+    <string name="action_stream_install">স্ট্রিম ও ইনস্টল</string>
+    <string name="action_download_install_new">ডাউনলোড ও ইনস্টল</string>
+    <string name="desc_close">বন্ধ করুন</string>
+    <string name="desc_retry">পুনরায় চেষ্টা করুন</string>
+    <string name="settings_check_interval">পরীক্ষার ব্যবধান</string>
+    <string name="interval_daily">দৈনিক</string>
+    <string name="interval_weekly">সাপ্তাহিক</string>
+    <string name="interval_monthly">মাসিক</string>
+    <string name="settings_group_downloads">ডাউনলোড ও যাচাইকরণ</string>
+    <string name="settings_parallel_title">সমান্তরাল বিভক্ত ডাউনলোড</string>
+    <string name="settings_parallel_summary">দ্রুত গতির জন্য একসাথে সর্বোচ্চ ৩টি বিভক্ত আর্কাইভ অংশ ডাউনলোড করুন</string>
+    <string name="settings_verify_title">SHA-256 চেকসাম যাচাই করুন</string>
+    <string name="settings_verify_summary">JSON হ্যাশের সাথে প্রতিটি বিভক্ত অংশ ও চূড়ান্ত একত্রিত আর্কাইভ যাচাই করুন</string>
+    <string name="settings_autodelete_summary">আপডেট সফল হলে ডাউনলোড করা প্যাকেজ স্বয়ংক্রিয়ভাবে মুছুন</string>
+    <string name="settings_group_installation">ইনস্টলেশন</string>
+    <string name="settings_ab_perf_summary">দ্রুত ইনস্টলের জন্য update_engine-কে বেশি CPU ও I/O দিন</string>
+    <string name="settings_ab_perf_charging">AC পাওয়ারে সংযুক্ত থাকলে স্বয়ংক্রিয়ভাবে সক্রিয়</string>
+    <string name="settings_group_ota">OTA উৎস</string>
+    <string name="settings_ota_url_title">কাস্টম OTA JSON URL</string>
+    <string name="settings_ota_url_hint">ROM / DeviceTree ওভারলে ডিফল্ট URL ব্যবহার করতে খালি রাখুন।</string>
+    <string name="settings_ota_apply">URL প্রয়োগ করুন</string>
+    <string name="toast_ota_reset">OTA URL ডিফল্টে রিসেট হয়েছে</string>
+    <string name="toast_ota_updated">OTA URL আপডেট হয়েছে</string>
+    <string name="settings_group_appearance">চেহারা ও স্টোরেজ</string>
+    <string name="settings_theme_title">অ্যাপের থিম</string>
+    <string name="theme_system">সিস্টেম</string>
+    <string name="theme_light">হালকা</string>
+    <string name="theme_dark">গাঢ়</string>
+    <string name="settings_wavy_title">ঢেউয়ের অগ্রগতি বার</string>
+    <string name="settings_wavy_summary">ডাউনলোড বা ইনস্টলের সময় ঢেউ অ্যানিমেট করুন; বিরতিতে মসৃণভাবে সমতল হয়</string>
+    <string name="settings_amplitude_title">ঢেউয়ের বিস্তার</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">বন্ধ</string>
+    <string name="settings_blur_title">গ্লাস ব্লার ব্যাসার্ধ</string>
+    <string name="settings_tint_title">গ্লাস টিন্ট অস্বচ্ছতা</string>
+    <string name="settings_logo_title">প্রকল্পের লোগো দেখান</string>
+    <string name="settings_logo_summary">প্রকল্পের ব্যানার দেখান (GIF, ছবি, ভিডিও বা অ্যানিমেটেড ওয়ার্ডমার্ক)</string>
+    <string name="settings_banner_title">রিলিজ ব্যানার দেখান</string>
+    <string name="settings_banner_summary">কার্ড হেডারে রিলিজ ব্যানারের ছবি বা ভিডিও দেখান</string>
+    <string name="settings_clear_cache">মিডিয়া ও চেঞ্জলগ ক্যাশে মুছুন</string>
+    <string name="toast_cache_cleared">ক্যাশে মোছা হয়েছে</string>
+    <string name="settings_danger_title">গুরুতর / অনিরাপদ ইনস্টলেশন</string>
+    <string name="settings_danger_warning">সম্পূর্ণ নিজের ঝুঁকিতে ব্যবহার করুন। ভুল ROM ফ্ল্যাশ করলে ডিভাইস নষ্ট হতে পারে।</string>
+    <string name="settings_unsafe_title">নিরাপত্তা ও যাচাই পরীক্ষা এড়িয়ে যান</string>
+    <string name="settings_unsafe_summary">OTA স্বাক্ষর যাচাই, ডাউনগ্রেড বাধা ও Android SDK সুরক্ষা অক্ষম করে। ডাউনগ্রেড বা ক্রস-ROM ZIP ফ্ল্যাশ করতে দেয়।</string>
+    <string name="settings_unsafe_confirm">নিশ্চিত করুন: ডাউনগ্রেড, স্বাক্ষরহীন ZIP বা ডেটা ক্ষতির সম্পূর্ণ দায় আপনি নিচ্ছেন।</string>
+    <string name="danger_accept">আমি ঝুঁকি মেনে নিচ্ছি</string>
+    <string name="settings_recovery_title">রিকভারি দিয়ে জোর করে ইনস্টল করুন</string>
+    <string name="settings_recovery_summary">update_engine এড়িয়ে ZIP সরাসরি ফ্ল্যাশ করতে রিকভারিতে (OrangeFox / TWRP) পুনরায় চালু করুন। update_engine ডাউনগ্রেড টাইমস্ট্যাম্প বা স্বাক্ষর প্রত্যাখ্যান করলে উপযোগী।</string>
+    <string name="overlay_battery_low">ইনস্টল করার জন্য ব্যাটারির মাত্রা খুব কম</string>
+    <string name="overlay_blocked_format">আটকে দেওয়া হয়েছে (<xliff:g id="reason">%1$s</xliff:g>)। জোর করে ইনস্টল করতে সেটিংসে অনিরাপদ মোড চালু করুন।</string>
+    <string name="overlay_downgrade_blocked">নিরাপত্তা নিয়মে ডাউনগ্রেড আটকে দেওয়া হয়েছে। ওভাররাইড করতে সেটিংসে অনিরাপদ মোড চালু করুন।</string>
+    <string name="overlay_major_blocked">নিরাপত্তা নিয়মে বড় Android আপগ্রেড আটকে দেওয়া হয়েছে। ওভাররাইড করতে সেটিংসে অনিরাপদ মোড চালু করুন।</string>
+    <string name="overlay_metered_format">আপনি মিটার্ড সংযোগে আছেন। এখন <xliff:g id="size">%1$s</xliff:g> ডাউনলোড করবেন?</string>
+    <string name="overlay_unsafe_recovery">রিকভারি দিয়ে ডাউনলোড ও ফ্ল্যাশ করবেন (অনিরাপদ মোড)?</string>
+    <string name="overlay_unsafe_force">যাচাই ছাড়াই ডাউনলোড ও জোর করে ইনস্টল করবেন?</string>
+    <string name="overlay_scratch_mounted">স্ক্র্যাচ পার্টিশন মাউন্ট করা আছে; ইনস্টল করা যাবে না</string>
+    <string name="toast_sha_copied">SHA-256 অনুলিপি করা হয়েছে</string>
+    <string name="overlay_install_recovery">রিকভারি দিয়ে ফ্ল্যাশ করবেন (অনিরাপদ মোড)? ডিভাইস রিকভারিতে পুনরায় চালু হবে।</string>
+    <string name="overlay_install_force">স্বাক্ষর/ডাউনগ্রেড পরীক্ষা ছাড়াই জোর করে ইনস্টল করবেন? নিজের ঝুঁকিতে এগিয়ে যান।</string>
+    <string name="overlay_changelog_title">চেঞ্জলগ</string>
+    <string name="desc_reload_changelog">চেঞ্জলগ পুনরায় লোড করুন</string>
+    <string name="overlay_changelog_loading">চেঞ্জলগ লোড হচ্ছে…</string>
+    <string name="overlay_changelog_error">এই বিল্ডের চেঞ্জলগ লোড করা যায়নি।</string>
+    <string name="overlay_changelog_empty">এই রিলিজের জন্য কোনো চেঞ্জলগ দেওয়া হয়নি।</string>
+    <string name="overlay_archive_sha">আর্কাইভ SHA-256</string>
+    <string name="desc_copy_sha">SHA-256 অনুলিপি করুন</string>
+    <string name="overlay_reboot_to_apply">আপডেট প্রয়োগ করতে পুনরায় চালু করুন</string>
+    <string name="overlay_pause_format">বিরতি (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">পুনরায় শুরু (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">প্যাকেজ ফাইল</string>
+    <string name="overlay_parts_title">বিভক্ত আর্কাইভ অংশ (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">মোছা নিশ্চিত করুন</string>
+    <string name="info_package_size">প্যাকেজের আকার</string>
+    <string name="info_android_api">অ্যান্ড্রয়েড API</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">বিল্ডের ধরন</string>
+    <string name="info_delivery">বিতরণ</string>
+    <string name="info_delivery_split">বিভক্ত (<xliff:g id="count">%1$d</xliff:g> অংশ)</string>
+    <string name="float_importing">স্থানীয় ZIP আমদানি করা হচ্ছে…</string>
+    <string name="float_copying">প্যাকেজ অনুলিপি ও মেটাডেটা পরীক্ষা করা হচ্ছে</string>
+    <string name="float_calculating">গণনা করা হচ্ছে…</string>
+    <plurals name="float_parts">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> অংশ</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> অংশ</item>
+    </plurals>
+    <string name="float_parallel">সমান্তরাল</string>
+    <string name="float_sequential">ক্রমানুসারে</string>
+    <string name="float_single">একক আর্কাইভ</string>
+    <string name="float_autoinstall">স্বয়ং-ইনস্টল</string>
+    <string name="float_parts_header">আর্কাইভ অংশ (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> সম্পন্ন)</string>
+    <string name="float_suspend">স্থগিত করুন</string>
+    <string name="float_abort">বাতিল করুন</string>
+    <string name="desc_toggle_details">বিশদ টগল করুন</string>
+    <string name="part_queued">সারিবদ্ধ</string>
+    <string name="part_verifying">SHA-256 যাচাই করা হচ্ছে</string>
+    <string name="part_verified">যাচাই হয়েছে</string>
+    <string name="part_done">সম্পন্ন</string>
+    <string name="part_paused_format">বিরত • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">পুনরায় চেষ্টা / ত্রুটি</string>
+    <string name="part_waiting">অপেক্ষা করছে…</string>
+    <string name="stage_connecting">সার্ভারে সংযোগ করা হচ্ছে…</string>
+    <string name="stage_verify_part">অংশ <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>-এর SHA-256 যাচাই করা হচ্ছে…</string>
+    <string name="stage_assemble">অংশ একত্রিত করা হচ্ছে (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">চূড়ান্ত আর্কাইভের SHA-256 যাচাই করা হচ্ছে…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> অংশ সক্রিয় • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">অংশ <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">ডাউনলোড হচ্ছে • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• স্বয়ং-ইনস্টল</string>
+    <string name="stage_paused">ডাউনলোড বিরত • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">ডাউনলোড ব্যর্থ • পুনরায় শুরু চাপুন</string>
+    <string name="stage_verifying_sig">আর্কাইভ ও স্বাক্ষর যাচাই করা হচ্ছে…</string>
+    <string name="stage_finalizing">A/B স্লট চূড়ান্ত করা হচ্ছে • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">আপডেট ইনস্টল করা হচ্ছে • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">ইনস্টলেশন স্থগিত • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">ইনস্টল হয়েছে — পুনরায় চালু করা প্রয়োজন</string>
+    <string name="md_image_alt">ছবি</string>
+    <string name="md_image_failed">ছবি লোড করা যায়নি</string>
+    <string name="importer_tag_local">স্থানীয় ZIP</string>
+    <string name="err_no_url">কোনো ডাউনলোড URL বা অংশ নির্ধারিত নেই</string>
+    <string name="err_no_dest">কোনো ডাউনলোড গন্তব্য নির্ধারিত নেই</string>
+    <string name="err_no_callback">কোনো ডাউনলোড কলব্যাক নির্ধারিত নেই</string>
+    <string name="err_no_parts">কোনো ডাউনলোড অংশ নির্দিষ্ট করা হয়নি</string>
+    <string name="err_no_tempdir">অস্থায়ী অংশ ডিরেক্টরি তৈরি করা যাচ্ছে না: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">অংশ <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> চেকসাম অমিল</string>
+    <string name="err_part_failed">অংশ <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> ডাউনলোড ব্যর্থ হয়েছে</string>
+    <string name="err_final_sha">চূড়ান্ত আর্কাইভের SHA-256 যাচাই ব্যর্থ হয়েছে</string>
+    <string name="err_empty_body">অংশ <xliff:g id="index">%1$d</xliff:g>-এর জন্য খালি প্রতিক্রিয়া বডি</string>
+    <string name="err_unknown_size"><xliff:g id="url">%1$s</xliff:g>-এর আকার নির্ধারণ করা যাচ্ছে না</string>
+    <string name="err_no_range">সার্ভার রেঞ্জ অনুরোধ সমর্থন করে না: প্রত্যাশিত HTTP 206, পেয়েছে <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_content_range"><xliff:g id="url">%1$s</xliff:g>-এর জন্য Content-Range হেডার নেই</string>
+    <string name="err_bad_content_range"><xliff:g id="url">%1$s</xliff:g>-এর জন্য অপ্রত্যাশিত Content-Range: প্রত্যাশিত <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">প্রোটোকল পরিবর্তনের অনুমতি নেই</string>
+    <string name="err_server_reply">সার্ভার জবাব দিয়েছে <xliff:g id="code">%1$s</xliff:g> দিয়ে</string>
+    <string name="err_no_fd">fileDescriptor পাওয়া যায়নি</string>
+    <string name="err_import_cancelled">আমদানি বাতিল করা হয়েছে</string>
+    <string name="err_verify_deleted">যাচাই ব্যর্থ হয়েছে, ফাইল মুছে ফেলা হয়েছে</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">প্রয়োগ করুন</string>
+    <string name="dialog_value_title">মান</string>
+    <string name="unknown_size">অজানা</string>
+    <string name="slider_default">ডিফল্ট</string>
+    <string name="slider_default_value">ডিফল্ট (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">নেটওয়ার্ক ত্রুটি</string>
+    <string name="action_paused_state">বিরত</string>
+    <string name="part_fallback_name">part_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">অ্যান্ড্রয়েড <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">সার্ভার</string>
+    <string name="err_response_empty">খালি প্রতিক্রিয়া বডি</string>
+    <string name="err_changelog_body_empty">খালি চেঞ্জলগ বডি</string>
+    <string name="err_changelog_too_large">চেঞ্জলগ <xliff:g id="bytes" example="524288">%1$d</xliff:g> বাইট ছাড়িয়েছে</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: হার সীমা ছাড়িয়েছে (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>)। <xliff:g id="wait" example="~2 min">%3$s</xliff:g> পরে পুনরায় চেষ্টা করুন।</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: হার সীমা ছাড়িয়েছে (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>)। পরে আবার চেষ্টা করুন।</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: ফাইল বা ফিড পাওয়া যায়নি (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: অ্যাক্সেস প্রত্যাখ্যাত (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: রিসোর্স সরানো হয়েছে (HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: সার্ভার অনুপলব্ধ (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> মিনিট</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g> সে</string>
+    <string name="err_download_file_missing">ডাউনলোড করা ফাইল পাওয়া যাচ্ছে না</string>
+    <string name="err_sha_mismatch">SHA-256 চেকসাম অমিল</string>
+    <string name="err_sha_calc_failed">SHA-256 গণনা ব্যর্থ হয়েছে</string>
+    <string name="err_ota_signature_failed">OTA স্বাক্ষর যাচাই ব্যর্থ হয়েছে</string>
+    <string name="err_engine_signature">update_engine পেলোড স্বাক্ষর প্রত্যাখ্যান করেছে (কোড <xliff:g id="code" example="20">%1$d</xliff:g>)। জোর করে রিকভারি ইনস্টল চেষ্টা করুন।</string>
+    <string name="err_engine_downgrade">update_engine ডাউনগ্রেড টাইমস্ট্যাম্প আটকে দিয়েছে (কোড <xliff:g id="code" example="51">%1$d</xliff:g>)। জোর করে রিকভারি ইনস্টল চেষ্টা করুন।</string>
+    <string name="err_engine_storage">A/B স্লট আপডেটের জন্য পর্যাপ্ত স্টোরেজ নেই (কোড <xliff:g id="code" example="7">%1$d</xliff:g>)।</string>
+    <string name="err_engine_partition">পার্টিশন যাচাই ব্যর্থ হয়েছে (কোড <xliff:g id="code" example="15">%1$d</xliff:g>)।</string>
+    <string name="err_engine_cancelled">ব্যবহারকারী ইনস্টলেশন বাতিল করেছেন।</string>
+    <string name="err_engine_generic">update_engine ত্রুটি কোড <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">অসমর্থিত OTA ধরন: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found"><xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> <xliff:g id="file" example="update.zip">%2$s</xliff:g>-এ খুঁজে পাওয়া যায়নি</string>
+</resources>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="verification_failed_notification">Verifikimi dështoi</string>
+    <string name="verifying_download_notification">Duke verifikuar përditësimin</string>
+    <string name="downloading_notification">Duke u shkarkuar</string>
+    <string name="download_paused_notification">Shkarkimi ndaloi</string>
+    <string name="download_paused_error_notification">Problem në shkarkim</string>
+    <string name="download_completed_notification">Shkarkimi përfundoi</string>
+    <string name="download_starting_notification">Duke filluar shkarkimin</string>
+    <string name="update_failed_notification">Përditësimi dështoi</string>
+    <string name="installation_suspended_notification">Instalimi u pezullua</string>
+    <string name="new_updates_found_title">Përditësime të reja</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="installing_update_error">Gabim në instalim</string>
+    <string name="finalizing_package">Në perfundim të instalimit të paketës</string>
+    <string name="preparing_ota_first_boot">Po përgatitet për ndezjen e parë</string>
+    <string name="dialog_prepare_zip_message">Parapërgatitje për përditësimin</string>
+    <string name="reboot">Rindiz</string>
+    <string name="menu_export_update">Eksporto përditësimin</string>
+    <string name="menu_metered_network_warning">Paralajmërim i rrjetit celular</string>
+    <string name="menu_ab_perf_mode">Jepi përparësi përditësimit</string>
+    <string name="menu_update_recovery">Përditëso rikuperimin</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">Shkarko</string>
+    <string name="action_pause">Pezullo</string>
+    <string name="action_resume">Rinis</string>
+    <string name="action_install">Instalo</string>
+    <string name="action_info">Informacion</string>
+    <string name="action_delete">Fshi</string>
+    <string name="dialog_export_title">Duke exportuar përditësimin</string>
+    <string name="notification_export_success">Përditësimi u eksportua</string>
+    <string name="notification_export_fail">Problem në exportim</string>
+    <string name="toast_already_exporting">Aktualisht po exporton një përditësim</string>
+    <string name="toast_export_started">Eksporti filloi</string>
+    <string name="blocked_update_dialog_title">Përditësimi është bllokuar</string>
+    <string name="export_channel_title">Eksporto përfundimin</string>
+    <string name="new_updates_channel_title">Përditësime të reja</string>
+    <string name="ongoing_channel_title">Shkarkimet në proces</string>
+    <string name="update_failed_channel_title">Përditësimi dështoi</string>
+    <string name="display_name">LeeGar Updater</string>
+    <string name="new_updates_found_summary">Prek për të parë përditësimet e disponueshme</string>
+    <string name="installing_update">Duke instaluar përditësimin e sistemit</string>
+    <string name="installing_update_finished">Përditësimi pret rinisjen</string>
+    <string name="action_download_install">Shkarko dhe instalo</string>
+    <string name="check_for_update">Kontrollo për përditësime</string>
+    <string name="action_back">Prapa</string>
+    <string name="checking_for_updates">Duke kontrolluar për përditësime</string>
+    <string name="pref_category_background_sync">Sinkronizimi në prapavijë</string>
+    <string name="menu_auto_updates_check">Kontrollo periodikisht për përditësime</string>
+    <string name="menu_auto_updates_check_summary">Kontrollo për përditësime në prapavijë</string>
+    <string name="menu_auto_delete_updates">Fshi automatikisht përditësimet</string>
+    <string name="menu_stream_updates">Transmeto përditësimet online</string>
+    <string name="menu_stream_updates_summary">Instalo përditësimet gjatë shkarkimit. Çaktivizo për të ruajtur pakot për eksport.</string>
+    <string name="menu_metered_network_warning_summary">Paralajmëro para shkarkimit me të dhëna celulare</string>
+    <string name="menu_update_recovery_summary">Përditëso ndarjen e rikuperimit së bashku me sistemin</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">Data e ndërtimit</string>
+    <string name="security_update">Përditësim sigurie</string>
+    <string name="blocked_update_dialog_title_downgrade">Zbritja e versionit u bllokua</string>
+    <string name="tab_updates">Përditësimet</string>
+    <string name="tab_saved">Të ruajtura</string>
+    <string name="tab_saved_count">Të ruajtura (%1$d)</string>
+    <string name="tab_settings">Cilësimet</string>
+    <string name="toast_download_failed">Shkarkimi dështoi</string>
+    <string name="toast_download_verified">Shkarkimi u verifikua &amp; gati</string>
+    <string name="toast_import_failed">Dështoi importimi i ZIP (paketë ose nënshkrim i pavlefshëm). Provo modalitetin e pasigurt për ZIP të personalizuar.</string>
+    <string name="toast_imported_format">U importua <xliff:g id="name">%1$s</xliff:g> te skeda e Shkarkuar</string>
+    <string name="banner_no_internet">S’ka lidhje interneti</string>
+    <string name="banner_check_failed">Dështoi kontrolli për përditësime</string>
+    <string name="section_releases">Versionet e disponueshme</string>
+    <string name="section_releases_count">Versionet e disponueshme • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">Modaliteti i pasigurt</string>
+    <string name="empty_releases_title">S’u ngarkua asnjë version</string>
+    <string name="empty_releases_desc">Prek rifresko për të marrë versionet nga prurja OTA JSON e konfiguruar.</string>
+    <string name="device_fallback_name">Pajisja</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> version më i ri i disponueshëm</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> versione më të reja të disponueshme</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="one">Sistemi është i përditësuar • <xliff:g id="count">%1$d</xliff:g> version në prurje</item>
+        <item quantity="other">Sistemi është i përditësuar • <xliff:g id="count">%1$d</xliff:g> versione në prurje</item>
+    </plurals>
+    <string name="installed_label_format">I instaluar: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • Arna: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">U kontrollua: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">Datë e panjohur</string>
+    <string name="status_starting">Duke filluar</string>
+    <string name="status_verifying">Duke verifikuar</string>
+    <string name="status_merging">Duke bashkuar <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">I pezulluar <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">Gabim</string>
+    <string name="status_installing">Duke instaluar <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">I pezulluar <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <plurals name="badge_split_parts">
+        <item quantity="one">I ndarë • <xliff:g id="count">%1$d</xliff:g> pjesë</item>
+        <item quantity="other">I ndarë • <xliff:g id="count">%1$d</xliff:g> pjesë</item>
+    </plurals>
+    <string name="badge_downloaded">I shkarkuar</string>
+    <string name="badge_reboot_required">Kërkohet rinisje</string>
+    <string name="badge_local">Lokal</string>
+    <string name="badge_major_upgrade">Përmirësim madhor</string>
+    <string name="relation_newer">Më i ri</string>
+    <string name="relation_installed">I instaluar</string>
+    <string name="relation_downgrade">Zbritje versioni</string>
+    <string name="relation_build">Version</string>
+    <plurals name="downloaded_title">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> paketë e ruajtur</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> paketa të ruajtura</item>
+    </plurals>
+    <string name="downloaded_subtitle_used">Hapësira e përdorur: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">Importo një ZIP lokal ose shkarko versione nga Përditësimet</string>
+    <string name="action_import_zip">Importo ZIP</string>
+    <string name="empty_downloaded_title">S’ka përditësime të shkarkuara</string>
+    <string name="empty_downloaded_desc">Pakot ROM të shkarkuara dhe skedarët ZIP lokalë të importuar do të shfaqen këtu për instalim, eksport ose heqje.</string>
+    <string name="section_downloaded">Të shkarkuarat &amp; ZIP lokalë</string>
+    <string name="install_confirm_recovery">Instalo nëpërmjet Rimëkëmbjes (modalitet i pasigurt)? Pajisja do të rindizet në Rimëkëmbje.</string>
+    <string name="install_confirm_force">Instalo me forcë pa verifikim? Sigurohu që ky ZIP përputhet me pajisjen tënde.</string>
+    <string name="install_confirm_now">Instalo <xliff:g id="name">%1$s</xliff:g> tani?</string>
+    <string name="action_cancel">Anulo</string>
+    <string name="action_confirm">Konfirmo</string>
+    <string name="action_proceed">Vazhdo</string>
+    <string name="action_reboot_now">Rindiz tani</string>
+    <string name="action_export">Eksporto</string>
+    <string name="action_reset">Rivendos</string>
+    <string name="install_label_recovery">Instalo (Rimëkëmbja)</string>
+    <string name="install_label_force">Instalim i detyruar</string>
+    <string name="action_stream_install">Transmeto &amp; instalo</string>
+    <string name="action_download_install_new">Shkarko &amp; instalo</string>
+    <string name="desc_close">Mbyll</string>
+    <string name="desc_retry">Provo sërish</string>
+    <string name="settings_check_interval">Intervali i kontrollit</string>
+    <string name="interval_daily">Përditë</string>
+    <string name="interval_weekly">Përjavë</string>
+    <string name="interval_monthly">Përmuaj</string>
+    <string name="settings_group_downloads">Shkarkimet &amp; verifikimi</string>
+    <string name="settings_parallel_title">Shkarkim paralel i pjesëve</string>
+    <string name="settings_parallel_summary">Shkarko deri në 3 pjesë të arkivit të ndarë njëkohësisht për shpejtësi më të madhe</string>
+    <string name="settings_verify_title">Verifiko shumat SHA-256</string>
+    <string name="settings_verify_summary">Vërteto çdo pjesë dhe arkivin përfundimtar të bashkuar kundrejt hash-eve JSON</string>
+    <string name="settings_autodelete_summary">Hiq automatikisht pakon e shkarkuar sapo përditësimi të ketë sukses</string>
+    <string name="settings_group_installation">Instalimi</string>
+    <string name="settings_ab_perf_summary">Ndaj më shumë CPU &amp; I/O për update_engine për instalime më të shpejta</string>
+    <string name="settings_ab_perf_charging">Aktiv automatikisht kur lidhet me karikuesin</string>
+    <string name="settings_group_ota">Burimi OTA</string>
+    <string name="settings_ota_url_title">URL JSON OTA e personalizuar</string>
+    <string name="settings_ota_url_hint">Lëre bosh për të përdorur URL-në e paracaktuar të ROM / DeviceTree.</string>
+    <string name="settings_ota_apply">Zbato URL-në</string>
+    <string name="toast_ota_reset">URL OTA u rivendos te paracaktuarja</string>
+    <string name="toast_ota_updated">URL OTA u përditësua</string>
+    <string name="settings_group_appearance">Pamja &amp; hapësira</string>
+    <string name="settings_theme_title">Tema e aplikacionit</string>
+    <string name="theme_system">Sistemi</string>
+    <string name="theme_light">E çelët</string>
+    <string name="theme_dark">E errët</string>
+    <string name="settings_wavy_title">Shiriti i valëzuar i ecurisë</string>
+    <string name="settings_wavy_summary">Animo valën gjatë shkarkimit ose instalimit; rrafshohet butësisht në pezullim</string>
+    <string name="settings_amplitude_title">Amplituda e valës</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">Fikur</string>
+    <string name="settings_blur_title">Rrezja e turbullimit të xhamit</string>
+    <string name="settings_tint_title">Patejdukshmëria e ngjyrës së xhamit</string>
+    <string name="settings_logo_title">Shfaq logon e projektit</string>
+    <string name="settings_logo_summary">Shfaq banderolën e projektit (GIF, figurë, video ose emër i animuar)</string>
+    <string name="settings_banner_title">Shfaq banderolën e versionit</string>
+    <string name="settings_banner_summary">Shfaq figurën ose videon e banderolës së versionit në krye të kartës</string>
+    <string name="settings_clear_cache">Pastro memorien e medias &amp; të ndryshimeve</string>
+    <string name="toast_cache_cleared">Memoria u pastrua</string>
+    <string name="settings_danger_title">Instalim kritik / i pasigurt</string>
+    <string name="settings_danger_warning">Përdore rreptësisht me rrezikun tënd. Mund ta dëmtojë pajisjen nëse instalohet ROM i gabuar.</string>
+    <string name="settings_unsafe_title">Anashkalo kontrollet e sigurisë &amp; verifikimit</string>
+    <string name="settings_unsafe_summary">Çaktivizon verifikimin e nënshkrimit OTA, bllokun e zbritjes dhe rojet e Android SDK. Lejon instalimin e zbritjeve ose ZIP të ROM-eve të tjera.</string>
+    <string name="settings_unsafe_confirm">Konfirmo: pranon përgjegjësi të plotë për zbritje, ZIP të panënshkruar ose humbje të dhënash.</string>
+    <string name="danger_accept">E pranoj rrezikun</string>
+    <string name="settings_recovery_title">Instalim i detyruar nëpërmjet Rimëkëmbjes</string>
+    <string name="settings_recovery_summary">Anashkalo update_engine dhe rindiz në Rimëkëmbje (OrangeFox / TWRP) për të instaluar ZIP drejtpërdrejt. E dobishme nëse update_engine refuzon vulën e zbritjes ose nënshkrimin.</string>
+    <string name="overlay_battery_low">Niveli i baterisë është shumë i ulët për instalim</string>
+    <string name="overlay_blocked_format">I bllokuar (<xliff:g id="reason">%1$s</xliff:g>). Aktivizo modalitetin e pasigurt te Cilësimet për instalim të detyruar.</string>
+    <string name="overlay_downgrade_blocked">Zbritja bllokohet nga rregullat e sigurisë. Aktivizo modalitetin e pasigurt te Cilësimet për ta anashkaluar.</string>
+    <string name="overlay_major_blocked">Përmirësimi madhor i Android bllokohet nga rregullat e sigurisë. Aktivizo modalitetin e pasigurt te Cilësimet për ta anashkaluar.</string>
+    <string name="overlay_metered_format">Je në lidhje me pagesë. Shkarko <xliff:g id="size">%1$s</xliff:g> tani?</string>
+    <string name="overlay_unsafe_recovery">Shkarko dhe instalo nëpërmjet Rimëkëmbjes (modalitet i pasigurt)?</string>
+    <string name="overlay_unsafe_force">Shkarko dhe instalo me forcë pa verifikim?</string>
+    <string name="overlay_scratch_mounted">Ndarja scratch është montuar; s’mund të instalohet</string>
+    <string name="toast_sha_copied">SHA-256 u kopjua</string>
+    <string name="overlay_install_recovery">Instalo nëpërmjet Rimëkëmbjes (modalitet i pasigurt)? Pajisja do të rindizet në Rimëkëmbje.</string>
+    <string name="overlay_install_force">Instalim i detyruar pa kontrolle nënshkrimi/zbritjeje? Vazhdo me rrezikun tënd.</string>
+    <string name="overlay_changelog_title">Regjistri i ndryshimeve</string>
+    <string name="desc_reload_changelog">Ringarko regjistrin e ndryshimeve</string>
+    <string name="overlay_changelog_loading">Duke ngarkuar regjistrin e ndryshimeve…</string>
+    <string name="overlay_changelog_error">S’u ngarkua dot regjistri i ndryshimeve për këtë version.</string>
+    <string name="overlay_changelog_empty">S’u dha asnjë regjistër ndryshimesh për këtë version.</string>
+    <string name="overlay_archive_sha">SHA-256 e arkivit</string>
+    <string name="desc_copy_sha">Kopjo SHA-256</string>
+    <string name="overlay_reboot_to_apply">Rindiz për të zbatuar përditësimin</string>
+    <string name="overlay_pause_format">Pezullo (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">Rinis (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">Skedari i paketës</string>
+    <string name="overlay_parts_title">Pjesët e arkivit të ndarë (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">Konfirmo fshirjen</string>
+    <string name="info_package_size">Madhësia e paketës</string>
+    <string name="info_android_api">API e Android</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">Lloji i versionit</string>
+    <string name="info_delivery">Dorëzimi</string>
+    <string name="info_delivery_split">I ndarë (<xliff:g id="count">%1$d</xliff:g> pjesë)</string>
+    <string name="float_importing">Duke importuar ZIP lokal…</string>
+    <string name="float_copying">Duke kopjuar pakon &amp; kontrolluar metadatën</string>
+    <string name="float_calculating">Duke llogaritur…</string>
+    <plurals name="float_parts">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> pjesë</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> pjesë</item>
+    </plurals>
+    <string name="float_parallel">Paralel</string>
+    <string name="float_sequential">Vijues</string>
+    <string name="float_single">Arkiv i vetëm</string>
+    <string name="float_autoinstall">Vetëinstalim</string>
+    <string name="float_parts_header">Pjesët e arkivit (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> gati)</string>
+    <string name="float_suspend">Pezullo</string>
+    <string name="float_abort">Ndërprit</string>
+    <string name="desc_toggle_details">Këmbe detajet</string>
+    <string name="part_queued">Në radhë</string>
+    <string name="part_verifying">Duke verifikuar SHA-256</string>
+    <string name="part_verified">I verifikuar</string>
+    <string name="part_done">Gati</string>
+    <string name="part_paused_format">I pezulluar • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">Provo sërish / Gabim</string>
+    <string name="part_waiting">Duke pritur…</string>
+    <string name="stage_connecting">Duke u lidhur me serverin…</string>
+    <string name="stage_verify_part">Duke verifikuar pjesën <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> SHA-256…</string>
+    <string name="stage_assemble">Duke bashkuar pjesët (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">Duke verifikuar SHA-256 të arkivit përfundimtar…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> pjesë aktive • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">Pjesa <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">Duke shkarkuar • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• Vetëinstalim</string>
+    <string name="stage_paused">Shkarkimi u pezullua • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">Shkarkimi dështoi • Prek Rinis</string>
+    <string name="stage_verifying_sig">Duke verifikuar arkivin &amp; nënshkrimin…</string>
+    <string name="stage_finalizing">Duke finalizuar vendin A/B • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">Duke instaluar përditësimin • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">Instalimi u pezullua • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">U instalua — kërkohet rinisje</string>
+    <string name="md_image_alt">Figurë</string>
+    <string name="md_image_failed">Dështoi ngarkimi i figurës</string>
+    <string name="importer_tag_local">ZIP lokal</string>
+    <string name="err_no_url">S’ka URL shkarkimi apo pjesë të përcaktuara</string>
+    <string name="err_no_dest">S’ka destinacion shkarkimi të përcaktuar</string>
+    <string name="err_no_callback">S’ka kthim-thirrje shkarkimi të përcaktuar</string>
+    <string name="err_no_parts">S’ka pjesë shkarkimi të specifikuara</string>
+    <string name="err_no_tempdir">S’mund të krijohet drejtoria e përkohshme e pjesëve: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">Mospërputhje e shumës së kontrollit të pjesës <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_part_failed">Dështoi shkarkimi i pjesës <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_final_sha">Verifikimi SHA-256 i arkivit përfundimtar dështoi</string>
+    <string name="err_empty_body">Trup i zbrazët përgjigjeje për pjesën <xliff:g id="index">%1$d</xliff:g></string>
+    <string name="err_unknown_size">S’mund të përcaktohet madhësia për <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_no_range">Serveri s’mbështet kërkesa intervali: pritej HTTP 206, u mor <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_content_range">Mungon kryefjala Content-Range për <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_bad_content_range">Content-Range i papritur për <xliff:g id="url">%1$s</xliff:g>: pritej <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">Ndryshimet e protokollit s’lejohen</string>
+    <string name="err_server_reply">Serveri u përgjigj me <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_no_fd">Dështoi marrja e fileDescriptor</string>
+    <string name="err_import_cancelled">Importimi u anulua</string>
+    <string name="err_verify_deleted">Verifikimi dështoi, skedari u fshi</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">Zbato</string>
+    <string name="dialog_value_title">Vlera</string>
+    <string name="unknown_size">E panjohur</string>
+    <string name="slider_default">Paracaktuar</string>
+    <string name="slider_default_value">Paracaktuar (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">Gabim rrjeti</string>
+    <string name="action_paused_state">I pezulluar</string>
+    <string name="part_fallback_name">pjesë_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">Serveri</string>
+    <string name="err_response_empty">Trup i zbrazët përgjigjeje</string>
+    <string name="err_changelog_body_empty">Trup i zbrazët i regjistrit të ndryshimeve</string>
+    <string name="err_changelog_too_large">Regjistri i ndryshimeve kalon <xliff:g id="bytes" example="524288">%1$d</xliff:g> bajte</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: kufiri i shpejtësisë u tejkalua (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Provo sërish pas <xliff:g id="wait" example="~2 min">%3$s</xliff:g>.</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: kufiri i shpejtësisë u tejkalua (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Provo sërish më vonë.</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: skedari ose prurja s’u gjet (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: qasja u refuzua (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: burimi u hoq (HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: serveri i padisponueshëm (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> min</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g>s</string>
+    <string name="err_download_file_missing">Skedari i shkarkuar mungon</string>
+    <string name="err_sha_mismatch">Mospërputhje e shumës SHA-256</string>
+    <string name="err_sha_calc_failed">Dështoi llogaritja e SHA-256</string>
+    <string name="err_ota_signature_failed">Verifikimi i nënshkrimit OTA dështoi</string>
+    <string name="err_engine_signature">update_engine refuzoi nënshkrimin e ngarkesës (kodi <xliff:g id="code" example="20">%1$d</xliff:g>). Provo instalimin e detyruar në Rimëkëmbje.</string>
+    <string name="err_engine_downgrade">update_engine bllokoi vulën e zbritjes (kodi <xliff:g id="code" example="51">%1$d</xliff:g>). Provo instalimin e detyruar në Rimëkëmbje.</string>
+    <string name="err_engine_storage">S’ka hapësirë të mjaftueshme për përditësimin e vendit A/B (kodi <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_engine_partition">Verifikimi i ndarjes dështoi (kodi <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_cancelled">Instalimi u anulua nga përdoruesi.</string>
+    <string name="err_engine_generic">Kodi i gabimit update_engine <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">Lloji OTA i pambështetur: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found">S’u gjet <xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> në <xliff:g id="file" example="update.zip">%2$s</xliff:g></string>
+
+</resources>

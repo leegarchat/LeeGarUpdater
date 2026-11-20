@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="display_name">Cập nhật hệ thống</string>
+    <string name="verification_failed_notification">Xác minh thất bại</string>
+    <string name="verifying_download_notification">Đang xác thực bản cập nhật</string>
+    <string name="downloading_notification">Đang tải xuống</string>
+    <string name="download_paused_notification">Đã tạm dừng tải xuống</string>
+    <string name="download_paused_error_notification">Lỗi tải xuống</string>
+    <string name="download_completed_notification">Tải xuống hoàn tất</string>
+    <string name="download_starting_notification">Đang bắt đầu tải xuống</string>
+    <string name="update_failed_notification">Cập nhật thất bại</string>
+    <string name="installation_suspended_notification">Cài đặt đã ngừng</string>
+    <string name="new_updates_found_title">Bản cập nhật mới</string>
+    <string name="new_updates_found_summary">Nhấn để xem các bản cập nhật có sẵn</string>
+    <string name="text_download_speed">%1$s, %2$s/giây</string>
+    <string name="installing_update">Đang cài đặt bản cập nhật hệ thống</string>
+    <string name="installing_update_error">Lỗi cài đặt</string>
+    <string name="installing_update_finished">Đang chờ khởi động lại để cập nhật</string>
+    <string name="finalizing_package">Đang hoàn tất gói cài đặt</string>
+    <string name="preparing_ota_first_boot">Đang chuẩn bị cho lần khởi động đầu tiên</string>
+    <string name="dialog_prepare_zip_message">Chuẩn bị cập nhật sơ bộ</string>
+    <string name="reboot">Khởi động lại</string>
+    <string name="checking_for_updates">Đang kiểm tra cập nhật</string>
+    <string name="pref_category_background_sync">Đồng bộ trong nền</string>
+    <string name="menu_auto_updates_check">Tự động kiểm tra cập nhật</string>
+    <string name="menu_auto_updates_check_summary">Kiểm tra các bản cập nhật trong nền</string>
+    <string name="menu_auto_delete_updates">Tự động xóa bản cập nhật</string>
+    <string name="menu_stream_updates">Cập nhật trực tuyến</string>
+    <string name="menu_stream_updates_summary">Cài đặt các bản cập nhật trong khi tải xuống. Vô hiệu hóa để lưu các gói cập nhật để xuất.</string>
+    <string name="menu_export_update">Xuất bản cập nhật</string>
+    <string name="menu_metered_network_warning">Cảnh báo mạng được đo lường</string>
+    <string name="menu_metered_network_warning_summary">Cảnh báo trước khi tải xuống qua dữ liệu di động</string>
+    <string name="menu_ab_perf_mode">Ưu tiên quá trình cập nhật</string>
+    <string name="menu_update_recovery">Cập nhật recovery</string>
+    <string name="menu_update_recovery_summary">Cập nhật phân vùng phục hồi cùng với hệ điều hành</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">Ngày dựng</string>
+    <string name="security_update">Cập nhật bảo mật</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">Tải xuống</string>
+    <string name="action_pause">Tạm dừng</string>
+    <string name="action_resume">Tiếp tục</string>
+    <string name="action_install">Cài đặt</string>
+    <string name="action_info">Thông tin</string>
+    <string name="action_delete">Xóa</string>
+    <string name="dialog_export_title">Đang xuất bản cập nhật</string>
+    <string name="notification_export_success">Đã xuất bản cập nhật</string>
+    <string name="notification_export_fail">Lỗi xuất</string>
+    <string name="toast_already_exporting">Đã xuất một bản cập nhật</string>
+    <string name="toast_export_started">Đã bắt đầu xuất</string>
+    <string name="blocked_update_dialog_title">Cập nhật bị chặn</string>
+    <string name="blocked_update_dialog_title_downgrade">Hạ cấp bị chặn</string>
+    <string name="export_channel_title">Hoàn thành xuất</string>
+    <string name="new_updates_channel_title">Bản cập nhật mới</string>
+    <string name="ongoing_channel_title">Đang tải xuống</string>
+    <string name="update_failed_channel_title">Cập nhật thất bại</string>
+    <string name="action_download_install">Tải xuống và cài đặt</string>
+    <string name="check_for_update">Kiểm tra cập nhật</string>
+    <string name="action_back">Quay lại</string>
+    <string name="tab_updates">Cập nhật</string>
+    <string name="tab_saved">Đã lưu</string>
+    <string name="tab_saved_count">Đã lưu (%1$d)</string>
+    <string name="tab_settings">Cài đặt</string>
+    <string name="toast_download_failed">Tải xuống thất bại</string>
+    <string name="toast_download_verified">Đã xác minh bản tải xuống và sẵn sàng</string>
+    <string name="toast_import_failed">Nhập ZIP thất bại (gói hoặc chữ ký không hợp lệ). Hãy thử chế độ Không an toàn cho ZIP tùy chỉnh.</string>
+    <string name="toast_imported_format">Đã nhập <xliff:g id="name">%1$s</xliff:g> vào thẻ Đã lưu</string>
+    <string name="banner_no_internet">Không có kết nối Internet</string>
+    <string name="banner_check_failed">Không kiểm tra được cập nhật</string>
+    <string name="section_releases">Các bản phát hành</string>
+    <string name="section_releases_count">Các bản phát hành • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">Chế độ không an toàn</string>
+    <string name="empty_releases_title">Chưa tải bản phát hành nào</string>
+    <string name="empty_releases_desc">Nhấn làm mới để lấy các bản dựng từ nguồn JSON OTA đã cấu hình.</string>
+    <string name="device_fallback_name">Thiết bị</string>
+    <string name="installed_label_format">Đã cài đặt: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • Bản vá: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">Đã kiểm tra: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">Ngày không xác định</string>
+    <string name="status_starting">Đang bắt đầu</string>
+    <string name="status_verifying">Đang xác minh</string>
+    <string name="status_merging">Đang hợp nhất <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">Đã tạm dừng <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">Lỗi</string>
+    <string name="status_installing">Đang cài đặt <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">Đã tạm ngưng <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="badge_downloaded">Đã tải xuống</string>
+    <string name="badge_reboot_required">Cần khởi động lại</string>
+    <string name="badge_local">Cục bộ</string>
+    <string name="badge_major_upgrade">Nâng cấp lớn</string>
+    <string name="relation_newer">Mới hơn</string>
+    <string name="relation_installed">Đã cài đặt</string>
+    <string name="relation_downgrade">Hạ cấp</string>
+    <string name="relation_build">Bản dựng</string>
+    <string name="downloaded_subtitle_used">Dung lượng đã dùng: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">Nhập ZIP cục bộ hoặc tải bản dựng từ mục Cập nhật</string>
+    <string name="action_import_zip">Nhập ZIP</string>
+    <string name="empty_downloaded_title">Chưa có bản cập nhật đã tải</string>
+    <string name="empty_downloaded_desc">Các gói ROM đã tải và tệp ZIP cục bộ đã nhập sẽ hiện ở đây để cài đặt, xuất hoặc xóa.</string>
+    <string name="section_downloaded">Đã tải xuống và ZIP cục bộ</string>
+    <string name="install_confirm_recovery">Cài qua Recovery (chế độ Không an toàn)? Thiết bị sẽ khởi động lại vào Recovery.</string>
+    <string name="install_confirm_force">Buộc cài đặt mà không cần xác minh? Hãy đảm bảo ZIP này phù hợp với thiết bị của bạn.</string>
+    <string name="install_confirm_now">Cài đặt <xliff:g id="name">%1$s</xliff:g> ngay?</string>
+    <string name="action_cancel">Hủy</string>
+    <string name="action_confirm">Xác nhận</string>
+    <string name="action_proceed">Tiếp tục</string>
+    <string name="action_reboot_now">Khởi động lại ngay</string>
+    <string name="action_export">Xuất</string>
+    <string name="action_reset">Đặt lại</string>
+    <string name="install_label_recovery">Cài đặt (Recovery)</string>
+    <string name="install_label_force">Buộc cài đặt</string>
+    <string name="action_stream_install">Truyền và Cài đặt</string>
+    <string name="action_download_install_new">Tải xuống và Cài đặt</string>
+    <string name="desc_close">Đóng</string>
+    <string name="desc_retry">Thử lại</string>
+    <string name="settings_check_interval">Khoảng thời gian kiểm tra</string>
+    <string name="interval_daily">Hằng ngày</string>
+    <string name="interval_weekly">Hằng tuần</string>
+    <string name="interval_monthly">Hằng tháng</string>
+    <string name="settings_group_downloads">Tải xuống và xác minh</string>
+    <string name="settings_parallel_title">Tải song song nhiều phần</string>
+    <string name="settings_parallel_summary">Tải tối đa 3 phần lưu trữ chia nhỏ cùng lúc để tăng tốc</string>
+    <string name="settings_verify_title">Xác minh tổng kiểm SHA-256</string>
+    <string name="settings_verify_summary">Xác thực từng phần chia nhỏ và tệp lưu trữ cuối cùng theo hàm băm JSON</string>
+    <string name="settings_autodelete_summary">Tự động xóa gói đã tải sau khi cập nhật thành công</string>
+    <string name="settings_group_installation">Cài đặt</string>
+    <string name="settings_ab_perf_summary">Dành thêm CPU và I/O cho update_engine để cài đặt nhanh hơn</string>
+    <string name="settings_ab_perf_charging">Tự động bật khi cắm sạc AC</string>
+    <string name="settings_group_ota">Nguồn OTA</string>
+    <string name="settings_ota_url_title">URL JSON OTA tùy chỉnh</string>
+    <string name="settings_ota_url_hint">Để trống để dùng URL mặc định của lớp phủ ROM / DeviceTree.</string>
+    <string name="settings_ota_apply">Áp dụng URL</string>
+    <string name="toast_ota_reset">Đã đặt lại URL OTA về mặc định</string>
+    <string name="toast_ota_updated">Đã cập nhật URL OTA</string>
+    <string name="settings_group_appearance">Giao diện và lưu trữ</string>
+    <string name="settings_theme_title">Chủ đề ứng dụng</string>
+    <string name="theme_system">Hệ thống</string>
+    <string name="theme_light">Sáng</string>
+    <string name="theme_dark">Tối</string>
+    <string name="settings_wavy_title">Thanh tiến trình gợn sóng</string>
+    <string name="settings_wavy_summary">Tạo sóng khi đang tải hoặc cài đặt; xẹp mượt khi tạm dừng</string>
+    <string name="settings_amplitude_title">Biên độ sóng</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">Tắt</string>
+    <string name="settings_blur_title">Bán kính mờ kính</string>
+    <string name="settings_tint_title">Độ mờ phủ kính</string>
+    <string name="settings_logo_title">Hiện logo dự án</string>
+    <string name="settings_logo_summary">Hiển thị biểu ngữ dự án (GIF, hình ảnh, video hoặc chữ động)</string>
+    <string name="settings_banner_title">Hiện biểu ngữ bản phát hành</string>
+    <string name="settings_banner_summary">Hiển thị hình ảnh hoặc video biểu ngữ bản phát hành ở đầu thẻ</string>
+    <string name="settings_clear_cache">Xóa bộ nhớ đệm media và nhật ký thay đổi</string>
+    <string name="toast_cache_cleared">Đã xóa bộ nhớ đệm</string>
+    <string name="settings_danger_title">Cài đặt quan trọng / Không an toàn</string>
+    <string name="settings_danger_warning">Bạn hoàn toàn tự chịu rủi ro. Flash nhầm ROM có thể làm brick thiết bị.</string>
+    <string name="settings_unsafe_title">Bỏ qua kiểm tra an toàn và xác minh</string>
+    <string name="settings_unsafe_summary">Tắt xác minh chữ ký OTA, chặn hạ cấp và bảo vệ Android SDK. Cho phép flash bản hạ cấp hoặc ZIP khác ROM.</string>
+    <string name="settings_unsafe_confirm">Xác nhận: bạn chịu hoàn toàn trách nhiệm về hạ cấp, ZIP không ký hoặc mất dữ liệu.</string>
+    <string name="danger_accept">Tôi chấp nhận rủi ro</string>
+    <string name="settings_recovery_title">Buộc cài đặt qua Recovery</string>
+    <string name="settings_recovery_summary">Bỏ qua update_engine và khởi động lại vào Recovery (OrangeFox / TWRP) để flash ZIP trực tiếp. Hữu ích khi update_engine từ chối dấu thời gian hạ cấp hoặc chữ ký.</string>
+    <string name="overlay_battery_low">Pin quá yếu để cài đặt</string>
+    <string name="overlay_blocked_format">Đã chặn (<xliff:g id="reason">%1$s</xliff:g>). Bật chế độ Không an toàn trong Cài đặt để buộc cài đặt.</string>
+    <string name="overlay_downgrade_blocked">Hạ cấp bị chặn theo quy tắc an toàn. Bật chế độ Không an toàn trong Cài đặt để ghi đè.</string>
+    <string name="overlay_major_blocked">Nâng cấp Android lớn bị chặn theo quy tắc an toàn. Bật chế độ Không an toàn trong Cài đặt để ghi đè.</string>
+    <string name="overlay_metered_format">Bạn đang dùng mạng tính phí. Tải <xliff:g id="size">%1$s</xliff:g> ngay?</string>
+    <string name="overlay_unsafe_recovery">Tải xuống và flash qua Recovery (chế độ Không an toàn)?</string>
+    <string name="overlay_unsafe_force">Tải xuống và buộc cài đặt mà không xác minh?</string>
+    <string name="overlay_scratch_mounted">Phân vùng scratch đang gắn; không thể cài đặt</string>
+    <string name="toast_sha_copied">Đã sao chép SHA-256</string>
+    <string name="overlay_install_recovery">Flash qua Recovery (chế độ Không an toàn)? Thiết bị sẽ khởi động lại vào Recovery.</string>
+    <string name="overlay_install_force">Buộc cài đặt mà không kiểm tra chữ ký/hạ cấp? Bạn tự chịu rủi ro.</string>
+    <string name="overlay_changelog_title">Nhật ký thay đổi</string>
+    <string name="desc_reload_changelog">Tải lại nhật ký thay đổi</string>
+    <string name="overlay_changelog_loading">Đang tải nhật ký thay đổi…</string>
+    <string name="overlay_changelog_error">Không tải được nhật ký thay đổi cho bản này.</string>
+    <string name="overlay_changelog_empty">Bản phát hành này không có nhật ký thay đổi.</string>
+    <string name="overlay_archive_sha">SHA-256 tệp lưu trữ</string>
+    <string name="desc_copy_sha">Sao chép SHA-256</string>
+    <string name="overlay_reboot_to_apply">Khởi động lại để áp dụng cập nhật</string>
+    <string name="overlay_pause_format">Tạm dừng (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">Tiếp tục (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">Tệp gói</string>
+    <string name="overlay_parts_title">Các phần lưu trữ chia nhỏ (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">Xác nhận xóa</string>
+    <string name="info_package_size">Kích thước gói</string>
+    <string name="info_android_api">API Android</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">Loại bản dựng</string>
+    <string name="info_delivery">Phân phối</string>
+    <string name="info_delivery_split">Chia nhỏ (<xliff:g id="count">%1$d</xliff:g> phần)</string>
+    <string name="float_importing">Đang nhập ZIP cục bộ…</string>
+    <string name="float_copying">Đang sao chép gói và kiểm tra siêu dữ liệu</string>
+    <string name="float_calculating">Đang tính toán…</string>
+    <string name="float_parallel">Song song</string>
+    <string name="float_sequential">Tuần tự</string>
+    <string name="float_single">Một tệp lưu trữ</string>
+    <string name="float_autoinstall">Tự động cài đặt</string>
+    <string name="float_parts_header">Các phần lưu trữ (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> xong)</string>
+    <string name="float_suspend">Tạm ngưng</string>
+    <string name="float_abort">Hủy bỏ</string>
+    <string name="desc_toggle_details">Bật/tắt chi tiết</string>
+    <string name="part_queued">Đang xếp hàng</string>
+    <string name="part_verifying">Đang xác minh SHA-256</string>
+    <string name="part_verified">Đã xác minh</string>
+    <string name="part_done">Xong</string>
+    <string name="part_paused_format">Đã tạm dừng • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">Thử lại / Lỗi</string>
+    <string name="part_waiting">Đang chờ…</string>
+    <string name="stage_connecting">Đang kết nối tới máy chủ…</string>
+    <string name="stage_verify_part">Đang xác minh phần <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> SHA-256…</string>
+    <string name="stage_assemble">Đang ghép các phần (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">Đang xác minh SHA-256 tệp lưu trữ cuối…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> phần đang hoạt động • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">Phần <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">Đang tải xuống • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• Tự động cài đặt</string>
+    <string name="stage_paused">Đã tạm dừng tải • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">Tải thất bại • Nhấn Tiếp tục</string>
+    <string name="stage_verifying_sig">Đang xác minh tệp lưu trữ và chữ ký…</string>
+    <string name="stage_finalizing">Đang hoàn tất khe A/B • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">Đang cài đặt cập nhật • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">Đã tạm ngưng cài đặt • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">Đã cài đặt — cần khởi động lại</string>
+    <string name="md_image_alt">Hình ảnh</string>
+    <string name="md_image_failed">Không tải được hình ảnh</string>
+    <string name="importer_tag_local">ZIP cục bộ</string>
+    <string name="err_no_url">Chưa định nghĩa URL tải hoặc các phần</string>
+    <string name="err_no_dest">Chưa định nghĩa đích tải</string>
+    <string name="err_no_callback">Chưa định nghĩa callback tải</string>
+    <string name="err_no_parts">Chưa chỉ định các phần tải</string>
+    <string name="err_no_tempdir">Không tạo được thư mục tạm cho các phần: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">Phần <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> không khớp tổng kiểm</string>
+    <string name="err_part_failed">Tải phần <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> thất bại</string>
+    <string name="err_final_sha">Xác minh SHA-256 tệp lưu trữ cuối thất bại</string>
+    <string name="err_empty_body">Nội dung phản hồi rỗng cho phần <xliff:g id="index">%1$d</xliff:g></string>
+    <string name="err_unknown_size">Không xác định được kích thước của <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_no_range">Máy chủ không hỗ trợ yêu cầu range: cần HTTP 206, nhận <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_content_range">Thiếu tiêu đề Content-Range cho <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_bad_content_range">Content-Range không mong đợi cho <xliff:g id="url">%1$s</xliff:g>: cần <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">Không cho phép đổi giao thức</string>
+    <string name="err_server_reply">Máy chủ trả lời <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_no_fd">Không lấy được fileDescriptor</string>
+    <string name="err_import_cancelled">Đã hủy nhập</string>
+    <string name="err_verify_deleted">Xác minh thất bại, tệp đã bị xóa</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">Áp dụng</string>
+    <string name="dialog_value_title">Giá trị</string>
+    <string name="unknown_size">Không rõ</string>
+    <string name="slider_default">Mặc định</string>
+    <string name="slider_default_value">Mặc định (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">Lỗi mạng</string>
+    <string name="action_paused_state">Đã tạm dừng</string>
+    <string name="part_fallback_name">phần_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">Máy chủ</string>
+    <string name="err_response_empty">Nội dung phản hồi rỗng</string>
+    <string name="err_changelog_body_empty">Nội dung nhật ký thay đổi rỗng</string>
+    <string name="err_changelog_too_large">Nhật ký thay đổi vượt quá <xliff:g id="bytes" example="524288">%1$d</xliff:g> byte</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: vượt giới hạn tốc độ (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Thử lại sau <xliff:g id="wait" example="~2 min">%3$s</xliff:g>.</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: vượt giới hạn tốc độ (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Thử lại sau.</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: không tìm thấy tệp hoặc nguồn (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: truy cập bị từ chối (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: tài nguyên đã bị gỡ (HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: máy chủ không khả dụng (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> phút</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g> giây</string>
+    <string name="err_download_file_missing">Thiếu tệp đã tải</string>
+    <string name="err_sha_mismatch">Tổng kiểm SHA-256 không khớp</string>
+    <string name="err_sha_calc_failed">Không tính được SHA-256</string>
+    <string name="err_ota_signature_failed">Xác minh chữ ký OTA thất bại</string>
+    <string name="err_engine_signature">update_engine từ chối chữ ký payload (mã <xliff:g id="code" example="20">%1$d</xliff:g>). Hãy thử Cài đặt Recovery bắt buộc.</string>
+    <string name="err_engine_downgrade">update_engine chặn dấu thời gian hạ cấp (mã <xliff:g id="code" example="51">%1$d</xliff:g>). Hãy thử Cài đặt Recovery bắt buộc.</string>
+    <string name="err_engine_storage">Không đủ dung lượng cho cập nhật khe A/B (mã <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_engine_partition">Xác minh phân vùng thất bại (mã <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_cancelled">Người dùng đã hủy cài đặt.</string>
+    <string name="err_engine_generic">Mã lỗi update_engine <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">Loại OTA không hỗ trợ: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found">Không tìm thấy <xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> trong <xliff:g id="file" example="update.zip">%2$s</xliff:g></string>
+    <plurals name="hero_newer_builds">
+        <item quantity="other">Có <xliff:g id="count">%1$d</xliff:g> bản dựng mới hơn</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="other">Hệ thống đã cập nhật • <xliff:g id="count">%1$d</xliff:g> bản dựng trong nguồn</item>
+    </plurals>
+    <plurals name="badge_split_parts">
+        <item quantity="other">Chia nhỏ • <xliff:g id="count">%1$d</xliff:g> phần</item>
+    </plurals>
+    <plurals name="downloaded_title">
+        <item quantity="other">Đã lưu <xliff:g id="count">%1$d</xliff:g> gói</item>
+    </plurals>
+    <plurals name="float_parts">
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> phần</item>
+    </plurals>
+</resources>

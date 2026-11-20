@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="verification_failed_notification">驗證失敗</string>
+    <string name="verifying_download_notification">正在驗證更新</string>
+    <string name="downloading_notification">正在下載</string>
+    <string name="download_paused_notification">已暫停下載</string>
+    <string name="download_paused_error_notification">下載錯誤</string>
+    <string name="download_completed_notification">下載完成</string>
+    <string name="download_starting_notification">正在開始下載</string>
+    <string name="update_failed_notification">更新失敗</string>
+    <string name="installation_suspended_notification">已暫停安裝</string>
+    <string name="new_updates_found_title">有新的更新</string>
+    <string name="text_download_speed">%1$s, %2$s/秒</string>
+    <string name="installing_update_error">安裝錯誤</string>
+    <string name="finalizing_package">正在完成套件安裝</string>
+    <string name="preparing_ota_first_boot">正在準備第一次啟動</string>
+    <string name="dialog_prepare_zip_message">正在準備更新</string>
+    <string name="reboot">重新啟動</string>
+    <string name="menu_export_update">匯出更新</string>
+    <string name="menu_metered_network_warning">流動網絡數據用量警告</string>
+    <string name="menu_metered_network_warning_summary">使用流動數據下載前發出警告</string>
+    <string name="menu_ab_perf_mode">優先處理更新</string>
+    <string name="menu_update_recovery">更新 Recovery</string>
+    <string name="menu_update_recovery_summary">更新作業系統時一併更新 Recovery 分區</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">編譯日期</string>
+    <string name="security_update">安全性更新</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g>-<xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">下載</string>
+    <string name="action_pause">暫停</string>
+    <string name="action_resume">繼續</string>
+    <string name="action_install">安裝</string>
+    <string name="action_info">詳情</string>
+    <string name="action_delete">刪除</string>
+    <string name="dialog_export_title">正在匯出更新</string>
+    <string name="notification_export_success">已匯出更新</string>
+    <string name="notification_export_fail">匯出錯誤</string>
+    <string name="toast_already_exporting">已匯出更新</string>
+    <string name="toast_export_started">已開始匯出</string>
+    <string name="blocked_update_dialog_title">已阻止更新</string>
+    <string name="export_channel_title">匯出完成</string>
+    <string name="new_updates_channel_title">有新的更新</string>
+    <string name="ongoing_channel_title">正在下載</string>
+    <string name="update_failed_channel_title">更新失敗</string>
+    <string name="display_name">LeeGar Updater</string>
+    <string name="new_updates_found_summary">點一下以查看可用更新</string>
+    <string name="installing_update">正在安裝系統更新</string>
+    <string name="installing_update_finished">更新待重新啟動</string>
+    <string name="action_download_install">下載並安裝</string>
+    <string name="check_for_update">檢查更新</string>
+    <string name="action_back">返回</string>
+    <string name="checking_for_updates">正在檢查更新</string>
+    <string name="pref_category_background_sync">背景同步</string>
+    <string name="menu_auto_updates_check">定期檢查更新</string>
+    <string name="menu_auto_updates_check_summary">在背景檢查更新</string>
+    <string name="menu_auto_delete_updates">自動刪除更新</string>
+    <string name="menu_stream_updates">串流線上更新</string>
+    <string name="menu_stream_updates_summary">下載時安裝更新。停用此功能可保留更新包以供匯出。</string>
+    <string name="blocked_update_dialog_title_downgrade">已封鎖降級</string>
+    <string name="tab_updates">更新</string>
+    <string name="tab_saved">已儲存</string>
+    <string name="tab_saved_count">已儲存 (%1$d)</string>
+    <string name="tab_settings">設定</string>
+    <string name="toast_download_failed">下載失敗</string>
+    <string name="toast_download_verified">下載已驗證並就緒</string>
+    <string name="toast_import_failed">匯入 ZIP 失敗（套件或簽名無效）。自訂 ZIP 請試用不安全模式。</string>
+    <string name="toast_imported_format">已將 <xliff:g id="name">%1$s</xliff:g> 匯入「已儲存」分頁</string>
+    <string name="banner_no_internet">沒有互聯網連接</string>
+    <string name="banner_check_failed">檢查更新失敗</string>
+    <string name="section_releases">可用版本</string>
+    <string name="section_releases_count">可用版本 • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">不安全模式</string>
+    <string name="empty_releases_title">未載入版本</string>
+    <string name="empty_releases_desc">點一下重新整理，以從已設定的 OTA JSON 來源取得建構版本。</string>
+    <string name="device_fallback_name">裝置</string>
+    <string name="installed_label_format">已安裝：<xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g>（API <xliff:g id="sdk">%2$d</xliff:g>）• 修補程式：<xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">檢查時間：<xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">未知日期</string>
+    <string name="status_starting">正在開始</string>
+    <string name="status_verifying">正在驗證</string>
+    <string name="status_merging">正在合併 <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">已暫停 <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">錯誤</string>
+    <string name="status_installing">正在安裝 <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">已暫停 <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="badge_downloaded">已下載</string>
+    <string name="badge_reboot_required">需要重新啟動</string>
+    <string name="badge_local">本機</string>
+    <string name="badge_major_upgrade">主要版本升級</string>
+    <string name="relation_newer">較新</string>
+    <string name="relation_installed">已安裝</string>
+    <string name="relation_downgrade">降級</string>
+    <string name="relation_build">建構</string>
+    <string name="downloaded_subtitle_used">已用空間：<xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">匯入本機 ZIP，或從「更新」下載建構版本</string>
+    <string name="action_import_zip">匯入 ZIP</string>
+    <string name="empty_downloaded_title">沒有已下載的更新</string>
+    <string name="empty_downloaded_desc">已下載的 ROM 套件及匯入的本機 ZIP 檔案會顯示在這裡，可供安裝、匯出或刪除。</string>
+    <string name="section_downloaded">已下載及本機 ZIP</string>
+    <string name="install_confirm_recovery">透過 Recovery 刷入（不安全模式）？裝置將重新啟動進入 Recovery。</string>
+    <string name="install_confirm_force">不經驗證強制安裝？請確保此 ZIP 適用於你的裝置。</string>
+    <string name="install_confirm_now">立即安裝 <xliff:g id="name">%1$s</xliff:g>？</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_confirm">確認</string>
+    <string name="action_proceed">繼續</string>
+    <string name="action_reboot_now">立即重新啟動</string>
+    <string name="action_export">匯出</string>
+    <string name="action_reset">重設</string>
+    <string name="install_label_recovery">安裝（Recovery）</string>
+    <string name="install_label_force">強制安裝</string>
+    <string name="action_stream_install">串流並安裝</string>
+    <string name="action_download_install_new">下載並安裝</string>
+    <string name="desc_close">關閉</string>
+    <string name="desc_retry">重試</string>
+    <string name="settings_check_interval">檢查間隔</string>
+    <string name="interval_daily">每日</string>
+    <string name="interval_weekly">每週</string>
+    <string name="interval_monthly">每月</string>
+    <string name="settings_group_downloads">下載與驗證</string>
+    <string name="settings_parallel_title">平行分割下載</string>
+    <string name="settings_parallel_summary">同時下載最多 3 個分割檔案，以加快速度</string>
+    <string name="settings_verify_title">驗證 SHA-256 校驗碼</string>
+    <string name="settings_verify_summary">根據 JSON 雜湊值驗證每個分割部分及最終封存檔</string>
+    <string name="settings_autodelete_summary">更新成功後自動刪除已下載的套件</string>
+    <string name="settings_group_installation">安裝</string>
+    <string name="settings_ab_perf_summary">為 update_engine 分配更多 CPU 及 I/O，以加快安裝</string>
+    <string name="settings_ab_perf_charging">連接 AC 電源時自動啟用</string>
+    <string name="settings_group_ota">OTA 來源</string>
+    <string name="settings_ota_url_title">自訂 OTA JSON 網址</string>
+    <string name="settings_ota_url_hint">留空以使用 ROM / DeviceTree 覆蓋預設網址。</string>
+    <string name="settings_ota_apply">套用網址</string>
+    <string name="toast_ota_reset">OTA 網址已重設為預設值</string>
+    <string name="toast_ota_updated">OTA 網址已更新</string>
+    <string name="settings_group_appearance">外觀與儲存空間</string>
+    <string name="settings_theme_title">應用程式主題</string>
+    <string name="theme_system">跟隨系統</string>
+    <string name="theme_light">淺色</string>
+    <string name="theme_dark">深色</string>
+    <string name="settings_wavy_title">波浪進度列</string>
+    <string name="settings_wavy_summary">下載或安裝時顯示波浪動畫；暫停時平滑收合</string>
+    <string name="settings_amplitude_title">波浪幅度</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">關閉</string>
+    <string name="settings_blur_title">玻璃模糊半徑</string>
+    <string name="settings_tint_title">玻璃色調不透明度</string>
+    <string name="settings_logo_title">顯示專案標誌</string>
+    <string name="settings_logo_summary">顯示專案橫幅（GIF、圖片、影片或動態字標）</string>
+    <string name="settings_banner_title">顯示版本橫幅</string>
+    <string name="settings_banner_summary">在卡片頂部顯示版本橫幅圖片或影片</string>
+    <string name="settings_clear_cache">清除媒體及更新日誌快取</string>
+    <string name="toast_cache_cleared">快取已清除</string>
+    <string name="settings_danger_title">關鍵／不安全安裝</string>
+    <string name="settings_danger_warning">風險自負。刷入錯誤的 ROM 可能導致裝置變磚。</string>
+    <string name="settings_unsafe_title">略過安全及驗證檢查</string>
+    <string name="settings_unsafe_summary">停用 OTA 簽名驗證、降級封鎖及 Android SDK 保護。允許刷入降級包或跨 ROM ZIP。</string>
+    <string name="settings_unsafe_confirm">確認：你須為降級、未簽名 ZIP 或資料遺失承擔全部責任。</string>
+    <string name="danger_accept">我接受風險</string>
+    <string name="settings_recovery_title">強制透過 Recovery 安裝</string>
+    <string name="settings_recovery_summary">略過 update_engine，直接重新啟動進入 Recovery（OrangeFox / TWRP）刷入 ZIP。若 update_engine 拒絕降級時間戳記或簽名，此選項十分有用。</string>
+    <string name="overlay_battery_low">電池電量太低，無法安裝</string>
+    <string name="overlay_blocked_format">已封鎖（<xliff:g id="reason">%1$s</xliff:g>）。請在設定中啟用不安全模式以強制安裝。</string>
+    <string name="overlay_downgrade_blocked">降級已被安全規則封鎖。請啟用不安全模式以覆寫。</string>
+    <string name="overlay_major_blocked">Android 主要版本升級已被安全規則封鎖。請啟用不安全模式以覆寫。</string>
+    <string name="overlay_metered_format">你正在使用計量網絡。立即下載 <xliff:g id="size">%1$s</xliff:g>？</string>
+    <string name="overlay_unsafe_recovery">下載並透過 Recovery 刷入（不安全模式）？</string>
+    <string name="overlay_unsafe_force">下載並強制安裝而不驗證？</string>
+    <string name="overlay_scratch_mounted">Scratch 分割區已掛載，無法安裝</string>
+    <string name="toast_sha_copied">已複製 SHA-256</string>
+    <string name="overlay_install_recovery">透過 Recovery 刷入（不安全模式）？裝置將重新啟動進入 Recovery。</string>
+    <string name="overlay_install_force">不檢查簽名／降級而強制安裝？風險自負。</string>
+    <string name="overlay_changelog_title">更新日誌</string>
+    <string name="desc_reload_changelog">重新載入更新日誌</string>
+    <string name="overlay_changelog_loading">正在載入更新日誌…</string>
+    <string name="overlay_changelog_error">無法載入此版本的更新日誌。</string>
+    <string name="overlay_changelog_empty">此版本未提供更新日誌。</string>
+    <string name="overlay_archive_sha">封存檔 SHA-256</string>
+    <string name="desc_copy_sha">複製 SHA-256</string>
+    <string name="overlay_reboot_to_apply">重新啟動以套用更新</string>
+    <string name="overlay_pause_format">暫停（<xliff:g id="progress">%1$d</xliff:g>%%）</string>
+    <string name="overlay_resume_format">繼續（<xliff:g id="progress">%1$d</xliff:g>%%）</string>
+    <string name="overlay_package_file">套件檔案</string>
+    <string name="overlay_parts_title">分割封存檔（<xliff:g id="count">%1$d</xliff:g>）</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256：<xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">確認刪除</string>
+    <string name="info_package_size">套件大小</string>
+    <string name="info_android_api">Android API</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">建構類型</string>
+    <string name="info_delivery">交付方式</string>
+    <string name="info_delivery_split">分割（<xliff:g id="count">%1$d</xliff:g> 個部分）</string>
+    <string name="float_importing">正在匯入本機 ZIP…</string>
+    <string name="float_copying">正在複製套件並檢查中繼資料</string>
+    <string name="float_calculating">計算中…</string>
+    <string name="float_parallel">平行</string>
+    <string name="float_sequential">循序</string>
+    <string name="float_single">單一封存檔</string>
+    <string name="float_autoinstall">自動安裝</string>
+    <string name="float_parts_header">封存檔部分（<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> 已完成）</string>
+    <string name="float_suspend">暫停</string>
+    <string name="float_abort">中止</string>
+    <string name="desc_toggle_details">切換詳細資料</string>
+    <string name="part_queued">排隊中</string>
+    <string name="part_verifying">正在驗證 SHA-256</string>
+    <string name="part_verified">已驗證</string>
+    <string name="part_done">完成</string>
+    <string name="part_paused_format">已暫停 • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">重試／錯誤</string>
+    <string name="part_waiting">等候中…</string>
+    <string name="stage_connecting">正在連接伺服器…</string>
+    <string name="stage_verify_part">正在驗證部分 <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> SHA-256…</string>
+    <string name="stage_assemble">正在組裝部分（<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>）• <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">正在驗證最終封存檔 SHA-256…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> 個部分進行中 • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">部分 <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">下載中 • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• 自動安裝</string>
+    <string name="stage_paused">下載已暫停 • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">下載失敗 • 點一下繼續</string>
+    <string name="stage_verifying_sig">正在驗證封存檔及簽名…</string>
+    <string name="stage_finalizing">正在完成 A/B 槽 • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">正在安裝更新 • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">安裝已暫停 • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">已安裝 — 需要重新啟動</string>
+    <string name="md_image_alt">圖片</string>
+    <string name="md_image_failed">圖片載入失敗</string>
+    <string name="importer_tag_local">本機 ZIP</string>
+    <string name="err_no_url">未定義下載網址或部分</string>
+    <string name="err_no_dest">未定義下載目標</string>
+    <string name="err_no_callback">未定義下載回呼</string>
+    <string name="err_no_parts">未指定下載部分</string>
+    <string name="err_no_tempdir">無法建立暫存部分目錄：<xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">部分 <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> 校驗碼不符</string>
+    <string name="err_part_failed">部分 <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> 下載失敗</string>
+    <string name="err_final_sha">最終封存檔 SHA-256 驗證失敗</string>
+    <string name="err_empty_body">部分 <xliff:g id="index">%1$d</xliff:g> 回應內容為空</string>
+    <string name="err_unknown_size">無法確定 <xliff:g id="url">%1$s</xliff:g> 的大小</string>
+    <string name="err_no_range">伺服器不支援範圍請求：預期 HTTP 206，實際為 <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_content_range"><xliff:g id="url">%1$s</xliff:g> 缺少 Content-Range 標頭</string>
+    <string name="err_bad_content_range"><xliff:g id="url">%1$s</xliff:g> 的 Content-Range 不符預期：應為 <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">不允許變更通訊協定</string>
+    <string name="err_server_reply">伺服器回覆 <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_no_fd">無法取得 fileDescriptor</string>
+    <string name="err_import_cancelled">已取消匯入</string>
+    <string name="err_verify_deleted">驗證失敗，檔案已刪除</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">套用</string>
+    <string name="dialog_value_title">數值</string>
+    <string name="unknown_size">未知</string>
+    <string name="slider_default">預設</string>
+    <string name="slider_default_value">預設（<xliff:g id="value" example="85%">%1$s</xliff:g>）</string>
+    <string name="err_network">網絡錯誤</string>
+    <string name="action_paused_state">已暫停</string>
+    <string name="part_fallback_name">部分_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">伺服器</string>
+    <string name="err_response_empty">回應內容為空</string>
+    <string name="err_changelog_body_empty">更新日誌內容為空</string>
+    <string name="err_changelog_too_large">更新日誌超過 <xliff:g id="bytes" example="524288">%1$d</xliff:g> 位元組</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>：超出速率限制（HTTP <xliff:g id="code" example="429">%2$d</xliff:g>）。請於 <xliff:g id="wait" example="~2 min">%3$s</xliff:g> 後重試。</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>：超出速率限制（HTTP <xliff:g id="code" example="429">%2$d</xliff:g>）。請稍後再試。</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>：找不到檔案或來源（HTTP 404）</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>：存取被拒（HTTP <xliff:g id="code" example="403">%2$d</xliff:g>）</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>：資源已移除（HTTP 410）</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>：伺服器無法使用（HTTP <xliff:g id="code" example="503">%2$d</xliff:g>）</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>：HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> 分鐘</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g> 秒</string>
+    <string name="err_download_file_missing">下載的檔案遺失</string>
+    <string name="err_sha_mismatch">SHA-256 校驗碼不符</string>
+    <string name="err_sha_calc_failed">無法計算 SHA-256</string>
+    <string name="err_ota_signature_failed">OTA 簽名驗證失敗</string>
+    <string name="err_engine_signature">update_engine 拒絕負載簽名（代碼 <xliff:g id="code" example="20">%1$d</xliff:g>）。請試用強制 Recovery 安裝。</string>
+    <string name="err_engine_downgrade">update_engine 封鎖降級時間戳記（代碼 <xliff:g id="code" example="51">%1$d</xliff:g>）。請試用強制 Recovery 安裝。</string>
+    <string name="err_engine_storage">A/B 槽更新儲存空間不足（代碼 <xliff:g id="code" example="7">%1$d</xliff:g>）。</string>
+    <string name="err_engine_partition">分割區驗證失敗（代碼 <xliff:g id="code" example="15">%1$d</xliff:g>）。</string>
+    <string name="err_engine_cancelled">使用者已取消安裝。</string>
+    <string name="err_engine_generic">update_engine 錯誤代碼 <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">不支援的 OTA 類型：<xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found">找不到<xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g>（<xliff:g id="file" example="update.zip">%2$s</xliff:g> 內）</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="other">有 <xliff:g id="count">%1$d</xliff:g> 個較新的建構版本</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="other">系統已是最新 • 來源中有 <xliff:g id="count">%1$d</xliff:g> 個建構版本</item>
+    </plurals>
+    <plurals name="badge_split_parts">
+        <item quantity="other">分割 • <xliff:g id="count">%1$d</xliff:g> 個部分</item>
+    </plurals>
+    <plurals name="downloaded_title">
+        <item quantity="other">已儲存 <xliff:g id="count">%1$d</xliff:g> 個套件</item>
+    </plurals>
+    <plurals name="float_parts">
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> 個部分</item>
+    </plurals>
+</resources>

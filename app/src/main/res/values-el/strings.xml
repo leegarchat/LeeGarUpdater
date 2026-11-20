@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="display_name">Ενημερώσεις συστήματος</string>
+    <string name="verification_failed_notification">Αποτυχία επαλήθευσης</string>
+    <string name="verifying_download_notification">Επαλήθευση ενημέρωσης</string>
+    <string name="downloading_notification">Λήψη</string>
+    <string name="download_paused_notification">Λήψη σε παύση</string>
+    <string name="download_paused_error_notification">Σφάλμα λήψης</string>
+    <string name="download_completed_notification">Η λήψη ολοκληρώθηκε</string>
+    <string name="download_starting_notification">Έναρξη λήψης</string>
+    <string name="update_failed_notification">Η ενημέρωση απέτυχε</string>
+    <string name="installation_suspended_notification">Η εγκατάσταση έχει ανασταλεί</string>
+    <string name="new_updates_found_title">Νέες ενημερώσεις</string>
+    <string name="new_updates_found_summary">Πατήστε για να δείτε τις διαθέσιμες ενημερώσεις</string>
+    <string name="text_download_speed">%1$s, %2$s/δ</string>
+    <string name="installing_update">Εγκατάσταση ενημέρωσης συστήματος</string>
+    <string name="installing_update_error">Σφάλμα εγκατάστασης</string>
+    <string name="installing_update_finished">Αναμένεται επανεκκίνηση για ενημέρωση</string>
+    <string name="finalizing_package">Ολοκλήρωση της εγκατάστασης του πακέτου</string>
+    <string name="preparing_ota_first_boot">Προετοιμασία για την πρώτη εκκίνηση</string>
+    <string name="dialog_prepare_zip_message">Προκαταρκτική προετοιμασία ενημέρωσης</string>
+    <string name="reboot">Επανεκκίνηση</string>
+    <string name="checking_for_updates">Έλεγχος για ενημερώσεις</string>
+    <string name="pref_category_background_sync">Συγχρονισμός στο παρασκήνιο</string>
+    <string name="menu_auto_updates_check">Περιοδικός έλεγχος ενημερώσεων</string>
+    <string name="menu_auto_updates_check_summary">Έλεγχος για ενημερώσεις στο παρασκήνιο</string>
+    <string name="menu_auto_delete_updates">Αυτόματη διαγραφή ενημερώσεων</string>
+    <string name="menu_stream_updates">Διαδικτυακές ενημερώσεις</string>
+    <string name="menu_stream_updates_summary">Εγκατάσταση ενημερώσεων κατά τη λήψη. Απενεργοποιήστε για αποθήκευση του πακέτου ενημέρωσης για εξαγωγή.</string>
+    <string name="menu_export_update">Εξαγωγή ενημέρωσης</string>
+    <string name="menu_metered_network_warning">Προειδοποίηση ογκοχρέωσης δικτύου</string>
+    <string name="menu_metered_network_warning_summary">Προειδοποίηση πριν από τη λήψη μέσω δεδομένων κινητής τηλεφωνίας</string>
+    <string name="menu_ab_perf_mode">Επιτάχυνση διαδικασίας ενημέρωσης</string>
+    <string name="menu_update_recovery">Ενημέρωση recovery</string>
+    <string name="menu_update_recovery_summary">Ενημέρωση του recovery partition μαζί με το λειτουργικό σύστημα</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">Ημερομηνία έκδοσης</string>
+    <string name="security_update">Ενημέρωση ασφάλειας</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">Λήψη</string>
+    <string name="action_pause">Παύση</string>
+    <string name="action_resume">Συνέχιση</string>
+    <string name="action_install">Εγκατάσταση</string>
+    <string name="action_info">Πληροφορίες</string>
+    <string name="action_delete">Διαγραφή</string>
+    <string name="dialog_export_title">Εξαγωγή ενημέρωσης</string>
+    <string name="notification_export_success">Η ενημέρωση εξάχθηκε</string>
+    <string name="notification_export_fail">Σφάλμα εξαγωγής</string>
+    <string name="toast_already_exporting">Εξάγεται ήδη μία ενημέρωση</string>
+    <string name="toast_export_started">Η εξαγωγή ξεκίνησε</string>
+    <string name="blocked_update_dialog_title">Η ενημέρωση μπλοκαρίστηκε</string>
+    <string name="blocked_update_dialog_title_downgrade">Η υποβάθμιση αποκλείστηκε</string>
+    <string name="export_channel_title">Ολοκλήρωση εξαγωγής</string>
+    <string name="new_updates_channel_title">Νέες ενημερώσεις</string>
+    <string name="ongoing_channel_title">Λήψεις σε εξέλιξη</string>
+    <string name="update_failed_channel_title">Η ενημέρωση απέτυχε</string>
+    <string name="action_download_install">Λήψη και εγκατάσταση</string>
+    <string name="check_for_update">Έλεγχος για ενημέρωση</string>
+    <string name="action_back">Πίσω</string>
+    <string name="tab_updates">Ενημερώσεις</string>
+    <string name="tab_saved">Αποθηκευμένα</string>
+    <string name="tab_saved_count">Αποθηκευμένα (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="tab_settings">Ρυθμίσεις</string>
+    <string name="toast_download_failed">Η λήψη απέτυχε</string>
+    <string name="toast_download_verified">Η λήψη επαληθεύτηκε και&amp; είναι έτοιμη</string>
+    <string name="toast_import_failed">Αποτυχία εισαγωγής ZIP (μη έγκυρο πακέτο ή υπογραφή). Δοκιμάστε τη μη ασφαλή λειτουργία για προσαρμοσμένα ZIP.</string>
+    <string name="toast_imported_format">Εισήχθη το <xliff:g id="name">%1$s</xliff:g> στην καρτέλα Ληφθέντα</string>
+    <string name="banner_no_internet">Χωρίς σύνδεση στο διαδίκτυο</string>
+    <string name="banner_check_failed">Αποτυχία ελέγχου για ενημερώσεις</string>
+    <string name="section_releases">Διαθέσιμες εκδόσεις</string>
+    <string name="section_releases_count">Διαθέσιμες εκδόσεις • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">Μη ασφαλής λειτουργία</string>
+    <string name="empty_releases_title">Δεν φορτώθηκαν εκδόσεις</string>
+    <string name="empty_releases_desc">Πατήστε ανανέωση για λήψη εκδόσεων από την ρυθμισμένη πηγή OTA JSON.</string>
+    <string name="device_fallback_name">Συσκευή</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> νεότερη έκδοση διαθέσιμη</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> νεότερες εκδόσεις διαθέσιμες</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="one">Το σύστημα είναι ενημερωμένο • <xliff:g id="count">%1$d</xliff:g> έκδοση στην πηγή</item>
+        <item quantity="other">Το σύστημα είναι ενημερωμένο • <xliff:g id="count">%1$d</xliff:g> εκδόσεις στην πηγή</item>
+    </plurals>
+    <string name="installed_label_format">Εγκατεστημένο: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • Ενημέρωση: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">Έλεγχος: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">Άγνωστη ημερομηνία</string>
+    <string name="status_starting">Έναρξη</string>
+    <string name="status_verifying">Επαλήθευση</string>
+    <string name="status_merging">Συγχώνευση <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">Σε παύση <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">Σφάλμα</string>
+    <string name="status_installing">Εγκατάσταση <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">Σε αναστολή <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <plurals name="badge_split_parts">
+        <item quantity="one">Διαιρεμένο • <xliff:g id="count">%1$d</xliff:g> μέρος</item>
+        <item quantity="other">Διαιρεμένο • <xliff:g id="count">%1$d</xliff:g> μέρη</item>
+    </plurals>
+    <string name="badge_downloaded">Ληφθέν</string>
+    <string name="badge_reboot_required">Απαιτείται επανεκκίνηση</string>
+    <string name="badge_local">Τοπικό</string>
+    <string name="badge_major_upgrade">Σημαντική αναβάθμιση</string>
+    <string name="relation_newer">Νεότερο</string>
+    <string name="relation_installed">Εγκατεστημένο</string>
+    <string name="relation_downgrade">Υποβάθμιση</string>
+    <string name="relation_build">Έκδοση</string>
+    <plurals name="downloaded_title">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> πακέτο αποθηκευμένο</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> πακέτα αποθηκευμένα</item>
+    </plurals>
+    <string name="downloaded_subtitle_used">Χώρος που χρησιμοποιείται: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">Εισαγάγετε ένα τοπικό ZIP ή κατεβάστε εκδόσεις από τις Ενημερώσεις</string>
+    <string name="action_import_zip">Εισαγωγή ZIP</string>
+    <string name="empty_downloaded_title">Καμία ληφθείσα ενημέρωση</string>
+    <string name="empty_downloaded_desc">Τα ληφθέντα πακέτα ROM και τα εισαγμένα τοπικά αρχεία ZIP θα εμφανίζονται εδώ για εγκατάσταση, εξαγωγή ή αφαίρεση.</string>
+    <string name="section_downloaded">Ληφθέντα και&amp; Τοπικά ZIP</string>
+    <string name="install_confirm_recovery">Εγκατάσταση μέσω Recovery (μη ασφαλής λειτουργία); Η συσκευή θα επανεκκινήσει στο Recovery.</string>
+    <string name="install_confirm_force">Εξαναγκασμός εγκατάστασης χωρίς επαλήθευση; Βεβαιωθείτε ότι αυτό το ZIP ταιριάζει με τη συσκευή σας.</string>
+    <string name="install_confirm_now">Εγκατάσταση <xliff:g id="name">%1$s</xliff:g> τώρα;</string>
+    <string name="action_cancel">Ακύρωση</string>
+    <string name="action_confirm">Επιβεβαίωση</string>
+    <string name="action_proceed">Συνέχεια</string>
+    <string name="action_reboot_now">Επανεκκίνηση τώρα</string>
+    <string name="action_export">Εξαγωγή</string>
+    <string name="action_reset">Επαναφορά</string>
+    <string name="install_label_recovery">Εγκατάσταση (Recovery)</string>
+    <string name="install_label_force">Εξαναγκασμός εγκατάστασης</string>
+    <string name="action_stream_install">Ροή και&amp; Εγκατάσταση</string>
+    <string name="action_download_install_new">Λήψη και&amp; Εγκατάσταση</string>
+    <string name="desc_close">Κλείσιμο</string>
+    <string name="desc_retry">Επανάληψη</string>
+    <string name="settings_check_interval">Διάστημα ελέγχου</string>
+    <string name="interval_daily">Καθημερινά</string>
+    <string name="interval_weekly">Εβδομαδιαία</string>
+    <string name="interval_monthly">Μηνιαία</string>
+    <string name="settings_group_downloads">Λήψεις και&amp; επαλήθευση</string>
+    <string name="settings_parallel_title">Παράλληλη λήψη τμημάτων</string>
+    <string name="settings_parallel_summary">Λήψη έως 3 τμημάτων του διαιρεμένου αρχείου ταυτόχρονα για μεγαλύτερη ταχύτητα</string>
+    <string name="settings_verify_title">Επαλήθευση αθροισμάτων SHA-256</string>
+    <string name="settings_verify_summary">Επικύρωση κάθε τμήματος και του τελικού αρχείου έναντι των hash JSON</string>
+    <string name="settings_autodelete_summary">Αυτόματη αφαίρεση του ληφθέντος πακέτου μόλις πετύχει η ενημέρωση</string>
+    <string name="settings_group_installation">Εγκατάσταση</string>
+    <string name="settings_ab_perf_summary">Κατανομή περισσότερων CPU και&amp; I/O στο update_engine για ταχύτερες εγκαταστάσεις</string>
+    <string name="settings_ab_perf_charging">Αυτόματα ενεργό κατά τη σύνδεση σε τροφοδοσία AC</string>
+    <string name="settings_group_ota">Πηγή OTA</string>
+    <string name="settings_ota_url_title">Προσαρμοσμένη διεύθυνση OTA JSON</string>
+    <string name="settings_ota_url_hint">Αφήστε κενό για χρήση της προεπιλεγμένης διεύθυνσης από το ROM / DeviceTree overlay.</string>
+    <string name="settings_ota_apply">Εφαρμογή διεύθυνσης</string>
+    <string name="toast_ota_reset">Η διεύθυνση OTA επανήλθε στην προεπιλογή</string>
+    <string name="toast_ota_updated">Η διεύθυνση OTA ενημερώθηκε</string>
+    <string name="settings_group_appearance">Εμφάνιση και&amp; αποθήκευση</string>
+    <string name="settings_theme_title">Θέμα εφαρμογής</string>
+    <string name="theme_system">Σύστημα</string>
+    <string name="theme_light">Φωτεινό</string>
+    <string name="theme_dark">Σκούρο</string>
+    <string name="settings_wavy_title">Κυματιστή μπάρα προόδου</string>
+    <string name="settings_wavy_summary">Κίνηση κύματος κατά τη λήψη ή την εγκατάσταση· ομαλοποιείται κατά την παύση</string>
+    <string name="settings_amplitude_title">Πλάτος κύματος</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">Ανενεργό</string>
+    <string name="settings_blur_title">Ακτίνα θαμπώματος γυαλιού</string>
+    <string name="settings_tint_title">Αδιαφάνεια απόχρωσης γυαλιού</string>
+    <string name="settings_logo_title">Εμφάνιση λογοτύπου έργου</string>
+    <string name="settings_logo_summary">Εμφάνιση banner έργου (GIF, εικόνα, βίντεο ή κινούμενο λεκτικό σήμα)</string>
+    <string name="settings_banner_title">Εμφάνιση banner έκδοσης</string>
+    <string name="settings_banner_summary">Εμφάνιση εικόνας ή βίντεο έκδοσης στην κεφαλίδα της κάρτας</string>
+    <string name="settings_clear_cache">Εκκαθάριση προσωρινής μνήμης πολυμέσων και&amp; changelog</string>
+    <string name="toast_cache_cleared">Η προσωρινή μνήμη διαγράφηκε</string>
+    <string name="settings_danger_title">Κρίσιμη / μη ασφαλής εγκατάσταση</string>
+    <string name="settings_danger_warning">Χρησιμοποιήστε αποκλειστικά με δική σας ευθύνη. Λάθος ROM μπορεί να καταστρέψει τη συσκευή.</string>
+    <string name="settings_unsafe_title">Παράκαμψη ελέγχων ασφαλείας και&amp; επαλήθευσης</string>
+    <string name="settings_unsafe_summary">Απενεργοποιεί την επαλήθευση υπογραφής OTA, τον αποκλεισμό υποβάθμισης και τους ελέγχους SDK Android. Επιτρέπει εγκατάσταση υποβαθμίσεων ή ZIP άλλων ROM.</string>
+    <string name="settings_unsafe_confirm">Επιβεβαίωση: αναλαμβάνετε πλήρη ευθύνη για υποβαθμίσεις, μη υπογεγραμμένα ZIP ή απώλεια δεδομένων.</string>
+    <string name="danger_accept">Αποδέχομαι τον κίνδυνο</string>
+    <string name="settings_recovery_title">Εξαναγκασμός εγκατάστασης μέσω Recovery</string>
+    <string name="settings_recovery_summary">Παράκαμψη του update_engine και επανεκκίνηση στο Recovery (OrangeFox / TWRP) για απευθείας εγκατάσταση ZIP. Χρήσιμο αν το update_engine απορρίψει το χρονόσημο υποβάθμισης ή την υπογραφή.</string>
+    <string name="overlay_battery_low">Η στάθμη μπαταρίας είναι πολύ χαμηλή για εγκατάσταση</string>
+    <string name="overlay_blocked_format">Αποκλείστηκε (<xliff:g id="reason">%1$s</xliff:g>). Ενεργοποιήστε τη μη ασφαλή λειτουργία στις Ρυθμίσεις για εξαναγκασμό εγκατάστασης.</string>
+    <string name="overlay_downgrade_blocked">Η υποβάθμιση αποκλείστηκε από τους κανόνες ασφαλείας. Ενεργοποιήστε τη μη ασφαλή λειτουργία στις Ρυθμίσεις για παράκαμψη.</string>
+    <string name="overlay_major_blocked">Η σημαντική αναβάθμιση Android αποκλείστηκε από τους κανόνες ασφαλείας. Ενεργοποιήστε τη μη ασφαλή λειτουργία στις Ρυθμίσεις για παράκαμψη.</string>
+    <string name="overlay_metered_format">Βρίσκεστε σε σύνδεση με ογκοχρέωση. Λήψη <xliff:g id="size">%1$s</xliff:g> τώρα;</string>
+    <string name="overlay_unsafe_recovery">Λήψη και εγκατάσταση μέσω Recovery (μη ασφαλής λειτουργία);</string>
+    <string name="overlay_unsafe_force">Λήψη και εξαναγκασμός εγκατάστασης χωρίς επαλήθευση;</string>
+    <string name="overlay_scratch_mounted">Το διαμέρισμα scratch είναι προσαρτημένο· αδύνατη η εγκατάσταση</string>
+    <string name="toast_sha_copied">Το SHA-256 αντιγράφηκε</string>
+    <string name="overlay_install_recovery">Εγκατάσταση μέσω Recovery (μη ασφαλής λειτουργία); Η συσκευή θα επανεκκινήσει στο Recovery.</string>
+    <string name="overlay_install_force">Εξαναγκασμός εγκατάστασης χωρίς ελέγχους υπογραφής/υποβάθμισης; Προχωρήστε με δική σας ευθύνη.</string>
+    <string name="overlay_changelog_title">Changelog</string>
+    <string name="desc_reload_changelog">Επαναφόρτωση changelog</string>
+    <string name="overlay_changelog_loading">Φόρτωση changelog…</string>
+    <string name="overlay_changelog_error">Αδυναμία φόρτωσης του changelog για αυτή την έκδοση.</string>
+    <string name="overlay_changelog_empty">Δεν παρέχεται changelog για αυτή την έκδοση.</string>
+    <string name="overlay_archive_sha">SHA-256 αρχείου</string>
+    <string name="desc_copy_sha">Αντιγραφή SHA-256</string>
+    <string name="overlay_reboot_to_apply">Επανεκκινήστε για εφαρμογή της ενημέρωσης</string>
+    <string name="overlay_pause_format">Παύση (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">Συνέχιση (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">Αρχείο πακέτου</string>
+    <string name="overlay_parts_title">Τμήματα διαιρεμένου αρχείου (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">Επιβεβαίωση διαγραφής</string>
+    <string name="info_package_size">Μέγεθος πακέτου</string>
+    <string name="info_android_api">API Android</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">Τύπος έκδοσης</string>
+    <string name="info_delivery">Παράδοση</string>
+    <string name="info_delivery_split">Διαιρεμένο (<xliff:g id="count">%1$d</xliff:g> μέρη)</string>
+    <string name="float_importing">Εισαγωγή τοπικού ZIP…</string>
+    <string name="float_copying">Αντιγραφή πακέτου και&amp; έλεγχος μεταδεδομένων</string>
+    <string name="float_calculating">Υπολογισμός…</string>
+    <plurals name="float_parts">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> μέρος</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> μέρη</item>
+    </plurals>
+    <string name="float_parallel">Παράλληλα</string>
+    <string name="float_sequential">Διαδοχικά</string>
+    <string name="float_single">Ενιαίο αρχείο</string>
+    <string name="float_autoinstall">Αυτόματη εγκατάσταση</string>
+    <string name="float_parts_header">Τμήματα αρχείου (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> ολοκληρώθηκαν)</string>
+    <string name="float_suspend">Αναστολή</string>
+    <string name="float_abort">Ματαίωση</string>
+    <string name="desc_toggle_details">Εναλλαγή λεπτομερειών</string>
+    <string name="part_queued">Σε ουρά</string>
+    <string name="part_verifying">Επαλήθευση SHA-256</string>
+    <string name="part_verified">Επαληθευμένο</string>
+    <string name="part_done">Ολοκληρώθηκε</string>
+    <string name="part_paused_format">Σε παύση • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">Επανάληψη / Σφάλμα</string>
+    <string name="part_waiting">Αναμονή…</string>
+    <string name="stage_connecting">Σύνδεση στον διακομιστή…</string>
+    <string name="stage_verify_part">Επαλήθευση τμήματος <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> SHA-256…</string>
+    <string name="stage_assemble">Συναρμολόγηση τμημάτων (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">Επαλήθευση SHA-256 τελικού αρχείου…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> τμήματα ενεργά • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">Τμήμα <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">Λήψη • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• Αυτόματη εγκατάσταση</string>
+    <string name="stage_paused">Η λήψη τέθηκε σε παύση • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">Η λήψη απέτυχε • Πατήστε Συνέχιση</string>
+    <string name="stage_verifying_sig">Επαλήθευση αρχείου και&amp; υπογραφής…</string>
+    <string name="stage_finalizing">Ολοκλήρωση υποδοχής A/B • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">Εγκατάσταση ενημέρωσης • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">Η εγκατάσταση ανεστάλη • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">Εγκαταστάθηκε — απαιτείται επανεκκίνηση</string>
+    <string name="md_image_alt">Εικόνα</string>
+    <string name="md_image_failed">Αποτυχία φόρτωσης εικόνας</string>
+    <string name="importer_tag_local">Τοπικό ZIP</string>
+    <string name="err_no_url">Δεν ορίστηκε διεύθυνση λήψης ή τμήματα</string>
+    <string name="err_no_dest">Δεν ορίστηκε προορισμός λήψης</string>
+    <string name="err_no_callback">Δεν ορίστηκε επανάκληση λήψης</string>
+    <string name="err_no_parts">Δεν ορίστηκαν τμήματα λήψης</string>
+    <string name="err_no_tempdir">Αδυναμία δημιουργίας προσωρινού φακέλου τμημάτων: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">Ασυμφωνία αθροίσματος τμήματος <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_part_failed">Αποτυχία λήψης τμήματος <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_final_sha">Η επαλήθευση SHA-256 του τελικού αρχείου απέτυχε</string>
+    <string name="err_empty_body">Κενό σώμα απόκρισης για το τμήμα <xliff:g id="index">%1$d</xliff:g></string>
+    <string name="err_unknown_size">Αδυναμία προσδιορισμού μεγέθους για <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_no_range">Ο διακομιστής δεν υποστηρίζει αιτήματα εύρους: αναμενόταν HTTP 206, λήφθηκε <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_content_range">Λείπει η κεφαλίδα Content-Range για <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_bad_content_range">Μη αναμενόμενο Content-Range για <xliff:g id="url">%1$s</xliff:g>: αναμενόταν <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">Οι αλλαγές πρωτοκόλλου δεν επιτρέπονται</string>
+    <string name="err_server_reply">Ο διακομιστής απάντησε με <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_no_fd">Αποτυχία λήψης fileDescriptor</string>
+    <string name="err_import_cancelled">Η εισαγωγή ακυρώθηκε</string>
+    <string name="err_verify_deleted">Η επαλήθευση απέτυχε, το αρχείο διαγράφηκε</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">Εφαρμογή</string>
+    <string name="dialog_value_title">Τιμή</string>
+    <string name="unknown_size">Άγνωστο</string>
+    <string name="slider_default">Προεπιλογή</string>
+    <string name="slider_default_value">Προεπιλογή (<xliff:g id="value">%1$s</xliff:g>)</string>
+    <string name="err_network">Σφάλμα δικτύου</string>
+    <string name="action_paused_state">Σε παύση</string>
+    <string name="part_fallback_name">part_<xliff:g id="index">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version">%1$s</xliff:g> • <xliff:g id="device">%2$s</xliff:g></string>
+    <string name="err_host_server">Διακομιστής</string>
+    <string name="err_response_empty">Κενό σώμα απόκρισης</string>
+    <string name="err_changelog_body_empty">Κενό σώμα changelog</string>
+    <string name="err_changelog_too_large">Το changelog υπερβαίνει τα <xliff:g id="bytes">%1$d</xliff:g> byte</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host">%1$s</xliff:g>: υπέρβαση ορίου ρυθμού (HTTP <xliff:g id="code">%2$d</xliff:g>). Δοκιμάστε ξανά σε <xliff:g id="wait">%3$s</xliff:g>.</string>
+    <string name="err_rate_limit_later"><xliff:g id="host">%1$s</xliff:g>: υπέρβαση ορίου ρυθμού (HTTP <xliff:g id="code">%2$d</xliff:g>). Δοκιμάστε ξανά αργότερα.</string>
+    <string name="err_feed_not_found"><xliff:g id="host">%1$s</xliff:g>: το αρχείο ή η πηγή δεν βρέθηκε (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host">%1$s</xliff:g>: η πρόσβαση απορρίφθηκε (HTTP <xliff:g id="code">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host">%1$s</xliff:g>: ο πόρος καταργήθηκε (HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host">%1$s</xliff:g>: ο διακομιστής δεν είναι διαθέσιμος (HTTP <xliff:g id="code">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host">%1$s</xliff:g>: HTTP <xliff:g id="code">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes">%1$d</xliff:g> λεπ.</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds">%1$d</xliff:g>δ</string>
+    <string name="err_download_file_missing">Το ληφθέν αρχείο λείπει</string>
+    <string name="err_sha_mismatch">Ασυμφωνία αθροίσματος SHA-256</string>
+    <string name="err_sha_calc_failed">Αποτυχία υπολογισμού SHA-256</string>
+    <string name="err_ota_signature_failed">Η επαλήθευση υπογραφής OTA απέτυχε</string>
+    <string name="err_engine_signature">Το update_engine απέρριψε την υπογραφή του πακέτου (κωδικός <xliff:g id="code">%1$d</xliff:g>). Δοκιμάστε Εξαναγκασμένη Εγκατάσταση Recovery.</string>
+    <string name="err_engine_downgrade">Το update_engine απέκλεισε το χρονόσημο υποβάθμισης (κωδικός <xliff:g id="code">%1$d</xliff:g>). Δοκιμάστε Εξαναγκασμένη Εγκατάσταση Recovery.</string>
+    <string name="err_engine_storage">Ανεπαρκής χώρος αποθήκευσης για ενημέρωση υποδοχής A/B (κωδικός <xliff:g id="code">%1$d</xliff:g>).</string>
+    <string name="err_engine_partition">Η επαλήθευση διαμερίσματος απέτυχε (κωδικός <xliff:g id="code">%1$d</xliff:g>).</string>
+    <string name="err_engine_cancelled">Η εγκατάσταση ακυρώθηκε από τον χρήστη.</string>
+    <string name="err_engine_generic">Σφάλμα update_engine, κωδικός <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">Μη υποστηριζόμενος τύπος OTA: <xliff:g id="type">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found">Δεν βρέθηκε η καταχώρηση <xliff:g id="entry">%1$s</xliff:g> στο <xliff:g id="file">%2$s</xliff:g></string>
+</resources>

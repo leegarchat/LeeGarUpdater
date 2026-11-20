@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="verification_failed_notification">Dh’fhàillig an dearbhadh</string>
+    <string name="verifying_download_notification">A’ dearbhadh an ùrachaidh</string>
+    <string name="downloading_notification">’Ga luchdadh a-nuas</string>
+    <string name="download_paused_notification">Tha an luchdadh a-nuas ’na stad</string>
+    <string name="download_paused_error_notification">Mearachd leis an luchdadh a-nuas</string>
+    <string name="download_completed_notification">Tha an luchdadh a-nuas deiseil</string>
+    <string name="download_starting_notification">A’ tòiseachadh air an luchdadh a-nuas</string>
+    <string name="update_failed_notification">Dh’fhàillig leis an ùrachadh</string>
+    <string name="installation_suspended_notification">Chaidh an stàladh a chur ’na dhàil</string>
+    <string name="new_updates_found_title">Ùrachaidhean</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="installing_update_error">Mearachd leis an stàladh</string>
+    <string name="finalizing_package">A’ crìochnachadh stàladh na pacaid</string>
+    <string name="preparing_ota_first_boot">Ag ullachadh a’ chiad tòiseachaidh</string>
+    <string name="dialog_prepare_zip_message">Ullachadh an ùrachaidh</string>
+    <string name="reboot">Dèan ath-thòiseachadh</string>
+    <string name="menu_export_update">Às-phortaich an t-ùrachadh</string>
+    <string name="menu_ab_perf_mode">Cuir prìomhachas air pròiseas an ùrachaidh</string>
+    <string name="menu_update_recovery">Ùraich an t-aiseag</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> – <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">Luchdaich a-nuas</string>
+    <string name="action_pause">Cuir ’na stad</string>
+    <string name="action_resume">Lean air</string>
+    <string name="action_install">Stàlaich</string>
+    <string name="action_info">Fiosrachadh</string>
+    <string name="action_delete">Sguab às</string>
+    <string name="dialog_export_title">Ag às-phortadh an ùrachaidh</string>
+    <string name="notification_export_success">Chaidh an t-ùrachadh às-phortadh</string>
+    <string name="notification_export_fail">Mearachd leis an às-phortadh</string>
+    <string name="toast_already_exporting">Tha thu ag às-phortadh ùrachadh mu thràth</string>
+    <string name="blocked_update_dialog_title">Chaidh an t-ùrachadh a bhacadh</string>
+    <string name="export_channel_title">Coileanadh an às-phortaidh</string>
+    <string name="new_updates_channel_title">Ùrachaidhean</string>
+    <string name="ongoing_channel_title">’Ga luchdadh a-nuas</string>
+    <string name="update_failed_channel_title">Dh’fhàillig leis an ùrachadh</string>
+    <string name="display_name">LeeGar Updater</string>
+    <string name="new_updates_found_summary">Thoir gnogag gus na h-ùrachaidhean a tha rim faotainn fhaicinn</string>
+    <string name="installing_update">A stàladh ùrachadh an t-siostaim</string>
+    <string name="installing_update_finished">Ùrachadh a feitheamh ri ath-thòiseachadh</string>
+    <string name="action_download_install">Luchdaich a-nuas is stàlaich</string>
+    <string name="check_for_update">Thoir sùil airson ùrachadh</string>
+    <string name="action_back">Air ais</string>
+    <string name="checking_for_updates">A sireadh ùrachaidhean</string>
+    <string name="pref_category_background_sync">Sioncronachadh cùl-fhiosrachaidh</string>
+    <string name="menu_auto_updates_check">Thoir sùil bho àm gu àm airson ùrachaidhean</string>
+    <string name="menu_auto_updates_check_summary">Thoir sùil airson ùrachaidhean air a chùl</string>
+    <string name="menu_auto_delete_updates">Sguab às ùrachaidhean gu fèin-obrachail</string>
+    <string name="menu_stream_updates">Sruthaich ùrachaidhean air-loidhne</string>
+    <string name="menu_stream_updates_summary">Stàlaich ùrachaidhean fhad sa tha iad gan luchdadh a-nuas. Cuir dheth gus pacaidean ùrachaidh a shàbhaladh airson às-phortadh.</string>
+    <string name="menu_metered_network_warning">Rabhadh lìonraidh thomhais</string>
+    <string name="menu_metered_network_warning_summary">Thoir rabhadh mus luchdaich thu a-nuas thairis air dàta gluasadach</string>
+    <string name="menu_update_recovery_summary">Ùraich deighle na h-aiseige còmhla ris an t-siostam obrachaidh</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">Ceann-là an togail</string>
+    <string name="security_update">Ùrachadh tèarainteachd</string>
+    <string name="toast_export_started">Thòisich an t-às-phortadh</string>
+    <string name="blocked_update_dialog_title_downgrade">Ìsleachadh bacaita</string>
+    <string name="tab_updates">Ùrachaidhean</string>
+    <string name="tab_saved">Air a shàbhaladh</string>
+    <string name="tab_saved_count">Air a shàbhaladh (%1$d)</string>
+    <string name="tab_settings">Roghainnean</string>
+    <string name="toast_download_failed">Dh’fhàillig leis an luchdadh a-nuas</string>
+    <string name="toast_download_verified">Luchdadh a-nuas air a dhearbhadh agus deiseil</string>
+    <string name="toast_import_failed">Dh’fhàillig le ion-phortadh ZIP (pacaid no ainm-sgrìobhte mì-dhligheach). Feuch Modh Cunnartach airson ZIPan gnàthaichte.</string>
+    <string name="toast_imported_format">Chaidh <xliff:g id="name">%1$s</xliff:g> ion-phortadh dhan taba Air a luchdadh a-nuas</string>
+    <string name="banner_no_internet">Gun cheangal eadar-lìn</string>
+    <string name="banner_check_failed">Dh’fhàillig leis an sgrùdadh ùrachaidh</string>
+    <string name="section_releases">Sgaoilidhean rim faotainn</string>
+    <string name="section_releases_count">Sgaoilidhean rim faotainn • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">Modh Cunnartach</string>
+    <string name="empty_releases_title">Cha deach sgaoileadh a luchdadh</string>
+    <string name="empty_releases_desc">Thoir gnogag air ath-nuadhachadh gus togail a luchdadh bho fhotha OTA JSON.</string>
+    <string name="device_fallback_name">Udais</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> thogail nas ùire ri fhaotainn</item>
+        <item quantity="two"><xliff:g id="count">%1$d</xliff:g> thogail nas ùire rim faotainn</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> togail nas ùire rim faotainn</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="one">Tha an siostam ùraichte • <xliff:g id="count">%1$d</xliff:g> thogail san fhotha</item>
+        <item quantity="two">Tha an siostam ùraichte • <xliff:g id="count">%1$d</xliff:g> thogail san fhotha</item>
+        <item quantity="other">Tha an siostam ùraichte • <xliff:g id="count">%1$d</xliff:g> togail san fhotha</item>
+    </plurals>
+    <string name="installed_label_format">Air a stàladh: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • Pàiste: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">Air a sgrùdadh: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">Ceann-là neo-aithnichte</string>
+    <string name="status_starting">A tòiseachadh</string>
+    <string name="status_verifying">A dearbhadh</string>
+    <string name="status_merging">Ag aonachadh <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">Na stad <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">Mearachd</string>
+    <string name="status_installing">A stàladh <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">Na dhàil <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <plurals name="badge_split_parts">
+        <item quantity="one">Sgoltaichte • <xliff:g id="count">%1$d</xliff:g> phàirt</item>
+        <item quantity="two">Sgoltaichte • <xliff:g id="count">%1$d</xliff:g> phàirt</item>
+        <item quantity="other">Sgoltaichte • <xliff:g id="count">%1$d</xliff:g> pàirt</item>
+    </plurals>
+    <string name="badge_downloaded">Air a luchdadh a-nuas</string>
+    <string name="badge_reboot_required">Tha ath-thòiseachadh a dhìth</string>
+    <string name="badge_local">Ionadail</string>
+    <string name="badge_major_upgrade">Mòr-ùrachadh</string>
+    <string name="relation_newer">Nas ùire</string>
+    <string name="relation_installed">Air a stàladh</string>
+    <string name="relation_downgrade">Ìsleachadh</string>
+    <string name="relation_build">Togail</string>
+    <plurals name="downloaded_title">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> phacaid air a stòradh</item>
+        <item quantity="two"><xliff:g id="count">%1$d</xliff:g> phacaid air a stòradh</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> pacaid air an stòradh</item>
+    </plurals>
+    <string name="downloaded_subtitle_used">Àite ga chleachdadh: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">Ion-phortaich ZIP ionadail no luchdaich a-nuas togail bho Ùrachaidhean</string>
+    <string name="action_import_zip">Ion-phortaich ZIP</string>
+    <string name="empty_downloaded_title">Gun ùrachadh air a luchdadh a-nuas</string>
+    <string name="empty_downloaded_desc">Nochdaidh pacaidean ROM a chaidh a luchdadh a-nuas agus faidhlichean ZIP ionadail an-seo airson stàladh, às-phortadh no toirt air falbh.</string>
+    <string name="section_downloaded">Air a luchdadh a-nuas agus ZIPan Ionadail</string>
+    <string name="install_confirm_recovery">Splais tro Aiseag (Modh Cunnartach)? Ath-thòisichidh an t-udais dhan Aiseag.</string>
+    <string name="install_confirm_force">Stàladh èiginneach gun dearbhadh? Dèan cinnteach gu bheil an ZIP seo a freagairt ris an udais agad.</string>
+    <string name="install_confirm_now">An stàlaich thu <xliff:g id="name">%1$s</xliff:g> an-dràsta?</string>
+    <string name="action_cancel">Sguir dheth</string>
+    <string name="action_confirm">Dearbhaich</string>
+    <string name="action_proceed">Lean air adhart</string>
+    <string name="action_reboot_now">Dèan ath-thòiseachadh an-dràsta</string>
+    <string name="action_export">Às-phortaich</string>
+    <string name="action_reset">Ath-shuidhich</string>
+    <string name="install_label_recovery">Stàlaich (Aiseag)</string>
+    <string name="install_label_force">Stàladh èiginneach</string>
+    <string name="action_stream_install">Sruthaich agus Stàlaich</string>
+    <string name="action_download_install_new">Luchdaich a-nuas agus Stàlaich</string>
+    <string name="desc_close">Dùin</string>
+    <string name="desc_retry">Feuch a-rithist</string>
+    <string name="settings_check_interval">Eadar-àm sgrùdaidh</string>
+    <string name="interval_daily">Gach latha</string>
+    <string name="interval_weekly">Gach seachdain</string>
+    <string name="interval_monthly">Gach mìos</string>
+    <string name="settings_group_downloads">Luchdadh a-nuas agus dearbhadh</string>
+    <string name="settings_parallel_title">Luchdadh a-nuas sgoltaichte co-shìnte</string>
+    <string name="settings_parallel_summary">Luchdaich a-nuas suas ri 3 pàirtean tasglainn sgoltaichte aig an aon àm airson luaths nas luaithe</string>
+    <string name="settings_verify_title">Dearbhaich seicean SHA-256</string>
+    <string name="settings_verify_summary">Dearbhaich gach pàirt sgoltaichte agus an tasglann dheireannach cho-chruinnichte an aghaidh haisean JSON</string>
+    <string name="settings_autodelete_summary">Thoir air falbh a phacaid a chaidh a luchdadh a-nuas gu fèin-obrachail nuair a shoirbhicheas leis an ùrachadh</string>
+    <string name="settings_group_installation">Stàladh</string>
+    <string name="settings_ab_perf_summary">Thoir barrachd CPU agus I/O do update_engine airson stàlaidhean nas luaithe</string>
+    <string name="settings_ab_perf_charging">Gnìomhach gu fèin-obrachail nuair a bhios cumhachd AC ceangailte</string>
+    <string name="settings_group_ota">Tùs OTA</string>
+    <string name="settings_ota_url_title">URL JSON OTA gnàthaichte</string>
+    <string name="settings_ota_url_hint">Fàg bàn gus URL bunaiteach for-cheangail ROM no DeviceTree a chleachdadh.</string>
+    <string name="settings_ota_apply">Cuir an URL an sàs</string>
+    <string name="toast_ota_reset">Chaidh URL OTA ath-shuidheachadh dhan bhun-roghainn</string>
+    <string name="toast_ota_updated">Chaidh URL OTA ùrachadh</string>
+    <string name="settings_group_appearance">Coltas agus stòradh</string>
+    <string name="settings_theme_title">Cuspair na h-aplacaid</string>
+    <string name="theme_system">Siostam</string>
+    <string name="theme_light">Soilleir</string>
+    <string name="theme_dark">Dorcha</string>
+    <string name="settings_wavy_title">Bàr adhartais tonnach</string>
+    <string name="settings_wavy_summary">Beòthaich tonn fhad sa tha thu a luchdadh a-nuas no a stàladh; rèidh gu socair air stad</string>
+    <string name="settings_amplitude_title">Leud na tuinne</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">Dheth</string>
+    <string name="settings_blur_title">Radaidheachd doille na glainne</string>
+    <string name="settings_tint_title">Soilleireachd dath na glainne</string>
+    <string name="settings_logo_title">Seall suaicheantas a phròiseict</string>
+    <string name="settings_logo_summary">Seall bratach a phròiseict (GIF, ìomhaigh, bhidio no facal-suaicheanta beòthail)</string>
+    <string name="settings_banner_title">Seall bratach na sgaoilidh</string>
+    <string name="settings_banner_summary">Seall ìomhaigh no bhidio brataich na sgaoilidh ann am bann-cinn na cairt</string>
+    <string name="settings_clear_cache">Falamhaich tasgadan nam meadhanan agus log nan atharraichean</string>
+    <string name="toast_cache_cleared">Chaidh an tasgadan fhalamhachadh</string>
+    <string name="settings_danger_title">Stàladh Cunnartach</string>
+    <string name="settings_danger_warning">Na cleachd ach air do chunnart fhèin. Faodaidh e an t-udais a bhriseadh ma splaiseas tu ROM ceàrr.</string>
+    <string name="settings_unsafe_title">Seachain sgrùdaidhean sàbhailteachd agus dearbhaidh</string>
+    <string name="settings_unsafe_summary">Cuiridh e dheth dearbhadh ainm-sgrìobhte OTA, bacadh an ìsleachaidh agus dìonan SDK Android. Ceadaichidh e ìsleachaidhean no ZIPan thar-ROM a splaisg.</string>
+    <string name="settings_unsafe_confirm">Dearbhaich: gabhaidh tu làn-uallach airson ìsleachaidhean, ZIPan gun ainm-sgrìobhte no call dàta.</string>
+    <string name="danger_accept">Gabhaidh mi ris a chunnart</string>
+    <string name="settings_recovery_title">Sparr stàladh tro Aiseag</string>
+    <string name="settings_recovery_summary">Seachain update_engine agus ath-thòisich dhan Aiseag (OrangeFox / TWRP) gus ZIP a splaisg gu dìreach. Feumail ma dhiùltas update_engine stampa-tìm an ìsleachaidh no an t-ainm-sgrìobhte.</string>
+    <string name="overlay_battery_low">Tha ìre a bhataraidh ro ìosal airson stàladh</string>
+    <string name="overlay_blocked_format">Bacaita (<xliff:g id="reason">%1$s</xliff:g>). Cuir Modh Cunnartach an comas ann an Roghainnean gus stàladh èiginneach a sparradh.</string>
+    <string name="overlay_downgrade_blocked">Tha an t-ìsleachadh air a bhacadh le riaghailtean sàbhailteachd. Cuir Modh Cunnartach an comas ann an Roghainnean gus faighinn thairis air.</string>
+    <string name="overlay_major_blocked">Tha mòr-ùrachadh Android air a bhacadh le riaghailtean sàbhailteachd. Cuir Modh Cunnartach an comas ann an Roghainnean gus faighinn thairis air.</string>
+    <string name="overlay_metered_format">Tha thu air ceangal tomhais. An luchdaich thu a-nuas <xliff:g id="size">%1$s</xliff:g> an-dràsta?</string>
+    <string name="overlay_unsafe_recovery">An luchdaich thu a-nuas is an splais thu tro Aiseag (Modh Cunnartach)?</string>
+    <string name="overlay_unsafe_force">An luchdaich thu a-nuas is an sparr thu stàladh gun dearbhadh?</string>
+    <string name="overlay_scratch_mounted">Tha deighle na scratch ga cur suas; chan urrainn stàladh</string>
+    <string name="toast_sha_copied">Chaidh SHA-256 a lethbhreacadh</string>
+    <string name="overlay_install_recovery">Splais tro Aiseag (Modh Cunnartach)? Ath-thòisichidh an t-udais dhan Aiseag.</string>
+    <string name="overlay_install_force">Stàladh èiginneach gun sgrùdaidhean ainm-sgrìobhte no ìsleachaidh? Lean air adhart air do chunnart fhèin.</string>
+    <string name="overlay_changelog_title">Log atharraichean</string>
+    <string name="desc_reload_changelog">Ath-luchdaich log nan atharraichean</string>
+    <string name="overlay_changelog_loading">A luchdadh log nan atharraichean…</string>
+    <string name="overlay_changelog_error">Cha b urrainn dhuinn log atharraichean an togail seo a luchdadh.</string>
+    <string name="overlay_changelog_empty">Gun log atharraichean airson na sgaoilidh seo.</string>
+    <string name="overlay_archive_sha">SHA-256 na tasglainn</string>
+    <string name="desc_copy_sha">Dèan lethbhreac de SHA-256</string>
+    <string name="overlay_reboot_to_apply">Dèan ath-thòiseachadh gus an t-ùrachadh a chur an sàs</string>
+    <string name="overlay_pause_format">Cuir na stad (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">Lean air (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">Faidhliche pacaid</string>
+    <string name="overlay_parts_title">Pàirtean tasglainn sgoltaichte (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">Dearbhaich an sguabadh às</string>
+    <string name="info_package_size">Meud pacaid</string>
+    <string name="info_android_api">API Android</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">Seòrsa togail</string>
+    <string name="info_delivery">Lìbhrigeadh</string>
+    <string name="info_delivery_split">Sgoltaichte (<xliff:g id="count">%1$d</xliff:g> phàirt)</string>
+    <string name="float_importing">Ag ion-phortadh ZIP ionadail…</string>
+    <string name="float_copying">Ag lethbhreacadh na pacaid agus a sgrùdadh nam meata-dàta</string>
+    <string name="float_calculating">Ag obrachadh a-mach…</string>
+    <plurals name="float_parts">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> phàirt</item>
+        <item quantity="two"><xliff:g id="count">%1$d</xliff:g> phàirt</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> pàirt</item>
+    </plurals>
+    <string name="float_parallel">Co-shìnte</string>
+    <string name="float_sequential">Leantainneach</string>
+    <string name="float_single">Aon tasglann</string>
+    <string name="float_autoinstall">Fèin-stàladh</string>
+    <string name="float_parts_header">Pàirtean tasglainn (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> deiseil)</string>
+    <string name="float_suspend">Cuir na dhàil</string>
+    <string name="float_abort">Sguir dheth</string>
+    <string name="desc_toggle_details">Seall no falaich am mion-fhiosrachadh</string>
+    <string name="part_queued">Ga ciudhachadh</string>
+    <string name="part_verifying">A dearbhadh SHA-256</string>
+    <string name="part_verified">Air a dhearbhadh</string>
+    <string name="part_done">Deiseil</string>
+    <string name="part_paused_format">Na stad • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">Feuch a-rithist / Mearachd</string>
+    <string name="part_waiting">A feitheamh…</string>
+    <string name="stage_connecting">A ceangal ris an fhrithealaiche…</string>
+    <string name="stage_verify_part">A dearbhadh pàirt <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> SHA-256…</string>
+    <string name="stage_assemble">Ag cruinneachadh nam pàirtean (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">A dearbhadh SHA-256 na tasglainn dheireannaich…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> pàirt gnìomhach • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">Pàirt <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">A luchdadh a-nuas • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• Fèin-stàladh</string>
+    <string name="stage_paused">Luchdadh a-nuas na stad • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">Dh’fhàillig leis an luchdadh a-nuas • Thoir gnogag air Lean air</string>
+    <string name="stage_verifying_sig">A dearbhadh na tasglainn agus an ainm-sgrìobhte…</string>
+    <string name="stage_finalizing">A crìochnachadh slot A/B • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">A stàladh an ùrachaidh • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">Stàladh na dhàil • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">Air a stàladh — tha ath-thòiseachadh a dhìth</string>
+    <string name="md_image_alt">Ìomhaigh</string>
+    <string name="md_image_failed">Dh’fhàillig le luchdadh na h-ìomhaigh</string>
+    <string name="importer_tag_local">ZIP Ionadail</string>
+    <string name="err_no_url">Gun URL luchdaidh a-nuas no pàirtean air an suidheachadh</string>
+    <string name="err_no_dest">Gun cheann-uidhe luchdaidh a-nuas air a suidheachadh</string>
+    <string name="err_no_callback">Gun ais-ghairm luchdaidh a-nuas air a suidheachadh</string>
+    <string name="err_no_parts">Gun phàirt luchdaidh a-nuas air a shònrachadh</string>
+    <string name="err_no_tempdir">Chan urrainn dhuinn eòlaire sealach nam pàirtean a chruthachadh: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">Mì-cho-fhreagairt seic pàirt <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_part_failed">Dh’fhàillig le luchdadh a-nuas pàirt <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_final_sha">Dh’fhàillig le dearbhadh SHA-256 na tasglainn dheireannaich</string>
+    <string name="err_empty_body">Corp freagairt falamh airson pàirt <xliff:g id="index">%1$d</xliff:g></string>
+    <string name="err_unknown_size">Cha ghabh meud <xliff:g id="url">%1$s</xliff:g> a dhearbhadh</string>
+    <string name="err_no_range">Chan eil am frithealaiche a cur taic ri iarrtasan raoin: bha dùil ri HTTP 206, fhuaradh <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_content_range">Ceann-sgrìobhainn Content-Range a dhìth airson <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_bad_content_range">Content-Range ris nach robh dùil airson <xliff:g id="url">%1$s</xliff:g>: bha dùil ri <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">Chan eil atharraichean pròtacail ceadaichte</string>
+    <string name="err_server_reply">Fhreagair am frithealaiche le <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_no_fd">Cha b urrainn dhuinn fileDescriptor fhaighinn</string>
+    <string name="err_import_cancelled">Chaidh an t-ion-phortadh a sguir</string>
+    <string name="err_verify_deleted">Dh’fhàillig leis an dearbhadh, chaidh am faidhle a sguabadh às</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">Cuir an sàs</string>
+    <string name="dialog_value_title">Luach</string>
+    <string name="unknown_size">Neo-aithnichte</string>
+    <string name="slider_default">Bunaiteach</string>
+    <string name="slider_default_value">Bunaiteach (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">Mearachd lìonraidh</string>
+    <string name="action_paused_state">Na stad</string>
+    <string name="part_fallback_name">pàirt_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">Frithealaiche</string>
+    <string name="err_response_empty">Corp freagairt falamh</string>
+    <string name="err_changelog_body_empty">Corp log atharraichean falamh</string>
+    <string name="err_changelog_too_large">Tha log nan atharraichean nas motha na <xliff:g id="bytes" example="524288">%1$d</xliff:g> byte</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: chaidh thairis air a chrìoch reata (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Feuch a-rithist ann an <xliff:g id="wait" example="~2 min">%3$s</xliff:g>.</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: chaidh thairis air a chrìoch reata (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Feuch a-rithist an ceann greis.</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: cha deach am faidhle no am fotha a lorg (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: inntrigeadh air a dhiùltadh (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: chaidh an goireas a thoirt air falbh (410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: frithealaiche gun fhaotainn (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> mion</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g>s</string>
+    <string name="err_download_file_missing">Tha am faidhle a chaidh a luchdadh a-nuas a dhìth</string>
+    <string name="err_sha_mismatch">Mì-cho-fhreagairt SHA-256</string>
+    <string name="err_sha_calc_failed">Dh’fhàillig le SHA-256 obrachadh a-mach</string>
+    <string name="err_ota_signature_failed">Dh’fhàillig le dearbhadh ainm-sgrìobhte OTA</string>
+    <string name="err_engine_signature">Dhiùlt update_engine an t-ainm-sgrìobhte (còd <xliff:g id="code" example="20">%1$d</xliff:g>). Feuch Stàladh Èiginneach Aiseig.</string>
+    <string name="err_engine_downgrade">Chuir update_engine bac air stampa-tìm an ìsleachaidh (còd <xliff:g id="code" example="51">%1$d</xliff:g>). Feuch Stàladh Èiginneach Aiseig.</string>
+    <string name="err_engine_storage">Chan eil àite gu leòr ann airson ùrachadh slot A/B (còd <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_engine_partition">Dh’fhàillig le dearbhadh na deighle (còd <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_cancelled">Sguir an cleachdaiche dhen stàladh.</string>
+    <string name="err_engine_generic">Còd mearachd update_engine <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">Seòrsa OTA gun taic: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found">Cha b urrainn dhuinn <xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> a lorg ann an <xliff:g id="file" example="update.zip">%2$s</xliff:g></string>
+</resources>

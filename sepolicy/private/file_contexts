@@ -1,0 +1,4 @@
+# LeeGarUpdater OTA download directory.
+# Same type as the stock updater path so existing update_engine/recovery
+# allow-rules keep working; only the path is brand-specific.
+/data/lgu_updates(/.*)?           u:object_r:ota_package_file:s0

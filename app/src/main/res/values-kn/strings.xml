@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="verification_failed_notification">ಪರಿಶೀಲನೆ ವಿಫಲ</string>
+    <string name="verifying_download_notification">ನವೀಕರಣ ಪರಿಶೀಲಿಸುತ್ತಿದೆ</string>
+    <string name="downloading_notification">ಇಳಿಸುತ್ತಿದೆ</string>
+    <string name="download_paused_notification">ಇಳಿಸುವಿಕೆ ವಿರಾಮ</string>
+    <string name="download_paused_error_notification">ಇಳಿಸುವಾಗ ದೋಷ</string>
+    <string name="download_completed_notification">ಇಳಿಸುವಿಕೆ ಪೂರ್ಣಗೊಂಡಿದೆ</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="installing_update_error">ಸ್ಥಾಪನೆ ದೋಷ</string>
+    <string name="finalizing_package">ಘಂಟು ಸ್ಥಾಪನೆಯನ್ನು ಕೊನೆಗೊಳಿಸುತ್ತಿದೆ</string>
+    <string name="menu_export_update">ನವೀಕರಿಣ ನಿರ್ಯಾತ</string>
+    <string name="menu_ab_perf_mode">ನವೀಕರಣಕ್ಕೆ ಆದ್ಯತೆ ಕೊಡು</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">ಇಳಿಸು</string>
+    <string name="action_install">ಸ್ಥಾಪಿಸು</string>
+    <string name="action_info">ಮಾಹಿತಿ</string>
+    <string name="action_delete">ಅಳಿಸು</string>
+    <string name="dialog_export_title">ನವೀಕರಿಣ ನಿರ್ಯಾತವಾಗುತ್ತಿದೆ</string>
+    <string name="notification_export_fail">ದೋಷ ನಿರ್ಯಾತ</string>
+    <string name="toast_already_exporting">ಈಗಾಗಲೇ ನವೀಕರಣವನ್ನು ರಫ್ತು ಮಾಡಲಾಗುತ್ತಿದೆ</string>
+    <string name="export_channel_title">ನಿರ್ಯಾತ ಪೂರ್ಣತೆ</string>
+    <string name="ongoing_channel_title">ಪ್ರಗತಿಯಲ್ಲಿರುವ ಕೆಳಭರಿತಗಳು</string>
+    <string name="display_name">LeeGar Updater</string>
+    <string name="download_starting_notification">ಇಳಿಸುವಿಕೆ ಪ್ರಾರಂಭವಾಗುತ್ತಿದೆ</string>
+    <string name="update_failed_notification">ನವೀಕರಣ ವಿಫಲ</string>
+    <string name="installation_suspended_notification">ಸ್ಥಾಪನೆ ಅಮಾನತುಗೊಂಡಿದೆ</string>
+    <string name="new_updates_found_title">ಹೊಸ ನವೀಕರಣಗಳು</string>
+    <string name="new_updates_found_summary">ಲಭ್ಯವಿರುವ ನವೀಕರಣಗಳನ್ನು ನೋಡಲು ಟ್ಯಾಪ್ ಮಾಡು</string>
+    <string name="installing_update">ಸಿಸ್ಟಮ್ ನವೀಕರಣ ಸ್ಥಾಪಿಸುತ್ತಿದೆ</string>
+    <string name="installing_update_finished">ನವೀಕರಣ ಪುನರಾರಂಭಕ್ಕೆ ಬಾಕಿಯಿದೆ</string>
+    <string name="preparing_ota_first_boot">ಮೊದಲ ಬೂಟ್‌ಗೆ ಸಿದ್ಧವಾಗುತ್ತಿದೆ</string>
+    <string name="dialog_prepare_zip_message">ಪ್ರಾಥಮಿಕ ನವೀಕರಣ ಸಿದ್ಧತೆ</string>
+    <string name="reboot">ಪುನರಾರಂಭಿಸು</string>
+    <string name="action_download_install">ಇಳಿಸಿ ಸ್ಥಾಪಿಸು</string>
+    <string name="check_for_update">ನವೀಕರಣಕ್ಕಾಗಿ ಪರಿಶೀಲಿಸು</string>
+    <string name="action_back">ಹಿಂದೆ</string>
+    <string name="checking_for_updates">ನವೀಕರಣಗಳಿಗಾಗಿ ಪರಿಶೀಲಿಸುತ್ತಿದೆ</string>
+    <string name="pref_category_background_sync">ಹಿನ್ನೆಲೆ ಸಿಂಕ್</string>
+    <string name="menu_auto_updates_check">ನಿಯತಕಾಲಿಕವಾಗಿ ನವೀಕರಣ ಪರಿಶೀಲಿಸು</string>
+    <string name="menu_auto_updates_check_summary">ಹಿನ್ನೆಲೆಯಲ್ಲಿ ನವೀಕರಣ ಪರಿಶೀಲಿಸು</string>
+    <string name="menu_auto_delete_updates">ನವೀಕರಣಗಳನ್ನು ಸ್ವಯಂ-ಅಳಿಸು</string>
+    <string name="menu_stream_updates">ಆನ್‌ಲೈನ್ ನವೀಕರಣಗಳನ್ನು ಸ್ಟ್ರೀಮ್ ಮಾಡು</string>
+    <string name="menu_stream_updates_summary">ಇಳಿಸುವಾಗ ನವೀಕರಣಗಳನ್ನು ಸ್ಥಾಪಿಸು. ರಫ್ತುಗಾಗಿ ನವೀಕರಣ ಪ್ಯಾಕೇಜ್‌ಗಳನ್ನು ಉಳಿಸಲು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸು.</string>
+    <string name="menu_metered_network_warning">ಮೀಟರ್ಡ್ ನೆಟ್‌ವರ್ಕ್ ಎಚ್ಚರಿಕೆ</string>
+    <string name="menu_metered_network_warning_summary">ಮೊಬೈಲ್ ಡೇಟಾ ಮೂಲಕ ಇಳಿಸುವ ಮೊದಲು ಎಚ್ಚರಿಸು</string>
+    <string name="menu_update_recovery">ರಿಕವರಿ ನವೀಕರಿಸು</string>
+    <string name="menu_update_recovery_summary">OS ಜೊತೆಗೆ ರಿಕವರಿ ವಿಭಾಗವನ್ನೂ ನವೀಕರಿಸು</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">ಬಿಲ್ಡ್ ದಿನಾಂಕ</string>
+    <string name="security_update">ಭದ್ರತಾ ನವೀಕರಣ</string>
+    <string name="action_pause">ವಿರಾಮ</string>
+    <string name="action_resume">ಮುಂದುವರಿಸು</string>
+    <string name="notification_export_success">ನವೀಕರಣ ರಫ್ತಾಗಿದೆ</string>
+    <string name="toast_export_started">ರಫ್ತು ಪ್ರಾರಂಭವಾಗಿದೆ</string>
+    <string name="blocked_update_dialog_title">ನವೀಕರಣ ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ</string>
+    <string name="blocked_update_dialog_title_downgrade">ಡೌನ್‌ಗ್ರೇಡ್ ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ</string>
+    <string name="new_updates_channel_title">ಹೊಸ ನವೀಕರಣಗಳು</string>
+    <string name="update_failed_channel_title">ನವೀಕರಣ ವಿಫಲ</string>
+    <string name="tab_updates">ನವೀಕರಣಗಳು</string>
+    <string name="tab_saved">ಉಳಿಸಿದ</string>
+    <string name="tab_saved_count">ಉಳಿಸಿದ (%1$d)</string>
+    <string name="tab_settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="toast_download_failed">ಇಳಿಸುವಿಕೆ ವಿಫಲ</string>
+    <string name="toast_download_verified">ಇಳಿಸುವಿಕೆ ಪರಿಶೀಲಿತ ಮತ್ತು ಸಿದ್ಧ</string>
+    <string name="toast_import_failed">ZIP ಆಮದು ವಿಫಲ (ಅಮಾನ್ಯ ಪ್ಯಾಕೇಜ್ ಅಥವಾ ಸಹಿ). ಕಸ್ಟಮ್ ZIP‌ಗಳಿಗಾಗಿ ಅಸುರಕ್ಷಿತ ಮೋಡ್ ಪ್ರಯತ್ನಿಸು.</string>
+    <string name="toast_imported_format"><xliff:g id="name">%1$s</xliff:g> ಇಳಿಸಿದ ಟ್ಯಾಬ್‌ಗೆ ಆಮದು ಮಾಡಲಾಗಿದೆ</string>
+    <string name="banner_no_internet">ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕವಿಲ್ಲ</string>
+    <string name="banner_check_failed">ನವೀಕರಣ ಪರಿಶೀಲನೆ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="section_releases">ಲಭ್ಯವಿರುವ ಬಿಡುಗಡೆಗಳು</string>
+    <string name="section_releases_count">ಲಭ್ಯವಿರುವ ಬಿಡುಗಡೆಗಳು • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">ಅಸುರಕ್ಷಿತ ಮೋಡ್</string>
+    <string name="empty_releases_title">ಯಾವುದೇ ಬಿಡುಗಡೆಗಳು ಲೋಡ್ ಆಗಿಲ್ಲ</string>
+    <string name="empty_releases_desc">ಕಾನ್ಫಿಗರ್ ಮಾಡಿದ OTA JSON ಫೀಡ್‌ನಿಂದ ಬಿಲ್ಡ್‌ಗಳನ್ನು ಪಡೆಯಲು ರಿಫ್ರೆಶ್ ಮಾಡಿ.</string>
+    <string name="device_fallback_name">ಸಾಧನ</string>
+    <plurals name="hero_newer_builds">
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> ಹೊಸ ಬಿಲ್ಡ್‌ಗಳು ಲಭ್ಯವಿದೆ</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="other">ಸಿಸ್ಟಮ್ ನವೀಕೃತವಾಗಿದೆ • ಫೀಡ್‌ನಲ್ಲಿ <xliff:g id="count">%1$d</xliff:g> ಬಿಲ್ಡ್‌ಗಳು</item>
+    </plurals>
+    <string name="installed_label_format">ಸ್ಥಾಪಿತ: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • ಪ್ಯಾಚ್: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">ಪರಿಶೀಲನೆ: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">ಅಜ್ಞಾತ ದಿನಾಂಕ</string>
+    <string name="status_starting">ಪ್ರಾರಂಭವಾಗುತ್ತಿದೆ</string>
+    <string name="status_verifying">ಪರಿಶೀಲಿಸುತ್ತಿದೆ</string>
+    <string name="status_merging">ವಿಲೀನಗೊಳಿಸುತ್ತಿದೆ <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">ವಿರಾಮ <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">ದೋಷ</string>
+    <string name="status_installing">ಸ್ಥಾಪಿಸುತ್ತಿದೆ <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">ಅಮಾನತು <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <plurals name="badge_split_parts">
+        <item quantity="other">ವಿಭಜಿತ • <xliff:g id="count">%1$d</xliff:g> ಭಾಗಗಳು</item>
+    </plurals>
+    <string name="badge_downloaded">ಇಳಿಸಲಾಗಿದೆ</string>
+    <string name="badge_reboot_required">ಪುನರಾರಂಭ ಅಗತ್ಯವಿದೆ</string>
+    <string name="badge_local">ಸ್ಥಳೀಯ</string>
+    <string name="badge_major_upgrade">ಪ್ರಮುಖ ಅಪ್‌ಗ್ರೇಡ್</string>
+    <string name="relation_newer">ಹೊಸದು</string>
+    <string name="relation_installed">ಸ್ಥಾಪಿತ</string>
+    <string name="relation_downgrade">ಡೌನ್‌ಗ್ರೇಡ್</string>
+    <string name="relation_build">ಬಿಲ್ಡ್</string>
+    <plurals name="downloaded_title">
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> ಪ್ಯಾಕೇಜ್‌ಗಳು ಸಂಗ್ರಹಿಸಲಾಗಿದೆ</item>
+    </plurals>
+    <string name="downloaded_subtitle_used">ಬಳಸಿದ ಸ್ಥಳ: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">ಸ್ಥಳೀಯ ZIP ಆಮದು ಮಾಡಿ ಅಥವಾ ನವೀಕರಣಗಳಿಂದ ಬಿಲ್ಡ್‌ಗಳನ್ನು ಇಳಿಸಿ</string>
+    <string name="action_import_zip">ZIP ಆಮದು ಮಾಡು</string>
+    <string name="empty_downloaded_title">ಇಳಿಸಿದ ನವೀಕರಣಗಳಿಲ್ಲ</string>
+    <string name="empty_downloaded_desc">ಇಳಿಸಿದ ROM ಪ್ಯಾಕೇಜ್‌ಗಳು ಮತ್ತು ಆಮದು ಮಾಡಿದ ಸ್ಥಳೀಯ ZIP ಫೈಲ್‌ಗಳು ಸ್ಥಾಪನೆ, ರಫ್ತು ಅಥವಾ ತೆಗೆದುಹಾಕುವಿಕೆಗಾಗಿ ಇಲ್ಲಿ ಕಾಣಿಸುತ್ತವೆ.</string>
+    <string name="section_downloaded">ಇಳಿಸಿದ ಮತ್ತು ಸ್ಥಳೀಯ ZIP‌ಗಳು</string>
+    <string name="install_confirm_recovery">ರಿಕವರಿ ಮೂಲಕ ಫ್ಲ್ಯಾಶ್ ಮಾಡುವುದೇ (ಅಸುರಕ್ಷಿತ ಮೋಡ್)? ಸಾಧನ ರಿಕವರಿಗೆ ಪುನರಾರಂಭಗೊಳ್ಳುತ್ತದೆ.</string>
+    <string name="install_confirm_force">ಪರಿಶೀಲನೆಯಿಲ್ಲದೆ ಫೋರ್ಸ್ ಸ್ಥಾಪಿಸುವುದೇ? ಈ ZIP ನಿಮ್ಮ ಸಾಧನಕ್ಕೆ ಹೊಂದುತ್ತದೆ ಎಂದು ಖಚಿತಪಡಿಸು.</string>
+    <string name="install_confirm_now"><xliff:g id="name">%1$s</xliff:g> ಈಗ ಸ್ಥಾಪಿಸುವುದೇ?</string>
+    <string name="action_cancel">ರದ್ದುಮಾಡು</string>
+    <string name="action_confirm">ದೃಢೀಕರಿಸು</string>
+    <string name="action_proceed">ಮುಂದುವರಿಸು</string>
+    <string name="action_reboot_now">ಈಗ ಪುನರಾರಂಭಿಸು</string>
+    <string name="action_export">ರಫ್ತು ಮಾಡು</string>
+    <string name="action_reset">ಮರುಹೊಂದಿಸು</string>
+    <string name="install_label_recovery">ಸ್ಥಾಪನೆ (ರಿಕವರಿ)</string>
+    <string name="install_label_force">ಫೋರ್ಸ್ ಸ್ಥಾಪನೆ</string>
+    <string name="action_stream_install">ಸ್ಟ್ರೀಮ್ ಮಾಡಿ ಸ್ಥಾಪಿಸು</string>
+    <string name="action_download_install_new">ಇಳಿಸಿ ಸ್ಥಾಪಿಸು</string>
+    <string name="desc_close">ಮುಚ್ಚು</string>
+    <string name="desc_retry">ಪುನಃ ಪ್ರಯತ್ನಿಸು</string>
+    <string name="settings_check_interval">ಪರಿಶೀಲನಾ ಅಂತರ</string>
+    <string name="interval_daily">ದೈನಂದಿನ</string>
+    <string name="interval_weekly">ವಾರಕ್ಕೊಮ್ಮೆ</string>
+    <string name="interval_monthly">ಮಾಸಿಕ</string>
+    <string name="settings_group_downloads">ಇಳಿಸುವಿಕೆಗಳು ಮತ್ತು ಪರಿಶೀಲನೆ</string>
+    <string name="settings_parallel_title">ಸಮಾನಾಂತರ ವಿಭಜಿತ ಇಳಿಸುವಿಕೆ</string>
+    <string name="settings_parallel_summary">ವೇಗಕ್ಕಾಗಿ 3 ವಿಭಜಿತ ಆರ್ಕೈವ್ ಭಾಗಗಳನ್ನು ಏಕಕಾಲದಲ್ಲಿ ಇಳಿಸು</string>
+    <string name="settings_verify_title">SHA-256 ಚೆಕ್‌ಸಮ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸು</string>
+    <string name="settings_verify_summary">JSON ಹ್ಯಾಶ್‌ಗಳ ವಿರುದ್ಧ ಪ್ರತಿ ವಿಭಜಿತ ಭಾಗ ಮತ್ತು ಅಂತಿಮ ಆರ್ಕೈವ್ ಪರಿಶೀಲಿಸು</string>
+    <string name="settings_autodelete_summary">ನವೀಕರಣ ಯಶಸ್ವಿಯಾದ ನಂತರ ಇಳಿಸಿದ ಪ್ಯಾಕೇಜ್ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಅಳಿಸು</string>
+    <string name="settings_group_installation">ಸ್ಥಾಪನೆ</string>
+    <string name="settings_ab_perf_summary">ವೇಗದ ಸ್ಥಾಪನೆಗಾಗಿ update_engine‌ಗೆ ಹೆಚ್ಚಿನ CPU ಮತ್ತು I/O ನಿಯೋಜಿಸು</string>
+    <string name="settings_ab_perf_charging">AC ಪವರ್‌ಗೆ ಸಂಪರ್ಕಿಸಿದಾಗ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸಕ್ರಿಯ</string>
+    <string name="settings_group_ota">OTA ಮೂಲ</string>
+    <string name="settings_ota_url_title">ಕಸ್ಟಮ್ OTA JSON URL</string>
+    <string name="settings_ota_url_hint">ROM / DeviceTree ಡೀಫಾಲ್ಟ್ URL ಬಳಸಲು ಖಾಲಿ ಬಿಡು.</string>
+    <string name="settings_ota_apply">URL ಅನ್ವಯಿಸು</string>
+    <string name="toast_ota_reset">OTA URL ಡೀಫಾಲ್ಟ್‌ಗೆ ಮರುಹೊಂದಿಸಲಾಗಿದೆ</string>
+    <string name="toast_ota_updated">OTA URL ನವೀಕರಿಸಲಾಗಿದೆ</string>
+    <string name="settings_group_appearance">ಗೋಚರತೆ ಮತ್ತು ಸಂಗ್ರಹಣೆ</string>
+    <string name="settings_theme_title">ಆ್ಯಪ್ ಥೀಮ್</string>
+    <string name="theme_system">ಸಿಸ್ಟಮ್</string>
+    <string name="theme_light">ತಿಳಿ</string>
+    <string name="theme_dark">ಗಾಢ</string>
+    <string name="settings_wavy_title">ಅಲೆಗಳ ಪ್ರಗತಿ ಪಟ್ಟಿ</string>
+    <string name="settings_wavy_summary">ಇಳಿಸುವಾಗ ಅಥವಾ ಸ್ಥಾಪಿಸುವಾಗ ತರಂಗ ಅನಿಮೇಟ್ ಮಾಡು; ವಿರಾಮದಲ್ಲಿ ಸರಾಗವಾಗಿ ಚಪ್ಪಟೆಯಾಗು</string>
+    <string name="settings_amplitude_title">ತರಂಗ ವೈಶಾಲ್ಯ</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">ಆಫ್</string>
+    <string name="settings_blur_title">ಗಾಜಿನ ಮಸುಕು ತ್ರಿಜ್ಯ</string>
+    <string name="settings_tint_title">ಗಾಜಿನ ಬಣ್ಣ ಅಪಾರದರ್ಶಕತೆ</string>
+    <string name="settings_logo_title">ಯೋಜನಾ ಲೋಗೋ ತೋರಿಸು</string>
+    <string name="settings_logo_summary">ಯೋಜನಾ ಬ್ಯಾನರ್ (GIF, ಚಿತ್ರ, ವೀಡಿಯೊ ಅಥವಾ ಅನಿಮೇಟೆಡ್ ಪದಚಿಹ್ನೆ) ತೋರಿಸು</string>
+    <string name="settings_banner_title">ಬಿಡುಗಡೆ ಬ್ಯಾನರ್ ತೋರಿಸು</string>
+    <string name="settings_banner_summary">ಕಾರ್ಡ್ ಹೆಡರ್‌ನಲ್ಲಿ ಬಿಡುಗಡೆ ಬ್ಯಾನರ್ ಚಿತ್ರ ಅಥವಾ ವೀಡಿಯೊ ತೋರಿಸು</string>
+    <string name="settings_clear_cache">ಮಾಧ್ಯಮ ಮತ್ತು ಬದಲಾವಣೆ ಸಂಗ್ರಹ ತೆರವುಗೊಳಿಸು</string>
+    <string name="toast_cache_cleared">ಸಂಗ್ರಹ ತೆರವುಗೊಂಡಿದೆ</string>
+    <string name="settings_danger_title">ನಿರ್ಣಾಯಕ / ಅಸುರಕ್ಷಿತ ಸ್ಥಾಪನೆ</string>
+    <string name="settings_danger_warning">ನಿಮ್ಮ ಸ್ವಂತ ಅಪಾಯದಲ್ಲಿ ಬಳಸು. ತಪ್ಪು ROM ಫ್ಲ್ಯಾಶ್ ಮಾಡಿದರೆ ಸಾಧನ ಹಾಳಾಗಬಹುದು.</string>
+    <string name="settings_unsafe_title">ಸುರಕ್ಷತೆ ಮತ್ತು ಪರಿಶೀಲನೆ ತಪಾಸಣೆ ಬೈಪಾಸ್</string>
+    <string name="settings_unsafe_summary">OTA ಸಹಿ ಪರಿಶೀಲನೆ, ಡೌನ್‌ಗ್ರೇಡ್ ನಿರ್ಬಂಧ ಮತ್ತು Android SDK ರಕ್ಷಣೆಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸು. ಡೌನ್‌ಗ್ರೇಡ್ ಅಥವಾ ಕ್ರಾಸ್-ROM ZIP ಫ್ಲ್ಯಾಶಿಂಗ್ ಅನುಮತಿಸು.</string>
+    <string name="settings_unsafe_confirm">ಡೌನ್‌ಗ್ರೇಡ್‌ಗಳು, ಸಹಿ ಮಾಡದ ZIP‌ಗಳು ಅಥವಾ ಡೇಟಾ ನಷ್ಟಕ್ಕೆ ನಾನು ಸಂಪೂರ್ಣ ಜವಾಬ್ದಾರಿ ಒಪ್ಪುತ್ತೇನೆ.</string>
+    <string name="danger_accept">ನಾನು ಅಪಾಯವನ್ನು ಒಪ್ಪುತ್ತೇನೆ</string>
+    <string name="settings_recovery_title">ರಿಕವರಿ ಮೂಲಕ ಫೋರ್ಸ್ ಸ್ಥಾಪನೆ</string>
+    <string name="settings_recovery_summary">ಡೌನ್‌ಗ್ರೇಡ್ ಟೈಮ್‌ಸ್ಟ್ಯಾಂಪ್ ಅಥವಾ ಸಹಿಯನ್ನು update_engine ತಿರಸ್ಕರಿಸಿದರೆ update_engine ಬೈಪಾಸ್ ಮಾಡಿ ZIP ನೇರ ಫ್ಲ್ಯಾಶ್‌ಗಾಗಿ ರಿಕವರಿ (OrangeFox / TWRP) ಗೆ ಪುನರಾರಂಭಿಸು.</string>
+    <string name="overlay_battery_low">ಸ್ಥಾಪಿಸಲು ಬ್ಯಾಟರಿ ಮಟ್ಟ ಕಡಿಮೆಯಿದೆ</string>
+    <string name="overlay_blocked_format">ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ (<xliff:g id="reason">%1$s</xliff:g>). ಫೋರ್ಸ್ ಸ್ಥಾಪನೆಗೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಅಸುರಕ್ಷಿತ ಮೋಡ್ ಸಕ್ರಿಯಗೊಳಿಸು.</string>
+    <string name="overlay_downgrade_blocked">ಸುರಕ್ಷತಾ ನಿಯಮಗಳಿಂದ ಡೌನ್‌ಗ್ರೇಡ್ ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ. ಅತಿಕ್ರಮಿಸಲು ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಅಸುರಕ್ಷಿತ ಮೋಡ್ ಸಕ್ರಿಯಗೊಳಿಸು.</string>
+    <string name="overlay_major_blocked">ಪ್ರಮುಖ Android ಅಪ್‌ಗ್ರೇಡ್ ಸುರಕ್ಷತಾ ನಿಯಮಗಳಿಂದ ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ. ಅತಿಕ್ರಮಿಸಲು ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಅಸುರಕ್ಷಿತ ಮೋಡ್ ಸಕ್ರಿಯಗೊಳಿಸು.</string>
+    <string name="overlay_metered_format">ನೀವು ಮೀಟರ್ಡ್ ಸಂಪರ್ಕದಲ್ಲಿದ್ದೀರಿ. <xliff:g id="size">%1$s</xliff:g> ಈಗ ಇಳಿಸುವುದೇ?</string>
+    <string name="overlay_unsafe_recovery">ಇಳಿಸಿ ರಿಕವರಿ ಮೂಲಕ ಫ್ಲ್ಯાશ್ ಮಾಡುವುದೇ (ಅಸುರಕ್ಷಿತ ಮೋಡ್)?</string>
+    <string name="overlay_unsafe_force">ಪರಿಶೀಲನೆಯಿಲ್ಲದೆ ಇಳಿಸಿ ಫೋರ್ಸ್ ಸ್ಥಾಪಿಸುವುದೇ?</string>
+    <string name="overlay_scratch_mounted">ಸ್ಕ್ರ್ಯಾಚ್ ವಿಭಾಗ ಮೌಂಟ್ ಆಗಿದೆ; ಸ್ಥಾಪಿಸಲಾಗುವುದಿಲ್ಲ</string>
+    <string name="toast_sha_copied">SHA-256 ನಕಲಿಸಲಾಗಿದೆ</string>
+    <string name="overlay_install_recovery">ರಿಕವರಿ ಮೂಲಕ ಫ್ಲ್ಯಾಶ್ ಮಾಡುವುದೇ (ಅಸುರಕ್ಷಿತ ಮೋಡ್)? ಸಾಧನ ರಿಕವರಿಗೆ ಪುನರಾರಂಭಗೊಳ್ಳುತ್ತದೆ.</string>
+    <string name="overlay_install_force">ಸಹಿ/ಡೌನ್‌ಗ್ರೇಡ್ ಪರಿಶೀಲನೆಯಿಲ್ಲದೆ ಫೋರ್ಸ್ ಸ್ಥಾಪಿಸುವುದೇ? ನಿಮ್ಮ ಸ್ವಂತ ಅಪಾಯದಲ್ಲಿ ಮುಂದುವರಿಸು.</string>
+    <string name="overlay_changelog_title">ಬದಲಾವಣೆ ಪಟ್ಟಿ</string>
+    <string name="desc_reload_changelog">ಬದಲಾವಣೆ ಪಟ್ಟಿ ಮರುಲೋಡ್</string>
+    <string name="overlay_changelog_loading">ಬದಲಾವಣೆ ಪಟ್ಟಿ ಲೋಡ್ ಆಗುತ್ತಿದೆ…</string>
+    <string name="overlay_changelog_error">ಈ ಬಿಲ್ಡ್‌ಗಾಗಿ ಬದಲಾವಣೆ ಪಟ್ಟಿ ಲೋಡ್ ಮಾಡಲಾಗಲಿಲ್ಲ.</string>
+    <string name="overlay_changelog_empty">ಈ ಬಿಡುಗಡೆಗೆ ಬದಲಾವಣೆ ಪಟ್ಟಿ ಇಲ್ಲ.</string>
+    <string name="overlay_archive_sha">ಆರ್ಕೈವ್ SHA-256</string>
+    <string name="desc_copy_sha">SHA-256 ನಕಲಿಸು</string>
+    <string name="overlay_reboot_to_apply">ನವೀಕರಣ ಅನ್ವಯಿಸಲು ಪುನರಾರಂಭಿಸು</string>
+    <string name="overlay_pause_format">ವಿರಾಮ (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">ಮುಂದುವರಿಸು (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">ಪ್ಯಾಕೇಜ್ ಫೈಲ್</string>
+    <string name="overlay_parts_title">ವಿಭಜಿತ ಆರ್ಕೈವ್ ಭಾಗಗಳು (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">ಅಳಿಸುವಿಕೆ ದೃಢೀಕರಿಸು</string>
+    <string name="info_package_size">ಪ್ಯಾಕೇಜ್ ಗಾತ್ರ</string>
+    <string name="info_android_api">Android API</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">ಬಿಲ್ಡ್ ಪ್ರಕಾರ</string>
+    <string name="info_delivery">ವಿತರಣೆ</string>
+    <string name="info_delivery_split">ವಿಭಜಿತ (<xliff:g id="count">%1$d</xliff:g> ಭಾಗಗಳು)</string>
+    <string name="float_importing">ಸ್ಥಳೀಯ ZIP ಆಮದು ಮಾಡುತ್ತಿದೆ…</string>
+    <string name="float_copying">ಪ್ಯಾಕೇಜ್ ನಕಲಿಸಿ ಮೆಟಾಡೇಟಾ ಪರಿಶೀಲಿಸುತ್ತಿದೆ</string>
+    <string name="float_calculating">ಲೆಕ್ಕ ಹಾಕುತ್ತಿದೆ…</string>
+    <plurals name="float_parts">
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> ಭಾಗಗಳು</item>
+    </plurals>
+    <string name="float_parallel">ಸಮಾನಾಂತರ</string>
+    <string name="float_sequential">ಅನುಕ್ರಮ</string>
+    <string name="float_single">ಏಕೈಕ ಆರ್ಕೈವ್</string>
+    <string name="float_autoinstall">ಸ್ವಯಂ-ಸ್ಥಾಪನೆ</string>
+    <string name="float_parts_header">ಆರ್ಕೈವ್ ಭಾಗಗಳು (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> ಪೂರ್ಣ)</string>
+    <string name="float_suspend">ಅಮಾನತು</string>
+    <string name="float_abort">ಸ್ಥಗಿತಗೊಳಿಸು</string>
+    <string name="desc_toggle_details">ವಿವರಗಳನ್ನು ತೋರಿಸು/ಮರೆಮಾಡು</string>
+    <string name="part_queued">ಸರದಿಯಲ್ಲಿದೆ</string>
+    <string name="part_verifying">SHA-256 ಪರಿಶೀಲಿಸುತ್ತಿದೆ</string>
+    <string name="part_verified">ಪರಿಶೀಲಿತ</string>
+    <string name="part_done">ಪೂರ್ಣಗೊಂಡಿದೆ</string>
+    <string name="part_paused_format">ವಿರಾಮಗೊಂಡಿದೆ • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">ಪುನಃ ಪ್ರಯತ್ನಿಸು / ದೋಷ</string>
+    <string name="part_waiting">ಕಾಯುತ್ತಿದೆ…</string>
+    <string name="stage_connecting">ಸರ್ವರ್‌ಗೆ ಸಂಪರ್ಕಿಸುತ್ತಿದೆ…</string>
+    <string name="stage_verify_part">ಭಾಗ <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> SHA-256 ಪರಿಶೀಲಿಸುತ್ತಿದೆ…</string>
+    <string name="stage_assemble">ಭಾಗಗಳನ್ನು ಜೋಡಿಸುತ್ತಿದೆ (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">ಅಂತಿಮ ಆರ್ಕೈವ್ SHA-256 ಪರಿಶೀಲಿಸುತ್ತಿದೆ…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> ಭಾಗಗಳು ಸಕ್ರಿಯ • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">ಭಾಗ <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">ಇಳಿಸುತ್ತಿದೆ • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• ಸ್ವಯಂ-ಸ್ಥಾಪನೆ</string>
+    <string name="stage_paused">ಇಳಿಸುವಿಕೆ ವಿರಾಮ • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">ಇಳಿಸುವಿಕೆ ವಿಫಲ • ಮುಂದುವರಿಸು ಟ್ಯಾಪ್ ಮಾಡು</string>
+    <string name="stage_verifying_sig">ಆರ್ಕೈವ್ ಮತ್ತು ಸಹಿ ಪರಿಶೀಲಿಸುತ್ತಿದೆ…</string>
+    <string name="stage_finalizing">A/B ಸ್ಲಾಟ್ ಅಂತಿಮಗೊಳಿಸುತ್ತಿದೆ • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">ನವೀಕರಣ ಸ್ಥಾಪಿಸುತ್ತಿದೆ • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">ಸ್ಥಾಪನೆ ಅಮಾನತು • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">ಸ್ಥಾಪಿತ — ಪುನರಾರಂಭ ಅಗತ್ಯ</string>
+    <string name="md_image_alt">ಚಿತ್ರ</string>
+    <string name="md_image_failed">ಚಿತ್ರ ಲೋಡ್ ವಿಫಲ</string>
+    <string name="importer_tag_local">ಸ್ಥಳೀಯ ZIP</string>
+    <string name="err_no_url">ಇಳಿಸುವಿಕೆ URL ಅಥವಾ ಭಾಗಗಳನ್ನು ವ್ಯಾಖ್ಯಾನಿಸಲಾಗಿಲ್ಲ</string>
+    <string name="err_no_dest">ಇಳಿಸುವಿಕೆ ಗಮ್ಯಸ್ಥಾನ ವ್ಯಾಖ್ಯಾನಿಸಲಾಗಿಲ್ಲ</string>
+    <string name="err_no_callback">ಇಳಿಸುವಿಕೆ ಕಾಲ್‌ಬ್ಯಾಕ್ ವ್ಯಾಖ್ಯಾನಿಸಲಾಗಿಲ್ಲ</string>
+    <string name="err_no_parts">ಇಳಿಸುವಿಕೆ ಭಾಗಗಳನ್ನು ನಿರ್ದಿಷ್ಟಪಡಿಸಲಾಗಿಲ್ಲ</string>
+    <string name="err_no_tempdir">ತಾತ್ಕಾಲಿಕ ಭಾಗಗಳ ಡೈರೆಕ್ಟರಿ ರಚಿಸಲಾಗುವುದಿಲ್ಲ: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">ಭಾಗ <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> ಚೆಕ್‌ಸಮ್ ಹೊಂದಿಕೆಯಾಗುತ್ತಿಲ್ಲ</string>
+    <string name="err_part_failed">ಭಾಗ <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> ಇಳಿಸಲು ವಿಫಲ</string>
+    <string name="err_final_sha">ಅಂತಿಮ ಆರ್ಕೈವ್ SHA-256 ಪರಿಶೀಲನೆ ವಿಫಲ</string>
+    <string name="err_empty_body">ಭಾಗ <xliff:g id="index">%1$d</xliff:g> ಗಾಗಿ ಖಾಲಿ ಪ್ರತಿಕ್ರಿಯೆ</string>
+    <string name="err_unknown_size"><xliff:g id="url">%1$s</xliff:g> ಗಾಗಿ ಗಾತ್ರ ನಿರ್ಧರಿಸಲಾಗುವುದಿಲ್ಲ</string>
+    <string name="err_no_range">ಸರ್ವರ್ ಶ್ರೇಣಿ ವಿನಂತಿಗಳನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ: HTTP 206 ನಿರೀಕ್ಷಿಸಲಾಗಿತ್ತು, <xliff:g id="code">%1$d</xliff:g> ಬಂದಿದೆ</string>
+    <string name="err_no_content_range"><xliff:g id="url">%1$s</xliff:g> ಗಾಗಿ Content-Range ಹೆಡರ್ ಕಾಣೆಯಾಗಿದೆ</string>
+    <string name="err_bad_content_range">ಅನಿರೀಕ್ಷಿತ Content-Range <xliff:g id="url">%1$s</xliff:g> ಗಾಗಿ: ನಿರೀಕ್ಷಿತ <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">ಪ್ರೋಟೋಕಾಲ್ ಬದಲಾವಣೆ ಅನುಮತಿಸಲಾಗಿಲ್ಲ</string>
+    <string name="err_server_reply">ಸರ್ವರ್ <xliff:g id="code">%1$s</xliff:g> ನೊಂದಿಗೆ ಉತ್ತರಿಸಿದೆ</string>
+    <string name="err_no_fd">fileDescriptor ಪಡೆಯಲು ವಿಫಲ</string>
+    <string name="err_import_cancelled">ಆಮದು ರದ್ದುಗೊಂಡಿದೆ</string>
+    <string name="err_verify_deleted">ಪರಿಶೀಲನೆ ವಿಫಲ, ಫೈಲ್ ಅಳಿಸಲಾಗಿದೆ</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">ಅನ್ವಯಿಸು</string>
+    <string name="dialog_value_title">ಮೌಲ್ಯ</string>
+    <string name="unknown_size">ಅಜ್ಞಾತ</string>
+    <string name="slider_default">ಡೀಫಾಲ್ಟ್</string>
+    <string name="slider_default_value">ಡೀಫಾಲ್ಟ್ (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">ನೆಟ್‌ವರ್ಕ್ ದೋಷ</string>
+    <string name="action_paused_state">ವಿರಾಮಗೊಂಡಿದೆ</string>
+    <string name="part_fallback_name">part_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">ಸರ್ವರ್</string>
+    <string name="err_response_empty">ಖಾಲಿ ಪ್ರತಿಕ್ರಿಯೆ</string>
+    <string name="err_changelog_body_empty">ಬದಲಾವಣೆ ಪಟ್ಟಿ ಖಾಲಿಯಾಗಿದೆ</string>
+    <string name="err_changelog_too_large">ಬದಲಾವಣೆ ಪಟ್ಟಿ <xliff:g id="bytes" example="524288">%1$d</xliff:g> ಬೈಟ್‌ಗಳನ್ನು ಮೀರಿದೆ</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: ದರ ಮಿತಿ ಮೀರಿದೆ (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). <xliff:g id="wait" example="~2 min">%3$s</xliff:g> ನಲ್ಲಿ ಪುನಃ ಪ್ರಯತ್ನಿಸು.</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: ದರ ಮಿತಿ ಮೀರಿದೆ (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). ನಂತರ ಪ್ರಯತ್ನಿಸು.</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: ಫೈಲ್ ಅಥವಾ ಫೀಡ್ ಕಂಡುಬಂದಿಲ್ಲ (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: ಪ್ರವೇಶ ನಿರಾಕರಿಸಲಾಗಿದೆ (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: ಸಂಪನ್ಮೂಲ ತೆಗೆದುಹಾಕಲಾಗಿದೆ (HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: ಸರ್ವರ್ ಲಭ್ಯವಿಲ್ಲ (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> ನಿಮಿಷ</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g>ಸೆ</string>
+    <string name="err_download_file_missing">ಇಳಿಸಿದ ಫೈಲ್ ಕಾಣೆಯಾಗಿದೆ</string>
+    <string name="err_sha_mismatch">SHA-256 ಚೆಕ್‌ಸಮ್ ಹೊಂದಿಕೆಯಾಗುತ್ತಿಲ್ಲ</string>
+    <string name="err_sha_calc_failed">SHA-256 ಲೆಕ್ಕ ವಿಫಲ</string>
+    <string name="err_ota_signature_failed">OTA ಸಹಿ ಪರಿಶೀಲನೆ ವಿಫಲ</string>
+    <string name="err_engine_signature">update_engine ಪೇಲೋಡ್ ಸಹಿ ತಿರಸ್ಕರಿಸಿದೆ (ಕೋಡ್ <xliff:g id="code" example="20">%1$d</xliff:g>). ಫೋರ್ಸ್ ರಿಕವರಿ ಸ್ಥಾಪನೆ ಪ್ರಯತ್ನಿಸು.</string>
+    <string name="err_engine_downgrade">update_engine ಡೌನ್‌ಗ್ರೇಡ್ ಟೈಮ್‌ಸ್ಟ್ಯಾಂಪ್ ನಿರ್ಬಂಧಿಸಿದೆ (ಕೋಡ್ <xliff:g id="code" example="51">%1$d</xliff:g>). ಫೋರ್ಸ್ ರಿಕವರಿ ಸ್ಥಾಪನೆ ಪ್ರಯತ್ನಿಸು.</string>
+    <string name="err_engine_storage">A/B ಸ್ಲಾಟ್ ನವೀಕರಣಕ್ಕೆ ಸಾಕಷ್ಟು ಸಂಗ್ರಹ ಸ್ಥಳವಿಲ್ಲ (ಕೋಡ್ <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_engine_partition">ವಿಭಾಗ ಪರಿಶೀಲನೆ ವಿಫಲ (ಕೋಡ್ <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_cancelled">ಬಳಕೆದಾರರಿಂದ ಸ್ಥಾಪನೆ ರದ್ದುಗೊಂಡಿದೆ.</string>
+    <string name="err_engine_generic">update_engine ದೋಷ ಕೋಡ್ <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">ಬೆಂಬಲಿಸದ OTA ಪ್ರಕಾರ: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found"><xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> <xliff:g id="file" example="update.zip">%2$s</xliff:g> ನಲ್ಲಿ ಕಂಡುಬಂದಿಲ್ಲ</string>
+</resources>

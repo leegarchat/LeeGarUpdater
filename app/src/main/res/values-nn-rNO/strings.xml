@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="display_name">Systemoppdateringar</string>
+    <string name="verification_failed_notification">Klarte ikkje stadfesta</string>
+    <string name="verifying_download_notification">Stadfestar oppdatering</string>
+    <string name="downloading_notification">Lastar ned</string>
+    <string name="download_paused_notification">Nedlastinga er sett på pause</string>
+    <string name="download_paused_error_notification">Feil ved nedlasting</string>
+    <string name="download_completed_notification">Nedlastinga er ferdig</string>
+    <string name="download_starting_notification">Startar nedlasting</string>
+    <string name="update_failed_notification">Klarte ikkje oppdatera</string>
+    <string name="installation_suspended_notification">Installasjonen er stansa</string>
+    <string name="new_updates_found_title">Nye oppdateringar</string>
+    <string name="new_updates_found_summary">Trykk for å sjå tilgjengelege oppdateringar</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="installing_update">Installerer systemoppdateringa</string>
+    <string name="installing_update_error">Klarte ikkje å installera</string>
+    <string name="installing_update_finished">Oppdateringa ventar på omstart</string>
+    <string name="finalizing_package">Fullfører installasjonen</string>
+    <string name="preparing_ota_first_boot">Førebur fyrste oppstart</string>
+    <string name="dialog_prepare_zip_message">Gjer klart for oppdatering</string>
+    <string name="reboot">Start på nytt</string>
+    <string name="checking_for_updates">Sjekkar etter oppdateringar</string>
+    <string name="pref_category_background_sync">Synkronisering i bakgrunnen</string>
+    <string name="menu_auto_updates_check">Sjå etter oppdateringar jamleg</string>
+    <string name="menu_auto_updates_check_summary">Sjå etter oppdateringar i bakgrunnen</string>
+    <string name="menu_auto_delete_updates">Slett oppdateringar automatisk</string>
+    <string name="menu_stream_updates">Strøym oppdateringar over nett</string>
+    <string name="menu_stream_updates_summary">Installer oppdateringar medan dei blir lasta ned. Slå av for å lagra oppdateringspakkar til eksport.</string>
+    <string name="menu_export_update">Eksporter oppdatering</string>
+    <string name="menu_metered_network_warning">Åtvaring om nettverk med datagrense</string>
+    <string name="menu_metered_network_warning_summary">Åtvar før nedlasting med mobildata</string>
+    <string name="menu_ab_perf_mode">Prioriter oppdateringsprosessen</string>
+    <string name="menu_update_recovery">Oppdater gjenoppretting</string>
+    <string name="menu_update_recovery_summary">Oppdater gjenopprettingspartisjonen saman med operativsystemet</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="build_date">Byggjedato</string>
+    <string name="security_update">Tryggingsoppdatering</string>
+    <string name="list_build_version">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">LeeGar Updater <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="action_download">Last ned</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_resume">Hald fram</string>
+    <string name="action_install">Installer</string>
+    <string name="action_info">Info</string>
+    <string name="action_delete">Slett</string>
+    <string name="dialog_export_title">Eksporterer oppdatering</string>
+    <string name="notification_export_success">Oppdateringa er eksportert</string>
+    <string name="notification_export_fail">Feil ved eksport</string>
+    <string name="toast_already_exporting">Eksporterer alt ei oppdatering</string>
+    <string name="toast_export_started">Eksport starta</string>
+    <string name="blocked_update_dialog_title">Oppdateringa er sperra</string>
+    <string name="blocked_update_dialog_title_downgrade">Nedgradering er sperra</string>
+    <string name="export_channel_title">Fullføring av eksport</string>
+    <string name="new_updates_channel_title">Nye oppdateringar</string>
+    <string name="ongoing_channel_title">Pågåande nedlastingar</string>
+    <string name="update_failed_channel_title">Klarte ikkje å oppdatera</string>
+    <string name="action_download_install">Last ned og installer</string>
+    <string name="check_for_update">Sjå etter oppdatering</string>
+    <string name="action_back">Tilbake</string>
+    <string name="tab_updates">Oppdateringar</string>
+    <string name="tab_saved">Lagra</string>
+    <string name="tab_saved_count">Lagra (%1$d)</string>
+    <string name="tab_settings">Innstillingar</string>
+    <string name="toast_download_failed">Nedlasting feila</string>
+    <string name="toast_download_verified">Nedlasting stadfesta og klar</string>
+    <string name="toast_import_failed">Klarte ikkje importera ZIP (ugyldig pakke eller signatur). Prøv utrygg modus for eigendefinerte ZIP-filer.</string>
+    <string name="toast_imported_format">Importerte <xliff:g id="name">%1$s</xliff:g> til Nedlasta-fana</string>
+    <string name="banner_no_internet">Ingen internettforbinding</string>
+    <string name="banner_check_failed">Klarte ikkje sjå etter oppdateringar</string>
+    <string name="section_releases">Tilgjengelege utgjevingar</string>
+    <string name="section_releases_count">Tilgjengelege utgjevingar • <xliff:g id="count">%1$d</xliff:g></string>
+    <string name="badge_unsafe_mode">Utrygg modus</string>
+    <string name="empty_releases_title">Ingen utgjevingar lasta</string>
+    <string name="empty_releases_desc">Trykk på oppdater for å henta bygg frå den oppsette OTA JSON-kjelda.</string>
+    <string name="device_fallback_name">Eining</string>
+    <string name="installed_label_format">Installert: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="device_info_format">Android <xliff:g id="version">%1$s</xliff:g> (API <xliff:g id="sdk">%2$d</xliff:g>) • Lapp: <xliff:g id="patch">%3$s</xliff:g></string>
+    <string name="checked_format">Sjekka: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="unknown_date">Ukjend dato</string>
+    <string name="status_starting">Startar</string>
+    <string name="status_verifying">Stadfestar</string>
+    <string name="status_merging">Slår saman <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_progress_percent"><xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_paused_percent">Sett på pause <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_error">Feil</string>
+    <string name="status_installing">Installerer <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="status_suspended">Stansa <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="badge_downloaded">Nedlasta</string>
+    <string name="badge_reboot_required">Omstart krevst</string>
+    <string name="badge_local">Lokal</string>
+    <string name="badge_major_upgrade">Stor oppgradering</string>
+    <string name="relation_newer">Nyare</string>
+    <string name="relation_installed">Installert</string>
+    <string name="relation_downgrade">Nedgradering</string>
+    <string name="relation_build">Bygg</string>
+    <string name="downloaded_subtitle_used">Brukt plass: <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="downloaded_subtitle_hint">Importer ein lokal ZIP eller last ned bygg frå Oppdateringar</string>
+    <string name="action_import_zip">Importer ZIP</string>
+    <string name="empty_downloaded_title">Ingen nedlasta oppdateringar</string>
+    <string name="empty_downloaded_desc">Nedlasta ROM-pakkar og importerte lokale ZIP-filer kjem fram her for installasjon, eksport eller fjerning.</string>
+    <string name="section_downloaded">Nedlasta og lokale ZIP-filer</string>
+    <string name="install_confirm_recovery">Flash via gjenoppretting (utrygg modus)? Eininga startar på nytt til gjenoppretting.</string>
+    <string name="install_confirm_force">Tvinga installasjon utan stadfesting? Pass på at denne ZIP-fila høver til eininga di.</string>
+    <string name="install_confirm_now">Installera <xliff:g id="name">%1$s</xliff:g> no?</string>
+    <string name="action_cancel">Avbryt</string>
+    <string name="action_confirm">Stadfest</string>
+    <string name="action_proceed">Hald fram</string>
+    <string name="action_reboot_now">Start på nytt no</string>
+    <string name="action_export">Eksporter</string>
+    <string name="action_reset">Tilbakestill</string>
+    <string name="install_label_recovery">Installer (gjenoppretting)</string>
+    <string name="install_label_force">Tving installasjon</string>
+    <string name="action_stream_install">Strøym og installer</string>
+    <string name="action_download_install_new">Last ned og installer</string>
+    <string name="desc_close">Lukk</string>
+    <string name="desc_retry">Prøv igjen</string>
+    <string name="settings_check_interval">Sjekkintervall</string>
+    <string name="interval_daily">Dagleg</string>
+    <string name="interval_weekly">Vekeleg</string>
+    <string name="interval_monthly">Månadleg</string>
+    <string name="settings_group_downloads">Nedlastingar og stadfesting</string>
+    <string name="settings_parallel_title">Parallell nedlasting av delar</string>
+    <string name="settings_parallel_summary">Last ned opptil 3 delte arkivdelar samstundes for høgare fart</string>
+    <string name="settings_verify_title">Stadfest SHA-256-kontrollsummar</string>
+    <string name="settings_verify_summary">Valider kvar delte del og det endelege samansette arkivet mot JSON-hashverdiar</string>
+    <string name="settings_autodelete_summary">Fjern nedlasta pakke automatisk når oppdateringa er vellukka</string>
+    <string name="settings_group_installation">Installasjon</string>
+    <string name="settings_ab_perf_summary">Gjev meir CPU og I/O til update_engine for raskare installasjonar</string>
+    <string name="settings_ab_perf_charging">Automatisk aktiv ved tilkopling til straumnettet</string>
+    <string name="settings_group_ota">OTA-kjelde</string>
+    <string name="settings_ota_url_title">Eigedefinert OTA JSON-URL</string>
+    <string name="settings_ota_url_hint">La stå tomt for å bruka standard-URL-en frå ROM- / DeviceTree-overlegget.</string>
+    <string name="settings_ota_apply">Bruk URL</string>
+    <string name="toast_ota_reset">OTA-URL tilbakestilt til standard</string>
+    <string name="toast_ota_updated">OTA-URL oppdatert</string>
+    <string name="settings_group_appearance">Utsjånad og lagring</string>
+    <string name="settings_theme_title">Appdrakt</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Lys</string>
+    <string name="theme_dark">Mørk</string>
+    <string name="settings_wavy_title">Bølgjande framdriftsline</string>
+    <string name="settings_wavy_summary">Animer bølgje under nedlasting eller installasjon; jamnast ut ved pause</string>
+    <string name="settings_amplitude_title">Bølgjeamplitude</string>
+    <string name="settings_percent_format"><xliff:g id="value">%1$d</xliff:g>%%</string>
+    <string name="settings_dp_format"><xliff:g id="value">%1$d</xliff:g> dp</string>
+    <string name="settings_value_off">Av</string>
+    <string name="settings_blur_title">Radius for glasuskarpheit</string>
+    <string name="settings_tint_title">Dekkjevne for glasfarge</string>
+    <string name="settings_logo_title">Vis prosjektlogo</string>
+    <string name="settings_logo_summary">Vis prosjektbanner (GIF, bilete, video eller animert ordmerke)</string>
+    <string name="settings_banner_title">Vis utgjevingsbanner</string>
+    <string name="settings_banner_summary">Vis utgjevingsbannerbilete eller -video i kortoverskrifta</string>
+    <string name="settings_clear_cache">Tøm mellomlager for medium og endringslogg</string>
+    <string name="toast_cache_cleared">Mellomlager tømt</string>
+    <string name="settings_danger_title">Kritisk / utrygg installasjon</string>
+    <string name="settings_danger_warning">Brukast strengt på eige ansvar. Kan øydeleggja eininga ved flashing av feil ROM.</string>
+    <string name="settings_unsafe_title">Gå utanom tryggings- og stadfestingskontrollar</string>
+    <string name="settings_unsafe_summary">Slår av stadfesting av OTA-signatur, sperring av nedgradering og Android SDK-vern. Lèt flasha nedgraderingar eller ZIP-filer frå annan ROM.</string>
+    <string name="settings_unsafe_confirm">Stadfest: du tek på deg fullt ansvar for nedgraderingar, usignerte ZIP-filer eller tap av data.</string>
+    <string name="danger_accept">Eg godtek risikoen</string>
+    <string name="settings_recovery_title">Tving installasjon via gjenoppretting</string>
+    <string name="settings_recovery_summary">Gå utanom update_engine og start på nytt til gjenoppretting (OrangeFox / TWRP) for å flasha ZIP direkte. Nyttig dersom update_engine avviser tidsstempel for nedgradering eller signatur.</string>
+    <string name="overlay_battery_low">Batterinivået er for lågt til å installera</string>
+    <string name="overlay_blocked_format">Sperra (<xliff:g id="reason">%1$s</xliff:g>). Slå på utrygg modus i Innstillingar for å tvinga installasjon.</string>
+    <string name="overlay_downgrade_blocked">Nedgradering er sperra av tryggjingsreglar. Slå på utrygg modus i Innstillingar for å overstyra.</string>
+    <string name="overlay_major_blocked">Stor Android-oppgradering er sperra av tryggjingsreglar. Slå på utrygg modus i Innstillingar for å overstyra.</string>
+    <string name="overlay_metered_format">Du er på eit nettverk med datagrense. Lasta ned <xliff:g id="size">%1$s</xliff:g> no?</string>
+    <string name="overlay_unsafe_recovery">Lasta ned og flash via gjenoppretting (utrygg modus)?</string>
+    <string name="overlay_unsafe_force">Lasta ned og tvinga installasjon utan stadfesting?</string>
+    <string name="overlay_scratch_mounted">Scratch-partisjonen er montert; kan ikkje installera</string>
+    <string name="toast_sha_copied">SHA-256 kopiert</string>
+    <string name="overlay_install_recovery">Flash via gjenoppretting (utrygg modus)? Eininga startar på nytt til gjenoppretting.</string>
+    <string name="overlay_install_force">Tvinga installasjon utan signatur-/nedgraderingskontrollar? Hald fram på eige ansvar.</string>
+    <string name="overlay_changelog_title">Endringslogg</string>
+    <string name="desc_reload_changelog">Last inn endringsloggen på nytt</string>
+    <string name="overlay_changelog_loading">Lastar endringslogg…</string>
+    <string name="overlay_changelog_error">Klarte ikkje lasta endringslogg for dette bygget.</string>
+    <string name="overlay_changelog_empty">Ingen endringslogg oppgjeven for denne utgjevinga.</string>
+    <string name="overlay_archive_sha">SHA-256 til arkivet</string>
+    <string name="desc_copy_sha">Kopier SHA-256</string>
+    <string name="overlay_reboot_to_apply">Start på nytt for å ta i bruk oppdateringa</string>
+    <string name="overlay_pause_format">Pause (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_resume_format">Hald fram (<xliff:g id="progress">%1$d</xliff:g>%%)</string>
+    <string name="overlay_package_file">Pakkefil</string>
+    <string name="overlay_parts_title">Delte arkivdelar (<xliff:g id="count">%1$d</xliff:g>)</string>
+    <string name="overlay_hashed_format"><xliff:g id="count">%1$d</xliff:g> SHA-256</string>
+    <string name="overlay_part_sha_format">SHA-256: <xliff:g id="hash">%1$s</xliff:g>…</string>
+    <string name="overlay_confirm_delete">Stadfest sletting</string>
+    <string name="info_package_size">Pakkestorleik</string>
+    <string name="info_android_api">Android API</string>
+    <string name="info_api_format">API <xliff:g id="sdk">%1$d</xliff:g></string>
+    <string name="info_build_type">Byggtype</string>
+    <string name="info_delivery">Levering</string>
+    <string name="info_delivery_split">Delt (<xliff:g id="count">%1$d</xliff:g> delar)</string>
+    <string name="float_importing">Importerer lokal ZIP…</string>
+    <string name="float_copying">Kopierer pakke og sjekkar metadata</string>
+    <string name="float_calculating">Reknar ut…</string>
+    <string name="float_parallel">Parallell</string>
+    <string name="float_sequential">Følgjerekkje</string>
+    <string name="float_single">Einskild arkiv</string>
+    <string name="float_autoinstall">Autoinstaller</string>
+    <string name="float_parts_header">Arkivdelar (<xliff:g id="done">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> ferdige)</string>
+    <string name="float_suspend">Stans</string>
+    <string name="float_abort">Avbryt</string>
+    <string name="desc_toggle_details">Vis/gøym detaljar</string>
+    <string name="part_queued">I kø</string>
+    <string name="part_verifying">Stadfestar SHA-256</string>
+    <string name="part_verified">Stadfesta</string>
+    <string name="part_done">Ferdig</string>
+    <string name="part_paused_format">Sett på pause • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="part_error">Prøv igjen / feil</string>
+    <string name="part_waiting">Ventar…</string>
+    <string name="stage_connecting">Koplar til tenar…</string>
+    <string name="stage_verify_part">Stadfestar del <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> SHA-256…</string>
+    <string name="stage_assemble">Set saman delar (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>) • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_verify_final">Stadfestar endeleg arkiv SHA-256…</string>
+    <string name="stage_parts_active"><xliff:g id="count">%1$d</xliff:g> delar aktive • <xliff:g id="progress">%2$d</xliff:g>%%</string>
+    <string name="stage_part_progress">Del <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> • <xliff:g id="progress">%3$d</xliff:g>%%</string>
+    <string name="stage_downloading">Lastar ned • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_autoinstall_suffix">• Autoinstaller</string>
+    <string name="stage_paused">Nedlasting sett på pause • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_failed">Nedlasting feila • Trykk Hald fram</string>
+    <string name="stage_verifying_sig">Stadfestar arkiv og signatur…</string>
+    <string name="stage_finalizing">Fullfører A/B-slot • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installing">Installerer oppdatering • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_suspended">Installasjon stansa • <xliff:g id="progress">%1$d</xliff:g>%%</string>
+    <string name="stage_installed">Installert — omstart krevst</string>
+    <string name="md_image_alt">Bilete</string>
+    <string name="md_image_failed">Klarte ikkje lasta bilete</string>
+    <string name="importer_tag_local">Lokal ZIP</string>
+    <string name="err_no_url">Ingen nedlastings-URL eller delar oppgjevne</string>
+    <string name="err_no_dest">Ingen nedlastingsmål sett</string>
+    <string name="err_no_callback">Ingen tilbakeringing for nedlasting sett</string>
+    <string name="err_no_parts">Ingen nedlastingsdelar oppgjevne</string>
+    <string name="err_no_tempdir">Kan ikkje laga mellombels delmappe: <xliff:g id="path">%1$s</xliff:g></string>
+    <string name="err_part_mismatch">Kontrollsum for del <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> stemmer ikkje</string>
+    <string name="err_part_failed">Klarte ikkje lasta ned del <xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g></string>
+    <string name="err_final_sha">Stadfesting av endeleg arkiv SHA-256 feila</string>
+    <string name="err_empty_body">Tom svarkropp for del <xliff:g id="index">%1$d</xliff:g></string>
+    <string name="err_unknown_size">Kan ikkje finna storleiken for <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_no_range">Tenaren støttar ikkje områdeforeespurnader: venta HTTP 206, fekk <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="err_no_content_range">Manglar Content-Range-topp for <xliff:g id="url">%1$s</xliff:g></string>
+    <string name="err_bad_content_range">Uventa Content-Range for <xliff:g id="url">%1$s</xliff:g>: venta <xliff:g id="expected">%2$s</xliff:g></string>
+    <string name="err_proto_change">Protokollendringar er ikkje tillatne</string>
+    <string name="err_server_reply">Tenaren svara med <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="err_no_fd">Klarte ikkje skaffa fileDescriptor</string>
+    <string name="err_import_cancelled">Import avbroten</string>
+    <string name="err_verify_deleted">Stadfesting feila, fila er sletta</string>
+    <string name="settings_unit_percent">%</string>
+    <string name="settings_unit_dp">dp</string>
+    <string name="action_apply">Bruk</string>
+    <string name="dialog_value_title">Verdi</string>
+    <string name="unknown_size">Ukjend</string>
+    <string name="slider_default">Standard</string>
+    <string name="slider_default_value">Standard (<xliff:g id="value" example="85%">%1$s</xliff:g>)</string>
+    <string name="err_network">Nettverksfeil</string>
+    <string name="action_paused_state">Sett på pause</string>
+    <string name="part_fallback_name">part_<xliff:g id="index" example="1">%1$d</xliff:g></string>
+    <string name="hero_device_fallback">Android <xliff:g id="version" example="16">%1$s</xliff:g> • <xliff:g id="device" example="Board">%2$s</xliff:g></string>
+    <string name="err_host_server">Tenar</string>
+    <string name="err_response_empty">Tom svarkropp</string>
+    <string name="err_changelog_body_empty">Tom endringsloggkropp</string>
+    <string name="err_changelog_too_large">Endringsloggen er større enn <xliff:g id="bytes" example="524288">%1$d</xliff:g> byte</string>
+    <string name="err_rate_limit_retry"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: satsgrense overskriden (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Prøv igjen om <xliff:g id="wait" example="~2 min">%3$s</xliff:g>.</string>
+    <string name="err_rate_limit_later"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: satsgrense overskriden (HTTP <xliff:g id="code" example="429">%2$d</xliff:g>). Prøv igjen seinare.</string>
+    <string name="err_feed_not_found"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: fil eller kjelde ikkje funnen (HTTP 404)</string>
+    <string name="err_access_denied"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: tilgang nekta (HTTP <xliff:g id="code" example="403">%2$d</xliff:g>)</string>
+    <string name="err_resource_removed"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: ressurs fjerna (HTTP 410)</string>
+    <string name="err_server_unavailable"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: tenar utilgjengeleg (HTTP <xliff:g id="code" example="503">%2$d</xliff:g>)</string>
+    <string name="err_http_status"><xliff:g id="host" example="GitHub">%1$s</xliff:g>: HTTP <xliff:g id="code" example="500">%2$d</xliff:g></string>
+    <string name="err_wait_minutes_short">~<xliff:g id="minutes" example="2">%1$d</xliff:g> min</string>
+    <string name="err_wait_seconds_short"><xliff:g id="seconds" example="45">%1$d</xliff:g>s</string>
+    <string name="err_download_file_missing">Nedlasta fil manglar</string>
+    <string name="err_sha_mismatch">SHA-256-kontrollsum stemmer ikkje</string>
+    <string name="err_sha_calc_failed">Klarte ikkje rekna ut SHA-256</string>
+    <string name="err_ota_signature_failed">Stadfesting av OTA-signatur feila</string>
+    <string name="err_engine_signature">update_engine avviste signaturen til nyttelasta (kode <xliff:g id="code" example="20">%1$d</xliff:g>). Prøv tvinga installasjon via gjenoppretting.</string>
+    <string name="err_engine_downgrade">update_engine sperra tidsstempel for nedgradering (kode <xliff:g id="code" example="51">%1$d</xliff:g>). Prøv tvinga installasjon via gjenoppretting.</string>
+    <string name="err_engine_storage">Ikkje nok lagringsplass til A/B-slotoppdatering (kode <xliff:g id="code" example="7">%1$d</xliff:g>).</string>
+    <string name="err_engine_partition">Stadfesting av partisjon feila (kode <xliff:g id="code" example="15">%1$d</xliff:g>).</string>
+    <string name="err_engine_cancelled">Installasjonen er avbroten av brukaren.</string>
+    <string name="err_engine_generic">update_engine feilkode <xliff:g id="code" example="1">%1$d</xliff:g></string>
+    <string name="err_unsupported_ota_type">OTA-type er ikkje støtta: <xliff:g id="type" example="2">%1$d</xliff:g></string>
+    <string name="err_metadata_not_found">Fann ikkje <xliff:g id="entry" example="META-INF/com/android/metadata.pb">%1$s</xliff:g> i <xliff:g id="file" example="update.zip">%2$s</xliff:g></string>
+    <plurals name="hero_newer_builds">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> nyare bygg tilgjengeleg</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> nyare bygg tilgjengelege</item>
+    </plurals>
+    <plurals name="hero_up_to_date">
+        <item quantity="one">Systemet er oppdatert • <xliff:g id="count">%1$d</xliff:g> bygg i kjelda</item>
+        <item quantity="other">Systemet er oppdatert • <xliff:g id="count">%1$d</xliff:g> bygg i kjelda</item>
+    </plurals>
+    <plurals name="badge_split_parts">
+        <item quantity="one">Delt • <xliff:g id="count">%1$d</xliff:g> del</item>
+        <item quantity="other">Delt • <xliff:g id="count">%1$d</xliff:g> delar</item>
+    </plurals>
+    <plurals name="downloaded_title">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> pakke lagra</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> pakkar lagra</item>
+    </plurals>
+    <plurals name="float_parts">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> del</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> delar</item>
+    </plurals>
+</resources>
