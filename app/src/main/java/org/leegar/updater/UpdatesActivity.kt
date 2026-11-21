@@ -31,6 +31,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
@@ -98,6 +99,8 @@ import org.leegar.updater.ui.overlays.ReleaseFlightTarget
 import org.leegar.updater.ui.overlays.UpdaterFloatBar
 import org.leegar.updater.ui.pep.BlurConfig
 import org.leegar.updater.ui.pep.LocalBlurConfig
+import org.leegar.updater.ui.pep.LocalContentHorizontalInset
+import org.leegar.updater.ui.pep.calculateContentHorizontalInset
 import org.leegar.updater.ui.pep.SliderMorphRoot
 import org.leegar.updater.ui.pep.TopBarBlurOverlay
 import org.leegar.updater.ui.pep.TopStatusVeil
@@ -505,14 +508,16 @@ private fun UpdaterRootScreen(
 
     val surfaceBg = MaterialTheme.colorScheme.surfaceContainer
 
-    CompositionLocalProvider(
-        LocalBlurConfig provides BlurConfig(radiusDp = blurRadius, tintAlpha = blurTint),
-    ) {
-    Box(
+    BoxWithConstraints(
         modifier = Modifier
             .fillMaxSize()
             .background(surfaceBg)
             .nestedScroll(nestedScrollConnection),
+    ) {
+    val horizontalInset = calculateContentHorizontalInset(maxWidth)
+    CompositionLocalProvider(
+        LocalBlurConfig provides BlurConfig(radiusDp = blurRadius, tintAlpha = blurTint),
+        LocalContentHorizontalInset provides horizontalInset,
     ) {
         SliderMorphRoot(
             host = sliderMorphHost,
@@ -545,8 +550,8 @@ private fun UpdaterRootScreen(
                         modifier = Modifier.fillMaxSize(),
                     ) { page ->
                         val pagePadding = PaddingValues(
-                            start = 16.dp,
-                            end = 16.dp,
+                            start = 16.dp + horizontalInset,
+                            end = 16.dp + horizontalInset,
                             top = listTopPaddingDp + 12.dp,
                             bottom = navBottomDp + floatBarExtraBottom + 28.dp,
                         )
@@ -682,6 +687,7 @@ private fun UpdaterRootScreen(
                     topInsetPx = effectiveHeaderHeightPx,
                     bottomReservedPx = if (activeTaskUpdate != null || isImportingLocalZip) floatBarHeightPx else 0f,
                     closeSignal = level1CloseSignal,
+                    backBlocked = floatBarModalOpen || imageFlight != null || anySliderOpen,
                     activeFlightImageUrl = imageFlight?.url,
                     onProgress = { releaseFlightT = it },
                     onRequestChangelog = { u, force -> viewModel.loadChangelog(u, force) },
@@ -748,6 +754,8 @@ private fun UpdaterRootScreen(
             morphBlurState = level2Blur,
             morphActive = anySliderOpen,
             tintBoost = 0.25f * sliderMorphHost.morphProgress,
+            topInsetPx = effectiveHeaderHeightPx,
+            backBlocked = imageFlight != null || anySliderOpen,
             onInterceptAnchorTap = {
                 if (anySliderOpen) {
                     sliderMorphHost.requestAnimatedClose()
@@ -830,7 +838,7 @@ private fun UpdaterRootScreen(
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(topBarRowHeightDp)
-                    .padding(horizontal = 4.dp),
+                    .padding(horizontal = 4.dp + horizontalInset),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
                 IconButton(onClick = onBack) {
@@ -901,6 +909,7 @@ private fun UpdaterRootScreen(
                         onTabClick = { idx ->
                             scope.launch { pagerState.animateScrollToPage(idx) }
                         },
+                        modifier = Modifier.padding(horizontal = horizontalInset),
                     )
                     Spacer(Modifier.height(10.dp))
                 }

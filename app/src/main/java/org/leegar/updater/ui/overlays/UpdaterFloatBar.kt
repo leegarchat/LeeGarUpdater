@@ -3,7 +3,8 @@ package org.leegar.updater.ui.overlays
 import android.os.Build
 import android.os.SystemClock
 import android.text.format.Formatter
-import androidx.activity.compose.BackHandler
+import androidx.activity.BackEventCompat
+import androidx.activity.compose.PredictiveBackHandler
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.SizeTransform
@@ -12,7 +13,8 @@ import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.animateDpAsState
-import androidx.compose.animation.core.spring
+import androidx.compose.animation.core.snap
+import androidx.compose.animation.core.spring                                                                               
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.expandVertically
 import androidx.compose.animation.fadeIn
@@ -45,6 +47,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.statusBars
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -70,6 +73,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableFloatStateOf
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableLongStateOf
 import androidx.compose.runtime.mutableStateOf
@@ -104,6 +108,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.lerp
 import androidx.compose.ui.util.lerp as lerpFloat
 import androidx.compose.ui.zIndex
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.leegar.updater.R
@@ -113,6 +118,7 @@ import org.leegar.updater.data.Update
 import org.leegar.updater.data.UpdateStatus
 import org.leegar.updater.ui.pep.GraphicsLayerRecordingState
 import org.leegar.updater.ui.pep.LocalBlurConfig
+import org.leegar.updater.ui.pep.LocalContentHorizontalInset
 import org.leegar.updater.ui.pep.SecondaryActionPill
 import org.leegar.updater.ui.pep.StudioCoordsRef
 import org.leegar.updater.ui.pep.UpdaterBadgePill
@@ -147,6 +153,8 @@ fun UpdaterFloatBar(
     morphBlurState: GraphicsLayerRecordingState? = null,
     morphActive: Boolean = false,
     tintBoost: Float = 0f,
+    topInsetPx: Float = 0f,
+    backBlocked: Boolean = false,
     onInterceptAnchorTap: (() -> Boolean)? = null,
     onModalOpenChanged: (Boolean) -> Unit = {},
     onAnchorHeightPxChanged: (Float) -> Unit,
@@ -164,6 +172,7 @@ fun UpdaterFloatBar(
     val density = LocalDensity.current
     val scope = rememberCoroutineScope()
     val blurConfig = LocalBlurConfig.current
+    val horizontalInset = LocalContentHorizontalInset.current
 
     val statusTop = WindowInsets.statusBars.asPaddingValues().calculateTopPadding()
     val navBottom = WindowInsets.navigationBars.asPaddingValues().calculateBottomPadding()
@@ -176,7 +185,11 @@ fun UpdaterFloatBar(
     val modalFooterCoordsRef = remember { StudioCoordsRef() }
     val modalInnerScrollBlur = rememberGraphicsLayerRecordingState()
     var modalHeaderHeightPx by remember { mutableIntStateOf(0) }
+    var modalBodyHeightPx by remember { mutableIntStateOf(0) }
     var modalFooterHeightPx by remember { mutableIntStateOf(0) }
+    val backProgress = remember { Animatable(0f) }
+    var backEdge by remember { mutableIntStateOf(BackEventCompat.EDGE_LEFT) }
+    var backDyNorm by remember { mutableFloatStateOf(0f) }
     var cancelArmedAt by remember(activeUpdate?.downloadId) { mutableLongStateOf(0L) }
     val blurEnabled = with(density) { blurConfig.radiusDp.coerceIn(0f, 150f).dp.toPx() } > 0.5f
 
@@ -210,9 +223,13 @@ fun UpdaterFloatBar(
         if (!visible) {
             modalOpen = false
             closing = false
+            modalHeaderHeightPx = 0
+            modalBodyHeightPx = 0
+            modalFooterHeightPx = 0
             modalHostCoordsRef.value = null
             modalCardCoordsRef.value = null
             flightAnim.snapTo(0f)
+            backProgress.snapTo(0f)
         }
     }
 
@@ -223,10 +240,14 @@ fun UpdaterFloatBar(
             ?.unclippedBoundsInRoot()
             ?: Rect.Zero
         frozenSourceRect = rect
+        modalHeaderHeightPx = 0
+        modalBodyHeightPx = 0
+        modalFooterHeightPx = 0
         closing = false
         modalOpen = true
         scope.launch {
             flightAnim.snapTo(0f)
+            backProgress.snapTo(0f)
             withFrameNanos { }
             if (!closing) {
                 flightAnim.animateTo(
@@ -245,6 +266,17 @@ fun UpdaterFloatBar(
         if (!modalOpen || closing) return
         closing = true
         scope.launch {
+            if (backProgress.value > 0.001f) {
+                launch {
+                    backProgress.animateTo(
+                        targetValue = 0f,
+                        animationSpec = spring(
+                            stiffness = 340f,
+                            dampingRatio = Spring.DampingRatioNoBouncy,
+                        ),
+                    )
+                }
+            }
             flightAnim.stop()
             try {
                 flightAnim.animateTo(
@@ -257,17 +289,17 @@ fun UpdaterFloatBar(
                 )
             } finally {
                 flightAnim.snapTo(0f)
+                backProgress.snapTo(0f)
                 modalOpen = false
                 closing = false
+                modalHeaderHeightPx = 0
+                modalBodyHeightPx = 0
+                modalFooterHeightPx = 0
                 modalHostCoordsRef.value = null
                 modalCardCoordsRef.value = null
                 afterClose?.invoke()
             }
         }
-    }
-
-    BackHandler(enabled = modalOpen && !closing) {
-        closeModal()
     }
 
     val displayUpdate = activeUpdate ?: lastRenderedUpdate
@@ -328,8 +360,8 @@ fun UpdaterFloatBar(
                 .align(Alignment.BottomCenter)
                 .fillMaxWidth()
                 .padding(
-                    start = 14.dp,
-                    end = 14.dp,
+                    start = 14.dp + horizontalInset,
+                    end = 14.dp + horizontalInset,
                     bottom = navBottom + 12.dp,
                 ),
         ) {
@@ -457,10 +489,40 @@ fun UpdaterFloatBar(
         // ============================================================
         if (modalOpen && activeUpdate != null) {
             val u = activeUpdate
+            PredictiveBackHandler(enabled = !closing && !backBlocked) { progress ->
+                var startY = Float.NaN
+                try {
+                    progress.collect { event ->
+                        if (startY.isNaN()) startY = event.touchY
+                        backEdge = event.swipeEdge
+                        backDyNorm = ((event.touchY - startY) / 420f).coerceIn(-1f, 1f)
+                        backProgress.snapTo(event.progress.coerceIn(0f, 1f))
+                    }
+                    closeModal()
+                } catch (_: CancellationException) {
+                    if (backProgress.value > 0f) {
+                        scope.launch {
+                            backProgress.animateTo(
+                                targetValue = 0f,
+                                animationSpec = spring(
+                                    stiffness = 380f,
+                                    dampingRatio = Spring.DampingRatioNoBouncy,
+                                ),
+                            )
+                        }
+                    }
+                }
+            }
+
             val t = sstepE(flightAnim.value.coerceIn(0f, 1f), 0f, 1f)
-            val scrimAlpha = 0.44f * sstepE(t, 0.08f, 0.90f)
+            val bp = FastOutSlowInEasing.transform(backProgress.value.coerceIn(0f, 1f))
+            val backScale = lerpFloat(1f, 0.90f, bp)
+            val edgeSign = if (backEdge == BackEventCompat.EDGE_LEFT) 1f else -1f
+            val backTx = with(density) { 16.dp.toPx() } * bp * edgeSign
+            val backTy = with(density) { 10.dp.toPx() } * bp * backDyNorm
+            val scrimAlpha = 0.44f * sstepE(t, 0.08f, 0.90f) * (1f - 0.35f * bp)
             val bodyReveal = sstepE(t, 0.28f, 0.92f)
-            val cornerDp = lerp(22.dp, 28.dp, t)
+            val cornerDp = lerp(22.dp, 28.dp, t) + (4.dp * bp)
             val modalShape = RoundedCornerShape(cornerDp)
             val surfaceBg = MaterialTheme.colorScheme.surfaceContainerHigh
 
@@ -491,17 +553,40 @@ fun UpdaterFloatBar(
                 } else emptyList()
             }
 
-            val endW = (maxW - 24.dp).coerceAtLeast(240.dp)
+            val endW = (maxW - 24.dp - horizontalInset * 2)
+                .coerceAtLeast(240.dp)
+                .coerceAtMost(maxW)
             val startW = if (liveSrc.width > 1f) {
                 with(density) { liveSrc.width.roundToInt().toDp() }
             } else endW
-            val desiredModalH = if (resolvedPartStates.size > 1) {
-                val partsBlock = (minOf(resolvedPartStates.size, 3) * 86 + 34).dp
-                (278.dp + partsBlock).coerceAtMost(maxH * 0.72f)
+            val topLimitDp = maxOf(statusTop, with(density) { topInsetPx.coerceAtLeast(0f).toDp() })
+            val topLimitPx = with(density) { topLimitDp.toPx() }
+            val maxModalH = (maxH - topLimitDp - navBottom - 14.dp).coerceAtLeast(220.dp)
+            val fallbackModalH = if (resolvedPartStates.size > 1) {
+                260.dp + (resolvedPartStates.size * 86 + 34).dp
             } else {
-                274.dp.coerceAtMost(maxH * 0.56f)
+                260.dp
             }
-            val endH = desiredModalH.coerceAtMost((maxH - statusTop - navBottom - 48.dp).coerceAtLeast(240.dp))
+            val measuredModalH = if (modalHeaderHeightPx > 0 && modalBodyHeightPx > 0 && modalFooterHeightPx > 0) {
+                with(density) {
+                    (modalHeaderHeightPx + modalBodyHeightPx + modalFooterHeightPx).toDp()
+                } + 14.dp + lerp(8.dp, 0.dp, t)
+            } else {
+                null
+            }
+            val targetEndH = (measuredModalH ?: fallbackModalH).coerceIn(180.dp, maxModalH)
+            val endH by animateDpAsState(
+                targetValue = targetEndH,
+                animationSpec = if (flightAnim.value < 0.05f) {
+                    snap()
+                } else {
+                    spring(
+                        stiffness = Spring.StiffnessMediumLow,
+                        dampingRatio = Spring.DampingRatioNoBouncy,
+                    )
+                },
+                label = "FloatBarEndH",
+            )
             val startH = if (liveSrc.height > 1f) {
                 with(density) { liveSrc.height.roundToInt().toDp() }
             } else 86.dp
@@ -523,7 +608,7 @@ fun UpdaterFloatBar(
             Box(
                 modifier = Modifier
                     .fillMaxSize()
-                    .padding(top = statusTop, bottom = navBottom)
+                    .padding(top = topLimitDp, bottom = navBottom)
                     .onPlaced { modalHostCoordsRef.value = it }
                     .onGloballyPositioned { modalHostCoordsRef.value = it },
                 contentAlignment = Alignment.Center,
@@ -534,9 +619,9 @@ fun UpdaterFloatBar(
                     ?.takeIf { it.width > 1f && it.height > 1f }
                     ?: Rect(
                         0f,
-                        statusTopPx.coerceAtMost(fallbackHpx),
+                        topLimitPx.coerceAtMost(fallbackHpx),
                         fallbackWpx,
-                        (fallbackHpx - navBottomPx).coerceAtLeast(statusTopPx + 1f),
+                        (fallbackHpx - navBottomPx).coerceAtLeast(topLimitPx + 1f),
                     )
 
                 val dockW = 1f - t
@@ -555,8 +640,10 @@ fun UpdaterFloatBar(
                         .width(curW)
                         .height(curH)
                         .graphicsLayer {
-                            translationX = dx
-                            translationY = dy
+                            translationX = dx + backTx
+                            translationY = dy + backTy
+                            scaleX = backScale
+                            scaleY = backScale
                         }
                         .clip(modalShape)
                         .border(1.dp, surfaceBg.edgeOutline(1.3f), modalShape)
@@ -590,7 +677,7 @@ fun UpdaterFloatBar(
 
                     Box(modifier = Modifier.fillMaxSize()) {
                         // Layer A: Scrollable Telemetry + Per-Part Cards recorded into modalInnerScrollBlur
-                        if (bodyReveal > 0.01f) {
+                        run {
                             val downloadedBytes = u.bytesDownloaded.takeIf { it > 0L }
                                 ?: u.file?.takeIf { it.exists() }?.length()
                                 ?: if (u.fileSize > 0L) (u.fileSize * u.progress) / 100L else 0L
@@ -622,19 +709,24 @@ fun UpdaterFloatBar(
                                         },
                                     ),
                             ) {
-                            Column(
-                                modifier = Modifier
-                                    .fillMaxSize()
-                                    .alpha(bodyReveal)
-                                    .verticalScroll(rememberScrollState())
-                                    .padding(
-                                        start = 20.dp,
-                                        end = 20.dp,
-                                        top = mHeaderDp + 4.dp,
-                                        bottom = mFooterDp + 10.dp,
-                                    ),
-                                verticalArrangement = Arrangement.spacedBy(12.dp),
-                            ) {
+                                Box(
+                                    modifier = Modifier
+                                        .fillMaxSize()
+                                        .alpha(bodyReveal)
+                                        .verticalScroll(rememberScrollState(), enabled = t > 0.65f),
+                                ) {
+                                    Column(
+                                        modifier = Modifier
+                                            .fillMaxWidth()
+                                            .padding(
+                                                start = 20.dp,
+                                                end = 20.dp,
+                                                top = mHeaderDp + 4.dp,
+                                                bottom = mFooterDp + 10.dp,
+                                            )
+                                            .onSizeChanged { if (it.height > 0) modalBodyHeightPx = it.height },
+                                        verticalArrangement = Arrangement.spacedBy(12.dp),
+                                    ) {
                                 // Clean summary strip (no cramped 2x2 grid!)
                                 val summaryBg = MaterialTheme.colorScheme.surface
                                 val summaryShape = RoundedCornerShape(16.dp)
@@ -756,7 +848,8 @@ fun UpdaterFloatBar(
                                         )
                                     }
                                 }
-                            }
+                                    }
+                                }
                             }
                         }
 
@@ -828,14 +921,16 @@ fun UpdaterFloatBar(
                         }
 
                         // Layer C: Pinned Footer with inner scroll blur frost + 2-tap Cancel/Abort confirmation
-                        if (bodyReveal > 0.01f) {
+                        run {
+                            val footerInteractive = !closing && bodyReveal > 0.5f
                             Box(
                                 modifier = Modifier
                                     .fillMaxWidth()
                                     .align(Alignment.BottomCenter)
+                                    .wrapContentHeight(align = Alignment.Bottom, unbounded = true)
                                     .onPlaced { modalFooterCoordsRef.value = it }
                                     .onGloballyPositioned { modalFooterCoordsRef.value = it }
-                                    .onSizeChanged { modalFooterHeightPx = it.height },
+                                    .onSizeChanged { if (it.height > 0) modalFooterHeightPx = it.height },
                             ) {
                                 Box(Modifier.matchParentSize().background(surfaceBg.copy(alpha = bodyReveal)))
                                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S && blurEnabled) {
@@ -943,6 +1038,7 @@ fun UpdaterFloatBar(
                                                     .clickable(
                                                         interactionSource = primaryInteraction,
                                                         indication = androidx.compose.material3.ripple(),
+                                                        enabled = footerInteractive,
                                                     ) {
                                                         haptics.performHapticFeedback(HapticFeedbackType.ContextClick)
                                                         when {
@@ -1033,6 +1129,7 @@ fun UpdaterFloatBar(
                                                     .clickable(
                                                         interactionSource = cancelInteraction,
                                                         indication = androidx.compose.material3.ripple(),
+                                                        enabled = footerInteractive,
                                                     ) {
                                                         haptics.performHapticFeedback(
                                                             if (isCancelArmed) HapticFeedbackType.LongPress else HapticFeedbackType.ContextClick,
@@ -1088,6 +1185,7 @@ fun UpdaterFloatBar(
                                             UpdaterPrimaryPillButton(
                                                 label = stringResource(R.string.action_reboot_now),
                                                 icon = Icons.Rounded.RestartAlt,
+                                                enabled = footerInteractive,
                                                 height = 46.dp,
                                                 onClick = onReboot,
                                                 modifier = Modifier.fillMaxWidth(),
@@ -1098,6 +1196,7 @@ fun UpdaterFloatBar(
                                             SecondaryActionPill(
                                                 icon = Icons.Rounded.Close,
                                                 label = stringResource(R.string.desc_close),
+                                                enabled = footerInteractive,
                                                 height = 46.dp,
                                                 onClick = { closeModal() },
                                                 modifier = Modifier.fillMaxWidth(),

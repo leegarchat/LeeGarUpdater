@@ -2,10 +2,12 @@ package org.leegar.updater.ui.pep
 
 import android.os.Build
 import androidx.compose.ui.res.stringResource
-import androidx.activity.compose.BackHandler
+import androidx.activity.BackEventCompat
+import androidx.activity.compose.PredictiveBackHandler
 import org.leegar.updater.R
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.Animatable
+import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.spring
@@ -55,6 +57,8 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.Stable
 import androidx.compose.runtime.compositionLocalOf
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableFloatStateOf
+import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableLongStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -100,6 +104,7 @@ import androidx.compose.ui.unit.lerp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.util.lerp
 import androidx.compose.ui.zIndex
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import java.util.Locale
@@ -279,11 +284,15 @@ fun SliderMorphOverlay(
     val scope = rememberCoroutineScope()
     val density = LocalDensity.current
     val blurConfig = LocalBlurConfig.current
+    val horizontalInset = LocalContentHorizontalInset.current
     val blurEnabled = with(density) { blurConfig.radiusDp.coerceIn(0f, 150f).dp.toPx() } > 0.5f
 
     val containerColor = MaterialTheme.colorScheme.surface
 
     val morphAnim = remember(req.sessionId) { Animatable(0f) }
+    val backProgress = remember(req.sessionId) { Animatable(0f) }
+    var backEdge by remember(req.sessionId) { mutableIntStateOf(BackEventCompat.EDGE_LEFT) }
+    var backDyNorm by remember(req.sessionId) { mutableFloatStateOf(0f) }
     var closing by remember(req.sessionId) { mutableStateOf(false) }
     var pendingCommit by remember(req.sessionId) { mutableStateOf<(() -> Unit)?>(null) }
     val hostCoordsRef = remember(req.sessionId) { CoordsRef() }
@@ -312,6 +321,17 @@ fun SliderMorphOverlay(
         focusManager.clearFocus(force = true)
         keyboardController?.hide()
         scope.launch {
+            if (backProgress.value > 0.001f) {
+                launch {
+                    backProgress.animateTo(
+                        targetValue = 0f,
+                        animationSpec = spring(
+                            stiffness = 340f,
+                            dampingRatio = Spring.DampingRatioNoBouncy,
+                        ),
+                    )
+                }
+            }
             morphAnim.stop()
             try {
                 morphAnim.animateTo(
@@ -329,8 +349,29 @@ fun SliderMorphOverlay(
         }
     }
 
-    BackHandler(enabled = !closing) {
-        closeAnimated(req.onDismiss)
+    PredictiveBackHandler(enabled = !closing) { progress ->
+        var startY = Float.NaN
+        try {
+            progress.collect { event ->
+                if (startY.isNaN()) startY = event.touchY
+                backEdge = event.swipeEdge
+                backDyNorm = ((event.touchY - startY) / 420f).coerceIn(-1f, 1f)
+                backProgress.snapTo(event.progress.coerceIn(0f, 1f))
+            }
+            closeAnimated(req.onDismiss)
+        } catch (_: CancellationException) {
+            if (backProgress.value > 0f) {
+                scope.launch {
+                    backProgress.animateTo(
+                        targetValue = 0f,
+                        animationSpec = spring(
+                            stiffness = 380f,
+                            dampingRatio = Spring.DampingRatioNoBouncy,
+                        ),
+                    )
+                }
+            }
+        }
     }
 
     val initialCloseSignal = remember(req.sessionId) { host.closeSignal }
@@ -342,20 +383,24 @@ fun SliderMorphOverlay(
 
     val rawT = morphAnim.value.coerceIn(0f, 1f)
     val morphT = sstep(rawT, 0f, 1f)
-    host.morphProgress = morphT
+    val bp = FastOutSlowInEasing.transform(backProgress.value.coerceIn(0f, 1f))
+    val edgeSign = if (backEdge == BackEventCompat.EDGE_LEFT) 1f else -1f
+    val backTx = with(density) { 14.dp.toPx() } * bp * edgeSign
+    val backTy = with(density) { 8.dp.toPx() } * bp * backDyNorm
+    host.morphProgress = morphT * (1f - 0.35f * bp)
 
-    val scrimAlpha = 0.42f * sstep(morphT, 0.45f, 0.92f)
+    val scrimAlpha = 0.42f * sstep(morphT, 0.45f, 0.92f) * (1f - 0.35f * bp)
     val cardBgAlpha = sstep(morphT, 0.0f, 0.35f)
     val blurReveal = sstep(morphT, 0.55f, 0.97f)
     val cornerProgress = sstep(morphT, 0.40f, 0.88f)
-    val modalCorner = lerp(24.dp, 22.dp, cornerProgress)
+    val modalCorner = lerp(24.dp, 22.dp, cornerProgress) + (4.dp * bp)
     val modalShape = RoundedCornerShape(modalCorner)
     val outlineAlpha = sstep(morphT, 0.65f, 0.96f)
     val cardBorderColor = containerColor.edgeOutline().let {
         it.copy(alpha = it.alpha * outlineAlpha)
     }
 
-    val cardScale = 1f
+    val cardScale = lerp(1f, 0.90f, bp)
     val outerInsetH = lerp(1.dp, 0.dp, cornerProgress)
     val innerPadH = with(density) {
         val totalPx = 20.dp.toPx()
@@ -370,7 +415,9 @@ fun SliderMorphOverlay(
         val liveSource = req.sourceBoundsProvider().let {
             if (it.width > 1f && it.height > 1f) it else req.sourceInRoot
         }
-        val endW = (maxW - 32.dp).coerceAtLeast(0.dp)
+        val endW = (maxW - 32.dp - horizontalInset * 2)
+            .coerceAtLeast(240.dp)
+            .coerceAtMost(maxW)
         val startW = if (liveSource.width > 1f) {
             with(density) { liveSource.width.roundToInt().toDp() }
         } else {
@@ -449,8 +496,8 @@ fun SliderMorphOverlay(
                     .width(cardWidth)
                     .onPlaced { flightCoordsRef.value = it }
                     .graphicsLayer {
-                        translationX = dx
-                        translationY = dy
+                        translationX = dx + backTx
+                        translationY = dy + backTy
                         scaleX = cardScale
                         scaleY = cardScale
                     }
@@ -1728,7 +1775,13 @@ private fun SliderInlineManualInput(
         }
     }
 
-    BackHandler(enabled = !closing) { closeAnimated(onDismiss) }
+    PredictiveBackHandler(enabled = !closing) { progress ->
+        try {
+            progress.collect { }
+            closeAnimated(onDismiss)
+        } catch (_: CancellationException) {
+        }
+    }
 
     val resetText = if (defaultValueText.isNullOrEmpty()) {
         stringResource(R.string.slider_default)

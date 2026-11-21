@@ -68,6 +68,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.SideEffect
 import androidx.compose.runtime.Stable
+import androidx.compose.runtime.compositionLocalOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableFloatStateOf
 import androidx.compose.runtime.remember
@@ -120,6 +121,21 @@ import kotlin.math.abs
 import kotlin.math.ceil
 import kotlin.math.roundToInt
 import kotlin.math.sin
+
+val LocalContentHorizontalInset = compositionLocalOf { 0.dp }
+
+/**
+ * Extra symmetric left/right inset for wide layouts (tablets & landscape).
+ * Phones in portrait (<= 500dp) stay untouched at 0.dp.
+ */
+fun calculateContentHorizontalInset(windowWidth: Dp): Dp {
+    val compactLimit = 500.dp
+    if (windowWidth <= compactLimit) return 0.dp
+    val maxContentWidth = 620.dp
+    val targetContentWidth = (compactLimit + (windowWidth - compactLimit) * 0.28f)
+        .coerceAtMost(maxContentWidth)
+    return ((windowWidth - targetContentWidth) / 2f).coerceAtLeast(0.dp)
+}
 
 /**
  * Tactile spring compression on touch for expressive visual feedback.

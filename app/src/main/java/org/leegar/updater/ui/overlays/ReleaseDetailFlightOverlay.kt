@@ -7,7 +7,8 @@ import android.os.Build
 import android.os.SystemClock
 import android.text.format.Formatter
 import android.widget.Toast
-import androidx.activity.compose.BackHandler
+import androidx.activity.BackEventCompat
+import androidx.activity.compose.PredictiveBackHandler
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.SizeTransform
@@ -52,6 +53,8 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.requiredHeight
+import androidx.compose.foundation.layout.requiredWidth
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
@@ -83,6 +86,7 @@ import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.Stable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableFloatStateOf
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableLongStateOf
 import androidx.compose.runtime.mutableStateOf
@@ -113,18 +117,22 @@ import androidx.compose.ui.layout.onSizeChanged
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.LocalHapticFeedback
+import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.IntOffset
+import androidx.compose.ui.unit.Constraints
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.lerp
 import androidx.compose.ui.util.lerp as lerpFloat
 import androidx.compose.ui.zIndex
 import androidx.core.net.toUri
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.leegar.updater.data.ChangelogState
@@ -138,6 +146,7 @@ import org.leegar.updater.ui.pep.AnimatedInertialFlowRow
 import org.leegar.updater.ui.pep.AutoSizeSingleLineText
 import org.leegar.updater.ui.pep.GraphicsLayerRecordingState
 import org.leegar.updater.ui.pep.LocalBlurConfig
+import org.leegar.updater.ui.pep.LocalContentHorizontalInset
 import org.leegar.updater.ui.pep.MorphingDownloadControlRow
 import org.leegar.updater.ui.pep.SecondaryActionPill
 import org.leegar.updater.ui.pep.StudioCoordsRef
@@ -209,6 +218,7 @@ fun ReleaseDetailFlightOverlay(
     topInsetPx: Float,
     bottomReservedPx: Float,
     closeSignal: Int,
+    backBlocked: Boolean = false,
     activeFlightImageUrl: String?,
     onProgress: (Float) -> Unit,
     onRequestChangelog: (Update, Boolean) -> Unit,
@@ -234,10 +244,14 @@ fun ReleaseDetailFlightOverlay(
     val scope = rememberCoroutineScope()
     val density = LocalDensity.current
     val blurConfig = LocalBlurConfig.current
+    val horizontalInset = LocalContentHorizontalInset.current
     val blurEnabled = with(density) { blurConfig.radiusDp.coerceIn(0f, 150f).dp.toPx() } > 0.5f
 
     val flightAnim = remember(flight.sessionId) { Animatable(0f) }
     val collapseAnim = remember(flight.sessionId) { Animatable(1f) }
+    val backProgress = remember(flight.sessionId) { Animatable(0f) }
+    var backEdge by remember(flight.sessionId) { mutableIntStateOf(BackEventCompat.EDGE_LEFT) }
+    var backDyNorm by remember(flight.sessionId) { mutableFloatStateOf(0f) }
     var closing by remember(flight.sessionId) { mutableStateOf(false) }
     var closingForRemoval by remember(flight.sessionId) { mutableStateOf(false) }
 
@@ -282,6 +296,17 @@ fun ReleaseDetailFlightOverlay(
         if (closing) return
         closing = true
         scope.launch {
+            if (backProgress.value > 0.001f) {
+                launch {
+                    backProgress.animateTo(
+                        targetValue = 0f,
+                        animationSpec = spring(
+                            stiffness = 340f,
+                            dampingRatio = Spring.DampingRatioNoBouncy,
+                        ),
+                    )
+                }
+            }
             flightAnim.stop()
             try {
                 flightAnim.animateTo(
@@ -334,11 +359,35 @@ fun ReleaseDetailFlightOverlay(
         }
     }
 
-    BackHandler(enabled = !closing) {
-        if (pendingConfirm != null) {
-            pendingConfirm = null
-        } else {
-            closeAnimated()
+    PredictiveBackHandler(enabled = !closing && !backBlocked) { progress ->
+        var startY = Float.NaN
+        val dismissConfirmOnly = pendingConfirm != null
+        try {
+            progress.collect { event ->
+                if (!dismissConfirmOnly) {
+                    if (startY.isNaN()) startY = event.touchY
+                    backEdge = event.swipeEdge
+                    backDyNorm = ((event.touchY - startY) / 420f).coerceIn(-1f, 1f)
+                    backProgress.snapTo(event.progress.coerceIn(0f, 1f))
+                }
+            }
+            if (pendingConfirm != null) {
+                pendingConfirm = null
+            } else {
+                closeAnimated()
+            }
+        } catch (_: CancellationException) {
+            if (backProgress.value > 0f) {
+                scope.launch {
+                    backProgress.animateTo(
+                        targetValue = 0f,
+                        animationSpec = spring(
+                            stiffness = 380f,
+                            dampingRatio = Spring.DampingRatioNoBouncy,
+                        ),
+                    )
+                }
+            }
         }
     }
 
@@ -352,8 +401,13 @@ fun ReleaseDetailFlightOverlay(
     // Single unified physical curve `t` for geometry so position & size stay locked 1:1
     val t = flightAnim.value.coerceIn(0f, 1f)
     val collapseT = collapseAnim.value.coerceIn(0f, 1f)
-    DisposableEffect(t, collapseT) {
-        onProgress(t * collapseT)
+    val bp = FastOutSlowInEasing.transform(backProgress.value.coerceIn(0f, 1f))
+    val backScale = lerpFloat(1f, 0.88f, bp)
+    val edgeSign = if (backEdge == BackEventCompat.EDGE_LEFT) 1f else -1f
+    val backTx = with(density) { 18.dp.toPx() } * bp * edgeSign
+    val backTy = with(density) { 12.dp.toPx() } * bp * backDyNorm
+    DisposableEffect(t, collapseT, bp) {
+        onProgress(t * collapseT * (1f - 0.35f * bp))
         onDispose {}
     }
 
@@ -368,9 +422,9 @@ fun ReleaseDetailFlightOverlay(
     }
     val endBg = MaterialTheme.colorScheme.surfaceContainerHigh
     val containerColor = lerpColor(startBg, endBg, sstepE(t, 0.10f, 0.78f))
-    val scrimAlpha = 0.42f * sstepE(t, 0.25f, 0.92f) * collapseT
+    val scrimAlpha = 0.42f * sstepE(t, 0.25f, 0.92f) * collapseT * (1f - 0.35f * bp)
     val blurReveal = sstepE(t, 0.35f, 0.95f)
-    val modalShape = RoundedCornerShape(lerp(24.dp, 28.dp, t))
+    val modalShape = RoundedCornerShape(lerp(24.dp, 28.dp, t) + (4.dp * bp))
     val cardBorderColor = containerColor.edgeOutline()
     val contentReveal = sstepE(t, 0.22f, 0.88f)
     val chevronReveal = sstepE(t, 0.15f, 0.78f)
@@ -491,17 +545,20 @@ fun ReleaseDetailFlightOverlay(
         val liveSource = flight.sourceBoundsProvider().let {
             if (it.width > 1f && it.height > 1f) it else flight.source
         }
-        val endW = (maxW - 16.dp).coerceAtLeast(0.dp)
+        val endW = (maxW - 16.dp - horizontalInset * 2)
+            .coerceAtLeast(240.dp)
+            .coerceAtMost(maxW)
         val startW = if (liveSource.width > 1f) {
             with(density) { liveSource.width.roundToInt().toDp() }
         } else endW
-        val endH = (maxH - topInsetDp - effectiveBottomDp - 14.dp).coerceAtLeast(240.dp)
+        val availH = (maxH - topInsetDp - effectiveBottomDp).coerceAtLeast(160.dp)
+        val endH = (availH - 14.dp).coerceAtLeast(140.dp)
         val startH = if (liveSource.height > 1f) {
             with(density) { liveSource.height.roundToInt().toDp() }
         } else 116.dp
 
         val cardWidth: Dp = lerp(startW.coerceIn(0.dp, maxW), endW, t)
-        val cardHeight: Dp = lerp(startH.coerceIn(64.dp, maxH), endH, t)
+        val cardHeight: Dp = lerp(startH.coerceAtLeast(64.dp), endH, t)
 
         Box(
             modifier = Modifier
@@ -555,13 +612,13 @@ fun ReleaseDetailFlightOverlay(
             val removalScale = lerpFloat(0.88f, 1f, collapseT)
             Box(
                 modifier = Modifier
-                    .width(cardWidth)
-                    .height(cardHeight)
+                    .requiredWidth(cardWidth)
+                    .requiredHeight(cardHeight)
                     .graphicsLayer {
-                        translationX = dx
-                        translationY = dy
-                        scaleX = removalScale
-                        scaleY = removalScale
+                        translationX = dx + backTx
+                        translationY = dy + backTy
+                        scaleX = removalScale * backScale
+                        scaleY = removalScale * backScale
                         alpha = collapseT
                     }
                     .drawWithContent {
@@ -625,7 +682,7 @@ fun ReleaseDetailFlightOverlay(
 
                     val loadedMd = (changelogState as? ChangelogState.Loaded)?.markdown
                     val bannerSpec = if (showReleaseBanner) update.resolvedBannerSpec(loadedMd) else null
-                    val bannerHide = sstepE(t, 0.04f, 0.68f)
+                    val bannerHide = (t / 0.65f).coerceIn(0f, 1f)
                     val iconOut = sstepE(t, 0.05f, 0.62f)
                     val showProgress = shouldShowReleaseProgress(update)
                     val headerHeightDp = with(density) { headerHeightPx.toDp() }
@@ -1032,7 +1089,12 @@ fun ReleaseDetailFlightOverlay(
                                             .graphicsLayer { clip = true }
                                             .clipToBounds()
                                             .layout { measurable, constraints ->
-                                                val p = measurable.measure(constraints.copy(minHeight = 0))
+                                                val p = measurable.measure(
+                                                    constraints.copy(
+                                                        minHeight = 0,
+                                                        maxHeight = Constraints.Infinity,
+                                                    ),
+                                                )
                                                 val visH = (p.height * keep).roundToInt().coerceAtLeast(0)
                                                 val diveY = (bannerHide * p.height * 0.35f).roundToInt()
                                                 layout(p.width, visH) {
@@ -1120,6 +1182,8 @@ fun ReleaseDetailFlightOverlay(
                                     modifier = Modifier.weight(1f),
                                     verticalArrangement = Arrangement.spacedBy(2.dp),
                                 ) {
+                                    val titleScale = lerpFloat(1f, 1.12f, titleGrow)
+                                    val isRtl = LocalLayoutDirection.current == LayoutDirection.Rtl
                                     Row(
                                         verticalAlignment = Alignment.CenterVertically,
                                         horizontalArrangement = Arrangement.spacedBy(6.dp),
@@ -1133,11 +1197,30 @@ fun ReleaseDetailFlightOverlay(
                                             overflow = TextOverflow.Ellipsis,
                                             modifier = Modifier
                                                 .weight(1f, fill = false)
+                                                .layout { measurable, constraints ->
+                                                    val unscaledMaxW = if (constraints.hasBoundedWidth) {
+                                                        (constraints.maxWidth / titleScale).toInt().coerceAtLeast(0)
+                                                    } else {
+                                                        constraints.maxWidth
+                                                    }
+                                                    val placeable = measurable.measure(
+                                                        constraints.copy(
+                                                            minWidth = 0,
+                                                            maxWidth = unscaledMaxW,
+                                                        ),
+                                                    )
+                                                    val scaledW = (placeable.width * titleScale).roundToInt()
+                                                        .coerceIn(constraints.minWidth, constraints.maxWidth)
+                                                    val scaledH = (placeable.height * titleScale).roundToInt()
+                                                        .coerceIn(constraints.minHeight, constraints.maxHeight)
+                                                    layout(scaledW, scaledH) {
+                                                        placeable.placeRelative(0, (scaledH - placeable.height) / 2)
+                                                    }
+                                                }
                                                 .graphicsLayer {
-                                                    val s = lerpFloat(1f, 1.12f, titleGrow)
-                                                    scaleX = s
-                                                    scaleY = s
-                                                    transformOrigin = TransformOrigin(0f, 0.5f)
+                                                    scaleX = titleScale
+                                                    scaleY = titleScale
+                                                    transformOrigin = TransformOrigin(if (isRtl) 1f else 0f, 0.5f)
                                                 },
                                         )
                                         if (!isSavedOrigin) {
