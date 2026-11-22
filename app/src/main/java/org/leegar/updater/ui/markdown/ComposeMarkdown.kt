@@ -204,6 +204,38 @@ private fun parseTableAlignments(sepLine: String): List<TableAlign> =
         }
     }
 
+private fun isListItemStart(line: String): Boolean =
+    TASK_REGEX.matches(line) || BULLET_REGEX.matches(line) || ORDERED_REGEX.matches(line)
+
+// Boundary for a list item's continuation lines: blank line or the start of
+// any other block (including a nested or sibling list item, which the outer
+// loop then handles as its own block).
+private fun isListItemBoundary(lines: List<String>, i: Int): Boolean {
+    val curTrim = lines[i].trim()
+    return curTrim.isEmpty() ||
+        FENCE_START_REGEX.matches(curTrim) ||
+        curTrim.startsWith(">") ||
+        IMG_ONLY_REGEX.matches(curTrim) ||
+        HEADING_REGEX.matches(curTrim) ||
+        DIVIDER_REGEX.matches(curTrim) ||
+        isTableHeaderStart(lines, i) ||
+        isListItemStart(lines[i])
+}
+
+// Joins directly-adjacent continuation lines (indented or lazy) into a list
+// item's text. Returns the joined text and the index of the first
+// non-continuation line.
+private fun consumeItemContinuation(lines: List<String>, start: Int, first: String): Pair<String, Int> {
+    val buf = StringBuilder(first)
+    var i = start
+    while (i < lines.size && !isListItemBoundary(lines, i)) {
+        if (buf.isNotEmpty()) buf.append('\n')
+        buf.append(lines[i].trim())
+        i++
+    }
+    return buf.toString() to i
+}
+
 private fun parseMarkdownBlocks(raw: String): List<MdBlock> {
     val lines = raw.replace("\r\n", "\n").replace('\r', '\n').lines()
     val out = ArrayList<MdBlock>()
@@ -300,24 +332,30 @@ private fun parseMarkdownBlocks(raw: String): List<MdBlock> {
         TASK_REGEX.matchEntire(line)?.let { m ->
             val indent = (m.groupValues[1].length / 2).coerceIn(0, 3)
             val checked = m.groupValues[2].equals("x", ignoreCase = true)
-            out.add(MdBlock.TaskItem(indent, checked, m.groupValues[3].trim()))
             i++
+            val (text, next) = consumeItemContinuation(lines, i, m.groupValues[3].trim())
+            i = next
+            out.add(MdBlock.TaskItem(indent, checked, text))
             continue
         }
 
         // Bullet list item
         BULLET_REGEX.matchEntire(line)?.let { m ->
             val indent = (m.groupValues[1].length / 2).coerceIn(0, 3)
-            out.add(MdBlock.BulletItem(indent, m.groupValues[2].trim()))
             i++
+            val (text, next) = consumeItemContinuation(lines, i, m.groupValues[2].trim())
+            i = next
+            out.add(MdBlock.BulletItem(indent, text))
             continue
         }
 
         // Ordered list item
         ORDERED_REGEX.matchEntire(line)?.let { m ->
             val indent = (m.groupValues[1].length / 2).coerceIn(0, 3)
-            out.add(MdBlock.OrderedItem(indent, m.groupValues[2], m.groupValues[3].trim()))
             i++
+            val (text, next) = consumeItemContinuation(lines, i, m.groupValues[3].trim())
+            i = next
+            out.add(MdBlock.OrderedItem(indent, m.groupValues[2], text))
             continue
         }
 
